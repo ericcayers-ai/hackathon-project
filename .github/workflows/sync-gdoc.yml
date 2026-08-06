@@ -1,0 +1,36 @@
+name: Sync Google Doc
+
+on:
+  schedule:
+    - cron: "0 */6 * * *"
+  workflow_dispatch: {}
+
+permissions:
+  contents: write
+
+env:
+  GDOC_ID: 1v9TGIXIDZ8Q5S1D9JDCVOB71_XFWTghllkWLofQOd0M
+  GDOC_FILE: SDG_Hackathon_Idea_Guide_gdoc_export.docx
+
+jobs:
+  sync:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - name: Fetch latest export from Google Docs
+        run: |
+          curl -sL "https://docs.google.com/document/d/${GDOC_ID}/export?format=docx" -o "${GDOC_FILE}"
+          test -s "${GDOC_FILE}"
+
+      - name: Commit if changed
+        run: |
+          git config user.name "gdoc-sync-bot"
+          git config user.email "actions@github.com"
+          if ! git diff --quiet -- "${GDOC_FILE}"; then
+            git add "${GDOC_FILE}"
+            git commit -m "Sync Google Doc export [automated]"
+            git push
+          else
+            echo "No changes."
+          fi
