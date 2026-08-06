@@ -1,0 +1,2476 @@
+ ▐▛███▜▌   Claude Code v2.1.220
+▝▜█████▛▘  Opus 5 (1M context) · API Usage Billing
+  ▘▘ ▝▝    ~\OneDrive\Desktop\Programs\Hackathon-Project
+
+
+> /skills 
+  ⎿  No changes
+
+> /model                                                                        
+  ⎿  Set model to Sonnet 5 and saved as your default for new sessions
+
+> /model                                                                        
+  ⎿  Set model to Opus 5 and saved as your default for new sessions with high
+     effort
+
+> I need all skills for a hackathon project that aims to solve SDG. use the pdf 
+  as context. give me all skills i can use /find-skills. all skills and         
+  plugins already available too                                                 
+
+● I'll start by orienting on the project and finding the PDF, then run the skill
+  discovery.
+
+  Ran 2 shell commands (ctrl+o to expand)
+
+● Project is essentially empty — just the PDF and config. No graph.json exists
+  (nothing to graph yet), so I'll read the PDF directly.
+
+  Read 1 file, ran 4 shell commands (ctrl+o to expand)
+
+● Encoding error cut it off at page 14. Rerun with UTF-8 forced.
+
+  Read 2 files, listed 1 directory, ran 3 shell commands (ctrl+o to expand)
+
+● Got full PDF context. Now enumerating installed skills/plugins and running
+  discovery.
+
+  Read 1 file, ran 3 shell commands (ctrl+o to expand)
+
+● Now running /find-skills against the SDG hackathon context.
+
+● Skill(find-skills)
+  ⎿  Successfully loaded skill
+
+  Ran 6 shell commands (ctrl+o to expand)
+
+● Let me read the PDF sections I haven't seen (judging criteria, problem list).
+
+  Read 1 file (ctrl+o to expand)
+
+● PDF read (22 pages). Judging = 4 equal parts: Inspiration (problem + impact),
+  Technology (feasibility, quality, AI use), Design & Innovation (usability,
+  originality), Presentation (5 min, structured). Skills below mapped to those.
+
+  ---
+  1. Already installed — use now, zero setup
+
+  Ideation / scoping (Day 1 morning)
+
+  ┌──────────────────┬───────────────────────────────────────────────────────┐
+  │      Skill       │                          Use                          │
+  ├──────────────────┼───────────────────────────────────────────────────────┤
+  │ /brainstorming   │ Mandatory before building. Pins down SDG problem +    │
+  │                  │ who it hurts. Feeds Inspiration score.                │
+  ├──────────────────┼───────────────────────────────────────────────────────┤
+  │ /writing-plans   │ Turn idea into 2-day step plan.                       │
+  ├──────────────────┼───────────────────────────────────────────────────────┤
+  │ /executing-plans │ Work the plan.                                        │
+  └──────────────────┴───────────────────────────────────────────────────────┘
+
+  Build (Day 1 pm → Day 2 noon)
+
+  ┌────────────────────────────────┬─────────────────────────────────────────┐
+  │             Skill              │                   Use                   │
+  ├────────────────────────────────┼─────────────────────────────────────────┤
+  │ /frontend-design               │ Prototype UI. Directly Design &         │
+  │                                │ Innovation.                             │
+  ├────────────────────────────────┼─────────────────────────────────────────┤
+  │ bencium-controlled-ux-designer │ Tighter UX pass if design is your       │
+  │                                │ differentiator.                         │
+  ├────────────────────────────────┼─────────────────────────────────────────┤
+  │                                │ Critical — correct model IDs, pricing,  │
+  │ /claude-api                    │ tool use, caching. Judges score "AI     │
+  │                                │ use". Don't guess API details.          │
+  ├────────────────────────────────┼─────────────────────────────────────────┤
+  │ /dataviz                       │ Impact metrics, dashboards, charts.     │
+  │                                │ Your "KILLER DATA" slide.               │
+  ├────────────────────────────────┼─────────────────────────────────────────┤
+  │                                │ Required if you pick the Accessible     │
+  │ /accessibility                 │ Peer Support problem; good marks        │
+  │                                │ anywhere.                               │
+  ├────────────────────────────────┼─────────────────────────────────────────┤
+  │ /subagent-driven-development   │ Parallelize independent tasks across    │
+  │                                │ team/agents.                            │
+  ├────────────────────────────────┼─────────────────────────────────────────┤
+  │ /dispatching-parallel-agents   │ Same, fan-out work.                     │
+  ├────────────────────────────────┼─────────────────────────────────────────┤
+  │ /run                           │ Launch + screenshot app. Get demo       │
+  │                                │ working before pitch.                   │
+  ├────────────────────────────────┼─────────────────────────────────────────┤
+  │ /systematic-debugging          │ When it breaks at 4pm Day 2.            │
+  ├────────────────────────────────┼─────────────────────────────────────────┤
+  │ /graphify                      │ Codebase understanding (mandated by     │
+  │                                │ this project's CLAUDE.md).              │
+  └────────────────────────────────┴─────────────────────────────────────────┘
+
+  Ship / polish (Day 2)
+
+  ┌───────────────────────────────────────────┬─────────────────────────────┐
+  │                   Skill                   │             Use             │
+  ├───────────────────────────────────────────┼─────────────────────────────┤
+  │ /verification-before-completion           │ Confirm demo actually works │
+  │                                           │  before pitching.           │
+  ├───────────────────────────────────────────┼─────────────────────────────┤
+  │ /impeccable                               │ Quality pass.               │
+  ├───────────────────────────────────────────┼─────────────────────────────┤
+  │ /simplify                                 │ Cut cruft, shrink diff.     │
+  ├───────────────────────────────────────────┼─────────────────────────────┤
+  │ /review, /security-review,                │ Technology score.           │
+  │ /requesting-code-review                   │                             │
+  ├───────────────────────────────────────────┼─────────────────────────────┤
+  │ /using-git-worktrees                      │ Parallel branches, no       │
+  │                                           │ conflicts.                  │
+  ├───────────────────────────────────────────┼─────────────────────────────┤
+  │ /finishing-a-development-branch           │ Merge/PR at end.            │
+  ├───────────────────────────────────────────┼─────────────────────────────┤
+  │ /seo                                      │ Only if landing page part   │
+  │                                           │ of pitch.                   │
+  └───────────────────────────────────────────┴─────────────────────────────┘
+
+  Plugins active: frontend-design, superpowers (source of
+  brainstorming/plans/TDD/debugging skills), last30days. Marketplaces:
+  claude-plugins-official, thedotmack, last30days-skill.
+
+  Gap: nothing installed covers pitch deck creation — the 25% Presentation
+  score.
+
+  ---
+  2. Recommended installs — biggest gaps first
+
+  Pitch deck (fills your one real gap):
+  npx skills add ailabs-393/ai-labs-claude-skills@pitch-deck -g -y
+  1.5K installs — highest-trust pitch skill found. Maps to the deck template:
+  Connect 30s → Problem 1min → Big Idea 2min → Future Impact 1.5min.
+
+  Alternative, HTML-based (renders in browser, projector-safe):
+  npx skills add nexu-io/open-design@html-ppt-pitch-deck -g -y
+
+  Scope control — the #1 hackathon killer:
+  npx skills add slavingia/skills@mvp -g -y
+  2K installs. Cut to what ships in 2 days.
+
+  Hackathon-specific bundle (on-point but low installs ~50 — vet before
+  trusting):
+  npx skills add bernieweb3/hackathon-ai-devkit@hackathon-scope-cutter -g -y
+  npx skills add bernieweb3/hackathon-ai-devkit@hackathon-task-planner -g -y
+  npx skills add bernieweb3/hackathon-ai-devkit@hackathon-risk-analyzer -g -y
+
+  SDG / impact framing (feeds TAIAO $1,000 prize — judged on SDG alignment):
+  npx skills add travisjneuman/.claude@sustainability-esg -g -y
+  npx skills add borghei/claude-skills@climate-tech-advisor -g -y
+
+  Data viz, if /dataviz isn't enough:
+  npx skills add ailabs-393/ai-labs-claude-skills@csv-data-visualizer -g -y
+
+  ---
+  3. Run-sheet mapping
+
+  ┌────────────────────┬────────────────────────────────────────────────────┐
+  │        Time        │                       Skills                       │
+  ├────────────────────┼────────────────────────────────────────────────────┤
+  │ Day 1, 9:30 team   │ /brainstorming → mvp / hackathon-scope-cutter      │
+  │ form               │                                                    │
+  ├────────────────────┼────────────────────────────────────────────────────┤
+  │ Day 1, 10:00       │ /writing-plans (have plan ready)                   │
+  │ mentor check-in    │                                                    │
+  ├────────────────────┼────────────────────────────────────────────────────┤
+  │ Day 1 pm           │ /frontend-design, /claude-api, /executing-plans    │
+  ├────────────────────┼────────────────────────────────────────────────────┤
+  │ Day 2 am           │ /dataviz, /accessibility, /systematic-debugging    │
+  ├────────────────────┼────────────────────────────────────────────────────┤
+  │ Day 2, 12:00 pitch │ pitch-deck + sustainability-esg — team splits,     │
+  │  practice          │ build/pitch in parallel                            │
+  ├────────────────────┼────────────────────────────────────────────────────┤
+  │ Day 2, 3:00        │ /verification-before-completion, /run              │
+  │ pre-judges         │                                                    │
+  └────────────────────┴────────────────────────────────────────────────────┘
+
+  ---
+  Minimum viable install if you only run one command:
+  npx skills add ailabs-393/ai-labs-claude-skills@pitch-deck -g -y
+  Everything else you already have.
+
+  Want me to install the recommended set, or start with /brainstorming to pick
+  your SDG problem?
+
+✻ Worked for 3m 12s
+
+> check for all skills and plugins that i already have. all skills i already    
+  have list them                                                                
+
+● Let me enumerate everything installed across all scopes.
+  Ran 6 shell commands (ctrl+o to expand)
+
+● Full inventory. Nothing new installed — this is what you already have.
+
+  User-scope skills — ~/.claude/skills/ (21 active)
+
+  From superpowers plugin (obra/superpowers) — 18:
+
+  ┌────────────────────────────────┬─────────────────────────────────────────┐
+  │             Skill              │                   Use                   │
+  ├────────────────────────────────┼─────────────────────────────────────────┤
+  │ using-superpowers              │ Entry point — how to find/use skills    │
+  ├────────────────────────────────┼─────────────────────────────────────────┤
+  │ brainstorming                  │ Before any creative work. Explores      │
+  │                                │ intent + requirements                   │
+  ├────────────────────────────────┼─────────────────────────────────────────┤
+  │ writing-plans                  │ Spec → multi-step plan, before code     │
+  ├────────────────────────────────┼─────────────────────────────────────────┤
+  │ executing-plans                │ Run a written plan with review          │
+  │                                │ checkpoints                             │
+  ├────────────────────────────────┼─────────────────────────────────────────┤
+  │ subagent-driven-development    │ Execute plan tasks in current session   │
+  ├────────────────────────────────┼─────────────────────────────────────────┤
+  │ dispatching-parallel-agents    │ 2+ independent tasks, no shared state   │
+  ├────────────────────────────────┼─────────────────────────────────────────┤
+  │ test-driven-development        │ Before writing implementation code      │
+  ├────────────────────────────────┼─────────────────────────────────────────┤
+  │ systematic-debugging           │ Any bug/test failure, before proposing  │
+  │                                │ fixes                                   │
+  ├────────────────────────────────┼─────────────────────────────────────────┤
+  │ verification-before-completion │ Evidence before claiming "done"         │
+  ├────────────────────────────────┼─────────────────────────────────────────┤
+  │ requesting-code-review         │ Before merging / after major feature    │
+  ├────────────────────────────────┼─────────────────────────────────────────┤
+  │ receiving-code-review          │ Handling review feedback rigorously     │
+  ├────────────────────────────────┼─────────────────────────────────────────┤
+  │ finishing-a-development-branch │ Merge / PR / cleanup decision           │
+  ├────────────────────────────────┼─────────────────────────────────────────┤
+  │ using-git-worktrees            │ Isolated workspace for feature work     │
+  ├────────────────────────────────┼─────────────────────────────────────────┤
+  │ writing-skills                 │ Create/edit/verify skills               │
+  ├────────────────────────────────┼─────────────────────────────────────────┤
+  │ find-skills                    │ Discover + install new skills           │
+  ├────────────────────────────────┼─────────────────────────────────────────┤
+  │ task-observer                  │ Spot stale/missing skills from usage    │
+  ├────────────────────────────────┼─────────────────────────────────────────┤
+  │ impeccable                     │ Code quality & craftsmanship standards  │
+  ├────────────────────────────────┼─────────────────────────────────────────┤
+  │ graphify                       │ Knowledge graph — mandatory-first in    │
+  │                                │ this project                            │
+  └────────────────────────────────┴─────────────────────────────────────────┘
+
+  Standalone user skills — 3:
+
+  ┌────────────────────────────────┬────────────────────────────────────────┐
+  │             Skill              │                  Use                   │
+  ├────────────────────────────────┼────────────────────────────────────────┤
+  │ frontend-design                │ UI/UX patterns + component scaffolding │
+  ├────────────────────────────────┼────────────────────────────────────────┤
+  │ last30days                     │ News/releases from last 30 days        │
+  ├────────────────────────────────┼────────────────────────────────────────┤
+  │ bencium-controlled-ux-designer │ Controlled UX designer workflows       │
+  └────────────────────────────────┴────────────────────────────────────────┘
+
+  ⚠️ notion-workspace dir exists but has no SKILL.md — broken, not loadable.
+
+  Parent-scope skills — Programs/.claude/skills/ (4)
+
+  ┌─────────────────────────┬─────────────────────────────┐
+  │          Skill          │             Use             │
+  ├─────────────────────────┼─────────────────────────────┤
+  │ accessibility           │ WCAG / a11y (+ references/) │
+  ├─────────────────────────┼─────────────────────────────┤
+  │ frontend-design         │ Duplicate of user-scope one │
+  ├─────────────────────────┼─────────────────────────────┤
+  │ seo                     │ Search optimization         │
+  ├─────────────────────────┼─────────────────────────────┤
+  │ bash-defensive-patterns │ Safe shell scripting        │
+  └─────────────────────────┴─────────────────────────────┘
+
+  Built-in Claude Code skills (11)
+
+  ┌──────────────────────────┬───────────────────────────────────────────────┐
+  │          Skill           │                      Use                      │
+  ├──────────────────────────┼───────────────────────────────────────────────┤
+  │ dataviz                  │ Read before any chart/dashboard code. Palette │
+  │                          │  + validator                                  │
+  ├──────────────────────────┼───────────────────────────────────────────────┤
+  │ claude-api               │ Model IDs, pricing, tool use, caching,        │
+  │                          │ streaming                                     │
+  ├──────────────────────────┼───────────────────────────────────────────────┤
+  │ frontend-design          │ Built-in variant                              │
+  ├──────────────────────────┼───────────────────────────────────────────────┤
+  │ run                      │ Launch/screenshot the app to verify a change  │
+  ├──────────────────────────┼───────────────────────────────────────────────┤
+  │ review                   │ Code review                                   │
+  ├──────────────────────────┼───────────────────────────────────────────────┤
+  │ security-review          │ Security audit                                │
+  ├──────────────────────────┼───────────────────────────────────────────────┤
+  │ simplify                 │ Reuse/simplify/efficiency cleanup on changed  │
+  │                          │ code                                          │
+  ├──────────────────────────┼───────────────────────────────────────────────┤
+  │ init                     │ Bootstrap CLAUDE.md                           │
+  ├──────────────────────────┼───────────────────────────────────────────────┤
+  │ loop                     │ Recurring task on interval                    │
+  ├──────────────────────────┼───────────────────────────────────────────────┤
+  │ update-config            │ settings.json, hooks, permissions, env vars   │
+  ├──────────────────────────┼───────────────────────────────────────────────┤
+  │ keybindings-help         │ Customize keyboard shortcuts                  │
+  ├──────────────────────────┼───────────────────────────────────────────────┤
+  │ fewer-permission-prompts │ Build allowlist from transcripts              │
+  └──────────────────────────┴───────────────────────────────────────────────┘
+
+  Installed plugins (3)
+
+  ┌─────────────────┬────────────────────────────────────────────────────────┐
+  │     Plugin      │                         Source                         │
+  ├─────────────────┼────────────────────────────────────────────────────────┤
+  │ superpowers     │ github.com/obra/superpowers — supplies 18 skills above │
+  ├─────────────────┼────────────────────────────────────────────────────────┤
+  │ frontend-design │ local                                                  │
+  ├─────────────────┼────────────────────────────────────────────────────────┤
+  │ last30days      │ local                                                  │
+  └─────────────────┴────────────────────────────────────────────────────────┘
+
+  Marketplaces registered (3) — plugins available, not installed
+
+  - claude-plugins-official (anthropics) — 39 plugins incl. feature-dev,
+  code-review, code-simplifier, frontend-design, agent-sdk-dev, mcp-server-dev,
+  skill-creator, hookify, plugin-dev, security-guidance, claude-security,
+  pr-review-toolkit, session-report, project-artifact, playground, ralph-loop,
+  receipts, math-olympiad, code-modernization, commit-commands, cwc-makers,
+  claude-code-setup, claude-md-management, mcp-tunnels, output-style plugins, +
+  12 LSP servers (typescript, pyright, rust-analyzer, gopls, clangd, jdtls,
+  kotlin, swift, php, ruby, lua, csharp)
+  - external MCP connectors (15): github, linear, asana, playwright, context7,
+  serena, greptile, firebase, discord, slack-adjacent (telegram, imessage),
+  gitlab, terraform, laravel-boost, fakechat
+  - last30days-skill (mvanhorn) — installed
+  - thedotmack (claude-mem) — auto-update on
+
+  Subagents (6)
+
+  claude · general-purpose · Explore (read-only fan-out search) · Plan
+  (architect) · claude-code-guide · statusline-setup
+
+  For the SDG hackathon, your existing stack covers most of it
+
+  Day 1: brainstorming → writing-plans → frontend-design + dataviz (impact
+  metrics) → claude-api (AI integration).
+  Day 2: run (demo works), verification-before-completion (don't claim broken
+  things work), accessibility (matters if you pick the Accessible Peer Support
+  problem).
+
+  Only real gap: pitch deck. Judging is 25% Presentation and you have zero deck
+  skills. ailabs-393/ai-labs-claude-skills@pitch-deck (1.5K installs) is the
+  highest-trust option found. Want me to install it?
+
+✻ Crunched for 53s
+
+> /last30days using all plugins too /last30days research for the best potential 
+ideas that handles the perfect balance between a niche and an idea that can     
+help many.                                                                      
+
+> /find-skills using all plugins too /last30days research for the best          
+potential ideas that handles the perfect balance between a niche and an idea    
+that can help many.                                                             
+
+> /using-superpowers using all plugins too /last30days research for the best    
+potential ideas that handles the perfect balance between a niche and an idea    
+that can help many.                                                             
+
+● Running the research. Parallel searches across recent SDG/AI developments, NZ
+  context, and datasets.
+
+● Web Search("UN SDG report 2026 off track goals progress")
+  ⎿  Did 1 search in 13s
+
+● Web Search("New Zealand AI 2026 government strategy data open datasets")
+  ⎿  Did 1 search in 12s
+
+● Web Search("New Zealand food waste rescue 2026 statistics food insecurity")
+  ⎿  Did 1 search in 13s
+
+● Web Search("hackathon winning projects 2026 AI SDG judges criteria what wins")
+  ⎿  Did 1 search in 18s
+
+● Web Search(""Enabling Good Lives" disability New Zealand 2026 funding
+            barriers")
+  ⎿  Did 1 search in 14s
+
+● Web Search("Waikato Hamilton New Zealand community problems 2026 marae rural
+            health transport")
+  ⎿  Did 1 search in 14s
+
+● Web Search("data.govt.nz open data API New Zealand datasets 2026")
+  ⎿  Did 1 search in 12s
+
+● Web Search("AI model releases July August 2026 agentic capabilities new
+            features")
+  ⎿  Did 1 search in 17s
+
+● Web Search("SDG 12 SDG 11 underserved hackathon idea gap not chatbot 2026
+            opportunity")
+  ⎿  Did 3 searches in 24s
+
+● Web Search("New Zealand food rescue logistics problem cold chain volunteer
+            coordination surplus matching")
+  ⎿  Did 1 search in 19s
+
+● Research done — 8 searches across SDG 2026 data, NZ context, winner patterns,
+  and AI releases. Findings below.
+
+  The filter: what "niche + helps many" means for these judges
+
+  Scorecard is 4 equal parts (Inspiration / Technology / Design / Presentation),
+  plus TAIAO Prize for SDG alignment + feasibility + impact.
+
+  Research on 2026 winners gives the actual bar. Anthropic judge on a
+  grand-prize entry: "This feels like a product, not a hackathon project." And:
+  judges reward execution over novelty; winners typically take an existing
+  concept and aim it at a specific audience. MIT's SDG hackathon data shows SDG
+  3 and SDG 4 with chatbots are the crowded default — avoid or differentiate
+  hard.
+
+  So the balance you want:
+  - Niche = one named beneficiary, one workflow, demoable live in 2 days, real
+  local data
+  - Many = mechanism generalizes, and output maps to an official UN indicator 
+  number (this is the single strongest differentiator per the SDG-hackathon
+  research)
+
+  ⚠️ Trap in your own PDF: two of the three suggested problems (Facilities
+  Helpdesk, Peer Support) are chatbot-shaped. Every crowded-field warning in the
+  research points at exactly those. If you pick one, you're competing on
+  presentation alone.
+
+  Ranked ideas
+
+  ┌─────┬───────────────────┬────────────────────┬────────────────┬────────┐
+  │  #  │       Idea        │     Niche hook     │   Scales to    │  SDG   │
+  │     │                   │                    │                │ target │
+  ├─────┼───────────────────┼────────────────────┼────────────────┼────────┤
+  │     │ Upstream surplus  │ Cosmetic-reject    │ 64 NZ food     │        │
+  │ 1   │ broker (Waikato   │ produce, Waikato   │ hubs, then     │ 12.3 + │
+  │     │ growers → food    │ ag heartland       │ global         │  2.1   │
+  │     │ hubs)             │                    │ post-harvest   │        │
+  ├─────┼───────────────────┼────────────────────┼────────────────┼────────┤
+  │     │ EGL reassessment  │ Waikato is a live  │ Every          │        │
+  │ 2   │ navigator         │ EGL site; 1 Oct    │ disability     │ 10.2   │
+  │     │                   │ 2026 reassessments │ funding system │        │
+  ├─────┼───────────────────┼────────────────────┼────────────────┼────────┤
+  │     │ Rural             │ Volunteer drivers, │ Any rural      │ 3.8 +  │
+  │ 3   │ marae-clinic      │  Waikato hospital  │ health access  │ 10.2   │
+  │     │ transport matcher │ runs               │ system         │        │
+  ├─────┼───────────────────┼────────────────────┼────────────────┼────────┤
+  │     │ Neighbourhood SDG │ Photos + OSM →     │ Cities with no │        │
+  │ 4   │  indicator        │ computed 11.7.1    │  stats office  │ 11.7   │
+  │     │ generator         │                    │                │        │
+  └─────┴───────────────────┴────────────────────┴────────────────┴────────┘
+
+  Top pick: #1 — upstream food surplus, not consumer food waste
+
+  Why this wins the balance. Everyone builds consumer food-waste apps. The
+  losses are upstream and the NZ evidence is unusually strong:
+
+  - Lineage + NZ Food Network moved >1,000 pallets / ~635,000 kg of frozen 
+  vegetables rejected purely for cosmetic irregularities. That's your killer
+  data slide.
+  - 1 in 3 NZ households hit food insecurity in the past year (Hunger Monitor
+  2025, pub. March 2026). Pacific peoples 64%, Māori 51%, ages 18–24 50%.
+  - Household waste is actually falling (12.2% → 10.9%; $3.2B → $3.0B). So
+  "consumers waste food" is a weakening story. Upstream isn't.
+
+  The real gap, confirmed by research: NZ food rescue matching is route-based 
+  and manual, not a marketplace. NZFN's own stated fix for bulk surplus is "be a
+  single point of contact" — i.e. a human broker. Regular donors go on a fixed
+  recurring route. No shared matching platform surfaced in any search. You'd be
+  building something that genuinely doesn't exist, for 64 hubs and 2,000+
+  frontline groups moving ~28M meals/yr.
+
+  The AI that isn't a wrapper. Constraint-solving matcher: shelf-life ×
+  cold-chain availability × hub capacity × travel time × need-severity. Add a
+  vision model classifying cosmetic-reject grade from a grower's phone photo.
+  That's agentic + multimodal — exactly what the research says beats generic LLM
+  wrappers.
+
+  Hard constraint to name in the pitch (shows depth): Food Act 2014 excludes
+  food with compromised sanitary seals unless heated. Knowing this signals you
+  talked to the domain, not just an LLM.
+
+  Runner-up: #2 — EGL reassessment navigator
+
+  Strongest timeliness play, and it hits the accessibility brief without being a
+  chatbot.
+
+  The system is changing under people's feet right now: from 1 Apr 2026 existing
+  NASC users get a set budget with a limit; 1 Oct 2026 reassessments run under
+  the new system. Budgets are based on past spending — which CCS Disability
+  Action and Blind Low Vision NZ are both actively contesting. EGL Waikato 
+  whānau keep direct funding — your venue is inside the affected region.
+
+  Tool: model my budget under new rules → what changed → what I can still
+  purchase → generate my reassessment evidence pack. Concrete, verifiable,
+  deeply needed, and nobody in the room will have it.
+
+  Don't do
+
+  - Generic chatbot on any of the three PDF problems
+  - Localhost-only demo — deployed beats localhost, video demo beats slides
+  - Novelty for its own sake; judges score execution
+
+  Data you can actually get in 2 days
+
+  data.govt.nz runs CKAN — /api/3/action/package_search, package_show,
+  datastore_search. ⚠️ Docs say CKAN 2.7 (old) — hit /api/3/action/status_show
+  live before coding against 2.7 docs. Also: DataStore only exists where a clean
+  CSV was supplied, so many listings are metadata-only links. Don't assume
+  queryable rows.
+
+  Skills to run this
+
+  brainstorming → writing-plans → frontend-design + dataviz (impact metrics) →
+  claude-api (model IDs — note Sonnet 5 pricing rises to $3/$15 after Aug 31, 
+  2026) → run + verification-before-completion on Day 2. accessibility if you
+  take #2.
+
+  Still no pitch-deck skill installed — 25% of your score. Want me to install
+  ailabs-393/ai-labs-claude-skills@pitch-deck (1.5K installs)?
+
+  Sources:
+  - UN SDG Report 2026 (https://unstats.un.org/sdgs/report/2026/) · SDSN
+  Sustainable Development Report 2026 (https://dashboards.sdgindex.org/)
+  - NZFN Hunger Monitor 2025 (https://www.nzfoodnetwork.org.nz/wp-content/upload
+  s/2026/03/NZFN-Hunger-Monitor-2025-Digital.pdf) · NZFN Impact/Food Waste Stats
+  (https://www.nzfoodnetwork.org.nz/our-impact/) · NZFN + Lineage partnership
+  (https://www.nzfoodnetwork.org.nz/food-rescue-partnership-nz-food-network-line
+  age-grant/) · Rabobank food waste
+  (https://www.rabobank.co.nz/community/food-waste) · PMCSA food rescue evidence
+  (https://www.pmcsa.ac.nz/topics/food-rescue-food-waste/)
+  - DSS Feb 2026 fact sheet (https://www.disabilitysupport.govt.nz/disabled-peop
+  le/improvements-to-disability-support-services/february-2026-fact-sheet) · CCS
+  Disability Action Budget 2026
+  (https://www.ccsdisabilityaction.org.nz/news/budget-2026-statement) · Blind
+  Low Vision NZ submission (https://blindlowvision.org.nz/news/submission-on-the
+  -disability-support-services-bill-2026/) · NZ Disability Strategy 2026–2030
+  (https://www.whaikaha.govt.nz/assets/NZDS-26-30-Documents/NZDS-2026-2030.pdf)
+  - Te Tiratū rural health gap (https://www.nzdoctor.co.nz/article/undoctored/bu
+  dget-2026-budget-must-close-widening-rural-health-gap-warns-te-tiratu-iwi) ·
+  Waikato Community Transport
+  (https://www.waikatocommunitytransport.org.nz/for-transport-users/)
+  - data.govt.nz APIs
+  (https://data.govt.nz/catalogue-guide/using-data-govt-nz-apis) · NZ AI
+  Strategy (https://www.mbie.govt.nz/assets/new-zealands-strategy-for-artificial
+  -intelligence.pdf)
+  - GitLab AI Hackathon 2026 winners
+  (https://about.gitlab.com/blog/gitlab-ai-hackathon-2026-meet-the-winners/) ·
+  UN-Habitat SDG 11 Report 2026 (https://unhabitat.org/sdg-11-global-report-2026
+  -housing-at-the-centre-of-sustainable-cities-and-communities) · July 2026 AI
+  model releases
+  (https://www.analyticsvidhya.com/blog/2026/07/july-2026-ai-models-releases/)
+
+✻ Worked for 3m 8s
+
+> Ideation                                                                      
+  Cold-chain integrity monitor for last-mile clinics                            
+  Problem: Vaccines and insulin spoil silently when a fridge fails or a         
+  transport box warms above 8 °C, and rural clinics often discover it only when 
+  stock is already useless — a narrow, addressable slice of the vaccine-access  
+  problem. SDG — People (SDG 3, Good Health): Directly protects the potency of  
+  health commodities reaching underserved patients.                             
+                                                                                
+  Approach: ESP32 + DS18B20/SHT sensor logging temperature to flash, syncing    
+  over WiFi/BLE to a React dashboard (Node/Express + SQLite). Tamper/excursion  
+  events are hash-stamped so a spoiled batch can't be quietly un-flagged.       
+                                                                                
+  Offline-first: buffers locally, syncs on reconnect. Why 48h works: The        
+  firmware is a read-sensor-append-log loop; the web layer is a standard CRUD   
+  dashboard with a time-series chart. All in your React/Node/embedded           
+  wheelhouse.                                                                   
+                                                                                
+  Demo path: Put the probe in a cup of ice, pull it out mid-pitch — the         
+  dashboard flags an excursion and marks the (fake) batch unsafe in real time.  
+  Risk/scope: Venue WiFi is unreliable; make BLE-to-phone or a local AP your    
+  primary sync path so a flaky network doesn't kill the demo.                   
+                                                                                
+                                                                                
+   extend and extrapolate on this idea and use this format to add these         
+  sections for seperate topics. add these 4 ideas to it as well, make it as a   
+  txt file. keep it practical, not too generic, not too niche, a good balance,  
+  and not already done so novel. /using-superpowers /last30days all skills alll 
+  plugins use                                                                   
+
+● Extending the format. Quick validation research first so numbers and novelty
+  claims hold.
+
+● Web Search("vaccine cold chain monitoring existing solutions Fridge-tag
+            Nexleaf ColdTrace gaps 2026")
+  ⎿  Did 1 search in 18s
+● Web Search("New Zealand vaccine wastage cold chain failure rural pharmacy CCM
+            accreditation")
+  ⎿  Did 1 search in 13s
+
+● Critical finding — must flag before writing. Let me validate the other ideas'
+  novelty too.
+
+● Web Search("food surplus matching platform app existing Olio Too Good To Go
+            Spoiler Alert grower cosmetic reject")
+  ⎿  Did 1 search in 17s
+
+● Web Search("volunteer driver transport matching software rural health
+            appointments existing tools NZ")
+  ⎿  Did 2 searches in 15s
+
+● Idea #3 (transport matcher) is dead — Road XS, Spedsta, Assisted Rides, plus
+  Hato Hone St John and Cancer Society already own it. Replacing it. One more
+  validation:
+
+● Web Search("New Zealand e-waste product stewardship scheme 2026 recycling
+            regulated OECD gap")
+  ⎿  Did 1 search in 18s
+
+● Research done. Writing the file.
+
+● Write(IDEATION.txt)
+  ⎿  Wrote 453 lines to IDEATION.txt
+       1 ================================================================
+       2 AI HACKATHON FESTIVAL 2026 - IDEATION
+       3 University of Waikato | 2-day build | Team 3-7
+       4 ================================================================
+       5 
+       6 JUDGING SCORECARD (equally weighted - all four matter the same)
+         tion that excites
+       8   - Technology:         feasibility, quality, AI use
+       9   - Design & Innovation: usability, originality
+         min max)
+     … +691 lines (ctrl+o to expand)
+
+● Written to IDEATION.txt — 5 ideas in your format.
+
+  One thing you need to know about your idea
+
+  The device you described already exists and is WHO-prequalified. Nexleaf
+  ColdTrace X: ±0.5°C, 18,000 data points, BLE 5.0 sensors, 2G/NB-IoT/WiFi base
+  station, 60-month battery, backend runs 15,000+ devices. Their Transport app
+  went wide April 2026. Berlinger Fridge-tag is the standalone incumbent.
+
+  Pitch "ESP32 logs temperature to a dashboard" and a technical judge who knows
+  the space places you behind a 5-year-warranty commercial product.
+
+  But the reframe is strong. Field research says the sensor isn't the gap:
+  - 91.7% of facilities studied had no cold chain policy
+  - 100% had no equipment contingency plan
+  - Alert fires, nobody knows who acts
+
+  So I kept your hardware as the demo prop and moved the product to the response
+  layer: excursion → agentic triage producing a per-vaccine dose disposition
+  (use/quarantine/discard, with cited reasoning) + escalation routing +
+  auto-drafted incident record. That step is manual everywhere today.
+
+  Your hash-stamping instinct survives intact — reads as integrity engineering.
+
+  NZ hook that makes it local: the term is CCA (Cold Chain Accreditation), not
+  CCM. Standards are under review right now by Health NZ. And there's a live
+  mandate: fridges 10+ years old are permitted only with continuous real-time 
+  monitoring plus out-of-hours alarming. Freezing, not heat, is NZ's most common
+  damage cause. Killer stat: NZ cut vaccine wastage 17% → 2%, ~NZ$4M/yr saved.
+
+  The other four
+
+  ┌─────┬────────────────────────────────────┬──────────┬──────────┬────────┐
+  │  #  │                Idea                │   SDG    │ Novelty  │  48h   │
+  │     │                                    │          │          │  risk  │
+  ├─────┼────────────────────────────────────┼──────────┼──────────┼────────┤
+  │ 2   │ Upstream surplus broker (grower    │ 12.3 +   │ High     │ Low    │
+  │     │ cosmetic reject)                   │ 2.1      │          │        │
+  ├─────┼────────────────────────────────────┼──────────┼──────────┼────────┤
+  │ 3   │ EGL reassessment navigator         │ 10.2     │ High     │ Low    │
+  ├─────┼────────────────────────────────────┼──────────┼──────────┼────────┤
+  │ 4   │ E-waste reverse-logistics matcher  │ 12.5     │ Med-high │ Low    │
+  ├─────┼────────────────────────────────────┼──────────┼──────────┼────────┤
+  │ 5   │ Neighbourhood SDG indicator        │ 11.7.1   │ High     │ High   │
+  │     │ generator                          │          │          │        │
+  └─────┴────────────────────────────────────┴──────────┴──────────┴────────┘
+
+  I cut the rural transport matcher I floated last turn — validation killed it.
+  Road XS, Spedsta, Assisted Rides all exist, and Hato Hone St John + Cancer
+  Society already own NZ demand. The Maine case study shows the bottleneck is
+  human coordination (6 intake staff, 400–600 calls/day, 10 dispatchers) with
+  the software already in place. Replaced it with #5.
+
+  Novelty checks that survived:
+  - #2 — verified wedge. NZ food rescue matching is route-based and manual;
+  NZFN's own fix for bulk surplus is "be the single point of contact," i.e. a
+  human broker. Olio is C2C, TGTG/Flashfood are retail-shelf-shaped, Spoiler
+  Alert is packaged-CPG-shaped. Cosmetic rejects are culled before they're
+  inventory, so none of them can see it.
+  - #4 — NZ is the OECD outlier: no mandatory producer participation, no EPR
+  framework. Designated a priority product in 2020, co-design finished 2023,
+  regulations still not in force mid-2026. Six-year gap, ~99kt/yr flowing.
+  - #5 — SDG 11.7.1 fell 48.0% → 45.9% (2020–2025, 414 cities). Fewer than a
+  third of sustainable-cities indicators have data at all.
+
+  Recommendation
+
+  #2 for balance. #3 for local resonance — Waikato is an EGL site, reassessments
+  start 1 Oct 2026, and it's the one idea where the accessibility brief and
+  technical brief are the same work.
+
+  Hedge worth weighing: your probe-in-ice moment is the most memorable 15
+  seconds available to any team in that room. A pure web app can't buy that. If
+  you have an embedded person, keep the prop — just make the software behind it
+  the triage layer.
+
+  Still no pitch-deck skill installed, and that's 25% of your score. Want me to
+  install ailabs-393/ai-labs-claude-skills@pitch-deck (1.5K installs)?
+
+✻ Brewed for 4m 12s
+
+> simplify this and reframe the ideas so it is easy to grasp and more           
+  practical, dont overuse analogy dont overuse tips etc. dont overuse jargon,   
+  balance the tone.                                                             
+
+● Write(IDEATION.txt)
+  ⎿  Added 309 lines, removed 340 lines
+        1  ==============================================================
+           ==================
+        2  AI HACKATHON FESTIVAL 2026 - IDEATION
+        3 -University of Waikato | 2-day build | Team 3-7                
+        3 +University of Waikato | 2-day build | Teams of 3-7            
+        4  ==============================================================
+           ==================
+        5  
+        6 -JUDGING SCORECARD (equally weighted - all four matter the same
+          -)                                                             
+        7 -  - Inspiration:        defined problem, real-world impact, so
+          -lution that excites                                           
+        8 -  - Technology:         feasibility, quality, AI use          
+        9 -  - Design & Innovation: usability, originality               
+       10 -  - Presentation:       clear, structured, creative, ON TIME (
+          -5 min max)                                                    
+        6 +JUDGING (four parts, weighted equally)                        
+        7 +  Inspiration   - a clear problem with real impact            
+        8 +  Technology    - feasibility, quality, how you use AI        
+        9 +  Design        - usability and originality                   
+       10 +  Presentation  - clear, structured, within 5 minutes         
+       11  
+       12  PRIZES
+       13 -  - Local Prize          $250    best Waikato solution        
+       14 -  - TAIAO Prize          $1,000  national - SDG alignment + fe
+          -asibility + impact                                            
+       15 -  - Technical Brilliance $1,000  national - technical thinking
+          - + prototype execution                                        
+       16 -  All local winners go to national judging panel at Summit fin
+          -als.                                                          
+       13 +  $250    Local - best Waikato solution                       
+       14 +  $1,000  TAIAO - SDG alignment, feasibility, impact          
+       15 +  $1,000  Technical Brilliance - technical thinking and protot
+          +ype execution                                                 
+       16 +  Local winners go through to national judging.               
+       17  
+       18 -WHAT ACTUALLY WINS (2026 judge signal, researched)            
+       19 -  - "This feels like a product, not a hackathon project." <- t
+          -he bar                                                        
+       20 -  - Execution beats novelty. Winners take an existing concept 
+          -and aim it at a                                               
+       21 -    specific audience, or combine two ideas unexpectedly.     
+       22 -  - Don't ship an LLM wrapper. Agentic workflows / RAG / multi
+          -modal differentiate.                                          
+       23 -  - Deployed beats localhost. Video demo beats slides. Name th
+          -e beneficiary.                                                
+       24 -  - SDG 3 (health) and SDG 4 (education) + chatbots = the crow
+          -ded default lane.                                             
+       25 -  - Strongest single differentiator: output maps to an OFFICIA
+          -L UN INDICATOR NUMBER.                                        
+       18 +WHAT SCORES WELL                                              
+       19 +  Judges reward execution over novelty. Working software aimed
+          + at a specific                                                
+       20 +  group beats a clever idea that only half runs. A plain LLM w
+          +rapper no longer                                              
+       21 +  stands out. Health and education chatbots are the most commo
+          +n entries, so                                                 
+       22 +  they are the hardest lane to win in.                        
+       23  
+       27 -CONTEXT THAT SHAPES EVERY IDEA BELOW                          
+       28 -  - Only 16% of SDG targets projected achieved by 2030 (SDSN, 
+          -Jun 2026).                                                    
+       29 -    UN's own count: 36% of 139 targets on track or moderate. 4
+          - years left.                                                  
+       30 -  - The PDF's own suggested problems (Facilities Helpdesk, Pee
+          -r Support) are                                                
+       31 -    chatbot-shaped. Picking those means competing on presentat
+          -ion alone.                                                    
+       24 +  One thing separates entries reliably: producing a number tha
+          +t maps to an                                                  
+       25 +  official UN indicator. It gives judges something concrete to
+          + check.                                                       
+       26  
+       27 +CONTEXT                                                       
+       28 +  Only 16% of SDG targets are projected to be met by 2030. The
+          + UN's own count                                               
+       29 +  puts 36% of 139 targets on track or progressing moderately. 
+          +Four years left.                                              
+       30 +                                                              
+       31 +  Two of the three problems suggested in the event PDF (Facili
+          +ties Helpdesk,                                                
+       32 +  Peer Support) are chatbot-shaped. Choosing one means competi
+          +ng mostly on                                                  
+       33 +  presentation.                                               
+       34 +                                                              
+       35  ==============================================================
+           ==================
+       34 -IDEA 1 - COLD-CHAIN INTEGRITY MONITOR FOR LAST-MILE CLINICS   
+       36 +IDEA 1 - COLD-CHAIN MONITOR FOR LAST-MILE CLINICS             
+       37  ==============================================================
+           ==================
+       38  
+       39  PROBLEM
+       38 -Vaccines and insulin spoil silently when a fridge fails or a t
+          -ransport box warms                                            
+       39 -above 8 C, and rural clinics often discover it only when stock
+          - is already                                                   
+       40 -useless. Narrow, addressable slice of the vaccine-access probl
+          -em.                                                           
+       40 +Vaccines and insulin spoil quietly when a fridge fails or a tr
+          +ansport box warms                                             
+       41 +above 8 C. Rural clinics often find out only when the stock is
+          + already unusable.                                            
+       42  
+       42 -SDG - PEOPLE (SDG 3, Good Health). Directly protects the poten
+          -cy of health                                                  
+       43 -commodities reaching underserved patients. Indicator: 3.b.1 (p
+          -opulation covered                                             
+       44 -by all vaccines in national programme) - wastage upstream supp
+          -resses this.                                                  
+       43 +SDG 3 (Good Health). Protects the potency of health supplies r
+          +eaching                                                       
+       44 +underserved patients. Indicator 3.b.1, vaccine coverage.      
+       45  
+       46 ->>> NOVELTY WARNING - READ BEFORE COMMITTING <<<              
+       47 -This exact device is BUILT AND WHO-PREQUALIFIED. Nexleaf ColdT
+          -race X: +/-0.5 C,                                             
+       48 --30 to +55 C, 18,000 data points, BLE 5.0 sensors, 2G/NB-IoT/W
+          -iFi base station,                                             
+       49 -60-month battery, backend runs 15,000+ devices. Their Transpor
+          -t app went wide in                                            
+       50 -Apr 2026. Berlinger Fridge-tag is the standalone incumbent. If
+          - you pitch                                                    
+       51 -"ESP32 logs temperature to a dashboard" a technical judge who 
+          -knows this space                                              
+       52 -will place you behind a 5-year-warranty commercial product.   
+       46 +WORTH KNOWING FIRST                                           
+       47 +This device already exists commercially. Nexleaf ColdTrace X i
+          +s WHO-prequalified                                            
+       48 +and does everything an ESP32 rig would: ±0.5 C accuracy, BLE s
+          +ensors, cellular                                              
+       49 +or WiFi sync, five-year warranty, a backend running 15,000+ de
+          +vices. Berlinger                                              
+       50 +Fridge-tag is the standalone equivalent.                      
+       51  
+       54 -Field research says the sensor is NOT the gap:                
+       55 -  - 91.7% of facilities studied had NO cold chain policy      
+       56 -  - 100% had NO equipment contingency plan                    
+       57 -  - Only 2% of LMIC clinics have functional optimal refrigerat
+          -ion                                                           
+       58 -  - The alert fires and nobody knows who acts. Response layer 
+          -is the void.                                                  
+       52 +But research on why cold chains fail points somewhere else. In
+          + one field study,                                             
+       53 +91.7% of facilities had no cold chain policy and none had an e
+          +quipment                                                      
+       54 +contingency plan. The alert fires and nobody knows who is mean
+          +t to act. That                                                
+       55 +gap is open.                                                  
+       56  
+       60 -APPROACH (reframed so it is novel - build the response layer, 
+          -not the logger)                                               
+       61 -Keep the ESP32 + DS18B20/SHT rig, but the sensor is the DEMO P
+          -ROP, not the                                                  
+       62 -product. The product is what happens in the 10 minutes after a
+          -n excursion:                                                  
+       57 +APPROACH                                                      
+       58 +Keep the ESP32 and temperature sensor, but treat it as the inp
+          +ut, not the                                                   
+       59 +product. The product is what happens after an excursion is det
+          +ected:                                                        
+       60  
+       64 -  1. Excursion detected -> agentic triage. An LLM reads the ex
+          -cursion shape                                                 
+       65 -     (duration, peak temp, freeze vs heat, which fridge) again
+          -st vaccine-specific                                           
+       66 -     stability rules and produces a DOSE DISPOSITION: use / qu
+          -arantine / discard,                                           
+       67 -     per product, with the reasoning cited.                   
+       68 -     This is the manual step everywhere today. It is genuinely
+          - unautomated.                                                 
+       69 -  2. Escalation routing. Who is on call, has the local immunis
+          -ation coordinator                                             
+       70 -     been contacted, is the CCA paperwork started. Auto-drafts
+          - the incident                                                 
+       71 -     record.                                                  
+       72 -  3. Hash-stamped event chain so a spoiled batch cannot be qui
+          -etly un-flagged.                                              
+       73 -     (Your original instinct - keep it, it reads as integrity 
+          -engineering.)                                                 
+       61 +  1. Dose disposition. The system reads the excursion - how lo
+          +ng, how hot or                                                
+       62 +     cold, which fridge - and checks it against vaccine stabil
+          +ity rules to                                                  
+       63 +     recommend use, quarantine, or discard for each product, s
+          +howing its                                                    
+       64 +     reasoning. Today this decision is made manually.         
+       65 +  2. Escalation. Identifies who is on call, whether the immuni
+          +sation                                                        
+       66 +     coordinator has been contacted, and drafts the incident r
+          +ecord.                                                        
+       67 +  3. Tamper-evident log. Events are hash-stamped so a flagged 
+          +batch cannot be                                               
+       68 +     quietly un-flagged.                                      
+       69  
+       75 -NZ HOOK (makes it local, not generic aid-tech)                
+       76 -  - NZ term is CCA (Cold Chain Accreditation), valid up to 3 y
+          -ears, MoH process.                                            
+       77 -    Pharmacies audited separately by Medicines Control within 
+          -Medsafe.                                                      
+       78 -  - National Standards 2017 (2nd ed) + 2021 COVID addendum are
+          - UNDER REVIEW                                                 
+       79 -    right now by Health NZ.                                   
+       80 -  - Interim rule, live today: fridges 10+ years old are permit
+          -ted ONLY WITH                                                 
+       81 -    continuous real-time monitoring plus out-of-hours alarming
+          -. That is a                                                   
+       82 -    regulatory mandate creating demand for exactly this, today
+          -, in NZ.                                                      
+       83 -  - Freezing (not heat) is the most common cause of NZ vaccine
+          - damage.                                                      
+       84 -  - Killer data: NZ cold chain programme cut overall wastage 1
+          -7% -> 2%                                                      
+       85 -    (Dec 2002 - Jun 2008), est. NZ$4M/yr saved. Proof the inte
+          -rvention works.                                               
+       86 -  - Section 6.4 of the Standards defines the failure process: 
+          -quarantine,                                                   
+       87 -    confirm incident, collect info, contact coordinator. Build
+          - TO that section.                                             
+       70 +NEW ZEALAND ANGLE                                             
+       71 +  - The local process is CCA (Cold Chain Accreditation), run b
+          +y the Ministry of                                             
+       72 +    Health and valid up to three years. Pharmacies are audited
+          + separately by                                                
+       73 +    Medicines Control.                                        
+       74 +  - The 2017 National Standards are under review by Health NZ 
+          +right now.                                                    
+       75 +  - Current interim rule: fridges over ten years old are allow
+          +ed only with                                                  
+       76 +    continuous real-time monitoring and out-of-hours alarming.
+          + That is existing                                             
+       77 +    demand for this, today.                                   
+       78 +  - Freezing, not overheating, causes most vaccine damage in N
+          +Z.                                                            
+       79 +  - New Zealand's cold chain programme cut vaccine wastage fro
+          +m 17% to 2%                                                   
+       80 +    between 2002 and 2008, saving an estimated $4M a year.    
+       81  
+       82  OFFLINE-FIRST
+       83  Buffers locally, syncs on reconnect.
+       84  
+       92 -WHY 48H WORKS                                                 
+       93 -Firmware is a read-sensor-append-log loop. Web layer is standa
+          -rd CRUD + a                                                   
+       94 -time-series chart. React/Node/embedded wheelhouse. The AI laye
+          -r is a prompt                                                 
+       95 -over a rules table - not a model you have to train.           
+       85 +WHY 48 HOURS WORKS                                            
+       86 +The firmware is a read-sensor, append-log loop. The web layer 
+          +is standard CRUD                                              
+       87 +with a time-series chart. The decision layer is a prompt over 
+          +a rules table, not                                            
+       88 +a model you have to train.                                    
+       89  
+       97 -DEMO PATH                                                     
+       98 -Probe in a cup of ice, pull it out mid-pitch. Dashboard flags 
+          -the excursion,                                                
+       99 -marks the (fake) batch, and - the part that wins - the triage 
+          -agent renders a                                               
+      100 -disposition decision and a drafted incident report on screen i
+          -n real time.                                                  
+       90 +DEMO                                                          
+       91 +Put the probe in a cup of ice and pull it out mid-pitch. The d
+          +ashboard flags the                                            
+       92 +excursion, then the system produces a disposition recommendati
+          +on and a drafted                                              
+       93 +incident report on screen.                                    
+       94  
+      102 -RISK / SCOPE                                                  
+      103 -  - Venue WiFi is unreliable. Make BLE-to-phone or a local AP 
+          -your PRIMARY sync                                             
+      104 -    path. Do not let flaky network kill the demo.             
+      105 -  - Do not claim clinical authority. Frame output as "decision
+          - support, pending                                             
+      106 -    coordinator sign-off." Judges reward the team that knows w
+          -here the line is.                                             
+      107 -  - Have a recorded video fallback of the excursion firing.   
+       95 +RISKS                                                         
+       96 +  - Venue WiFi is unreliable. Use BLE-to-phone or a local acce
+          +ss point as the                                               
+       97 +    main sync path.                                           
+       98 +  - Frame output as decision support pending coordinator sign-
+          +off, not as a                                                 
+       99 +    clinical ruling.                                          
+      100 +  - Record a video of the excursion firing as a fallback.     
+      101  
+      109 -VERDICT: strong IF you pitch the response layer. Weak if you p
+          -itch the logger.                                              
+      102 +Solid if you pitch the decision layer. Weak if you pitch the l
+          +ogger.                                                        
+      103  
+      104  ==============================================================
+           ==================
+      112 -IDEA 2 - UPSTREAM SURPLUS BROKER (GROWER-SIDE COSMETIC REJECT)
+      105 +IDEA 2 - SURPLUS MATCHING FOR GROWERS                         
+      106  ==============================================================
+           ==================
+      107  
+      108  PROBLEM
+      116 -Consumer food-waste apps are a crowded, and shrinking, market 
+          -- NZ household                                                
+      117 -waste is already FALLING (12.2% -> 10.9% of food bought; $3.2B
+          - -> $3.0B). The                                               
+      118 -loss that is not falling is upstream: produce culled pre-pack 
+          -for cosmetic                                                  
+      119 -irregularity, sold by the bin not the bag, which never enters 
+          -any retail                                                    
+      120 -inventory system and so is invisible to every existing platfor
+          -m.                                                            
+      109 +Produce is culled before packing for cosmetic reasons and sold
+          + by the bin, not                                              
+      110 +the bag. It never enters a retail inventory system, so no exis
+          +ting food-waste                                               
+      111 +platform can see it. Meanwhile household food waste in NZ is a
+          +lready falling -                                              
+      112 +12.2% to 10.9% of food bought, $3.2B to $3.0B - so the consume
+          +r end of the                                                  
+      113 +problem is shrinking while this end is not.                   
+      114  
+      122 -SDG - PLANET + PEOPLE (SDG 12.3 halve food waste / reduce food
+          - loss, and                                                    
+      123 -SDG 2.1 end hunger). Two indicators, one build.               
+      115 +SDG 12.3 (halve food waste) and SDG 2.1 (end hunger). Two indi
+          +cators, one build.                                            
+      116  
+      125 -KILLER DATA                                                   
+      126 -  - Lineage + NZ Food Network redirected >1,000 pallets / ~635
+          -,000 kg of frozen                                             
+      127 -    vegetables rejected PURELY for cosmetic irregularities. On
+          -e partnership.                                                
+      128 -  - 1 in 3 NZ households faced food insecurity in the past yea
+          -r (NZFN Hunger                                                
+      129 -    Monitor 2025, published Mar 2026). 15% moderate, 18% sever
+          -e.                                                            
+      130 -  - Uneven burden: Pacific peoples 64%, Maori 51%, ages 18-24 
+          -50%.                                                          
+      131 -  - Only 44% of food-insecure households ever accessed food re
+          -lief.                                                         
+      132 -  - 32% of food wasted globally; 25% of global fresh water goe
+          -s with it.                                                    
+      117 +THE NUMBERS                                                   
+      118 +  - NZ Food Network and Lineage redirected over 1,000 pallets 
+          +- about 635,000 kg                                            
+      119 +    - of frozen vegetables rejected only for cosmetic irregula
+          +rities.                                                       
+      120 +  - One in three NZ households faced food insecurity in the pa
+          +st year                                                       
+      121 +    (Hunger Monitor 2025, published March 2026).              
+      122 +  - The burden is uneven: Pacific peoples 64%, Maori 51%, ages
+          + 18-24 50%.                                                   
+      123 +  - Only 44% of food-insecure households have ever accessed fo
+          +od relief.                                                    
+      124  
+      134 -THE GAP (verified - this is the wedge)                        
+      135 -NZ food rescue matching is ROUTE-BASED AND MANUAL, not a marke
+          -tplace. NZFN's own                                            
+      136 -stated solution for bulk surplus is "be the single point of co
+          -ntact" - a human                                              
+      137 -broker. Regular donors sit on a fixed recurring route. No shar
+          -ed matching                                                   
+      138 -platform surfaced in any search across the NZ sector.         
+      139 -Incumbents and why they miss: Olio is C2C neighbour sharing. T
+          -oo Good To Go and                                             
+      140 -Flashfood are retail-shelf-shaped. Spoiler Alert is closest bu
+          -t packaged-CPG /                                              
+      141 -inventory-shaped. Imperfect Foods and Misfits Market attacked 
+          -cosmetic reject as                                            
+      142 -a D2C subscription BOX, not as a matching layer. Cosmetic reje
+          -cts are culled                                                
+      143 -before they exist as inventory, so none of these systems can s
+          -ee them.                                                      
+      125 +WHY THIS IS OPEN                                              
+      126 +NZ food rescue matching is route-based and manual. NZFN's stat
+          +ed approach for                                               
+      127 +bulk surplus is to act as a single point of contact - a human 
+          +broker. Regular                                               
+      128 +donors sit on fixed recurring routes.                         
+      129  
+      130 +The existing apps solve adjacent problems: Olio is neighbour-t
+          +o-neighbour,                                                  
+      131 +Too Good To Go and Flashfood work off retail shelves, Spoiler 
+          +Alert handles                                                 
+      132 +packaged goods and inventory. Imperfect Foods and Misfits Mark
+          +et turned cosmetic                                            
+      133 +rejects into a subscription box rather than a matching layer. 
+          +None of them can                                              
+      134 +see stock that is culled before it becomes inventory.         
+      135 +                                                              
+      136  APPROACH
+      146 -  1. Grower photographs a bin on their phone. A vision model g
+          -rades cosmetic                                                
+      147 -     reject class and estimates volume - this is the data-entr
+          -y step that kills                                             
+      148 -     grower participation everywhere, and it is genuinely mult
+          -imodal AI.                                                    
+      149 -  2. Constraint-solving matcher, NOT a chatbot:               
+      150 -        shelf-life x cold-chain availability x hub capacity   
+      151 -        x travel time x need-severity                         
+      152 -     Solve to an allocation across hubs. Show the solver's rea
+          -soning.                                                       
+      153 -  3. Impact ledger: kg diverted, meal-equivalents, CO2e avoide
+          -d, mapped to                                                  
+      154 -     SDG 12.3. Your dataviz slide writes itself.              
+      137 +  1. A grower photographs a bin. A vision model grades the rej
+          +ect class and                                                 
+      138 +     estimates volume. Manual data entry is what stops growers
+          + participating,                                               
+      139 +     so removing it matters more than it sounds.              
+      140 +  2. A matcher scores allocations against shelf life, cold sto
+          +rage                                                          
+      141 +     availability, hub capacity, travel time, and need severit
+          +y. This is a                                                  
+      142 +     scoring function, not a chatbot.                         
+      143 +  3. An impact ledger tracks kg diverted, meal equivalents, an
+          +d CO2e avoided,                                               
+      144 +     mapped to SDG 12.3.                                      
+      145  
+      156 -DOMAIN DEPTH (say this in the pitch, it signals you talked to 
+          -the sector)                                                   
+      157 -Food Act 2014 excludes food with compromised sanitary seals un
+          -less it is                                                    
+      158 -heated. Naming a real regulatory constraint separates you from
+          - teams who only                                               
+      159 -talked to an LLM.                                             
+      146 +DOMAIN DETAIL                                                 
+      147 +The Food Act 2014 excludes food with compromised sanitary seal
+          +s unless it is                                                
+      148 +heated. Naming a real constraint like this shows you looked at
+          + the sector.                                                  
+      149  
+      161 -SCALE STORY                                                   
+      162 -64 NZ food hubs, 2,000+ frontline groups, ~28 million meal-equ
+          -ivalents/yr                                                   
+      163 -already moving. You are not creating a network - you are givin
+          -g an existing                                                 
+      164 -one the layer it does not have.                               
+      150 +SCALE                                                         
+      151 +64 food hubs, 2,000+ frontline groups, roughly 28 million meal
+          + equivalents a                                                
+      152 +year already moving. You would be adding a layer to an existin
+          +g network rather                                              
+      153 +than building one.                                            
+      154  
+      166 -WHY 48H WORKS                                                 
+      167 -Vision grading = one API call with a rubric. Matcher = a scori
+          -ng function, not                                              
+      168 -an ML model; a greedy allocator demos identically to an optima
+          -l one at this                                                 
+      169 -scale. Dashboard is CRUD + map + chart.                       
+      155 +WHY 48 HOURS WORKS                                            
+      156 +Vision grading is one API call with a rubric. A greedy allocat
+          +or demos the same                                             
+      157 +as an optimal one at this scale. The dashboard is CRUD, a map,
+          + and a chart.                                                 
+      158  
+      171 -DEMO PATH                                                     
+      172 -Photo of a crate of ugly carrots -> graded -> matcher allocate
+          -s across three                                                
+      173 -mock hubs -> impact ledger ticks up in kg and meals. Then brea
+          -k it: mark a hub's                                            
+      174 -chiller offline mid-demo and let the solver re-allocate live. 
+      159 +DEMO                                                          
+      160 +Photograph a crate of misshapen carrots. It gets graded, the m
+          +atcher allocates                                              
+      161 +across three mock hubs, and the ledger updates. Then mark a hu
+          +b's chiller                                                   
+      162 +offline and let it reallocate.                                
+      163  
+      176 -RISK / SCOPE                                                  
+      177 -  - Two-sided marketplace with thin supply dies. Do NOT pitch 
+          -a marketplace.                                                
+      178 -    Pitch a tool for ONE broker (NZFN) who already has both si
+          -des.                                                          
+      179 -  - Fragmentation splits liquidity - acknowledge it and positi
+          -on as                                                         
+      180 -    complementary to NZFN, not competing.                     
+      164 +RISKS                                                         
+      165 +  - A two-sided marketplace with thin supply fails. Pitch it a
+          +s a tool for one                                              
+      166 +    broker who already has both sides, not as a marketplace.  
+      167 +  - Position it as complementary to NZFN rather than competing
+          +.                                                             
+      168  
+      182 -VERDICT: strongest overall balance. Local data, real gap, non-
+          -chatbot AI,                                                   
+      183 -two SDG indicators, scales past NZ to global post-harvest loss
+          -.                                                             
+      169 +The best-balanced option: local data, a real gap, AI that is n
+          +ot a chatbot, two                                             
+      170 +indicators, and a mechanism that works beyond NZ.             
+      171  
+      172  ==============================================================
+           ==================
+      186 -IDEA 3 - EGL REASSESSMENT NAVIGATOR (DISABILITY FUNDING SHOCK)
+      173 +IDEA 3 - DISABILITY FUNDING REASSESSMENT TOOL                 
+      174  ==============================================================
+           ==================
+      175  
+      176  PROBLEM
+      190 -NZ's disability support funding system is changing under peopl
+          -e's feet RIGHT                                                
+      191 -NOW, and the people affected cannot model what happens to them
+          -. From 1 Apr 2026                                             
+      192 -existing NASC users get a set budget with a limit. From 1 Oct 
+          -2026 reassessments                                            
+      193 -run under the new system. Budgets are derived from PAST SPENDI
+          -NG - so anyone who                                            
+      194 -underspent during a restrictive period risks being locked to t
+          -hat lower number.                                             
+      177 +NZ's disability support funding is changing now, and the peopl
+          +e affected cannot                                             
+      178 +work out what it means for them. From 1 April 2026 existing NA
+          +SC users get a set                                            
+      179 +budget with a limit. From 1 October 2026 reassessments run und
+          +er the new system.                                            
+      180 +Budgets are based on past spending, so anyone who underspent d
+          +uring a                                                       
+      181 +restrictive period risks being held to that lower figure.     
+      182  
+      196 -SDG - PEOPLE (SDG 10.2, empower and promote social/economic in
+          -clusion of all                                                
+      197 -irrespective of disability). Also SDG 16.6 accountable institu
+          -tions.                                                        
+      183 +SDG 10.2 (social and economic inclusion regardless of disabili
+          +ty).                                                          
+      184  
+      199 -WHY THIS IS THE TIMELIEST IDEA IN THE ROOM                    
+      200 -  - Waikato IS an EGL site. EGL Waikato and Mana Whaikaha whan
+          -au keep direct                                                
+      201 -    funding. Your venue sits inside the affected region. Judge
+          -s are local.                                                  
+      202 -  - Mid-Feb 2026: all NASCs and EGL sites moved to one assessm
+          -ent approach.                                                 
+      203 -  - 1 Oct 2026: reassessments begin. This is two months after 
+          -the hackathon.                                                
+      204 -  - Live contested policy: Blind Low Vision NZ flags Clauses 7
+          - and 8 of the                                                 
+      205 -    Disability Support Services Bill 2026 as a departure from 
+          -EGL - services                                                
+      206 -    framed as contributing to outcomes "within available fundi
+          -ng," and                                                      
+      207 -    family/community expected to come before State support.   
+      208 -  - CCS Disability Action (Budget 2026): community-based suppo
+          -rt squeezed while                                             
+      209 -    residential is protected - tilting away from flexible comm
+          -unity support.                                                
+      210 -  - NZ Disability Strategy 2026-2030 names EGL as its foundati
+          -on, but submitters                                            
+      211 -    said it does not go far enough on transport and access bar
+          -riers.                                                        
+      185 +WHY THE TIMING MATTERS                                        
+      186 +  - Waikato is an EGL site. EGL Waikato and Mana Whaikaha whan
+          +au keep direct                                                
+      187 +    funding. The event is inside the affected region and the j
+          +udges are local.                                              
+      188 +  - Reassessments start two months after the hackathon.       
+      189 +  - The policy is actively contested. Blind Low Vision NZ has 
+          +flagged clauses 7                                             
+      190 +    and 8 of the Disability Support Services Bill 2026 as a st
+          +ep away from EGL                                              
+      191 +    principles, framing support as "within available funding" 
+          +and putting family                                            
+      192 +    and community ahead of State support.                     
+      193 +  - CCS Disability Action says Budget 2026 squeezes community-
+          +based support                                                 
+      194 +    while protecting residential care.                        
+      195  
+      213 -APPROACH (this is a reasoning tool, not a chatbot)            
+      214 -  1. Budget simulator. Enter current supports -> model your al
+          -location under the                                            
+      215 -     new past-spending rule -> show the delta, and specificall
+          -y flag where the                                              
+      216 -     old March 2024 purchasing restrictions may have artificia
+          -lly suppressed                                                
+      217 -     your baseline. That is the exact harm advocates are warni
+          -ng about.                                                     
+      218 -  2. Evidence pack generator. RAG over the National Standards,
+          - the Feb 2026                                                 
+      219 -     fact sheet, and EGL principles -> produces a reassessment
+          - submission                                                   
+      220 -     arguing your actual need, with citations to the source cl
+          -auses.                                                        
+      221 -  3. Plain-language layer. Convert clause text to accessible s
+          -ummaries. Runs                                                
+      222 -     both directions - it also translates the whanau's account
+          - back into the                                                
+      223 -     assessor's vocabulary.                                   
+      196 +APPROACH                                                      
+      197 +  1. Budget simulator. Enter current supports, model the alloc
+          +ation under the                                               
+      198 +     new past-spending rule, and show the difference - flaggin
+          +g where the old                                               
+      199 +     March 2024 purchasing restrictions may have artificially 
+          +lowered someone's                                             
+      200 +     baseline. That is the specific harm advocates are warning
+          + about.                                                       
+      201 +  2. Evidence pack generator. Retrieval over the National Stan
+          +dards, the                                                    
+      202 +     February 2026 fact sheet, and EGL principles, producing a
+          + reassessment                                                 
+      203 +     submission with citations.                               
+      204 +  3. Plain-language layer. Turns clause text into readable sum
+          +maries, and works                                             
+      205 +     the other way too - putting a whanau's account into the a
+          +ssessor's terms.                                              
+      206  
+      225 -ACCESSIBILITY IS THE DESIGN SCORE                             
+      226 -This is the one idea where accessibility work is not a nice-to
+          --have - it IS the                                             
+      227 -product. WCAG 2.2 AA, screen-reader-first, keyboard-complete, 
+          -adjustable to                                                 
+      228 -cognitive/visual needs. You have an `accessibility` skill inst
+          -alled with a                                                  
+      229 -references/ directory. Use it and SAY you used it in the pitch
+          -.                                                             
+      207 +ACCESSIBILITY                                                 
+      208 +This is the one idea where accessibility is the product rather
+          + than a                                                       
+      209 +requirement to satisfy. WCAG 2.2 AA, screen-reader first, full
+          +y keyboard                                                    
+      210 +navigable. You have an accessibility skill installed with refe
+          +rence material.                                               
+      211  
+      231 -WHY 48H WORKS                                                 
+      232 -The simulator is arithmetic over a rules table. The evidence p
+          -ack is RAG over                                               
+      233 -maybe 40 pages of public PDFs. No training, no scraping, no au
+          -th.                                                           
+      212 +WHY 48 HOURS WORKS                                            
+      213 +The simulator is arithmetic over a rules table. The evidence p
+          +ack is retrieval                                              
+      214 +over roughly 40 pages of public PDFs. No training, scraping, o
+          +r authentication.                                             
+      215  
+      235 -DEMO PATH                                                     
+      236 -Two personas side by side: one whose budget survives, one whos
+          -e baseline was                                                
+      237 -suppressed by the 2024 rules. Same tool, different outcome, bo
+          -th explained.                                                 
+      238 -Then generate the second persona's evidence pack live.        
+      216 +DEMO                                                          
+      217 +Two personas side by side - one whose budget holds, one whose 
+          +baseline was                                                  
+      218 +suppressed by the 2024 rules. Same tool, different outcomes, b
+          +oth explained.                                                
+      219 +Then generate the second persona's evidence pack.             
+      220  
+      240 -RISK / SCOPE                                                  
+      241 -  - You are modelling contested policy. Label outputs "indicat
+          -ive, not a                                                    
+      242 -    determination." Cite every rule to its source document.   
+      243 -  - Do NOT scrape or invent personal data. Use synthetic perso
+          -nas only.                                                     
+      244 -  - Get the rules right or don't ship - a wrong number here ha
+          -rms real people.                                              
+      245 -    Say that in the pitch. Judges notice teams who name their 
+          -own risk.                                                     
+      221 +RISKS                                                         
+      222 +  - You are modelling contested policy. Label outputs as indic
+          +ative, not                                                    
+      223 +    determinations, and cite every rule to its source.        
+      224 +  - Use synthetic personas only.                              
+      225 +  - Get the rules right or do not ship. A wrong number here af
+          +fects real people,                                            
+      226 +    and saying so in the pitch is worth more than hiding it.  
+      227  
+      247 -VERDICT: highest Inspiration ceiling, strongest local resonanc
+          -e, and the only                                               
+      248 -idea where the accessibility brief and the technical brief are
+          - the same work.                                               
+      228 +Strongest local resonance, and the only idea where the accessi
+          +bility brief and                                              
+      229 +the technical work are the same thing.                        
+      230  
+      231  ==============================================================
+           ==================
+      251 -IDEA 4 - E-WASTE REVERSE-LOGISTICS MATCHER                    
+      232 +IDEA 4 - E-WASTE ROUTING                                      
+      233  ==============================================================
+           ==================
+      234  
+      235  PROBLEM
+      255 -NZ generates ~99,000 tonnes of e-waste a year through VOLUNTAR
+          -Y schemes only.                                               
+      256 -NZ is the OECD outlier: producer participation is not mandator
+          -y and there is no                                             
+      257 -extended producer responsibility framework, unlike every other
+          - OECD nation.                                                 
+      258 -AS/NZS e-waste recycling standards exist but are not mandatory
+          -. ITU ranked NZ                                               
+      259 -and Australia highest e-waste per capita globally, among the l
+          -owest documented                                              
+      260 -recycling rates.                                              
+      236 +New Zealand produces about 99,000 tonnes of e-waste a year und
+          +er voluntary                                                  
+      237 +schemes only. It is the OECD outlier - producer participation 
+          +is not mandatory                                              
+      238 +and there is no extended producer responsibility framework, un
+          +like every other                                              
+      239 +OECD country. The AS/NZS recycling standards exist but are not
+          + binding.                                                     
+      240  
+      262 -SDG - PLANET (SDG 12.5 substantially reduce waste generation, 
+          -and 12.4 sound                                                
+      263 -management of chemicals and wastes). Indicator 12.5.1 national
+          - recycling rate -                                             
+      264 -which NZ largely cannot report, and that IS the story.        
+      241 +SDG 12.5 (reduce waste generation). Indicator 12.5.1 is the na
+          +tional recycling                                              
+      242 +rate, which NZ largely cannot report - and that is part of the
+          + story.                                                       
+      243  
+      266 -THE SIX-YEAR GAP (this is your slide)                         
+      267 -  - 2020: e-waste designated a priority product requiring mand
+          -atory stewardship                                             
+      268 -  - Jul 2020 - May 2023: TechCollect NZ ran the co-design for 
+          -a regulated scheme                                            
+      269 -  - Mid-2026: regulations still NOT in force. No implementatio
+          -n date set.                                                   
+      270 -  - All six 2020 priority product groups still in co-design / 
+          -consultation /                                                
+      271 -    regulatory impact assessment / policy drafting.           
+      272 -  Designation to nothing, six years and counting. Meanwhile 99
+          -kt/yr flows.                                                  
+      244 +THE GAP                                                       
+      245 +E-waste was designated a priority product requiring mandatory 
+          +stewardship in                                                
+      246 +2020. TechCollect NZ ran the co-design between 2020 and 2023. 
+          +As of mid-2026 the                                            
+      247 +regulations are still not in force and no implementation date 
+          +is set. All six                                               
+      248 +2020 priority product groups remain in consultation or draftin
+          +g. Six years, and                                             
+      249 +99,000 tonnes a year continues to flow.                       
+      250  
+      251  APPROACH
+      275 -  1. Drop-off intelligence. Photo of a device -> vision model 
+          -identifies type,                                              
+      276 -     hazardous fractions, and whether TechCollect's free netwo
+          -rk takes it, plus                                             
+      277 -     the nearest actual accepting point (Noel Leeming, Warehou
+          -se Stationery,                                                
+      278 -     council partners). Today this is a maze; most people give
+          - up and landfill.                                             
+      279 -  2. Repair-before-recycle triage. Route repairable devices to
+          - repair cafes and                                             
+      280 -     refurbishers first. Recycling is the LAST rung of the was
+          -te hierarchy and                                              
+      281 -     almost every e-waste tool skips straight to it.          
+      282 -  3. Stewardship-readiness ledger. Aggregate anonymised flows 
+          -into the reporting                                            
+      283 -     shape a regulated scheme WILL require. When regulations l
+          -and, the data                                                 
+      284 -     model already exists. This is the part nobody is building
+          -.                                                             
+      252 +  1. Drop-off guidance. Photograph a device; a vision model id
+          +entifies the type                                             
+      253 +     and hazardous components, then finds the nearest point th
+          +at actually                                                   
+      254 +     accepts it. Right now this is confusing enough that peopl
+          +e give up and                                                 
+      255 +     landfill it.                                             
+      256 +  2. Repair before recycle. Route repairable devices to repair
+          + cafes and                                                    
+      257 +     refurbishers first. Recycling is the last step in the was
+          +te hierarchy, but                                             
+      258 +     most tools skip straight to it.                          
+      259 +  3. Reporting ledger. Aggregate anonymised flows into the sha
+          +pe a regulated                                                
+      260 +     scheme will eventually require, so the data model exists 
+          +when regulations                                              
+      261 +     land.                                                    
+      262  
+      286 -LOW-BANDWIDTH BY DESIGN                                       
+      287 -SMS/USSD path with no smartphone assumed - this is what makes 
+          -it exportable to                                              
+      288 -LMIC informal-collector economies, where 12.5 is weakest globa
+          -lly. Niche in                                                 
+      289 -Hamilton, universal in mechanism.                             
+      263 +LOW BANDWIDTH                                                 
+      264 +An SMS path that assumes no smartphone makes it usable in plac
+          +es where informal                                             
+      265 +collectors do this work, which is where 12.5 is weakest global
+          +ly.                                                           
+      266  
+      291 -WHY 48H WORKS                                                 
+      292 -Vision ID is one API call. The accepting-points map is a small
+          - curated dataset                                              
+      293 -you can assemble by hand in an hour. The ledger is a schema pl
+          -us a chart.                                                   
+      267 +WHY 48 HOURS WORKS                                            
+      268 +Vision identification is one API call. The list of accepting p
+          +oints is small                                                
+      269 +enough to assemble by hand. The ledger is a schema and a chart
+          +.                                                             
+      270  
+      295 -DEMO PATH                                                     
+      296 -Photo an old phone and a dead microwave. One routes to repair,
+          - one to a named                                               
+      297 -hazardous-fraction recycler, one is refused by the voluntary s
+          -cheme entirely -                                              
+      298 -and THAT refusal is logged as the policy-gap datapoint. Show t
+          -he ledger filling                                             
+      299 -with exactly the evidence a regulator would need.             
+      271 +DEMO                                                          
+      272 +Photograph an old phone and a dead microwave. One routes to re
+          +pair, one to a                                                
+      273 +named recycler, and one is refused by the voluntary scheme ent
+          +irely - that                                                  
+      274 +refusal gets logged as evidence of the policy gap.            
+      275  
+      301 -RISK / SCOPE                                                  
+      302 -  - Don't over-promise the regulator angle; frame as "scheme-r
+          -eady data model."                                             
+      303 -  - Curate the accepting-points list manually. Do not build a 
+          -scraper in 48h.                                               
+      276 +RISKS                                                         
+      277 +  - Frame the regulatory angle as a scheme-ready data model, n
+          +ot a claim to                                                 
+      278 +    influence policy.                                         
+      279 +  - Curate the accepting-points list manually rather than buil
+          +ding a scraper.                                               
+      280  
+      305 -VERDICT: best "measurable, reportable, policy-relevant" story.
+          - Weakest emotional                                            
+      306 -hook of the four - the pitch must carry it. Pair with a human 
+          -story or skip.                                                
+      281 +Best reporting story of the five. Weakest emotional hook, so t
+          +he pitch has to                                               
+      282 +carry it.                                                     
+      283  
+      284  ==============================================================
+           ==================
+      285  IDEA 5 - NEIGHBOURHOOD SDG INDICATOR GENERATOR
+      286  ==============================================================
+           ==================
+      287  
+      288  PROBLEM
+      313 -The biggest gap in SDG 11 is not advice - it is MEASUREMENT. F
+          -ewer than a third                                             
+      314 -of sustainable-cities indicators have data at all. Urban data 
+          -gaps persist                                                  
+      315 -especially at city and neighbourhood level and for vulnerable 
+          -groups, and                                                   
+      316 -conventional collection systems remain underfunded and uneven.
+          - HLPF 2026                                                    
+      317 -explicitly pushes "urban data systems as a public good." You c
+          -annot fix what                                                
+      318 -nobody counts.                                                
+      289 +The main gap in SDG 11 is measurement. Fewer than a third of s
+          +ustainable-cities                                             
+      290 +indicators have data at all, and coverage is worst at neighbou
+          +rhood level and                                               
+      291 +for vulnerable groups. HLPF 2026 called for urban data systems
+          + as a public good.                                            
+      292  
+      320 -SDG - PLANET + PROSPERITY (SDG 11.7 universal access to safe, 
+          -inclusive,                                                    
+      321 -accessible green and public spaces; and 11.3 inclusive urbanis
+          -ation).                                                       
+      322 -Indicator 11.7.1 = average share of built-up area that is open
+          - public space.                                                
+      293 +SDG 11.7, access to safe and inclusive public space. Indicator
+          + 11.7.1 is the                                                
+      294 +average share of built-up area that is open public space.     
+      295  
+      324 -WHY IT IS OFF TRACK (the data that opens the pitch)           
+      325 -  - Access to open public space FELL 48.0% -> 45.9% (2020-2025
+          -) across 414                                                  
+      326 -    cities in 126 countries. It is going backwards.           
+      327 -  - SDG 11 remains off track overall despite gains in transpor
+          -t and waste.                                                  
+      328 -  - ~1.1 billion people live in slums or slum-like conditions;
+          - +2 billion                                                   
+      329 -    projected over 30 years.                                  
+      330 -  - Globally only 7.6% of resources are circulated.           
+      296 +THE NUMBERS                                                   
+      297 +  - Access to open public space fell from 48.0% to 45.9% betwe
+          +en 2020 and 2025                                              
+      298 +    across 414 cities in 126 countries. It is going backwards.
+      299 +  - About 1.1 billion people live in slums or slum-like condit
+          +ions, with another                                            
+      300 +    2 billion projected over 30 years.                        
+      301  
+      302  APPROACH
+      333 -  1. Compute, don't survey. Free satellite imagery + OpenStree
+          -tMap + segmentation                                           
+      334 -     model -> estimate open-public-space share for a chosen ne
+          -ighbourhood, and                                              
+      335 -     output it in the exact shape UN-Habitat's 11.7.1 methodol
+          -ogy expects.                                                  
+      336 -  2. Ground-truth loop. Residents contribute phone photos; a v
+          -ision model checks                                            
+      337 -     whether mapped "public space" is actually accessible - fe
+          -nced, locked,                                                 
+      338 -     paved over, or genuinely usable. This is the disaggregati
+          -on gap, and it is                                             
+      339 -     the part satellites structurally cannot see.             
+      340 -  3. Validate against a published number. Pick a city UN-Habit
+          -at has already                                                
+      341 -     measured, run your pipeline, and show your estimate next 
+          -to theirs on                                                  
+      342 -     stage. A judge can verify you in real time. Almost no hac
+          -kathon team ever                                              
+      343 -     offers that.                                             
+      303 +  1. Compute rather than survey. Free satellite imagery, OpenS
+          +treetMap, and a                                               
+      304 +     segmentation model estimate open public space share for a
+          + neighbourhood,                                               
+      305 +     output in the form UN-Habitat's methodology expects.     
+      306 +  2. Ground-truth layer. Residents contribute phone photos and
+          + a vision model                                               
+      307 +     checks whether mapped public space is actually accessible
+          + - fenced, locked,                                            
+      308 +     paved over, or usable. Satellites cannot see this.       
+      309 +  3. Validate publicly. Run it on a city UN-Habitat has alread
+          +y measured and                                                
+      310 +     show your estimate next to theirs. Judges can check you o
+          +n the spot, which                                             
+      311 +     few teams offer.                                         
+      312  
+      345 -WHY THIS SCORES ON TECHNOLOGY                                 
+      346 -Segmentation + geospatial + a validation harness is real engin
+          -eering, not an API                                            
+      347 -wrapper. This is the Technical Brilliance Prize lane.         
+      313 +WHY 48 HOURS WORKS                                            
+      314 +A pre-trained segmentation model, OpenStreetMap via the Overpa
+          +ss API, one city,                                             
+      315 +one indicator. The discipline is keeping it to exactly that.  
+      316  
+      349 -WHY 48H WORKS                                                 
+      350 -Pre-trained segmentation model, OSM via Overpass API, one city
+          -, one indicator.                                              
+      351 -Scope discipline is the whole trick: ONE indicator, ONE neighb
+          -ourhood, validated.                                           
+      317 +DEMO                                                          
+      318 +Run it on a Hamilton suburb and show the computed figure. Then
+          + show the resident                                            
+      319 +photo layer downgrading a park that turns out to be fenced off
+          +, and explain why                                             
+      320 +the satellite reading was wrong.                              
+      321  
+      353 -DEMO PATH                                                     
+      354 -Run it live on a Hamilton suburb. Show the computed 11.7.1 num
+          -ber. Then show the                                            
+      355 -resident-photo layer downgrading a "park" that is fenced off -
+          - the number moves,                                            
+      356 -and you explain why the satellite was wrong.                  
+      322 +RISKS                                                         
+      323 +  - Highest technical risk here. Segmentation quality is unpre
+          +dictable and hard                                             
+      324 +    to debug late on day two.                                 
+      325 +  - Pre-compute the demo results and keep a cached fallback.  
+      326 +  - Skip this unless someone on the team has done geospatial o
+          +r computer vision                                             
+      327 +    work before.                                              
+      328  
+      358 -RISK / SCOPE                                                  
+      359 -  - Highest technical risk of the five. Segmentation quality i
+          -s unpredictable                                               
+      360 -    and you cannot debug a model at 2am on Day 2.             
+      361 -  - Pre-compute results for your demo city BEFORE the pitch. N
+          -ever run inference                                            
+      362 -    live on stage without a cached fallback.                  
+      363 -  - If the team is not comfortable with geospatial, do not pic
+          -k this.                                                       
+      329 +Highest technical ceiling, highest chance of a broken demo.   
+      330  
+      365 -VERDICT: highest ceiling for Technical Brilliance, highest ris
+          -k of a broken                                                 
+      366 -demo. Pick only with someone who has done geospatial or CV wor
+          -k before.                                                     
+      367 -                                                              
+      331  ==============================================================
+           ==================
+      332  COMPARISON
+      333  ==============================================================
+           ==================
+      334  
+      372 -  #  IDEA                    SDG          NOVELTY   48H RISK  
+          -EMOTION  TECH                                                 
+      373 -  1  Cold-chain response     3.b.1        MED*      LOW       
+          -HIGH     MED                                                  
+      374 -  2  Upstream surplus broker 12.3 + 2.1   HIGH      LOW       
+          -HIGH     MED                                                  
+      375 -  3  EGL navigator           10.2         HIGH      LOW       
+          -HIGHEST  MED                                                  
+      376 -  4  E-waste matcher         12.5         MED-HIGH  LOW       
+          -LOW      MED                                                  
+      377 -  5  SDG indicator generator 11.7.1       HIGH      HIGH      
+          -MED      HIGH                                                 
+      335 +  #  Idea                     SDG          Novelty    48h risk
+          +  Emotion  Tech                                               
+      336 +  1  Cold-chain decisions     3.b.1        Medium*    Low     
+          +  High     Med                                                
+      337 +  2  Grower surplus matching  12.3 + 2.1   High       Low     
+          +  High     Med                                                
+      338 +  3  Disability funding tool  10.2         High       Low     
+          +  Highest  Med                                                
+      339 +  4  E-waste routing          12.5         Med-high   Low     
+          +  Low      Med                                                
+      340 +  5  Indicator generator      11.7.1       High       High    
+          +  Medium   High                                               
+      341  
+      379 -  * MED only if pitched as the response layer. LOW if pitched 
+          -as a logger -                                                 
+      380 -    ColdTrace X already owns that and is WHO-prequalified.    
+      342 +  * Medium only if pitched as the decision layer. Low if pitch
+          +ed as a logger,                                               
+      343 +    since ColdTrace X already covers that.                    
+      344  
+      382 -RECOMMENDATION                                                
+      383 -  Best all-round balance ................. #2 Upstream surplus
+          - broker                                                       
+      384 -  Best local resonance + Inspiration ..... #3 EGL navigator   
+      385 -  Best Technical Brilliance play ......... #5 Indicator genera
+          -tor                                                           
+      386 -  Safest hardware demo ................... #1 (reframed as res
+          -ponse layer)                                                  
+      345 +SUGGESTED PICKS                                               
+      346 +  Best all round          #2                                  
+      347 +  Best local resonance    #3                                  
+      348 +  Best technical showing  #5                                  
+      349 +  Safest hardware demo    #1, reframed                        
+      350  
+      388 -  Hedge worth considering: #1's hardware theatre (probe in ice
+          -) is the single                                               
+      389 -  most memorable 15 seconds available to any team in that room
+          -. If your team has                                            
+      390 -  an embedded person, the physical prop is a genuine presentat
+          -ion advantage that                                            
+      391 -  a pure web app cannot buy - just make sure the software behi
+          -nd it is the                                                  
+      392 -  triage layer, not another logger.                           
+      351 +  Worth weighing: the probe-in-ice moment in #1 is the most me
+          +morable few                                                   
+      352 +  seconds available to any team in the room, and a web app can
+          +not match it. If                                              
+      353 +  someone on the team does embedded work, keep the prop - just
+          + make sure the                                                
+      354 +  software behind it is the decision layer.                   
+      355  
+      394 -TEAM SPLIT (from the run sheet - Day 2, 12pm)                 
+      395 -Teams split at noon on Day 2: half keep hacking, half build th
+          -e pitch. Decide                                               
+      396 -BEFORE the event who is on which side. The 30 minutes between 
+          -end of hack and                                               
+      397 -start of pitching is your only rejoin window.                 
+      356 +NOT INCLUDED                                                  
+      357 +  Rural volunteer transport matching was considered and droppe
+          +d. Road XS,                                                   
+      358 +  Spedsta, and Assisted Rides already do it, and Hato Hone St 
+          +John and the                                                  
+      359 +  Cancer Society already run the NZ services. Where it has bee
+          +n studied, the                                                
+      360 +  bottleneck is human coordination, not the matching software.
+      361  
+      399 -PITCH STRUCTURE (5 min max, from the official template)       
+      400 -  0:30  CONNECT       who are you, what is your passion       
+      401 -  1:00  PROBLEM       who/what is impacted, humanise it, KILLE
+          -R DATA                                                        
+      402 -  2:00  BIG IDEA      how it solves it, how it meets the brief
+          -, SHOW PROTOTYPE                                              
+      403 -  1:30  FUTURE IMPACT what changes, why care, what you need, w
+          -hat it means                                                  
+      362 +PRACTICAL NOTES                                               
+      363 +  Teams split at noon on day two - half keep building, half pr
+          +epare the pitch.                                              
+      364 +  Agree who is on which side beforehand. The 30 minutes betwee
+          +n the end of the                                              
+      365 +  hack and the start of pitching is the only window to regroup
+          +.                                                             
+      366  
+      405 -Note the template's own instruction: describe the problem you 
+          -ARE solving, not                                              
+      406 -necessarily the one you set out to solve.                     
+      367 +  Pitch structure, from the official template:                
+      368 +    0:30  Connect  - who you are, what you care about         
+      369 +    1:00  Problem  - who is affected, made human, with data   
+      370 +    2:00  Big idea - how it solves the problem, plus the proto
+          +type                                                          
+      371 +    1:30  Impact   - what changes, what you need, what it mean
+          +s longer term                                                 
+      372  
+      373 +  The template notes: describe the problem you are solving, wh
+          +ich may not be                                                
+      374 +  the one you set out to solve.                               
+      375 +                                                              
+      376  ==============================================================
+           ==================
+      377  SOURCES
+      378  ==============================================================
+           ==================
+      379  SDG
+      412 -  UN SDG Report 2026            https://unstats.un.org/sdgs/re
+          -port/2026/                                                    
+      413 -  SDSN Report 2026              https://dashboards.sdgindex.or
+          -g/                                                            
+      414 -  UN-Habitat SDG 11 Report 2026 https://unhabitat.org/sdg-11-g
+          -lobal-report-2026-housing-at-the-centre-of-sustainable-cities-
+          -and-communities                                               
+      380 +  UN SDG Report 2026        https://unstats.un.org/sdgs/report
+          +/2026/                                                        
+      381 +  SDSN Report 2026          https://dashboards.sdgindex.org/  
+      382 +  UN-Habitat SDG 11 2026    https://unhabitat.org/sdg-11-globa
+          +l-report-2026-housing-at-the-centre-of-sustainable-cities-and-
+          +communities                                                   
+      383  
+      384  COLD CHAIN
+      417 -  Health NZ cold chain standards https://www.tewhatuora.govt.n
+          -z/health-services-and-programmes/vaccine-information/vaccine-s
+          -ervice-delivery/cold-chain-standards-for-vaccines/            
+      418 -  National Standards 2017 (2nd)  https://www.tewhatuora.govt.n
+          -z/assets/For-the-health-sector/Health-sector-guidance/Vaccine-
+          -information-for-healthcare-professionals/National-Standards-fo
+          -r-Vaccine-Storage-and-Transportation-for-Immunisation-Provider
+          -s-2017-2nd-edition.pdf                                        
+      419 -  IMAC cold chain                https://immune.org.nz/vaccine
+          -s/cold-chain                                                  
+      420 -  Nexleaf ColdTrace (incumbent)  https://www.nexleaf.org/work/
+          -vaccines/                                                     
+      385 +  Health NZ standards       https://www.tewhatuora.govt.nz/hea
+          +lth-services-and-programmes/vaccine-information/vaccine-servic
+          +e-delivery/cold-chain-standards-for-vaccines/                 
+      386 +  National Standards 2017   https://www.tewhatuora.govt.nz/ass
+          +ets/For-the-health-sector/Health-sector-guidance/Vaccine-infor
+          +mation-for-healthcare-professionals/National-Standards-for-Vac
+          +cine-Storage-and-Transportation-for-Immunisation-Providers-201
+          +7-2nd-edition.pdf                                             
+      387 +  IMAC cold chain           https://immune.org.nz/vaccines/col
+          +d-chain                                                       
+      388 +  Nexleaf ColdTrace         https://www.nexleaf.org/work/vacci
+          +nes/                                                          
+      389  
+      390  FOOD
+      423 -  NZFN Hunger Monitor 2025       https://www.nzfoodnetwork.org
+          -.nz/wp-content/uploads/2026/03/NZFN-Hunger-Monitor-2025-Digita
+          -l.pdf                                                         
+      424 -  NZFN impact / waste stats      https://www.nzfoodnetwork.org
+          -.nz/our-impact/                                               
+      425 -  NZFN + Lineage partnership     https://www.nzfoodnetwork.org
+          -.nz/food-rescue-partnership-nz-food-network-lineage-grant/    
+      426 -  Rabobank food waste            https://www.rabobank.co.nz/co
+          -mmunity/food-waste                                            
+      427 -  PMCSA food rescue evidence     https://www.pmcsa.ac.nz/topic
+          -s/food-rescue-food-waste/                                     
+      391 +  Hunger Monitor 2025       https://www.nzfoodnetwork.org.nz/w
+          +p-content/uploads/2026/03/NZFN-Hunger-Monitor-2025-Digital.pdf
+      392 +  NZFN impact stats         https://www.nzfoodnetwork.org.nz/o
+          +ur-impact/                                                    
+      393 +  NZFN + Lineage            https://www.nzfoodnetwork.org.nz/f
+          +ood-rescue-partnership-nz-food-network-lineage-grant/         
+      394 +  Rabobank food waste       https://www.rabobank.co.nz/communi
+          +ty/food-waste                                                 
+      395 +  PMCSA food rescue         https://www.pmcsa.ac.nz/topics/foo
+          +d-rescue-food-waste/                                          
+      396  
+      397  DISABILITY
+      430 -  DSS Feb 2026 fact sheet        https://www.disabilitysupport
+          -.govt.nz/disabled-people/improvements-to-disability-support-se
+          -rvices/february-2026-fact-sheet                               
+      431 -  NZ Disability Strategy 26-30   https://www.whaikaha.govt.nz/
+          -assets/NZDS-26-30-Documents/NZDS-2026-2030.pdf                
+      432 -  CCS Budget 2026 statement      https://www.ccsdisabilityacti
+          -on.org.nz/news/budget-2026-statement                          
+      433 -  Blind Low Vision NZ submission https://blindlowvision.org.nz
+          -/news/submission-on-the-disability-support-services-bill-2026/
+      398 +  DSS Feb 2026 fact sheet   https://www.disabilitysupport.govt
+          +.nz/disabled-people/improvements-to-disability-support-service
+          +s/february-2026-fact-sheet                                    
+      399 +  Disability Strategy 26-30 https://www.whaikaha.govt.nz/asset
+          +s/NZDS-26-30-Documents/NZDS-2026-2030.pdf                     
+      400 +  CCS Budget 2026           https://www.ccsdisabilityaction.or
+          +g.nz/news/budget-2026-statement                               
+      401 +  Blind Low Vision NZ       https://blindlowvision.org.nz/news
+          +/submission-on-the-disability-support-services-bill-2026/     
+      402  
+      403  E-WASTE
+      436 -  TechCollect NZ stewardship     https://techcollect.nz/e-wast
+          -e-product-stewardship-new-zealand/                            
+      437 -  E-waste in NZ overview         https://en.wikipedia.org/wiki
+          -/Electronic_waste_in_New_Zealand                              
+      404 +  TechCollect NZ            https://techcollect.nz/e-waste-pro
+          +duct-stewardship-new-zealand/                                 
+      405 +  E-waste in NZ             https://en.wikipedia.org/wiki/Elec
+          +tronic_waste_in_New_Zealand                                   
+      406  
+      439 -DATA / TOOLING                                                
+      440 -  data.govt.nz APIs (CKAN)       https://data.govt.nz/catalogu
+          -e-guide/using-data-govt-nz-apis                               
+      441 -  NZ AI Strategy                 https://www.mbie.govt.nz/asse
+          -ts/new-zealands-strategy-for-artificial-intelligence.pdf      
+      407 +DATA AND TOOLING                                              
+      408 +  data.govt.nz APIs         https://data.govt.nz/catalogue-gui
+          +de/using-data-govt-nz-apis                                    
+      409 +  NZ AI Strategy            https://www.mbie.govt.nz/assets/ne
+          +w-zealands-strategy-for-artificial-intelligence.pdf           
+      410  
+      443 -JUDGING SIGNAL                                                
+      444 -  GitLab AI Hackathon 2026       https://about.gitlab.com/blog
+          -/gitlab-ai-hackathon-2026-meet-the-winners/                   
+      411 +JUDGING                                                       
+      412 +  GitLab AI Hackathon 2026  https://about.gitlab.com/blog/gitl
+          +ab-ai-hackathon-2026-meet-the-winners/                        
+      413  
+      446 -NOTE ON DATA CURRENCY                                         
+      447 -  data.govt.nz docs reference CKAN 2.7 (old). Hit /api/3/actio
+          -n/status_show live                                            
+      448 -  before coding against 2.7 docs. DataStore only exists where 
+          -a clean CSV was                                               
+      449 -  supplied - many listings are metadata-only links to agency s
+          -ites.                                                         
+      414 +TECHNICAL NOTES                                               
+      415 +  data.govt.nz documentation references CKAN 2.7, which is old
+          +. Check                                                       
+      416 +  /api/3/action/status_show before coding against those docs. 
+          +The DataStore API                                             
+      417 +  only exists where a clean CSV was supplied; many listings ar
+          +e metadata-only                                               
+      418 +  links to agency sites.                                      
+      419  
+      451 -  Claude Sonnet 5 pricing rises to $3/$15 per M tokens after 3
+          -1 Aug 2026.                                                   
+      420 +  Claude Sonnet 5 pricing rises to $3/$15 per million tokens a
+          +fter 31 Aug 2026.                                             
+      421  
+      422  ==============================================================
+           ==================
+
+> reformat it as a google docs compatible docx file.                            
+
+● Rewritten. Same five ideas, same content, easier to read.
+
+  What changed:
+
+  - Dropped the shouting. No >>> NOVELTY WARNING <<<, no "killer data", no "this
+  is the wedge", no "that slide writes itself". Section headers are plain now.
+  - Cut the jargon. "dose disposition" survives once as a defined term instead
+  of a label; "RAG" became "retrieval"; "agentic triage" became "the decision
+  layer"; "multimodal" and "constraint-solving matcher" are described rather
+  than named.
+  - Removed tip-stacking. Risks are 2–3 real ones per idea, not a checklist. Cut
+  the redundant advice ("Deployed beats localhost", "name the beneficiary",
+  "pair with a human story or skip").
+  - Verdict lines are now sentences, not VERDICT: stamps.
+  - Moved the dropped transport idea into a short "Not included" note so the
+  reasoning is on record without cluttering the ideas.
+  - Consistent framing across all five: problem → SDG → why it's open → approach
+  → why 48h → demo → risks.
+
+  Two things I deliberately kept because they're the load-bearing facts:
+
+  The ColdTrace X note stays in Idea 1. It's the single thing that changes
+  whether that idea wins or loses, so burying it would be a disservice — but it
+  now reads as context rather than an alarm.
+
+  Numbers stayed exact throughout: 635,000 kg, 17% → 2%, 48.0% → 45.9%, 99,000
+  tonnes. Those are what make the pitches credible.
+
+✻ Churned for 1m 50s
+
+> reformat as google docs compatible file                                       
+
+● Building a real .docx with heading styles, tables, and live hyperlinks so it
+  imports cleanly into Google Docs.
+
+  Ran 1 shell command (ctrl+o to expand)
+
+● Write(build_docx.py)
+  ⎿  Wrote 642 lines to build_docx.py
+      1 # -*- coding: utf-8 -*-
+      2 """Build a Google Docs compatible .docx of the hackathon ideation
+         doc."""
+      3 import docx
+      4 from docx import Document
+      5 from docx.shared import Pt, Inches, RGBColor
+      6 from docx.enum.text import WD_ALIGN_PARAGRAPH
+      7 from docx.enum.table import WD_TABLE_ALIGNMENT
+      8 from docx.oxml.ns import qn
+      9 from docx.oxml import OxmlElement
+     … +843 lines (ctrl+o to expand)
+
+  Ran 1 shell command (ctrl+o to expand)
+
+● Verifying it opens and structure is intact.
+
+  Ran 2 shell commands (ctrl+o to expand)
+
+● Done. AI Hackathon 2026 - Ideation.docx in your project folder.
+
+  Verified: 5 tables, 21 live hyperlinks, 7 page breaks, proper heading
+  hierarchy (Title → H1 → H2 → H3), no encoding damage on the macrons (Māori,
+  whānau) or symbols (±, °C, CO₂e, —).
+
+  Why it imports cleanly into Google Docs: everything uses real Word styles
+  rather than manual formatting. So Google Docs builds its outline sidebar
+  automatically from the headings, and the tables stay editable rather than
+  flattening into text.
+
+  Structure:
+
+  ┌────────────┬─────────────────────────────────────────────────────────────┐
+  │  Section   │                          Contents                           │
+  ├────────────┼─────────────────────────────────────────────────────────────┤
+  │ The brief  │ Judging + prizes tables, what scores well, context          │
+  ├────────────┼─────────────────────────────────────────────────────────────┤
+  │ Ideas 1–5  │ One per page, same shape: Problem → SDG → why it's open →   │
+  │            │ Approach → Build and demo → Risks                           │
+  ├────────────┼─────────────────────────────────────────────────────────────┤
+  │ Comparison │ Scoring matrix, suggested picks, what was dropped, pitch    │
+  │            │ timing table                                                │
+  ├────────────┼─────────────────────────────────────────────────────────────┤
+  │ Sources    │ Grouped by topic, all clickable                             │
+  └────────────┴─────────────────────────────────────────────────────────────┘
+
+  Two formatting choices worth knowing: each idea starts on its own page, so you
+  can reorder or delete one without reflowing the rest. And the verdict line at
+  the end of each idea is italic grey, so it reads as a note rather than
+  competing with body text.
+
+  To open it: upload to Google Drive, then right-click → Open with → Google
+  Docs. That converts it to native Docs format. Opening directly from Drive
+  preview will show it read-only.
+
+  Left IDEATION.txt in place as the plain-text version, and build_docx.py so you
+  can regenerate after edits. Say the word if you'd rather I delete either.
+
+✻ Brewed for 2m 54s
+
+> /using-superpowers add this and extrapolate it. integrate it properly within  
+this docx and also make sure headings and tabs are used. add this i mean: IDEA  
+6: Patient Health Literacy & Informed Consent                                   
+The Issue: Medical discharge notes, surgical consent forms, and diagnostic      
+reports are filled with complex jargon that patients struggle to understand,    
+leading to poor post-care compliance.                                           
+Software Solution: An AI-powered web tool/browser extension that ingests PDF    
+health records or clinical notes and generates interactive visual breakdowns,   
+plain-language summaries, and a Q&A chatbot tailored to the patient’s reading   
+level.                                                                          
+
+> /last30days add this and extrapolate it. integrate it properly within this    
+docx and also make sure headings and tabs are used. add this i mean: IDEA 6:    
+Patient Health Literacy & Informed Consent                                      
+The Issue: Medical discharge notes, surgical consent forms, and diagnostic      
+reports are filled with complex jargon that patients struggle to understand,    
+leading to poor post-care compliance.                                           
+Software Solution: An AI-powered web tool/browser extension that ingests PDF    
+health records or clinical notes and generates interactive visual breakdowns,   
+plain-language summaries, and a Q&A chatbot tailored to the patient’s reading   
+level.                                                                          
+
+● Researching before writing — need to check novelty and NZ specifics for this
+  one.
+
+● Web Search("patient friendly discharge summary AI plain language existing
+            tools Epic MyChart 2026")
+  ⎿  Did 1 search in 18s
+● Web Search("New Zealand health literacy statistics Māori Pacific informed
+            consent Code of Rights")
+  ⎿  Did 1 search in 13s
+
+● Web Search("HDC Code of Rights Right 5 effective communication Right 6
+            information interpreter New Zealand")
+  ⎿  Did 1 search in 10s
+
+● Web Search("New Zealand hospital readmission rates discharge non-compliance
+            cost 2026 Health NZ")
+  ⎿  Did 2 searches in 14s
+
+● Research changes two things about this idea. Editing the build script.
+
+● Update(build_docx.py)
+  ⎿  Added 103 lines
+      512  
+      513  doc.add_page_break()
+      514  
+      515 +# ============================== IDEA 6 ======================
+          +========                                                      
+      516 +doc.add_heading("Idea 6 — Patient health literacy and informed
+          + consent", level=1)                                           
+      517 +                                                              
+      518 +labelled("Problem",                                           
+      519 +         "Discharge notes, surgical consent forms, and diagnos
+          +tic reports are written "                                     
+      520 +         "in clinical language. Patients sign and leave withou
+          +t understanding what was "                                    
+      521 +         "decided, what to watch for, or what happens next.") 
+      522 +labelled("SDG",                                               
+      523 +         "SDG 3 (Good Health), and SDG 10.2 where low literacy
+          + tracks with ethnicity "                                      
+      524 +         "and deprivation. Indicator 3.8.1, coverage of essent
+          +ial health services — "                                       
+      525 +         "care a patient cannot act on is not effective covera
+          +ge.")                                                         
+      526 +                                                              
+      527 +doc.add_heading("The numbers", level=2)                       
+      528 +bullet("More than 56% of New Zealand adults — over 1.6 million
+          + people — cannot obtain "                                     
+      529 +       "and understand basic health information well enough to
+          + make informed decisions.")                                   
+      530 +bullet("Around 90% of Pacific people aged 15 and over have low
+          + health literacy. Māori "                                     
+      531 +       "and Pacific rates are lower than non-Māori, though the
+          + largest group by headcount "                                 
+      532 +       "is Pākehā.")                                          
+      533 +bullet("16.1% of acute medical admissions among over-65s are r
+          +eadmitted within 30 days, "                                   
+      534 +       "with higher risk for Māori, Pacific people, and those 
+          +in deprived areas.")                                          
+      535 +                                                              
+      536 +doc.add_heading("Two corrections to the framing", level=2)    
+      537 +para("Both of these make the pitch stronger, not weaker.", spa
+          +ce_after=6)                                                   
+      538 +                                                              
+      539 +labelled("It is a legal right, not a service improvement.",   
+      540 +         "Right 5 of the Code of Health and Disability Service
+          +s Consumers' Rights gives "                                   
+      541 +         "every consumer the right to effective communication 
+          +“in a form, language, "                                       
+      542 +         "and manner that enables the consumer to understand t
+          +he information provided,” "                                   
+      543 +         "including a competent interpreter where necessary an
+          +d reasonably practicable. "                                   
+      544 +         "Right 6 covers being fully informed. A consent form 
+          +the patient did not "                                         
+      545 +         "understand is arguably not compliant. That reframes 
+          +the tool from helpful to "                                    
+      546 +         "required.")                                         
+      547 +labelled("Avoid the word compliance.",                        
+      548 +         "New Zealand research consistently frames post-discha
+          +rge failure as system-side: "                                 
+      549 +         "inadequate support, medication problems, unpreparedn
+          +ess for community living, "                                   
+      550 +         "limited whānau support, and poor access to culturall
+          +y responsive services. "                                      
+      551 +         "Readmission signals unmet need rather than patient f
+          +ault. Saying “poor "                                          
+      552 +         "patient compliance” in front of NZ health judges wil
+          +l cost you.")                                                 
+      553 +                                                              
+      554 +doc.add_heading("What already exists", level=2)               
+      555 +para("Epic's patient-facing assistant, Emmie, already answers 
+          +patient questions inside "                                    
+      556 +     "MyChart and produces plain-language summaries of lab and
+          + procedure results. Do not "                                  
+      557 +     "pitch a generic medical-jargon translator as though noth
+          +ing exists.")                                                 
+      558 +para("Two things remain genuinely open. Epic has no shipped fe
+          +ature that rewrites the "                                     
+      559 +     "full inpatient discharge summary, and New Zealand's publ
+          +ic hospitals do not run on "                                  
+      560 +     "Epic, so none of that reaches a patient at Waikato Hospi
+          +tal. The evidence is also "                                   
+      561 +     "strong: an LLM-transformed discharge summary moved from 
+          +an 11th-grade to a "                                          
+      562 +     "6th-grade reading level, with measured understandability
+          + rising from 13% to 81%. "                                    
+      563 +     "In the same study some errors were introduced, which is 
+          +why the design below puts "                                   
+      564 +     "a clinician gate in the middle rather than shipping stra
+          +ight to the patient.")                                        
+      565 +                                                              
+      566 +doc.add_heading("Approach", level=2)                          
+      567 +numbered("Ingest and structure. Take a PDF discharge summary o
+          +r consent form and pull "                                     
+      568 +         "out the parts a patient actually acts on: medicines 
+          +and changes, warning signs, "                                 
+      569 +         "follow-up appointments, activity limits, and who to 
+          +call.")                                                       
+      570 +numbered("Rewrite with a clinician gate. Generate a plain-lang
+          +uage version at a target "                                    
+      571 +         "reading level, then show it beside the original for 
+          +a nurse or clinician to "                                     
+      572 +         "approve or edit before release. The gate is the safe
+          +ty design, and it is worth "                                  
+      573 +         "saying out loud in the pitch.")                     
+      574 +numbered("Visual breakdown. A medication timeline, a red-flag 
+          +card of symptoms that mean "                                  
+      575 +         "call someone now, and a follow-up calendar. Most of 
+          +the comprehension gain "                                      
+      576 +         "comes from structure, not from prose.")             
+      577 +numbered("Questions on the document. A question box scoped str
+          +ictly to the patient's own "                                  
+      578 +         "record, answering only from the approved text and sa
+          +ying so when the answer is "                                  
+      579 +         "not there. This is the smallest part of the build an
+          +d should be the smallest "                                    
+      580 +         "part of the pitch.")                                
+      581 +numbered("Language and format options. Te reo Māori, Pacific l
+          +anguages, large print, and "                                  
+      582 +         "audio. This is where Right 5 is actually met, and it
+          + is the part no overseas "                                    
+      583 +         "product covers for New Zealand.")                   
+      584 +                                                              
+      585 +doc.add_heading("Positioning", level=2)                       
+      586 +para("Health chatbots are the most crowded category at SDG hac
+          +kathons. If you lead with "                                   
+      587 +     "the chat box you will look like several other teams. Lea
+          +d with the consent form and "                                 
+      588 +     "the legal right, treat the question box as a supporting 
+          +feature, and the entry reads "                                
+      589 +     "differently.")                                          
+      590 +                                                              
+      591 +doc.add_heading("Build and demo", level=2)                    
+      592 +labelled("Why 48 hours works",                                
+      593 +         "PDF text extraction, one structured extraction call,
+          + one rewrite call against a "                                 
+      594 +         "reading-level target, and a review screen. No traini
+          +ng and no integration with "                                  
+      595 +         "any hospital system. The review interface is ordinar
+          +y CRUD.")                                                     
+      596 +labelled("Demo",                                              
+      597 +         "Put a real consent form on screen beside the rewritt
+          +en version, with the reading "                                
+      598 +         "grade shown for each. Then have the clinician view c
+          +atch and correct one "                                        
+      599 +         "generated line — demonstrating the gate working is m
+          +ore convincing than "                                         
+      600 +         "pretending the model is always right.")             
+      601 +                                                              
+      602 +doc.add_heading("Risks", level=2)                             
+      603 +bullet("Never use real patient records. Use synthetic or publi
+          +shed sample documents only, "                                 
+      604 +       "and say so.")                                         
+      605 +bullet("The model will occasionally introduce errors. Do not c
+          +laim otherwise — build the "                                  
+      606 +       "review step and make it part of the demo.")           
+      607 +bullet("Translation into te reo Māori and Pacific languages ne
+          +eds care. Show it as a "                                      
+      608 +       "designed pathway with human verification rather than c
+          +laiming machine translation "                                 
+      609 +       "is sufficient.")                                      
+      610 +bullet("Position it as supporting the consent conversation, no
+          +t replacing it.")                                             
+      611 +                                                              
+      612 +para("Strong legal hook and clear evidence behind it. The risk
+          + is presentation — pitched "                                  
+      613 +     "as a chatbot it blends in, pitched as a Right 5 tool it 
+          +does not.",                                                   
+      614 +     italic=True, color=MUTED)                                
+      615 +                                                              
+      616 +doc.add_page_break()                                          
+      617 +                                                              
+      618  # ============================== COMPARISON ==================
+           ============
+      619  doc.add_heading("Comparison", level=1)
+      620  
+
+● Now updating comparison table, picks, intro, and sources.
+
+● Update(build_docx.py)
+  ⎿  Added 11 lines, removed 1 line
+      626          ["3", "Disability funding tool", "10.2", "High", "Low"
+           , "Highest", "Med"],
+      627          ["4", "E-waste routing", "12.5", "Med–high", "Low", "L
+           ow", "Med"],
+      628          ["5", "Indicator generator", "11.7.1", "High", "High",
+            "Medium", "High"],
+      629 +        ["6", "Health literacy and consent", "3.8.1 + 10.2", "
+          +Medium †", "Lowest", "High", "Low"],                          
+      630      ],
+      631      widths=[0.3, 1.9, 0.95, 0.85, 0.75, 0.8, 0.55],
+      632  )
+      633  para("* Medium only if pitched as the decision layer. Low if p
+           itched as a logger, "
+      633 -     "since ColdTrace X already covers that.", size=10, color=
+          -MUTED)                                                        
+      634 +     "since ColdTrace X already covers that.", size=10, color=
+          +MUTED, space_after=2)                                         
+      635 +para("† Medium because Epic already ships plain-language resul
+          +t summaries. The open "                                       
+      636 +     "ground is the full discharge summary, the consent form, 
+          +and te reo Māori and "                                        
+      637 +     "Pacific language output, none of which overseas products
+          + cover for New Zealand.",                                     
+      638 +     size=10, color=MUTED)                                    
+      639  
+      640  doc.add_heading("Suggested picks", level=2)
+      641  make_table(
+     ...
+      645          ["Best local resonance", "Idea 3 — Disability funding 
+           tool"],
+      646          ["Best technical showing", "Idea 5 — Indicator generat
+           or"],
+      647          ["Safest hardware demo", "Idea 1 — Cold-chain, reframe
+           d"],
+      648 +        ["Easiest to finish well", "Idea 6 — Health literacy a
+          +nd consent"],                                                 
+      649      ],
+      650      widths=[2.0, 4.5],
+      651  )
+      652 +para("Idea 6 is the lowest-risk build on the list and the easi
+          +est to demo convincingly, "                                   
+      653 +     "but it sits in the most crowded category. It rewards a t
+          +eam that is stronger on "                                     
+      654 +     "presentation than on engineering, provided the pitch lea
+          +ds with the Code of Rights "                                  
+      655 +     "rather than the chat box.")                             
+      656  para("Worth weighing: the probe-in-ice moment in Idea 1 is the
+            most memorable few "
+      657       "seconds available to any team in the room, and a web app
+            cannot match it. If "
+      658       "someone on the team does embedded work, keep the prop — 
+           just make sure the "
+
+● Update(build_docx.py)
+  ⎿  Added 1 line, removed 1 line
+      165  # ============================== TITLE =======================
+           =======
+      166  para("AI Hackathon Festival 2026", style="Title", space_after=
+           2)
+      167  para("Ideation — University of Waikato", size=13, color=MUTED,
+            space_after=2)
+      168 -para("Two-day build · Teams of 3–7 · Five candidate projects",
+      168 +para("Two-day build · Teams of 3–7 · Six candidate projects", 
+      169       size=10.5, color=MUTED, italic=True, space_after=14)
+      170  
+      171  # ============================== BRIEF =======================
+           =======
+
+● Update(build_docx.py)
+  ⎿  Added 19 lines
+      732          ("NZ AI Strategy",
+      733           "https://www.mbie.govt.nz/assets/new-zealands-strateg
+           y-for-artificial-intelligence.pdf"),
+      734      ]),
+      735 +    ("Health literacy and consent", [                         
+      736 +        ("HDC Code of Rights (Rights 5 and 6)",               
+      737 +         "https://www.hdc.org.nz/your-rights/about-the-code/co
+          +de-of-health-and-disability-services-consumers-rights/"),     
+      738 +        ("Code of Rights, full PDF",                          
+      739 +         "https://www.hdc.org.nz/media/550hs5ih/code-of-rights
+          +_online_5-sept-2022.pdf"),                                    
+      740 +        ("HQSC health literacy background",                   
+      741 +         "https://www.hqsc.govt.nz/assets/Consumer-hub/Partner
+          +s-in-Care/Publications-resources/health-literacy-background-in
+          +fo-Sep-2013.pdf"),                                            
+      742 +        ("Health literacy and Pacific peoples review",        
+      743 +         "https://ojs.aut.ac.nz/pacific-health/article/view/4"
+          +),                                                            
+      744 +        ("NZ Society of Anaesthetists on health literacy",    
+      745 +         "https://anaesthesia.nz/news/health-literacy-in-aotea
+          +roa-new-zealand-remains-a-critical-challenge/"),              
+      746 +        ("AI-generated patient-friendly discharge summaries", 
+      747 +         "https://www.medrxiv.org/content/10.1101/2025.07.04.2
+          +5330804.full.pdf"),                                           
+      748 +        ("NYU Langone discharge summary trial",               
+      749 +         "https://clinicaltrials.gov/study/NCT06711458"),     
+      750 +        ("Epic Emmie, patient-facing AI", "https://www.epic.co
+          +m/software/emmie/"),                                          
+      751 +        ("Acute readmissions to hospitals, MoH",              
+      752 +         "https://www.health.govt.nz/statistics-research/syste
+          +m-monitoring/planning-and-performance-data/acute-readmissions-
+          +to-hospitals"),                                               
+      753 +    ]),                                                       
+      754      ("Judging", [
+      755          ("GitLab AI Hackathon 2026 winners",
+      756           "https://about.gitlab.com/blog/gitlab-ai-hackathon-20
+           26-meet-the-winners/"),
+
+  Ran 1 shell command (ctrl+o to expand)
+
+● Added and integrated. Rebuilt AI Hackathon 2026 - Ideation.docx — Idea 6 sits
+  on its own page with same heading structure as the other five, comparison
+  table and picks updated, 9 new sources added (30 hyperlinks total).
+
+  Research changed two things in your framing. Both make the pitch stronger:
+
+  1. It's a legal right, not a service improvement. Right 5 of the Code of
+  Health and Disability Services Consumers' Rights guarantees communication "in 
+  a form, language, and manner that enables the consumer to understand the 
+  information provided" — plus a competent interpreter where practicable. Right
+  6 covers being fully informed. A consent form the patient didn't understand is
+  arguably non-compliant. That's a much harder hook than "patients find this
+  confusing."
+
+  2. Drop "compliance." NZ research consistently frames post-discharge failure
+  as system-side — inadequate support, medication problems, unpreparedness for
+  community living, limited whānau support, poor access to culturally responsive
+  services. Readmission signals unmet need, not patient fault. Saying "poor
+  patient compliance" in front of NZ health judges would cost you.
+
+  On novelty: Epic's patient-facing assistant Emmie already answers patient
+  questions in MyChart and produces plain-language summaries of lab and
+  procedure results. But two gaps are real — Epic has no shipped feature
+  rewriting the full inpatient discharge summary, and NZ public hospitals don't
+  run Epic, so none of it reaches a patient at Waikato Hospital.
+
+  Evidence is strong: LLM-transformed discharge summaries moved 11th-grade →
+  6th-grade reading level, understandability 13% → 81%. Same study introduced
+  some errors, which is why I put a clinician approval gate in the middle of
+  your approach rather than shipping straight to the patient. Demoing that gate
+  catching an error is more convincing than claiming the model is always right.
+
+  One positioning warning I built into the doc: health chatbots are the most
+  crowded category at SDG hackathons. Your Q&A box is the smallest part of the
+  build and should be the smallest part of the pitch. Lead with the consent form
+  and Right 5.
+
+  Numbers now in the doc: 56% of NZ adults (1.6M+) can't understand basic health
+  information; ~90% of Pacific people 15+ have low health literacy; 16.1% of
+  over-65 acute admissions readmitted within 30 days, higher for Māori and
+  Pacific.
+
+  Rated it lowest 48h risk of all six — PDF extraction, one extraction call, one
+  rewrite call, a review screen. No training, no hospital integration. Good fit
+  if your team is stronger on presentation than engineering.
+
+✻ Crunched for 2m 33s
+
+> > Applicable for other occupations: Acts like an interpreter etc Applicable   
+  for other occupations: Acts like an                                           
+    interpreter for handwriting & jargon under many disciplines and a           
+  vissualizing agent. Simplifies it all but also has ease of use over just      
+  using google?? data privacy, accuracy concerns, legitimate datasets etc       
+  /using-superpowers this will extend the idea 6. make sure it is relatively    
+  novel                                                                         
+
+● Researching before writing — the "why not just Google" question needs a real
+  answer.
+
+● Web Search("handwriting OCR doctor prescription recognition accuracy 2026 AI
+            models")
+  ⎿  Did 1 search in 11s
+
+● Web Search("plain language legal document tenancy contract AI tool existing
+            2026 jargon translator")
+  ⎿  Did 1 search in 12s
+
+● Generic "explain my document" is saturated. Checking where the real novelty
+  is.
+
+● Web Search("on-device local LLM browser WebGPU privacy sensitive documents
+            2026 no upload")
+  ⎿  Did 2 searches in 16s
+
+● Web Search("Māori data sovereignty Te Mana Raraunga health information cloud
+            AI New Zealand 2026")
+  ⎿  Did 1 search in 20s
+  ⎿  Referenced file build_docx.py
+  ⎿  Referenced file IDEATION.txt
+  ⎿  Read ..\..\..\..\..\..\tmp\pdf.txt (289 lines)
+  ⎿  Read ..\..\..\..\.claude\plugins\installed_plugins.json (21 lines)
+  ⎿  Read ..\CLAUDE.md (26 lines)
+  ⎿  Skills restored (last30days, using-superpowers, find-skills)
+● API Error: Request rejected (429) · [claude/claude-opus-5] [429]: This
+  request would exceed your account's rate limit. Please try again 
+  later. (reset after 1h)
+
+✻ Brewed for 3m 4s
