@@ -1,4 +1,4 @@
-import { useEffect, useMemo, useRef, useState } from 'react'
+import { useEffect, useMemo, useState } from 'react'
 import { QRCodeSVG } from 'qrcode.react'
 import { GradeBadge } from './App.jsx'
 
@@ -25,7 +25,6 @@ function speakSupported() {
 
 function useSpeech(text) {
   const [speaking, setSpeaking] = useState(false)
-  const utterRef = useRef(null)
 
   useEffect(() => {
     return () => window.speechSynthesis?.cancel()
@@ -42,7 +41,6 @@ function useSpeech(text) {
     utter.rate = 0.95
     utter.onend = () => setSpeaking(false)
     utter.onerror = () => setSpeaking(false)
-    utterRef.current = utter
     window.speechSynthesis.speak(utter)
     setSpeaking(true)
   }
@@ -113,7 +111,13 @@ export default function PatientView({ rewrite, approved, onBack }) {
         {rewrite.trim() ? (
           <>
             <div className="qr-panel__code">
-              <QRCodeSVG value={qrPayload} size={200} level="M" includeMargin />
+              <QRCodeSVG
+                value={qrPayload}
+                size={200}
+                level="M"
+                includeMargin
+                title="QR code containing your approved discharge summary"
+              />
             </div>
             {qrTooLong && (
               <p className="qr-panel__warn">
