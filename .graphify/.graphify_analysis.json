@@ -1,0 +1,137 @@
+{
+  "numCommunities": 13,
+  "cohesion": {
+    "build_docx,build_docx_add_hyperlink,build_docx_bullet,build_docx_labelled,build_docx_make_table,build_docx_numbered,build_docx_para,build_docx_rationale_107,build_docx_shade,build_docx_source_line": 1,
+    "claude_md_hackathon_project,docs_ideation_txt,gdoc_sdg_hackathon_idea_guide,hackathon-ai-strategist_agent,participant_info_pdf,readme_hackathon_project,sync-gdoc_workflow": 1,
+    "01_cold_chain_monitor_dose_disposition,01_cold_chain_monitor_image,01_cold_chain_monitor_medical_fridge,01_cold_chain_monitor_sensor_device,01_cold_chain_monitor_tamper_log,01_cold_chain_monitor_temperature_chart": 1,
+    "jargon_interpreter_camera_scan_ui,jargon_interpreter_document_use_cases,jargon_interpreter_verified_summary_card,universal_jargon_interpreter_concept": 1,
+    "08_surplus_allocation_food_rescue_image,08_surplus_allocation_ranked_locations_ui,08_surplus_allocation_safety_check_ui": 1,
+    "09_crisis_response_allocation_engine_image,09_crisis_response_flood_risk_map,09_crisis_response_supply_chain_flow": 1,
+    "02_surplus_matching_growers_image,surplus_matching_app_ui": 1,
+    "03_disability_funding_reassessment_image": 1,
+    "04_ewaste_routing_image": 1,
+    "05_neighbourhood_sdg_indicator_image": 1,
+    "06_patient_health_literacy_image": 1,
+    "07_disaster_recovery_shocks_image": 1,
+    "hackathon_summary_pdf": 1
+  },
+  "gods": [
+    {
+      "id": "readme_hackathon_project",
+      "label": "README.md (Hackathon-Project)",
+      "edges": 4,
+      "degree": 4
+    },
+    {
+      "id": "gdoc_sdg_hackathon_idea_guide",
+      "label": "SDG Hackathon Idea Guide (Google Doc)",
+      "edges": 3,
+      "degree": 3
+    },
+    {
+      "id": "docs_ideation_txt",
+      "label": "IDEATION.txt (earlier plain-text draft)",
+      "edges": 3,
+      "degree": 3
+    },
+    {
+      "id": "01_cold_chain_monitor_sensor_device",
+      "label": "IoT Sensor/Gateway Device",
+      "edges": 3,
+      "degree": 3
+    },
+    {
+      "id": "universal_jargon_interpreter_concept",
+      "label": "Universal Jargon Interpreter App",
+      "edges": 3,
+      "degree": 3
+    },
+    {
+      "id": "build_docx_add_hyperlink",
+      "label": "add_hyperlink()",
+      "edges": 2,
+      "degree": 2
+    },
+    {
+      "id": "build_docx_labelled",
+      "label": "labelled()",
+      "edges": 2,
+      "degree": 2
+    },
+    {
+      "id": "build_docx_shade",
+      "label": "shade()",
+      "edges": 2,
+      "degree": 2
+    },
+    {
+      "id": "build_docx_make_table",
+      "label": "make_table()",
+      "edges": 2,
+      "degree": 2
+    },
+    {
+      "id": "build_docx_source_line",
+      "label": "source_line()",
+      "edges": 2,
+      "degree": 2
+    }
+  ],
+  "surprises": [
+    {
+      "source": "IDEATION.txt (earlier plain-text draft)",
+      "target": "SDG Hackathon Idea Guide (Google Doc)",
+      "source_files": [
+        "docs/IDEATION.txt",
+        ".github/workflows/sync-gdoc.yml"
+      ],
+      "confidence": "INFERRED",
+      "relation": "conceptually_related_to",
+      "why": "inferred connection - not explicitly stated in source; connects across different repos/directories"
+    },
+    {
+      "source": "CLAUDE.md (Hackathon-Project)",
+      "target": "IDEATION.txt (earlier plain-text draft)",
+      "source_files": [
+        "CLAUDE.md",
+        "docs/IDEATION.txt"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "connects across different repos/directories"
+    },
+    {
+      "source": "CLAUDE.md (Hackathon-Project)",
+      "target": "Hackathon AI Strategist Agent",
+      "source_files": [
+        "CLAUDE.md",
+        ".claude/agents/hackathon-ai-strategist.md"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "connects across different repos/directories"
+    },
+    {
+      "source": "README.md (Hackathon-Project)",
+      "target": "IDEATION.txt (earlier plain-text draft)",
+      "source_files": [
+        "README.md",
+        "docs/IDEATION.txt"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "connects across different repos/directories"
+    },
+    {
+      "source": "README.md (Hackathon-Project)",
+      "target": "SDG Hackathon Idea Guide (Google Doc)",
+      "source_files": [
+        "README.md",
+        ".github/workflows/sync-gdoc.yml"
+      ],
+      "confidence": "EXTRACTED",
+      "relation": "references",
+      "why": "connects across different repos/directories"
+    }
+  ]
+}

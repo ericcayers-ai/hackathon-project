@@ -1,0 +1,17 @@
+C:\Users\ericc\OneDrive\Desktop\Programs\Hackathon-Project\.claude\agents\hackathon-ai-strategist.md
+C:\Users\ericc\OneDrive\Desktop\Programs\Hackathon-Project\.github\workflows\sync-gdoc.yml
+C:\Users\ericc\OneDrive\Desktop\Programs\Hackathon-Project\CLAUDE.md
+C:\Users\ericc\OneDrive\Desktop\Programs\Hackathon-Project\README.md
+C:\Users\ericc\OneDrive\Desktop\Programs\Hackathon-Project\docs\IDEATION.txt
+C:\Users\ericc\OneDrive\Desktop\Programs\Hackathon-Project\.graphify\converted\pdf\AI_Hackathon_Festival_2026_-_Participant_Info_88eebc4a5b4d.md
+C:\Users\ericc\OneDrive\Desktop\Programs\Hackathon-Project\.graphify\converted\pdf\ai-hackathon-2026-summary_3c2c6f0c6149.md
+C:\Users\ericc\OneDrive\Desktop\Programs\Hackathon-Project\assets\images\01_cold_chain_monitor.png
+C:\Users\ericc\OneDrive\Desktop\Programs\Hackathon-Project\assets\images\02_surplus_matching_growers.png
+C:\Users\ericc\OneDrive\Desktop\Programs\Hackathon-Project\assets\images\03_disability_funding_reassessment.png
+C:\Users\ericc\OneDrive\Desktop\Programs\Hackathon-Project\assets\images\04_ewaste_routing.png
+C:\Users\ericc\OneDrive\Desktop\Programs\Hackathon-Project\assets\images\05_neighbourhood_sdg_indicator.png
+C:\Users\ericc\OneDrive\Desktop\Programs\Hackathon-Project\assets\images\06_patient_health_literacy.png
+C:\Users\ericc\OneDrive\Desktop\Programs\Hackathon-Project\assets\images\07_disaster_recovery_shocks.png
+C:\Users\ericc\OneDrive\Desktop\Programs\Hackathon-Project\assets\images\08_surplus_allocation_food_rescue.png
+C:\Users\ericc\OneDrive\Desktop\Programs\Hackathon-Project\assets\images\09_crisis_response_allocation_engine.png
+C:\Users\ericc\OneDrive\Desktop\Programs\Hackathon-Project\assets\images\10_universal_jargon_interpreter.png

@@ -1,0 +1,40 @@
+[
+  {
+    "sourceFile": "C:\\Users\\ericc\\OneDrive\\Desktop\\Programs\\Hackathon-Project\\docs\\AI Hackathon Festival 2026 - Participant Info.pdf",
+    "markdownPath": "C:\\Users\\ericc\\OneDrive\\Desktop\\Programs\\Hackathon-Project\\.graphify\\converted\\pdf\\AI_Hackathon_Festival_2026_-_Participant_Info_88eebc4a5b4d.md",
+    "provider": "unpdf",
+    "mode": "auto",
+    "status": "converted",
+    "reason": "text_extractable",
+    "preflight": {
+      "filePath": "C:\\Users\\ericc\\OneDrive\\Desktop\\Programs\\Hackathon-Project\\docs\\AI Hackathon Festival 2026 - Participant Info.pdf",
+      "sha256": "88eebc4a5b4d959a85797d2f96e03fe8faa6d73b466a72a6e5fdc89dba20a390",
+      "pageCount": 22,
+      "wordCount": 1700,
+      "charCount": 10366,
+      "imageMarkerCount": 85,
+      "textLayerProvider": "unpdf",
+      "reason": "text_extractable",
+      "shouldOcr": false
+    }
+  },
+  {
+    "sourceFile": "C:\\Users\\ericc\\OneDrive\\Desktop\\Programs\\Hackathon-Project\\docs\\ai-hackathon-2026-summary.pdf",
+    "markdownPath": "C:\\Users\\ericc\\OneDrive\\Desktop\\Programs\\Hackathon-Project\\.graphify\\converted\\pdf\\ai-hackathon-2026-summary_3c2c6f0c6149.md",
+    "provider": "unpdf",
+    "mode": "auto",
+    "status": "converted",
+    "reason": "text_extractable",
+    "preflight": {
+      "filePath": "C:\\Users\\ericc\\OneDrive\\Desktop\\Programs\\Hackathon-Project\\docs\\ai-hackathon-2026-summary.pdf",
+      "sha256": "3c2c6f0c614920dc56831bf1ebce57330cea1c9b25f883340387de5c5d190e5d",
+      "pageCount": 10,
+      "wordCount": 3889,
+      "charCount": 25976,
+      "imageMarkerCount": 0,
+      "textLayerProvider": "unpdf",
+      "reason": "text_extractable",
+      "shouldOcr": false
+    }
+  }
+]

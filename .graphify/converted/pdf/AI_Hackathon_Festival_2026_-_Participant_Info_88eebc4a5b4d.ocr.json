@@ -1,0 +1,19 @@
+{
+  "source_file": "C:\\Users\\ericc\\OneDrive\\Desktop\\Programs\\Hackathon-Project\\docs\\AI Hackathon Festival 2026 - Participant Info.pdf",
+  "markdown_path": "C:\\Users\\ericc\\OneDrive\\Desktop\\Programs\\Hackathon-Project\\.graphify\\converted\\pdf\\AI_Hackathon_Festival_2026_-_Participant_Info_88eebc4a5b4d.md",
+  "provider": "unpdf",
+  "mode": "auto",
+  "status": "converted",
+  "reason": "text_extractable",
+  "preflight": {
+    "filePath": "C:\\Users\\ericc\\OneDrive\\Desktop\\Programs\\Hackathon-Project\\docs\\AI Hackathon Festival 2026 - Participant Info.pdf",
+    "sha256": "88eebc4a5b4d959a85797d2f96e03fe8faa6d73b466a72a6e5fdc89dba20a390",
+    "pageCount": 22,
+    "wordCount": 1700,
+    "charCount": 10366,
+    "imageMarkerCount": 85,
+    "textLayerProvider": "unpdf",
+    "reason": "text_extractable",
+    "shouldOcr": false
+  }
+}

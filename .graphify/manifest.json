@@ -1,6 +1,66 @@
 {
   "C:/Users/ericc/OneDrive/Desktop/Programs/Hackathon-Project/CLAUDE.md": {
-    "mtime": 1785972967749.8545,
-    "hash": "f768cf9dc39301594b6250fe7cfc42e8"
+    "mtime": 1785999849007.139,
+    "hash": "c458bb36c7c99ca6c684c2ab2b4f02ce"
+  },
+  "C:/Users/ericc/OneDrive/Desktop/Programs/Hackathon-Project/tools/build_docx.py": {
+    "mtime": 1785999203643.7864,
+    "hash": "3c0262da5ffeae03f5411124d02e49e7"
+  },
+  "C:/Users/ericc/OneDrive/Desktop/Programs/Hackathon-Project/README.md": {
+    "mtime": 1785999203442.4927,
+    "hash": "05bdc1ae1c9c4492b044ab4e1abcb035"
+  },
+  "C:/Users/ericc/OneDrive/Desktop/Programs/Hackathon-Project/docs/IDEATION.txt": {
+    "mtime": 1785999203627.2163,
+    "hash": "e9b5ddfe76873dfff276eb1c7d2228b1"
+  },
+  "C:/Users/ericc/OneDrive/Desktop/Programs/Hackathon-Project/docs/AI Hackathon Festival 2026 - Participant Info.pdf": {
+    "mtime": 1785999203625.2146,
+    "hash": "093122d90f5da6e9305c8bebc41c12e5"
+  },
+  "C:/Users/ericc/OneDrive/Desktop/Programs/Hackathon-Project/docs/ai-hackathon-2026-summary.pdf": {
+    "mtime": 1785999203640.279,
+    "hash": "d1fe241ac3f15e8b5ea41f63b031cbbb"
+  },
+  "C:/Users/ericc/OneDrive/Desktop/Programs/Hackathon-Project/assets/images/01_cold_chain_monitor.png": {
+    "mtime": 1785999203458.5415,
+    "hash": "74d4bd49e4d8348427839b79f0135634"
+  },
+  "C:/Users/ericc/OneDrive/Desktop/Programs/Hackathon-Project/assets/images/02_surplus_matching_growers.png": {
+    "mtime": 1785999203474.5742,
+    "hash": "27f24bb79acf8f21bec9e64c637538ff"
+  },
+  "C:/Users/ericc/OneDrive/Desktop/Programs/Hackathon-Project/assets/images/03_disability_funding_reassessment.png": {
+    "mtime": 1785999203489.0862,
+    "hash": "d4778dc8531242235f6cb07a68fff24a"
+  },
+  "C:/Users/ericc/OneDrive/Desktop/Programs/Hackathon-Project/assets/images/04_ewaste_routing.png": {
+    "mtime": 1785999203505.7078,
+    "hash": "d0a600ffbd2b1cb8af238f6f3f69793d"
+  },
+  "C:/Users/ericc/OneDrive/Desktop/Programs/Hackathon-Project/assets/images/05_neighbourhood_sdg_indicator.png": {
+    "mtime": 1785999203524.2532,
+    "hash": "92b8c45c21756b7ff4edfd960e5ff129"
+  },
+  "C:/Users/ericc/OneDrive/Desktop/Programs/Hackathon-Project/assets/images/06_patient_health_literacy.png": {
+    "mtime": 1785999203538.291,
+    "hash": "8cc28bc7eb6a0be8f8c40d7646a0be53"
+  },
+  "C:/Users/ericc/OneDrive/Desktop/Programs/Hackathon-Project/assets/images/07_disaster_recovery_shocks.png": {
+    "mtime": 1785999203554.3298,
+    "hash": "78ecca155fa9f01bb74355592c15b6fc"
+  },
+  "C:/Users/ericc/OneDrive/Desktop/Programs/Hackathon-Project/assets/images/08_surplus_allocation_food_rescue.png": {
+    "mtime": 1785999203572.5774,
+    "hash": "f3ea2c8be99e4d4337473050cd603b54"
+  },
+  "C:/Users/ericc/OneDrive/Desktop/Programs/Hackathon-Project/assets/images/09_crisis_response_allocation_engine.png": {
+    "mtime": 1785999203586.598,
+    "hash": "f6c0f7a52ecfa7ee2510677de7f5de00"
+  },
+  "C:/Users/ericc/OneDrive/Desktop/Programs/Hackathon-Project/assets/images/10_universal_jargon_interpreter.png": {
+    "mtime": 1785999203604.1506,
+    "hash": "12b2ab398cd46b7bb02a1774c0ad04ea"
   }
 }

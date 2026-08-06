@@ -1,0 +1,66 @@
+Continuing this project. Treat /impeccable and /using-superpowers as standing operating modes for everything below.
+
+EXECUTION DISCIPLINE
+Don't needlessly spawn new sub-agents or parallel agent instances if a task doesn't require them - this wastes tokens. Default to doing the work directly. The hackathon-ai-strategist agent is explicitly exempted from this - it's expected to run for Tasks 1 and 2 below. Any other agent spawn should only happen if there's a clear, specific reason a single continuous execution can't handle it.
+
+SETUP (do this first)
+0. Tooling bootstrap - before anything else, get the required agent and skill tooling in place:
+   - Download and load the hackathon-ai-strategist agent definition from https://github.com/Dlaby23/claude-agents-ultimate-collection/blob/main/agents/domains/ai-ml/006_hackathon-ai-strategist.md (use the raw file URL when fetching, not the GitHub UI page) and register/use it as the hackathon-ai-strategist agent for this project.
+   - Run `npx claude-code-templates@latest --agent ai-specialists/hackathon-ai-strategist` to install/sync the corresponding agent template into this project.
+   - Run `npx autoskills` to auto-discover and pull in any additional applicable skills beyond what /find-skills alone would surface.
+   - Confirm /using-superpowers is active as a standing mode for the rest of this session.
+   - If any of these steps fail (network restrictions, permissions, missing package, etc.), don't silently skip them - report exactly what failed and fall back to the closest available equivalent (e.g., manually replicate the agent's role/instructions from the fetched markdown if the CLI install isn't possible) so the rest of the prompt can still proceed.
+1. Re-read this project's full history, including every clarifying question you've previously asked me and the answers I gave. Treat those answers as settled - don't re-ask them.
+2. Locate and read the existing Nurse Notes slideshow in the project docs - the one covering the whole Nurse Notes feature. Treat its content (problem framing, feature breakdown, visuals, terminology, any prior positioning) as existing project context. Use it while revamping Nurse Notes itself, and also as background context for the reorg design task and for the broader multi-idea pass wherever it's relevant, so nothing already established there gets ignored, duplicated, or contradicted.
+3. Consider any health-records-related material in the project docs as additional context for Nurse Notes specifically. Review it for real gaps, friction points, or documentation burdens - things like inconsistent charting, duplicated entries, handoff delays, missing context at shift change, interoperability failures - that could sharpen the problem statement and impact metrics. Where actual records or documentation aren't available in the docs, research realistic, well-evidenced gaps in nurse/clinical documentation and health record systems (e.g., documented EHR usability issues, nurse documentation-burden research, interoperability studies) and use these as grounding evidence - clearly label anything researched or inferred versus anything sourced directly from the provided docs. If any real patient or provider data is referenced anywhere in this material, flag whether it's properly de-identified and note any privacy/compliance handling (e.g., HIPAA) the pitch should account for.
+4. Run /find-skills to identify any additional skills, beyond hackathon-ai-strategist and whatever autoskills surfaced in step 0, that should be applied here, based on: (a) the hackathon's actual judging criteria, pulled from the project docs rather than assumed generically, (b) researched norms for what strong hackathon submissions typically include, and (c) whatever gets the best final result. Specifically check for anything relevant to slide/deck editing too, since a slideshow update is now an explicit deliverable below. De-duplicate against whatever autoskills already installed. Apply anything that clears the bar to the rest of this work.
+
+TASK 1 - Nurse Notes: full revamp (content, name, and slideshow)
+Give "Nurse Notes" a complete revamp using hackathon-ai-strategist plus every other relevant skill surfaced in Setup. This is the flagship idea - go as deep as the criteria allow. Rework:
+- Value proposition - sharp, specific, clearly differentiated from adjacent or obvious tools in this space.
+- Problem statement - grounded in a real, specific, well-evidenced pain point, not a generic one. Draw directly on the health-records context and gap research from Setup step 3 so the problem is anchored in something concrete rather than a generic "nurses are busy" framing.
+- Impact metrics - concrete, measurable, credible, showing real-world impact rather than vanity numbers. Where possible, tie these back to the specific gaps identified in Setup step 3 (e.g., time lost to duplicate charting, delays at handoff) so the metrics read as solving a documented problem, not an invented one.
+- Niche fit - explicitly check and correct: is this the right niche? Too broad (tighten it)? Too technically weak (add real depth and rigor)?
+- Standout factor - confirm and strengthen innovation (not a rebrand of an obvious existing tool), practicality (buildable and demoable in a hackathon), and effectiveness (it actually solves the stated problem).
+
+Rename: "Nurse Notes" is a working title - once the positioning above is sharpened, propose a better name that reflects the finished value proposition and differentiation, not just a cosmetic swap. Land on one final name and use it consistently from that point forward, across the docx, the slideshow, and your chat summary. The first time the new name appears in each artifact, note the old name once for traceability (e.g., "[New Name] (formerly Nurse Notes)"), then drop it everywhere after.
+
+Where real supporting research, comparable products, or documentation would strengthen the pitch, you're authorized to infer or synthesize plausible versions from the project docs and context (including the health-records gap research above) - label anything inferred as such so it's clear what's solid versus assumed.
+
+Map the finished revamp back to the hackathon's actual judging criteria, section by section, so it's explicit which criterion each part of the pitch satisfies. This mapping should also surface, at least in condensed form, in the slideshow itself (e.g., a criteria-fit slide or annotated callouts), not just live in the docx.
+
+Apply the full revamp to BOTH existing artifacts, and keep them in lockstep - same name, same numbers, same claims in both places:
+- The docx section (this feeds into Task 2's collation).
+- The existing slideshow - edit the existing file in place, don't create a duplicate deck. Update slide content, structure, and any visuals so they reflect the new name and the sharpened problem, value proposition, impact metrics, niche fit, and standout factor above. Use the appropriate presentation-editing skill or tool for this rather than ad hoc edits.
+
+Cover every angle a judge could plausibly probe - leave nothing exposed.
+
+TASK 2 - Hackathon-AI-Strategist: full pass across every idea, collated
+Run hackathon-ai-strategist, plus the applicable skills from Setup, across every idea in this project - all existing ideas and all earlier or previous-stage ideas, not only the current front-runners. Include the revamped Nurse Notes from Task 1, under its finalized new name, as that idea's updated entry.
+
+Use one shared template and rubric for every idea - same fields, same order, same depth - so ideas are directly comparable to each other.
+
+Collate everything into the existing master project docx; don't fork a second copy:
+- Update each idea's existing section in place.
+- Add a new section, following the same template, for any idea not yet in the doc.
+- Keep formatting and structure identical across the whole document.
+Use the appropriate document-editing skill or tool for this rather than ad hoc edits.
+
+TASK 3 - Reorg design: continue scoping
+Continue scoping the reorg design from exactly where it stands - pick up the open threads, don't restart, and move it forward to the next concrete decision point or points. Pull in the Nurse Notes slideshow (both its original and revamped content from Task 1) as existing context here too, wherever it bears on the reorg thinking.
+[No further context on this was available when this prompt was written - add specifics here if you want to redirect or narrow it.]
+
+QUALITY BAR (applies to all three tasks)
+- No limit to scope: exhaustive, not abbreviated.
+- No gaps: cover every angle a judge could reasonably probe - problem, solution, feasibility, novelty, impact, niche and market fit, technical depth, execution plan.
+- No mistakes: keep facts, figures, and framing consistent - within the docx, within the slideshow, and between the two - before finishing.
+- The docx remains the single source of truth for the whole project; the slideshow must not contradict it.
+
+WHEN DONE, CONFIRM
+- Tooling bootstrap confirmed: hackathon-ai-strategist agent loaded (from GitHub source and/or CLI template), autoskills run, /using-superpowers active - note any step that failed and what fallback was used instead.
+- Master docx updated: every idea, including the renamed Nurse Notes, in the same universal template.
+- Nurse Notes section reflects the full revamp, explicitly mapped to judging criteria, and grounded in the health-records gap research from Setup.
+- New name finalized and applied consistently across the docx, the slideshow, and this summary - old name noted once for traceability, then dropped.
+- Slideshow updated in place to reflect the full revamp, not just the docx.
+- Reorg design scoping advanced to its next decision point, informed by the slideshow's existing context.
+- A short chat summary of what changed, the new name and why it was chosen, what health-records-related gaps informed the problem statement, and which skills (from /find-skills and autoskills) were applied and why.

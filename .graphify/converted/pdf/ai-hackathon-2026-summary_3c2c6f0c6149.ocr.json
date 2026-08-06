@@ -1,0 +1,19 @@
+{
+  "source_file": "C:\\Users\\ericc\\OneDrive\\Desktop\\Programs\\Hackathon-Project\\docs\\ai-hackathon-2026-summary.pdf",
+  "markdown_path": "C:\\Users\\ericc\\OneDrive\\Desktop\\Programs\\Hackathon-Project\\.graphify\\converted\\pdf\\ai-hackathon-2026-summary_3c2c6f0c6149.md",
+  "provider": "unpdf",
+  "mode": "auto",
+  "status": "converted",
+  "reason": "text_extractable",
+  "preflight": {
+    "filePath": "C:\\Users\\ericc\\OneDrive\\Desktop\\Programs\\Hackathon-Project\\docs\\ai-hackathon-2026-summary.pdf",
+    "sha256": "3c2c6f0c614920dc56831bf1ebce57330cea1c9b25f883340387de5c5d190e5d",
+    "pageCount": 10,
+    "wordCount": 3889,
+    "charCount": 25976,
+    "imageMarkerCount": 0,
+    "textLayerProvider": "unpdf",
+    "reason": "text_extractable",
+    "shouldOcr": false
+  }
+}
