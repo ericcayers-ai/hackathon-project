@@ -10,7 +10,7 @@ permissions:
 
 env:
   GDOC_ID: 1v9TGIXIDZ8Q5S1D9JDCVOB71_XFWTghllkWLofQOd0M
-  GDOC_FILE: SDG_Hackathon_Idea_Guide_gdoc_export.docx
+  GDOC_FILE: SDG_Hackathon_Idea_Guide.docx
 
 jobs:
   sync:
