@@ -3,14 +3,14 @@
   "branchName": "main",
   "worktreePath": "C:\\Users\\ericc\\OneDrive\\Desktop\\Programs\\Hackathon-Project",
   "upstream": "origin/main",
-  "mergeBase": "49b68c966ee132d3015b7502f0de6d99907a641f",
+  "mergeBase": "68fc5be502e0f4e0b1aecfefc60afb5f869e2f76",
   "firstSeenHead": "49b68c966ee132d3015b7502f0de6d99907a641f",
-  "lastSeenHead": "ed37f0a76abbab2c44e6c10c69b072e6a09deee3",
-  "lastAnalyzedHead": null,
-  "stale": true,
-  "staleReason": "post-commit",
-  "staleSince": "2026-08-06T09:01:57.805Z",
-  "lifecycleEvent": "post-commit",
+  "lastSeenHead": "68fc5be502e0f4e0b1aecfefc60afb5f869e2f76",
+  "lastAnalyzedHead": "68fc5be502e0f4e0b1aecfefc60afb5f869e2f76",
+  "stale": false,
+  "staleReason": null,
+  "staleSince": null,
+  "lifecycleEvent": null,
   "createdAt": "2026-08-06T09:01:57.805Z",
-  "updatedAt": "2026-08-06T09:09:20.237Z"
+  "updatedAt": "2026-08-06T11:30:10.845Z"
 }

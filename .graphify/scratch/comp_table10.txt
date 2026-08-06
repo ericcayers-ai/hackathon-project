@@ -1,0 +1,10 @@
+# | Idea | SDG | Novelty | 48h risk | Emotion | Tech
+1 | Cold-chain decisions | 3.b.1 | Medium * | Low | High | Med
+2 | Grower surplus matching | 12.3 + 2.1 | High | Low | High | Med
+3 | Disability funding tool | 10.2 | High | Low | Highest | Med
+4 | E-waste routing | 12.5 | Med–high | Low | Low | Med
+5 | Indicator generator | 11.7.1 | High | High | Medium | High
+6 | ClearChart (health literacy & consent) | 3.8.1 + 10.2 | Medium † | Lowest | High | Low
+7 | Disaster recovery & shock grants | 11.5.2 + 1.5 | High | Medium | High | Med–high
+8 | Surplus safety & allocation triage | 12.3.1b + 2.1 | High ‡ | Low | High | Med
+10 | Universal jargon & handwriting interpreter | 10.2 + 4.6 | High § | Low–Med | Medium | Med

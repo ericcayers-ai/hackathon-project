@@ -1,0 +1,1 @@
+This idea combines the shock-mapping engine of Idea 7 with the safety-triage and allocation logic of Idea 8 into a single integrated platform. It is not included in the comparison table below, which scores Ideas 1–8 individually.

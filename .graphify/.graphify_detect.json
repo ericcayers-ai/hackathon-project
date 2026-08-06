@@ -36,9 +36,9 @@
     "video": []
   },
   "total_files": 25,
-  "total_words": 638634,
+  "total_words": 639477,
   "needs_graph": true,
-  "warning": "Large corpus: 25 files · ~638,634 words. Semantic extraction will be expensive (many Claude tokens). Consider running on a subfolder, or use --no-semantic to run AST-only.",
+  "warning": "Large corpus: 25 files · ~639,477 words. Semantic extraction will be expensive (many Claude tokens). Consider running on a subfolder, or use --no-semantic to run AST-only.",
   "skipped_sensitive": [
     "docs/SDG_Hackathon_Idea_Guide.docx [office conversion requires async - use pipeline]",
     "tools/LLM-TokenOptimizer.ps1"
@@ -46,7 +46,7 @@
   "graphifyignore_patterns": 0,
   "git": {
     "source_owner": "git",
-    "source_hash": "49b68c966ee132d3015b7502f0de6d99907a641f",
+    "source_hash": "68fc5be502e0f4e0b1aecfefc60afb5f869e2f76",
     "branches": [
       "main"
     ],
@@ -59,8 +59,8 @@
     "source": "default-auto",
     "root": ".",
     "git_root": ".",
-    "head": "49b68c966ee132d3015b7502f0de6d99907a641f",
-    "candidate_count": 75,
+    "head": "68fc5be502e0f4e0b1aecfefc60afb5f869e2f76",
+    "candidate_count": 80,
     "included_count": 25,
     "excluded_untracked_count": 3,
     "excluded_ignored_count": 1,

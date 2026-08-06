@@ -1,0 +1,306 @@
+
+
+##### Idea 1 — Cold-Chain Monitor for Last-Mile Clinics #####
+Problem
+Vaccines and insulin spoil quietly when a fridge fails or a transport box warms above 8 °C. Rural clinics often find out only when the stock is already unusable.
+SDG
+SDG 3 (Good Health). Protects the potency of health supplies reaching underserved patients. Indicator 3.b.1, vaccine coverage.
+Worth knowing first
+This device already exists commercially. Nexleaf ColdTrace X is WHO-prequalified and does everything an ESP32 rig would: ±0.5 °C accuracy, BLE sensors, cellular or WiFi sync, five-year warranty, and a backend running 15,000+ devices. Berlinger Fridge-tag is the standalone equivalent.
+But research on why cold chains fail points somewhere else. In one field study, 91.7% of facilities had no cold chain policy and none had an equipment contingency plan. The alert fires and nobody knows who is meant to act. That gap is open.
+Approach
+Keep the ESP32 and temperature sensor, but treat it as the input, not the product. The product is what happens after an excursion is detected.
+1.   Dose disposition. The system reads the excursion — how long, how hot or cold, which fridge — and checks it against vaccine stability rules to recommend use, quarantine, or discard for each product, showing its reasoning. Today this decision is made manually.
+2.   Escalation. Identifies who is on call, whether the immunisation coordinator has been contacted, and drafts the incident record.
+3.   Tamper-evident log. Events are hash-stamped so a flagged batch cannot be quietly un-flagged.
+New Zealand angle
+•     The local process is CCA (Cold Chain Accreditation), run by the Ministry of Health and valid up to three years. Pharmacies are audited separately by Medicines Control.
+•     The 2017 National Standards are under review by Health NZ right now.
+•     Current interim rule: fridges over ten years old are allowed only with continuous real-time monitoring and out-of-hours alarming. That is existing demand for this, today.
+•     Freezing, not overheating, causes most vaccine damage in NZ.
+•     New Zealand's cold chain programme cut vaccine wastage from 17% to 2% between 2002 and 2008, saving an estimated $4M a year.
+Build and demo
+•     Offline-first — buffers locally, syncs on reconnect.
+•     Why 48 hours works — the firmware is a read-sensor, append-log loop. The web layer is standard CRUD with a time-series chart. The decision layer is a prompt over a rules table, not a model you have to train.
+•     Demo — put the probe in a cup of ice and pull it out mid-pitch. The dashboard flags the excursion, then the system produces a disposition recommendation and a drafted incident report on screen.
+Risks
+•     Venue WiFi is unreliable. Use BLE-to-phone or a local access point as the main sync path.
+•     Frame output as decision support pending coordinator sign-off, not as a clinical ruling.
+•     Record a video of the excursion firing as a fallback.
+
+
+##### Idea 2 — Surplus Matching for Growers #####
+Problem
+Produce is culled before packing for cosmetic reasons and sold by the bin, not the bag. It never enters a retail inventory system, so no existing food-waste platform can see it. Meanwhile household food waste in NZ is already falling — 12.2% to 10.9% of food bought, $3.2B to $3.0B — so the consumer end of the problem is shrinking while this end is not.
+SDG
+SDG 12.3 (halve food waste) and SDG 2.1 (end hunger). Two indicators, one build.
+The numbers
+•     NZ Food Network and Lineage redirected over 1,000 pallets — about 635,000 kg — of frozen vegetables rejected only for cosmetic irregularities.
+•     One in three NZ households faced food insecurity in the past year (Hunger Monitor 2025, published March 2026).
+•     The burden is uneven: Pacific peoples 64%, Māori 51%, ages 18–24 50%.
+•     Only 44% of food-insecure households have ever accessed food relief.
+Why this is open
+NZ food rescue matching is route-based and manual. NZFN's stated approach for bulk surplus is to act as a single point of contact — a human broker. Regular donors sit on fixed recurring routes.
+The existing apps solve adjacent problems: Olio is neighbour-to-neighbour, Too Good To Go and Flashfood work off retail shelves, Spoiler Alert handles packaged goods and inventory. Imperfect Foods and Misfits Market turned cosmetic rejects into a subscription box rather than a matching layer. None of them can see stock that is culled before it becomes inventory.
+Approach
+1.   Grader. A grower photographs a bin. A vision model grades the reject class and estimates volume. Manual data entry is what stops growers participating, so removing it matters more than it sounds.
+2.   Matcher. Scores allocations against shelf life, cold storage availability, hub capacity, travel time, and need severity. This is a scoring function, not a chatbot.
+3.   Impact ledger. Tracks kg diverted, meal equivalents, and CO₂e avoided, mapped to SDG 12.3.
+Domain detail and scale
+•     The Food Act 2014 excludes food with compromised sanitary seals unless it is heated. Naming a real constraint like this shows you looked at the sector.
+•     64 food hubs, 2,000+ frontline groups, and roughly 28 million meal equivalents a year are already moving. You would be adding a layer to an existing network rather than building one.
+Build and demo
+•     Why 48 hours works — vision grading is one API call with a rubric. A greedy allocator demos the same as an optimal one at this scale. The dashboard is CRUD, a map, and a chart.
+•     Demo — photograph a crate of misshapen carrots. It gets graded, the matcher allocates across three mock hubs, and the ledger updates. Then mark a hub's chiller offline and let it reallocate.
+Risks
+•     A two-sided marketplace with thin supply fails. Pitch it as a tool for one broker who already has both sides, not as a marketplace.
+•     Position it as complementary to NZFN rather than competing.
+
+
+##### Idea 3 — Disability Funding Reassessment Tool #####
+Problem
+NZ's disability support funding is changing now, and the people affected cannot work out what it means for them. From 1 April 2026 existing NASC users get a set budget with a limit. From 1 October 2026 reassessments run under the new system. Budgets are based on past spending, so anyone who underspent during a restrictive period risks being held to that lower figure.
+SDG
+SDG 10.2 (social and economic inclusion regardless of disability).
+Why the timing matters
+•     Waikato is an EGL site. EGL Waikato and Mana Whaikaha whānau keep direct funding. The event is inside the affected region and the judges are local.
+•     Reassessments start two months after the hackathon.
+•     The policy is actively contested. Blind Low Vision NZ has flagged clauses 7 and 8 of the Disability Support Services Bill 2026 as a step away from EGL principles, framing support as “within available funding” and putting family and community ahead of State support.
+•     CCS Disability Action says Budget 2026 squeezes community-based support while protecting residential care.
+Approach
+1.   Budget simulator. Enter current supports, model the allocation under the new past-spending rule, and show the difference — flagging where the old March 2024 purchasing restrictions may have artificially lowered someone's baseline. That is the specific harm advocates are warning about.
+2.   Evidence pack generator. Retrieval over the National Standards, the February 2026 fact sheet, and EGL principles, producing a reassessment submission with citations.
+3.   Plain-language layer. Turns clause text into readable summaries, and works the other way too — putting a whānau's account into the assessor's terms.
+Accessibility
+This is the one idea where accessibility is the product rather than a requirement to satisfy. WCAG 2.2 AA, screen-reader first, fully keyboard navigable. You have an accessibility skill installed with reference material.
+Build and demo
+•     Why 48 hours works — the simulator is arithmetic over a rules table. The evidence pack is retrieval over roughly 40 pages of public PDFs. No training, scraping, or authentication.
+•     Demo — two personas side by side — one whose budget holds, one whose baseline was suppressed by the 2024 rules. Same tool, different outcomes, both explained. Then generate the second persona's evidence pack.
+Risks
+•     You are modelling contested policy. Label outputs as indicative, not determinations, and cite every rule to its source.
+•     Use synthetic personas only.
+•     Get the rules right or do not ship. A wrong number here affects real people, and saying so in the pitch is worth more than hiding it.
+
+
+##### Idea 4 — E-Waste Routing #####
+Problem
+New Zealand produces about 99,000 tonnes of e-waste a year under voluntary schemes only. It is the OECD outlier — producer participation is not mandatory and there is no extended producer responsibility framework, unlike every other OECD country. The AS/NZS recycling standards exist but are not binding.
+SDG
+SDG 12.5 (reduce waste generation). Indicator 12.5.1 is the national recycling rate, which NZ largely cannot report — and that is part of the story.
+The gap
+E-waste was designated a priority product requiring mandatory stewardship in 2020. TechCollect NZ ran the co-design between 2020 and 2023. As of mid-2026 the regulations are still not in force and no implementation date is set. All six 2020 priority product groups remain in consultation or drafting. Six years, and 99,000 tonnes a year continues to flow.
+Approach
+1.   Drop-off guidance. Photograph a device; a vision model identifies the type and hazardous components, then finds the nearest point that actually accepts it. Right now this is confusing enough that people give up and landfill it.
+2.   Repair before recycle. Route repairable devices to repair cafés and refurbishers first. Recycling is the last step in the waste hierarchy, but most tools skip straight to it.
+3.   Reporting ledger. Aggregate anonymised flows into the shape a regulated scheme will eventually require, so the data model exists when regulations land.
+Build and demo
+•     Low bandwidth — an SMS path that assumes no smartphone makes it usable in places where informal collectors do this work, which is where 12.5 is weakest globally.
+•     Why 48 hours works — vision identification is one API call. The list of accepting points is small enough to assemble by hand. The ledger is a schema and a chart.
+•     Demo — photograph an old phone and a dead microwave. One routes to repair, one to a named recycler, and one is refused by the voluntary scheme entirely — that refusal gets logged as evidence of the policy gap.
+Risks
+•     Frame the regulatory angle as a scheme-ready data model, not a claim to influence policy.
+•     Curate the accepting-points list manually rather than building a scraper.
+
+
+##### Idea 5 — Neighbourhood SDG Indicator Generator #####
+Problem
+The main gap in SDG 11 is measurement. Fewer than a third of sustainable-cities indicators have data at all, and coverage is worst at neighbourhood level and for vulnerable groups. HLPF 2026 called for urban data systems as a public good.
+SDG
+SDG 11.7, access to safe and inclusive public space. Indicator 11.7.1 is the average share of built-up area that is open public space.
+The numbers
+•     Access to open public space fell from 48.0% to 45.9% between 2020 and 2025 across 414 cities in 126 countries. It is going backwards.
+•     About 1.1 billion people live in slums or slum-like conditions, with another 2 billion projected over 30 years.
+Approach
+1.   Compute rather than survey. Free satellite imagery, OpenStreetMap, and a segmentation model estimate open public space share for a neighbourhood, output in the form UN-Habitat's methodology expects.
+2.   Ground-truth layer. Residents contribute phone photos and a vision model checks whether mapped public space is actually accessible — fenced, locked, paved over, or usable. Satellites cannot see this.
+3.   Validate publicly. Run it on a city UN-Habitat has already measured and show your estimate next to theirs. Judges can check you on the spot, which few teams offer.
+Build and demo
+•     Why 48 hours works — a pre-trained segmentation model, OpenStreetMap via the Overpass API, one city, one indicator. The discipline is keeping it to exactly that.
+•     Demo — run it on a Hamilton suburb and show the computed figure. Then show the resident photo layer downgrading a park that turns out to be fenced off, and explain why the satellite reading was wrong.
+Risks
+•     Highest technical risk here. Segmentation quality is unpredictable and hard to debug late on day two.
+•     Pre-compute the demo results and keep a cached fallback.
+•     Skip this unless someone on the team has done geospatial or computer vision work before.
+
+
+##### Idea 6 — ClearChart (formerly Nurse Notes) — Patient Health Literacy and Informed Consent #####
+Working name during ideation was “Nurse Notes.” Renamed to ClearChart to name what the product actually does — turns a clinical chart into something a patient can read — rather than describing who uses it. Used consistently below, in the pitch deck, and in the working prototype (app/) and its docs.
+Value proposition  ClearChart rewrites hospital discharge summaries and consent forms into plain language (~6th-grade reading level), with a mandatory clinician-review gate before anything reaches a patient. It is not a medical chatbot and does not answer open-ended questions — it transforms one specific, high-stakes document a patient is handed at the moment they are least equipped to parse it, and a human signs off on every word before release.
+Problem
+Patients are hospitalised, told what happened and what to do next in dense clinical shorthand (TDS, OD, BD, SOB, melaena, 6/52), and sent home to act on it while tired, unwell, and least able to decode it. This is not a generic literacy problem — it recurs at a specific, high-consequence moment: the point of discharge and the point of signing consent, when a misunderstood instruction directly produces a missed dose, a missed follow-up, or an avoidable readmission.
+Grounding: documented gaps in clinical documentation and discharge communication
+Directly evidenced by the health-records material already gathered for this project:
+•     More than 56% of New Zealand adults — over 1.6 million people — cannot obtain and understand basic health information well enough to make informed decisions. [from project docs]
+•     Around 90% of Pacific people aged 15+ have low health literacy; Māori and Pacific rates track below non-Māori, though the largest group by headcount is Pākehā. [from project docs]
+•     16.1% of acute medical admissions among over-65s are readmitted within 30 days, with higher risk for Māori, Pacific people, and those in deprived areas. [from project docs]
+•     An LLM-rewritten discharge summary moved measured patient understandability from 13% to 81%, and moved the reading level from 11th grade to 6th grade — the same study introduced some errors in the rewrite, which is the direct evidentiary basis for this product's clinician gate rather than a hypothetical safety feature. [from project docs, medRxiv preprint]
+Researched separately for this revamp (not previously in the project docs) — general clinical-documentation and discharge-summary literature, used to sharpen the problem statement beyond NZ-specific health-literacy stats:
+•     Discharge summaries completed and available within 7 days of discharge are consistently associated with lower readmission rates; delayed or unclear discharge documentation is linked to incorrect prescriptions, untracked pending results, and preventable readmissions. [researched/inferred — general clinical-documentation literature, no NZ-specific study found]
+•     EHR documentation burden on nurses is a well-studied, separate but related problem: acute and critical-care nurses report EHR systems poorly fitted to unit-specific workflow as a major driver of documentation load, time away from patients, and burnout risk. ClearChart does not address nurse-facing charting burden directly — it targets the patient-facing output of that same discharge process — but this is the adjacent, better-evidenced problem worth naming honestly so the pitch doesn't overclaim what the tool fixes. [researched/inferred]
+•     A cross-sectional comparison of LLM-generated vs. clinician-written discharge summaries found comparable overall quality, with LLM output more succinct but with a higher rate of low-harm omission errors than clinician-written summaries — independent confirmation, from a different study than the 13%→81% figure above, that LLM-assisted discharge rewriting is viable in principle but needs a human check on omissions specifically. [researched/inferred]
+No real patient or provider data appears anywhere in this project's docs, the demo, or the frontend repo — the only patient-shaped document used anywhere is the synthetic, clearly-labelled sample in samples/synthetic-discharge-01.txt. There is nothing here that triggers HIPAA (a US statute, not applicable in NZ) or NZ Health Information Privacy Code obligations, precisely because no real record is ever processed — this is itself part of the pitch, not just a compliance footnote.
+SDG
+SDG 3 (Good Health), Indicator 3.8.1 — coverage of essential health services; care a patient cannot act on is not effective coverage. SDG 10.2 — inclusion, since low health literacy tracks with ethnicity and deprivation in New Zealand.
+The legal reframe
+A legal right, not a service improvement.  Right 5 of the Code of Health and Disability Services Consumers' Rights gives every consumer the right to effective communication “in a form, language, and manner that enables the consumer to understand the information provided,” including a competent interpreter where necessary and reasonably practicable. Right 6 covers being fully informed. A consent form the patient did not understand is arguably not compliant. That reframes the tool from helpful to required infrastructure.
+Avoid the word compliance.  New Zealand research consistently frames post-discharge failure as system-side: inadequate support, medication problems, unpreparedness for community living, limited whānau support, and poor access to culturally responsive services. Readmission signals unmet need, not patient fault. “Poor patient compliance” framing will cost the pitch in front of NZ health judges.
+What already exists — niche check
+Epic's patient-facing assistant, Emmie, already answers patient questions inside MyChart and produces plain-language summaries of lab and procedure results — this is a real, shipped competitor and the pitch must not pretend otherwise.
+Two things remain genuinely open, and this is where ClearChart's niche actually sits: Epic has no shipped feature that rewrites the full inpatient discharge summary or a consent form, and New Zealand's public hospitals do not run on Epic, so none of Emmie's capability reaches a patient at Waikato Hospital. Te reo Māori and Pacific-language output — the part of Right 5 this product actually closes — is not offered by any overseas competitor either. The niche is narrow by design (one document type, one moment, one language gap) rather than a broad “AI health assistant,” which is deliberately tighter than the health-chatbot category judges see most often.
+Approach
+1.   Ingest and structure. Take a PDF discharge summary or consent form and pull out the parts a patient actually acts on: medicines and changes, warning signs, follow-up appointments, activity limits, and who to call.
+2.   Rewrite with a clinician gate. Generate a plain-language version at a target reading level, shown beside the original, for a nurse or clinician to approve or edit before release. This gate is the safety design, not an afterthought, and it is the single most defensible claim in the pitch.
+3.   Visual breakdown. A medication timeline, a red-flag card of symptoms that mean call someone now, and a follow-up calendar. Most of the comprehension gain comes from structure, not prose.
+4.   Language and format options. Te reo Māori, Pacific languages, large print, and audio, each with human verification. This is where Right 5 is actually met, and it is the part no overseas product covers for New Zealand.
+Standout factor: what's already real, not hypothetical
+This is the strongest practicality argument available to any idea in this document: a working frontend already exists (HimendraFdo/Nurse-Notes, frontend branch — Vite + React), implementing exactly the architecture described above, not a mockup of it.
+•     A two-pane clinician review screen: left pane is the original clinical text (paste, or upload .txt/.md/.pdf, parsed locally with pdf.js), right pane is the plain-language rewrite, streamed live from a local LLM and directly editable.
+•     A persistent “Nurse review required before release” banner, visible until the clinician explicitly approves — the gate is a UI element a judge can see, not just a claim in the pitch.
+•     Approve-for-release locks the edited text and stamps a timestamp plus the reviewing clinician's name; Export patient PDF (generated in-browser with jsPDF) is only enabled after approval — the workflow enforces the gate structurally, it cannot be skipped.
+•     Reading-level badges are deliberately asymmetric rather than a naive Flesch–Kincaid on both panes: the original shows a clinical-jargon count (shorthand terms a patient can't decode), and the rewrite shows the Flesch–Kincaid grade against a 6th-grade target — because FK alone rates telegraphic shorthand like “SOB” or “6/52” as artificially easy, which would misrepresent the original as more readable than it is.
+•     Runs entirely against a local OpenAI-compatible endpoint (LM Studio, currently google/gemma-3n-e4b) — no cloud call, no account, nothing leaves the machine. This is a real, already-implemented privacy property, not a roadmap promise, and it is also the Māori-data-sovereignty argument: data that never moves cannot be governed by someone else's jurisdiction.
+Known, intentional limitation, not a bug to hide: the current small on-device model misreads NZ date shorthand (“6/52”, meaning 6 weeks, sometimes renders as “6 weeks and 5 days”). This is kept in the demo on purpose — the nurse catches it, corrects it, and approves, which is the clinician gate visibly doing its job on screen rather than being asserted in a slide.
+Technical Approach / Backend — proposed additions
+Grounded in open-ended 2020+ open-source research into what would meaningfully strengthen this specific product's actual weak points (small-model date/shorthand errors, no structured extraction guarantee, no jargon-detection ground truth) rather than AI-for-AI's-sake. All items below are researched/inferred technical context, not yet integrated into the existing frontend branch. Ranked by hackathon feasibility.
+1. MedGemma 4B (structured extraction) — buildable in the hackathon window.  Google's open-weight, edge-deployable clinical model (Health AI Developer Foundations license, not Apache). The 4B v1.5 variant scores 91.0 macro-F1 turning lab/clinical reports into structured JSON and 89.6% on EHRQA. Mechanism: swap the current single free-text rewrite call for a two-stage pipeline — MedGemma extracts medicines/doses/dates/warning-signs into a structured schema first, then the rewrite step generates plain language from that structured data instead of raw prose. This directly targets the one demoed failure mode (6/52 date misparse) by making dates a discrete, separately-validated field rather than free text the model has to get right in one pass — it doesn't guarantee the date parses correctly, but it makes the error visible and correctable in one place instead of buried in generated prose. Feasibility: realistic stretch goal for the remaining build time — requires a second model call and a schema, but no training. [researched/inferred]
+2. LLM-AIx or OpenMed-style local extraction/de-identification pass — future roadmap, not hackathon-scoped.  Open-source pipelines (LLM-AIx runs on a single on-prem GPU; OpenMed pairs clinical NER with a local Ollama model) built specifically for privacy-preserving, on-device clinical information extraction with no data leaving the host machine. Mechanism: a pre-processing de-identification/entity-tagging pass before the rewrite step, so if this tool were ever pointed at anything beyond the synthetic sample, PII would be structurally stripped before the LLM sees it, not just policy-promised. Explicitly future-roadmap: the product's current synthetic-data-only policy makes this unnecessary for the hackathon demo itself, but it is the concrete next step if ClearChart were piloted against real (de-identified) documents post-hackathon, and naming it shows the team has thought past the demo. [researched/inferred]
+3. Reading-level / jargon-detection fine-tuning or few-shot calibration — future roadmap.  Medical text simplification research (e.g. MultiMSD, ACL 2025 Findings) provides parallel clinical→plain-language corpora that could few-shot-calibrate or lightly fine-tune the jargon-detection and reading-grade badges beyond the current heuristic word/syllable counters, improving the honesty of the reading-grade claim shown to the clinician. Not buildable to a demoable standard in the remaining hackathon time; named as evidence the current heuristic approach was a deliberate scoping choice, not an oversight. [researched/inferred]
+Architectural compatibility with the existing frontend branch: all three proposals slot in at the src/lib/llm.js call site (currently a single fetch to the LM Studio OpenAI-compatible endpoint) as additional calls or a swapped model — none require changing the review-gate UI, the approval flow, or the PDF export, because the gate sits downstream of generation regardless of which model produced the draft. This is a disconnected-rebuild risk avoided, not created.
+Impact metrics
+•     13% → 81% patient-understandability lift, and 11th-grade → 6th-grade reading-level shift, from the published study this design is built on — not a number invented for this pitch. [from project docs / medRxiv]
+•     16.1% 30-day readmission rate among over-65 acute admissions is the population-level metric this tool is positioned against; ClearChart does not claim to have measured a readmission reduction itself — it targets one documented input to that outcome (discharge-instruction comprehension) and the pitch should say so explicitly rather than implying a causal claim the demo cannot support.
+•     Jargon count on the original pane (61 on the shipped synthetic sample) is a demoable, judge-verifiable number computed live in the browser, not a vanity metric — it is exactly the kind of “number that maps to something concrete a judge can check” this event's own judging notes call out as a differentiator.
+Judging-criteria mapping
+Mapped against this event's own four equally-weighted criteria (Inspiration, Technology, Design, Presentation) plus the TAIAO (SDG alignment/feasibility/impact) and Technical Brilliance prize criteria.
+Inspiration —  a defined, evidenced problem (56% low health literacy, 16.1% readmission risk, 13%→81% comprehension study) with a legal spine (Right 5) and a specific human moment (the patient who signs and can't remember what changed), not a generic “AI for good” framing.
+Technology —  a real, running local-LLM pipeline (not a mockup) with a working two-pane review UI already built, plus a scoped, honestly-ranked backend roadmap (MedGemma extraction as the realistic next call, de-identification and simplification fine-tuning named explicitly as future work rather than overclaimed as done).
+Design & Innovation —  structure-over-prose UI (medication timeline, red-flag card, follow-up calendar) instead of a chat window, an asymmetric jargon/FK badge pair designed to avoid a known measurement flaw, and te reo Māori / Pacific-language output that no competitor (including Epic's Emmie) ships for New Zealand.
+Presentation —  one sentence any judge grasps (“consent forms patients sign, turned into consent forms patients understand”), a live demo of the clinician gate catching and correcting a real generated error on screen, and a criteria-fit slide making this mapping explicit rather than leaving judges to infer it.
+TAIAO (SDG alignment, feasibility, impact) —  explicit SDG 3.8.1 / SDG 10.2 mapping, a 48-hour-buildable architecture with no hospital integration or training required, and impact evidence drawn from a published clinical study rather than an assumption.
+Technical Brilliance —  the clinician-gate architecture itself is the technical thesis (safety-by-design around a small, imperfect on-device model, rather than assuming a bigger model solves the problem), demonstrated with a real bug the team chose to keep because it proves the gate works.
+Positioning
+Health chatbots are the most crowded category at SDG hackathons. If this leads with a chat box it looks like several other teams. Lead with the consent form and the legal right; the clinician-gate review screen is the centrepiece, not a chatbot with a health skin.
+Build and demo
+Why the remaining time is enough  PDF text extraction, one structured-extraction call, one rewrite call against a reading-level target, and a review screen are already built end-to-end in the frontend branch. No training and no hospital-system integration. Remaining effort is the honestly-scoped MedGemma extraction addition above, plus rehearsal.
+Demo  Put the synthetic consent form on screen beside the rewritten version, with the reading grade and jargon count shown for each. Then show the clinician catching and correcting the “6/52” date error live and clicking Approve — demonstrating the gate working is more convincing than pretending the model is always right.
+Risks
+•     Never use real patient records. Use synthetic or published sample documents only — already enforced in the shipped frontend (samples/synthetic-discharge-01.txt is the only document used anywhere).
+•     The model will occasionally introduce errors. Do not claim otherwise — the review step is built and is part of the demo, not a stated intention.
+•     Translation into te reo Māori and Pacific languages needs care. Position it as a designed pathway with human verification, not machine translation presented as sufficient on its own — this is not yet built in the current frontend branch and should be named as a roadmap item, not implied as shipped.
+•     Position it as supporting the consent conversation, not replacing it.
+Strong legal hook, evidenced problem, and — unusually for this stage of a hackathon pitch — a working frontend to point to instead of a hypothetical one. The remaining risk is presentation discipline: pitched as a chatbot it blends in, pitched as a Right 5 tool with a visible safety gate it does not.
+
+
+##### Idea 7 — Disaster Recovery & Sudden Financial Shocks #####
+Problem
+When extreme weather events or localized economic shocks hit vulnerable communities, relief agencies take weeks to identify who needs immediate emergency micro-grants. Financial assistance is delayed by manual hardship intake, overloaded call centers, and fragmented municipal data. Households in high-deprivation zones face immediate cash-flow collapse for essential expenses (shelter, food, power, and medical supplies) long before insurance or formal disaster claims settle.
+SDG
+SDG 11.5 (reduce disaster impacts on human lives and livelihoods) and SDG 1.5 (build resilience of the poor and vulnerable). Indicator 11.5.2, direct economic loss attributed to disasters relative to GDP.
+The numbers
+•     During the 2023 North Island Floods and Cyclone Gabrielle, the Ministry of Social Development (MSD) processed over 101,000 Civil Defence Payment applications worth $56.6M, facing phone volumes of up to 9,000 calls per day.
+•     Total insurance payouts for the two events exceeded $3.75 billion across 117,000+ claims, leaving thousands waiting months for final residential settlements.
+•     A Department of Internal Affairs (DIA) climate study identified 44 communities in New Zealand combining high socio-economic vulnerability (NZDep bottom 10%) with severe flood exposure — concentrated heavily in Northland, Tairāwhiti, Waikato, and the Bay of Plenty.
+Why this is open
+Current emergency response platforms focus either on physical infrastructure (sandbags, evacuation routes) or passive phone/web intake forms. Standard civil defense tools do not dynamically intersect physical hazard layers with socio-economic vulnerability indicators in real time as an event unfolds. Existing hardship funds rely on post-event application processing, leaving whānau without high digital literacy or administrative bandwidth at the back of the queue.
+Approach
+1.   Multi-layer shock mapping. Ingest open spatial hazard boundaries (LINZ, NIWA, or regional council flood/power outage maps) and overlay them with census meshblock deprivation data (NZDep2018) to automatically highlight high-vulnerability, high-impact zones.
+2.   Automated micro-grant eligibility engine. Run a transparent, rules-based priority scoring algorithm (household size, localized infrastructure damage duration, proximity to hazard center, income threshold) to auto-flag households for prioritized emergency micro-disbursements.
+3.   Disbursement & transparency ledger. Generate an auditable, aggregated payout manifest (exportable for bank batch processing like ABA/CSV) while tracking diverted funds, meal/shelter equivalents funded, and average time-to-disbursement.
+New Zealand angle
+•     Severe weather events across Aotearoa continuously highlight administrative bottlenecks in distributing Civil Defence Emergency Payments and Mayoral Relief Funds.
+•     Regional councils maintain open spatial flood-hazard mapping (e.g., Waikato Regional Council, Bay of Plenty Regional Council), but these GIS systems remain completely disconnected from social sector grant channels.
+•     Strong regional relevance: rural towns across Waikato and Tairāwhiti frequently suffer isolated road access and power loss, making physical intake centers inaccessible.
+Build and demo
+•     Why 48 hours works — flood/hazard inundation can be modeled using static GeoJSON polygons over Mapbox or OpenStreetMap. Priority scoring is a weighted arithmetic function over census meshblock CSVs, and the dashboard is a standard frontend built with web mapping components.
+•     Demo — simulate a 100-year flood catchment event over a Waikato river basin. Watch the spatial map highlight affected meshblocks, automatically identify the top 15% highest-vulnerability households based on socio-economic weighting, and generate an approved emergency relief payout manifest ready for agency release.
+Risks
+•     Data privacy: ingesting exact household financial data carries severe privacy risks. Mitigation: aggregate vulnerability scores to the census meshblock or suburb level and use synthetic demographic data for the live demo.
+•     Integration claims: pretending to integrate live with banking core APIs or MSD systems in 48 hours is unrealistic. Frame the output as an agency-facing decision and verification layer that pushes to standard bank file specs.
+
+
+##### Idea 8 — Surplus Allocation & Safety-Triage Layer for Food Rescue #####
+Problem
+A cafe, supermarket, or event caterer ends the day with edible surplus that is perishable and time-boxed — good for hours, not days. Getting it to the right community group requires a human coordinator deciding, fast: is this safe to redistribute, which charity can actually use it (dietary, cultural, capacity, distance constraints), and can it get there before it spoils. Today that decision is made by phone, text, and gut feel by overworked volunteers. The narrow, addressable slice is the 10-minute allocation decision at the moment surplus appears.
+SDG
+SDG 12 (Responsible Consumption, target 12.3 — halve food waste). Secondary SDG 2 (Zero Hunger). Indicator 12.3.1b (Food waste index) — diverted-from-landfill tonnage maps to it.
+Worth knowing first
+The “list surplus, match to a nearby group” app has been built many times over. Live B2C products like Too Good To Go (operates in NZ), Olio, and Foodprint handle consumer surprise bags and neighbor sharing. Charity logistics layers like KiwiHarvest (~300,000 kg/month), Fair Food, and the Aotearoa Food Rescue Alliance (AFRA — 29M+ meals/year to 1,000+ charities) already handle bulk pickup. Listing and marketplace logistics are not the gap. Two voids remain where AI is novel:
+•     The Safety Go/No-Go Call: rescued surplus falls under the Food Act 2014. Damaged seals, broken cold chains, and ambiguous date labels require fast, defensible decisions per item.
+•     The Allocation Decision: matching specific surplus against client dietary/cultural needs (halal, allergen, texture-modified), capacity, hours, distance, and remaining safe window.
+Approach
+Reframe the product as the decision engine rather than the listing form (which acts as the demo prop):
+1.   Messy intake to structured data. Free-text NLP turns “Half a tray of butter chicken, made ~1pm, in warmer since” into structured JSON ({dish, protein, allergens, cook_time, holding_temp, safe_until}).
+2.   Safety triage. An LLM reads the item against a Food Act 2014 / food-safety rules table and returns a disposition (redistribute / reheat-first / hold / discard) with cited reasoning. Framed as decision support pending human sign-off.
+3.   Smart allocation. Vector embeddings match surplus to charity client needs — e.g., matching “butter chicken” to a group serving hot halal meals, even with zero keyword overlap. Ranked by fit × capacity × distance × remaining safe window.
+4.   Tamper-evident ledger. Hash-stamped hand-off records prevent a rejected/spoiled batch from being quietly un-flagged, providing audit integrity for corporate donor liability.
+New Zealand angle
+•     Legal spine: the Food Act 2014 gives donors good-faith protection when donating in good condition — the safety layer provides the audit trail to support this.
+•     National scale: Aotearoa generates 1.2 million tonnes of food waste annually (~237 kg/person; MfE 2025 report), with ~190,000 tonnes binned by households while still edible. Supermarkets generate ~60,500 tonnes/year.
+•     Methane impact: 18% of wasted food ends up in landfill, generating methane (~28x CO₂ equivalent).
+•     Social gap: 1 in 5 NZ children live in food-insecure households. The barrier is not supply, but the rapid allocation decision in the hours food stays good.
+Build and demo
+•     Time-window-first — every item carries a live “safe-until” clock; allocation ranking decays as the window closes.
+•     Why 48 hours works — intake is one LLM parse call. Safety triage is a prompt over a rules table. Allocation uses off-the-shelf embeddings and a weighted sort over static JSON charity profiles.
+•     Demo — type a messy surplus sentence live. Watch it become a structured item with a ticking safe-until clock. The safety agent renders a disposition and cited reasoning. The allocator returns a ranked shortlist of mock charities, explaining why the top match fits (“hot-meal service, halal, open now, 4 min away”) without keyword overlap. Confirm hand-off to produce a hash-stamped record.
+Risks
+•     Do not pitch a two-sided marketplace/listing app — center the pitch on the safety triage and allocation decision layer.
+•     Output must be framed as “decision support pending coordinator sign-off,” not legal/clinical clearance.
+•     Use synthetic charity data to avoid handling real client dietary records.
+•     Flag any item with ambiguous allergen disclosures as “Hold” by default.
+
+
+##### Idea 9 — Crisis Response & Emergency Resource Allocation Engine #####
+Problem
+During sudden disasters (severe weather, regional flooding, infrastructure failures), relief agencies face a double crisis: weeks to identify vulnerable whānau needing direct hardship payouts, alongside perishable food and emergency supplies spoiling because manual coordination cannot match available supplies to urgent hub needs fast enough. Current civil defence mechanisms rely on overloaded call centres, manual paper forms, and static spreadsheets.
+SDG
+SDG 11.5 (reduce disaster impacts) and SDG 12.3 (halve food waste / divert emergency surplus). Secondary SDG 1.5 (resilience of vulnerable groups) and SDG 2.1 (end hunger). Indicators 11.5.2 (direct economic loss relative to GDP) and 12.3.1b (food waste index).
+Worth knowing first
+Emergency response apps usually split into two flawed categories: map-only visualisations or basic B2C surplus-listing marketplaces (like Too Good To Go or Olio). In actual disaster scenarios, neither works. Existing Civil Defence Emergency Management (CDEM) channels and social relief networks (AFRA, KiwiHarvest, MSD) operate in silos — spatial flood mapping is completely disconnected from donor supply chains and social welfare grant channels. The gap is an integrated decision and resource routing layer that evaluates risk, verifies compliance, and routes physical resources and direct aid in real time.
+Approach
+Combines predictive spatial shock mapping with automated safety triage and semantic resource allocation:
+1.   Spatial threat & vulnerability mapping. Ingests open GIS hazard boundaries (LINZ flood zones, regional council inundation maps) overlaid with census meshblock deprivation data (NZDep2018) to identify isolated, high-risk communities automatically.
+2.   Messy intake & safety triage. Ingests free-text surplus/supply logs (“2 pallets chilled dairy, cook time 10am, warmer offline 2hrs”) and evaluates them against Food Act 2014 rules to return an automated disposition (redistribute / reheat-first / hold / discard) with cited safety reasoning.
+3.   Semantic matching engine. Vector embeddings match verified supplies directly to nearby evacuation centers or community hubs based on real-time client constraints (halal, allergens, infant care, storage capacity, distance, and remaining safe window).
+4.   Direct grant manifest & audit ledger. Priority-scores affected households for emergency micro-disbursements (ABA/CSV output) while maintaining a hash-stamped audit ledger of diverted resources to ensure complete transparency and prevent double-dipping.
+New Zealand angle
+•     Disaster bottlenecks: during Cyclone Gabrielle and the 2023 North Island Floods, MSD handled 101,000+ Civil Defence Payments ($56.6M) at peak call volumes of 9,000/day, while tons of perishable relief food spoiled due to fragmented local logistics.
+•     Deprivation exposure: DIA climate studies identify 44 NZ communities combining severe flood risk with top-tier socio-economic vulnerability (NZDep bottom 10%), concentrated across Waikato, Tairāwhiti, Northland, and Bay of Plenty.
+•     Legal spine: integrates the Food Act 2014 donor liability protections directly into the emergency dispatch pipeline, enabling corporate donors to supply crisis hubs defensibly.
+Build and demo
+•     Time-window-first — emergency supplies carry a live decay clock; routing priority automatically re-ranks as physical access or shelf life closes.
+•     Why 48 hours works — hazard zones use static GeoJSON polygons over Mapbox; priority scoring uses weighted arithmetic over meshblock CSVs; intake and safety triage rely on standard structured LLM schema prompts over a rules table; allocation uses lightweight vector embeddings.
+•     Demo — simulate a major flood event over a Waikato catchment. Watch the spatial map highlight impacted high-deprivation meshblocks. Enter a messy text batch of emergency caterer surplus: the system parses it, runs the Food Act safety check, and semantically matches it to a nearby isolated evacuation hub without keyword overlap, while generating an approved emergency grant manifest.
+Risks
+•     Data privacy: avoid using live personal financial records — use synthetic population data and aggregate vulnerability scores to the meshblock/suburb level.
+•     Liability & authority: frame output strictly as an “agency-facing decision support engine pending coordinator sign-off” rather than a legal or clinical ruling.
+•     API failures: use cached local GeoJSON maps and recorded video fallbacks for the intake-to-ledger routing flow.
+
+
+##### Idea 10 — Universal Jargon & Handwriting Interpreter #####
+Problem
+The comprehension gap in Idea 6 is not unique to hospitals. People hit the same wall with tenancy agreements, insurance policy wording, IRD and WINZ letters, engineering and building-consent specs, and handwritten documents — a doctor's script, a lawyer's marginal note, a scanned historical record. Right now the workaround is pasting text into a generic chatbot, which creates three problems at once: the document (often sensitive — medical, financial, legal) leaves the person's device to a third-party cloud; the model has no domain-specific rules table to ground jargon in, so it paraphrases with no citation back to the source clause; and handwriting is simply not something a text box handles.
+SDG
+SDG 10.2 (inclusion) and SDG 4.6 (functional literacy for youth and adults), the same legal-access logic as Idea 6's Right 5 and 6 argument, extended to non-health documents via the right to access information in a usable form.
+Why “just use Google” isn't the answer
+•     Privacy. Sensitive documents — medical results, tenancy contracts, benefit letters — get typed into a general-purpose chatbot with no guarantee of where that data is processed or retained. On-device inference is now genuinely viable: WebGPU ships enabled by default in Chrome, Edge, Firefox, and Safari as of mid-2026, and browser-based engines such as WebLLM can run a quantised small model entirely in the tab, with nothing leaving the device.
+•     Accuracy on jargon. A generic assistant has no domain-specific rules table, so it paraphrases confidently even when it is wrong about a specific legal or clinical term. This tool grounds every rewrite in a per-domain glossary and cites the source clause, the same clinician-gate logic Idea 6 already uses for discharge summaries.
+•     Handwriting. Prescriptions, clinical notes, and older government correspondence are often handwritten or scanned. This is a distinct and harder OCR problem from typed-text simplification, and it is the piece a copy-paste chatbot workflow cannot touch at all.
+•     Legitimate datasets. Rewrites are grounded against real, named sources — the Residential Tenancies Act, IRD guidance, insurance PDS documents, the same public-PDF retrieval pattern used for the National Standards in Idea 3 — rather than an ungrounded model guess.
+Approach
+1.   Domain-routed intake. A document or photo is classified into a domain (health, legal, financial, government, technical) and matched to that domain's rules table and glossary, reusing Idea 6's ingest-and-structure pipeline.
+2.   Handwriting and jargon interpreter. OCR handles handwritten and scanned text; a rewrite pass simplifies dense or archaic wording to a target reading level, with every simplified term traceable back to a cited definition rather than a free paraphrase.
+3.   Visualising agent. The same structure-over-prose principle from Idea 6 — timelines, flowcharts for conditional clauses (“if you miss a payment, this happens”), and decision trees — generalised across domains instead of being medication-specific.
+4.   Local-first privacy mode. A WebGPU-detected small model runs the simplification entirely in-browser for sensitive documents; the interface falls back to a cloud model only for longer or more complex documents, with the trade-off shown to the user rather than hidden.
+5.   Confidence and review gate. Low-confidence handwriting reads or ambiguous clauses are flagged for human review rather than silently guessed, the same safety pattern as Idea 6's clinician gate.
+New Zealand angle
+•     Te Mana Raraunga's Māori Data Sovereignty principles — Rangatiratanga (authority and control over data) in particular — make the on-device, nothing-leaves-the-device mode a genuine sovereignty answer for Māori users dealing with government or health paperwork, not just a generic privacy feature.
+•     Te Kāhui Raraunga's 2026 Te Pā Tūwatawata initiative is pushing the same principle at infrastructure level — Māori-controlled data storage so sovereignty “doesn't stop at the server door” — which this idea's local-first mode is aligned with rather than competing against.
+•     The same glossary-and-citation grounding used for the National Standards PDFs in Idea 3 and the Code of Rights in Idea 6 extends naturally to Tenancy Services, IRD, and WINZ guidance.
+Build and demo
+•     Why 48 hours works — the rewrite-and-visualise engine already exists as Idea 6's build. The new work is a domain router, two or three additional glossary tables, and a WebGPU feature-detect that switches between a small in-browser model and the cloud API.
+•     Demo — feed a photographed handwritten prescription and watch it become a structured medication list. Then feed a dense tenancy-agreement clause and watch it become plain language plus a small consequence flowchart. Toggle “local mode” on and off live to show the privacy trade-off happening in real time, not just claimed in the pitch.
+Risks
+•     Handwriting OCR is still imperfect in 2026. Show the confidence flag and human-review gate as part of the demo rather than implying the reading is always correct.
+•     On-device models are smaller and weaker than the cloud model. Cap local mode to simplification and summarisation, not generation of legal or clinical advice.
+•     Frame it as a literacy aid pending professional sign-off, not a replacement for a lawyer, pharmacist, or WINZ case worker — the same positioning discipline as Idea 6.
+•     Don't overclaim Māori data sovereignty compliance from a 48-hour prototype; frame local-first as aligned with those principles, not certified against them.

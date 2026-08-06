@@ -1,0 +1,16 @@
+=== H1: Judging
+=== H1: Idea 1 — Cold-Chain Monitor for Last-Mile Clinics
+=== H1: Idea 2 — Surplus Matching for Growers
+=== H1: Idea 3 — Disability Funding Reassessment Tool
+=== H1: Idea 4 — E-Waste Routing
+=== H1: Idea 5 — Neighbourhood SDG Indicator Generator
+=== H1: Idea 6 — ClearChart (formerly Nurse Notes) — Patient Health Literacy and Informed Consent
+=== H1: Idea 7 — Disaster Recovery & Sudden Financial Shocks
+=== H1: Idea 8 — Surplus Allocation & Safety-Triage Layer for Food Rescue
+=== H1: Idea 9 — Crisis Response & Emergency Resource Allocation Engine
+=== H1: Idea 10 — Universal Jargon & Handwriting Interpreter
+=== H1: Comparison
+=== H1: Suggested Picks
+=== H1: Not Included
+=== H1: Practical Notes
+=== H1: Sources

@@ -1,0 +1,83 @@
+0 | normal | SDG Hackathon
+1 | normal | Idea Guide & Judging Notes
+2 | normal | Ten candidate builds, judging criteria, and pitch structure — Waikato region
+3 | normal |  
+4 | Heading 1 | Judging
+5 | normal |  
+6 | normal | Local winners go through to national judging.
+7 | Heading 2 | What scores well
+8 | normal | Judges reward execution over novelty. Working software aimed at a specific group beats a clever idea that only half runs. A plain LLM wrapper no longer stands out. Health and education chatbots are the most common entries, so they are the hardest lane to win in.
+9 | normal | One thing separates entries reliably: producing a number that maps to an official UN indicator. It gives judges something concrete to check.
+10 | Heading 2 | Context
+11 | normal | Only 16% of SDG targets are projected to be met by 2030. The UN's own count puts 36% of 139 targets on track or progressing moderately. Four years left.
+12 | normal | Two of the three problems suggested in the event PDF — Facilities Helpdesk and Peer Support — are chatbot-shaped. Choosing one means competing mostly on presentation.
+13 | normal | 
+289 | Heading 1 | Comparison
+290 | normal |  
+291 | normal | * Medium only if pitched as the decision layer. Low if pitched as a logger, since ColdTrace X already covers that.
+292 | normal | † Medium because Epic already ships plain-language result summaries. The open ground is the full discharge summary, the consent form, and te reo Māori and Pacific language output, none of which overseas products cover for New Zealand.
+293 | normal | ‡ High because the safety triage and semantic allocation layers are genuinely novel even though surplus-listing apps are common.
+294 | normal | § High because the on-device privacy mode and domain-grounded citation are a real architectural answer to “why not just use a generic chatbot,” not a cosmetic difference. Idea 9 is a combined variant of Ideas 7 and 8 and is not separately scored here.
+295 | normal | 
+296 | normal | 
+297 | Heading 1 | Suggested Picks
+298 | normal |  
+299 | normal | Idea 6 is the lowest-risk build on the list and the easiest to demo convincingly, but it sits in the most crowded category. It rewards a team that is stronger on presentation than on engineering, provided the pitch leads with the Code of Rights rather than the chat box.
+300 | normal | Worth weighing: the probe-in-ice moment in Idea 1 is the most memorable few seconds available to any team in the room, and a web app cannot match it. If someone on the team does embedded work, keep the prop — just make sure the software behind it is the decision layer.
+301 | Heading 1 | Not Included
+302 | normal | Rural volunteer transport matching was considered and dropped. Road XS, Spedsta, and Assisted Rides already do it, and Hato Hone St John and the Cancer Society already run the NZ services. Where it has been studied, the bottleneck is human coordination, not the matching software.
+303 | Heading 1 | Practical Notes
+304 | normal | Teams split at noon on day two — half keep building, half prepare the pitch. Agree who is on which side beforehand. The 30 minutes between the end of the hack and the start of pitching is the only window to regroup.
+305 | Heading 2 | Pitch structure, from the official template
+306 | normal |  
+307 | normal | The template notes: describe the problem you are solving, which may not be the one you set out to solve
+308 | Heading 1 | Sources
+309 | Heading 3 | SDG
+310 | normal | •     UN SDG Report 2026 — https://unstats.un.org/sdgs/report/2026/
+311 | normal | •     SDSN Report 2026 — https://dashboards.sdgindex.org/
+312 | normal | •     UN-Habitat SDG 11 Report 2026 — https://unhabitat.org/sdg-11-global-report-2026-housing-at-the-centre-of-sustainable-cities-and-communities
+313 | Heading 3 | Cold chain
+314 | normal | •     Health NZ cold chain standards — https://www.tewhatuora.govt.nz/health-services-and-programmes/vaccine-information/vaccine-service-delivery/cold-chain-standards-for-vaccines/
+315 | normal | •     National Standards 2017 (2nd ed) — https://www.tewhatuora.govt.nz/assets/For-the-health-sector/Health-sector-guidance/Vaccine-information-for-healthcare-professionals/National-Standards-for-Vaccine-Storage-and-Transportation-for-Immunisation-Providers-2017-2nd-edition.pdf
+316 | normal | •     IMAC cold chain — https://immune.org.nz/vaccines/cold-chain
+317 | normal | •     Nexleaf ColdTrace — https://www.nexleaf.org/work/vaccines/
+318 | Heading 3 | Food
+319 | normal | •     NZFN Hunger Monitor 2025 — https://www.nzfoodnetwork.org.nz/wp-content/uploads/2026/03/NZFN-Hunger-Monitor-2025-Digital.pdf
+320 | normal | •     NZFN impact stats — https://www.nzfoodnetwork.org.nz/our-impact/
+321 | normal | •     NZFN and Lineage partnership — https://www.nzfoodnetwork.org.nz/food-rescue-partnership-nz-food-network-lineage-grant/
+322 | normal | •     Rabobank food waste — https://www.rabobank.co.nz/community/food-waste
+323 | normal | •     PMCSA food rescue evidence — https://www.pmcsa.ac.nz/topics/food-rescue-food-waste/
+324 | Heading 3 | Disability
+325 | normal | •     DSS February 2026 fact sheet — https://www.disabilitysupport.govt.nz/disabled-people/improvements-to-disability-support-services/february-2026-fact-sheet
+326 | normal | •     NZ Disability Strategy 2026–2030 — https://www.whaikaha.govt.nz/assets/NZDS-26-30-Documents/NZDS-2026-2030.pdf
+327 | normal | •     CCS Disability Action, Budget 2026 — https://www.ccsdisabilityaction.org.nz/news/budget-2026-statement
+328 | normal | •     Blind Low Vision NZ submission — https://blindlowvision.org.nz/news/submission-on-the-disability-support-services-bill-2026/
+329 | Heading 3 | E-waste
+330 | normal | •     TechCollect NZ stewardship — https://techcollect.nz/e-waste-product-stewardship-new-zealand/
+331 | normal | •     Electronic waste in New Zealand — https://en.wikipedia.org/wiki/Electronic_waste_in_New_Zealand
+332 | Heading 3 | Data and tooling
+333 | normal | •     data.govt.nz APIs — https://data.govt.nz/catalogue-guide/using-data-govt-nz-apis
+334 | normal | •     NZ AI Strategy — https://www.mbie.govt.nz/assets/new-zealands-strategy-for-artificial-intelligence.pdf
+335 | Heading 3 | Health literacy and consent
+336 | normal | •     HDC Code of Rights (Rights 5 and 6) — https://www.hdc.org.nz/your-rights/about-the-code/code-of-health-and-disability-services-consumers-rights/
+337 | normal | •     Code of Rights, full PDF — https://www.hdc.org.nz/media/550hs5ih/code-of-rights_online_5-sept-2022.pdf
+338 | normal | •     HQSC health literacy background — https://www.hqsc.govt.nz/assets/Consumer-hub/Partners-in-Care/Publications-resources/health-literacy-background-info-Sep-2013.pdf
+339 | normal | •     Health literacy and Pacific peoples review — https://ojs.aut.ac.nz/pacific-health/article/view/4
+340 | normal | •     NZ Society of Anaesthetists on health literacy — https://anaesthesia.nz/news/health-literacy-in-aotearoa-new-zealand-remains-a-critical-challenge/
+341 | normal | •     AI-generated patient-friendly discharge summaries — https://www.medrxiv.org/content/10.1101/2025.07.04.25330804.full.pdf
+342 | normal | •     NYU Langone discharge summary trial — https://clinicaltrials.gov/study/NCT06711458
+343 | normal | •     Epic Emmie, patient-facing AI — https://www.epic.com/software/emmie/
+344 | normal | •     Acute readmissions to hospitals, MoH — https://www.health.govt.nz/statistics-research/system-monitoring/planning-and-performance-data/acute-readmissions-to-hospitals
+345 | Heading 3 | Universal jargon & handwriting interpreter
+346 | normal | •     Browser-based on-device AI, local LLM overview 2026 — https://www.sigmabrowser.com/blog/browser-with-on-device-ai-best-local-ai-browsers-in-2026
+347 | normal | •     WebGPU in-browser LLM inference, no server — https://localaimaster.com/blog/run-llm-in-browser
+348 | normal | •     WebLLM: high-performance in-browser inference engine — https://arxiv.org/html/2412.15803v2
+349 | normal | •     Te Mana Raraunga, Māori Data Sovereignty Network — https://www.temanararaunga.maori.nz/
+350 | normal | •     Principles of Māori Data Sovereignty, October 2018 — https://www.otago.ac.nz/__data/assets/pdf_file/0014/321044/tmr-maori-data-sovereignty-principles-october-2018-832194.pdf
+351 | normal | •     Te Pā Tūwatawata, Māori-owned data storage network — https://www.rnz.co.nz/news/te-manu-korihi/596199/maori-owned-data-storage-network-hailed-as-significant-step-towards-data-sovereignty
+352 | Heading 3 | Judging
+353 | normal | •     GitLab AI Hackathon 2026 winners — https://about.gitlab.com/blog/gitlab-ai-hackathon-2026-meet-the-winners/
+354 | Heading 2 | Technical notes
+355 | normal | data.govt.nz documentation references CKAN 2.7, which is old. Check /api/3/action/status_show before coding against those docs. The DataStore API only exists where a clean CSV was supplied; many listings are metadata-only links to agency sites.
+356 | normal | Claude Sonnet 5 pricing rises to $3/$15 per million tokens after 31 August 2026.
+357 | normal | 

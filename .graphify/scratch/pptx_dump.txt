@@ -1,0 +1,127 @@
+SLIDES: 9
+--- Slide 1 ---
+[IMAGE]
+SDG 3 · GOOD HEALTH  |  Aotearoa AI Hackathon Festival 2026
+ClearChart
+Consent forms patients sign — turned into consent forms patients understand.
+An AI tool that rewrites hospital discharge summaries and consent forms into plain language at a reading level patients can act on — with a clinician approving every word before it reaches the patient.
+University of Waikato
+--- Slide 2 ---
+0:30  ·  CONNECT
+Who we are, and what we care about
+[IMAGE]
+The moment we keep coming back to
+A patient signs a consent form, nods, and goes home — then can't remember which pill changed, what danger sign means call someone now, or when the follow-up is. That gap isn't the patient failing. It's the paperwork failing them.
+[IMAGE]
+People with low health literacy
+Over half of NZ adults — across every community
+[IMAGE]
+Clinicians
+Who want patients to actually understand, not just sign
+[IMAGE]
+Whānau who don't read clinical English
+Te reo Māori and Pacific-language speakers most of all
+--- Slide 3 ---
+1:00  ·  PROBLEM
+Care a patient can't act on isn't really care
+56%
+of NZ adults — over 1.6 million people — can't obtain and understand basic health information well enough to make informed decisions.
+~90%
+of Pacific people aged 15+ have low health literacy. Māori and Pacific rates sit below non-Māori.
+16.1%
+of acute medical admissions in over-65s are readmitted within 30 days — higher for Māori, Pacific, and deprived areas.
+Killer data point:  an LLM-rewritten discharge summary moved understandability from 13% to 81% — the same study also introduced errors, which is exactly why our design puts a clinician in the middle.
+--- Slide 4 ---
+THE REFRAME
+This isn't a nice-to-have. It's a legal right.
+[IMAGE]
+Right 5 — Code of Health & Disability Services Consumers' Rights
+Every consumer has the right to effective communication “in a form, language, and manner that enables the consumer to understand.” A consent form the patient didn't understand is arguably not compliant. Right 6 adds the right to be fully informed.
+Why that changes the pitch
+[IMAGE]
+From helpful to required
+Judges can verify the obligation exists — it's law, not opinion.
+[IMAGE]
+A defensible reason to exist
+We're closing a compliance gap, not adding a chatbot.
+[IMAGE]
+Local and specific
+This is the NZ Code — overseas products aren't built around it.
+--- Slide 5 ---
+2:00  ·  YOUR BIG IDEA — THE PROTOTYPE
+Same record. Two readings. One safety gate.
+[IMAGE]
+[IMAGE]
+Before → after
+An 11th-grade clinical summary becomes a 6th-grade one, side by side.
+[IMAGE]
+Clinician gate
+“Nurse review required before release” — a human approves every rewrite.
+[IMAGE]
+Structure over prose
+Medication timeline, red-flag warning card, follow-up calendar.
+Concept mockup — the live build is a working web app (see next slide).
+--- Slide 6 ---
+HOW IT WORKS  ·  BUILDABLE IN A DAY
+Four steps. No training, no hospital integration.
+1
+[IMAGE]
+Ingest & structure
+Pull the parts a patient acts on from a PDF: meds & changes, warning signs, follow-ups, who to call.
+2
+[IMAGE]
+Rewrite + clinician gate
+Generate a plain-language version at a target reading level. A nurse approves or edits before release.
+3
+[IMAGE]
+Visual breakdown
+Medication timeline, a red-flag 'call now' card, and a follow-up calendar. Structure does the work.
+4
+[IMAGE]
+Language & format
+Te reo Māori, Pacific languages, large print, audio — with human verification. Where Right 5 is met.
+Why 48 hours works:  PDF extraction + one structured-extraction call + one rewrite call + a review screen. The review UI is ordinary CRUD. Nothing to train, nothing to integrate.
+--- Slide 7 ---
+DIFFERENTIATION
+“Why not just use ChatGPT — or Epic?”
+[IMAGE]
+Epic's Emmie exists — but
+It summarises lab & procedure results inside MyChart. It has no shipped feature that rewrites the full inpatient discharge summary or the consent form.
+[IMAGE]
+NZ public hospitals don't run on Epic
+So none of that reaches a patient at Waikato Hospital. The gap is real and local.
+[IMAGE]
+No overseas product does te reo Māori or Pacific languages
+That output — the part where Right 5 is actually met for NZ — is ours to own.
+[IMAGE]
+The clinician gate is the difference
+A generic chatbot ships its guess straight to the patient. We put a human in the middle by design.
+--- Slide 8 ---
+1:30  ·  IMPACT · WHAT WE NEED · FUTURE
+What changes if this ships
+13% → 81%
+measured jump in how well patients understand their own discharge summary, in the study we build on.
+IMPACT
+[IMAGE]
+What we need
+Clinical partner to validate rewrites
+Verified te reo & Pacific translations
+A pilot ward to test comprehension
+Synthetic sample docs only — never real records
+[IMAGE]
+The future
+Every discharge form leaves the ward in a form the patient understands — in their language, checked by a clinician, turning a legal right into a daily reality.
+--- Slide 9 ---
+[IMAGE]
+WHY THIS WINS ON THE SCORECARD
+Every criterion, covered
+Inspiration
+A defined problem with a legal spine and a human face.
+Technology
+Real AI, buildable in a day, with a clinician safety gate.
+Design & Innovation
+Structure-over-prose UI; te reo & Pacific output no rival ships.
+Presentation
+One sentence any judge grasps: forms patients can actually understand.
+SDG mapping:  Indicator 3.8.1 (coverage of essential health services) + SDG 10.2 (inclusion — low literacy tracks with ethnicity & deprivation).
+The ask:  help us put a plain-language, clinician-approved consent form in front of the next patient who signs one.

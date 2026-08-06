@@ -1,0 +1,37 @@
+IDX 137 style=Heading 1 nruns=1
+  run: 'Idea 6 — Patient Health Literacy and Informed Consent' bold=True size=203200
+IDX 138 style=normal nruns=2
+  run: '' bold=True size=203200
+  run: '' bold=None size=None
+IDX 139 style=Heading 3 nruns=1
+  run: 'Problem' bold=True size=139700
+IDX 140 style=normal nruns=1
+  run: 'Discharge notes, surgical consent forms, and diagnostic reports are written in c' bold=None size=None
+IDX 144 style=normal nruns=3
+  run: '•' bold=None size=None
+  run: '     ' bold=None size=88900
+  run: 'More than 56% of New Zealand adults — over 1.6 million people — cannot obtain an' bold=None size=None
+IDX 147 style=Heading 3 nruns=1
+  run: 'Two corrections to the framing' bold=True size=139700
+IDX 149 style=normal nruns=4
+  run: '•' bold=None size=None
+  run: '     ' bold=None size=88900
+  run: 'It is a legal right, not a service improvement. ' bold=True size=None
+  run: "Right 5 of the Code of Health and Disability Services Consumers' Rights gives ev" bold=None size=None
+IDX 154 style=Heading 3 nruns=1
+  run: 'Approach' bold=True size=139700
+IDX 155 style=normal nruns=4
+  run: '1.' bold=None size=None
+  run: '   ' bold=None size=88900
+  run: 'Ingest and structure. ' bold=True size=None
+  run: 'Take a PDF discharge summary or consent form and pull out the parts a patient ac' bold=None size=None
+IDX 160 style=Heading 3 nruns=1
+  run: 'Positioning' bold=True size=139700
+IDX 161 style=normal nruns=1
+  run: 'Health chatbots are the most crowded category at SDG hackathons. If you lead wit' bold=None size=None
+IDX 165 style=Heading 3 nruns=1
+  run: 'Risks' bold=True size=139700
+IDX 166 style=normal nruns=3
+  run: '•' bold=None size=None
+  run: '     ' bold=None size=88900
+  run: 'Never use real patient records. Use synthetic or published sample documents only' bold=None size=None
