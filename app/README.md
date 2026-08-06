@@ -164,6 +164,19 @@ enter your name, **Approve for release**, and **Export patient PDF**.
 To swap models (e.g. Qwen 3 8B for cleaner output), use the **Settings** panel
 in the app, or edit the defaults in `src/lib/llm.js`.
 
+### Single-file build (no server needed)
+
+```bash
+npm run build
+```
+
+Everything — JS, CSS, the PDF worker — is inlined into one file:
+`dist/index.html`. Double-click it (or open it with `file://`) and it runs
+directly in the browser. LM Studio still needs to be running locally for
+**Generate** to work (the app calls `http://localhost:1234/v1` directly when
+opened this way, since there's no dev-server proxy to fall back on); the
+patient QR/mobile view and PDF export work with zero setup either way.
+
 Full API details and a minimal `fetch` example are in [`CLAUDE.md`](CLAUDE.md) §4.
 
 ---
