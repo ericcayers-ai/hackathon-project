@@ -1,45 +1,52 @@
 {
   "files": {
     "code": [
-      "C:\\Users\\ericc\\OneDrive\\Desktop\\Programs\\Hackathon-Project\\tools\\build_docx.py"
+      ".graphify/studio/assets/index-CU5cXRnL.js",
+      "tools/build_docx.py"
     ],
     "document": [
-      "C:\\Users\\ericc\\OneDrive\\Desktop\\Programs\\Hackathon-Project\\.claude\\agents\\hackathon-ai-strategist.md",
-      "C:\\Users\\ericc\\OneDrive\\Desktop\\Programs\\Hackathon-Project\\.github\\workflows\\sync-gdoc.yml",
-      "C:\\Users\\ericc\\OneDrive\\Desktop\\Programs\\Hackathon-Project\\CLAUDE.md",
-      "C:\\Users\\ericc\\OneDrive\\Desktop\\Programs\\Hackathon-Project\\README.md",
-      "C:\\Users\\ericc\\OneDrive\\Desktop\\Programs\\Hackathon-Project\\docs\\IDEATION.txt"
+      ".claude/agents/hackathon-ai-strategist.md",
+      ".github/workflows/sync-gdoc.yml",
+      ".graphify/GRAPH_REPORT.md",
+      ".graphify/studio/index.html",
+      ".graphify/studio/studio-template.html",
+      ".graphify/studio/studio.html",
+      "CLAUDE.md",
+      "README.md",
+      "context.txt",
+      "docs/IDEATION.txt",
+      "prompt.txt"
     ],
     "paper": [
-      "C:\\Users\\ericc\\OneDrive\\Desktop\\Programs\\Hackathon-Project\\docs\\AI Hackathon Festival 2026 - Participant Info.pdf",
-      "C:\\Users\\ericc\\OneDrive\\Desktop\\Programs\\Hackathon-Project\\docs\\ai-hackathon-2026-summary.pdf"
+      "docs/AI Hackathon Festival 2026 - Participant Info.pdf",
+      "docs/ai-hackathon-2026-summary.pdf"
     ],
     "image": [
-      "C:\\Users\\ericc\\OneDrive\\Desktop\\Programs\\Hackathon-Project\\assets\\images\\01_cold_chain_monitor.png",
-      "C:\\Users\\ericc\\OneDrive\\Desktop\\Programs\\Hackathon-Project\\assets\\images\\02_surplus_matching_growers.png",
-      "C:\\Users\\ericc\\OneDrive\\Desktop\\Programs\\Hackathon-Project\\assets\\images\\03_disability_funding_reassessment.png",
-      "C:\\Users\\ericc\\OneDrive\\Desktop\\Programs\\Hackathon-Project\\assets\\images\\04_ewaste_routing.png",
-      "C:\\Users\\ericc\\OneDrive\\Desktop\\Programs\\Hackathon-Project\\assets\\images\\05_neighbourhood_sdg_indicator.png",
-      "C:\\Users\\ericc\\OneDrive\\Desktop\\Programs\\Hackathon-Project\\assets\\images\\06_patient_health_literacy.png",
-      "C:\\Users\\ericc\\OneDrive\\Desktop\\Programs\\Hackathon-Project\\assets\\images\\07_disaster_recovery_shocks.png",
-      "C:\\Users\\ericc\\OneDrive\\Desktop\\Programs\\Hackathon-Project\\assets\\images\\08_surplus_allocation_food_rescue.png",
-      "C:\\Users\\ericc\\OneDrive\\Desktop\\Programs\\Hackathon-Project\\assets\\images\\09_crisis_response_allocation_engine.png",
-      "C:\\Users\\ericc\\OneDrive\\Desktop\\Programs\\Hackathon-Project\\assets\\images\\10_universal_jargon_interpreter.png"
+      "assets/images/01_cold_chain_monitor.png",
+      "assets/images/02_surplus_matching_growers.png",
+      "assets/images/03_disability_funding_reassessment.png",
+      "assets/images/04_ewaste_routing.png",
+      "assets/images/05_neighbourhood_sdg_indicator.png",
+      "assets/images/06_patient_health_literacy.png",
+      "assets/images/07_disaster_recovery_shocks.png",
+      "assets/images/08_surplus_allocation_food_rescue.png",
+      "assets/images/09_crisis_response_allocation_engine.png",
+      "assets/images/10_universal_jargon_interpreter.png"
     ],
     "video": []
   },
-  "total_files": 18,
-  "total_words": 613430,
+  "total_files": 25,
+  "total_words": 638634,
   "needs_graph": true,
-  "warning": "Large corpus: 18 files · ~613,430 words. Semantic extraction will be expensive (many Claude tokens). Consider running on a subfolder, or use --no-semantic to run AST-only.",
+  "warning": "Large corpus: 25 files · ~638,634 words. Semantic extraction will be expensive (many Claude tokens). Consider running on a subfolder, or use --no-semantic to run AST-only.",
   "skipped_sensitive": [
-    "C:\\Users\\ericc\\OneDrive\\Desktop\\Programs\\Hackathon-Project\\docs\\SDG_Hackathon_Idea_Guide.docx [office conversion requires async - use pipeline]",
-    "C:\\Users\\ericc\\OneDrive\\Desktop\\Programs\\Hackathon-Project\\tools\\LLM-TokenOptimizer.ps1"
+    "docs/SDG_Hackathon_Idea_Guide.docx [office conversion requires async - use pipeline]",
+    "tools/LLM-TokenOptimizer.ps1"
   ],
   "graphifyignore_patterns": 0,
   "git": {
     "source_owner": "git",
-    "source_hash": "6a71f12c63837cc59e0f0fd6fbad94c5530c5d21",
+    "source_hash": "49b68c966ee132d3015b7502f0de6d99907a641f",
     "branches": [
       "main"
     ],
@@ -49,13 +56,13 @@
   "scope": {
     "requested_mode": "auto",
     "resolved_mode": "committed",
-    "source": "cli",
-    "root": "C:\\Users\\ericc\\OneDrive\\Desktop\\Programs\\Hackathon-Project",
-    "git_root": "C:\\Users\\ericc\\OneDrive\\Desktop\\Programs\\Hackathon-Project",
-    "head": "6a71f12c63837cc59e0f0fd6fbad94c5530c5d21",
-    "candidate_count": 25,
-    "included_count": 18,
-    "excluded_untracked_count": 6,
+    "source": "default-auto",
+    "root": ".",
+    "git_root": ".",
+    "head": "49b68c966ee132d3015b7502f0de6d99907a641f",
+    "candidate_count": 75,
+    "included_count": 25,
+    "excluded_untracked_count": 3,
     "excluded_ignored_count": 1,
     "excluded_sensitive_count": 1,
     "missing_committed_count": 0,
