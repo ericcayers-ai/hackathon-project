@@ -148,7 +148,7 @@ export default function App() {
         <div className="app__brand">
           <span className="app__logo" aria-hidden="true">✚</span>
           <div>
-            <h1>Nurse Notes</h1>
+            <h1>ClearChart</h1>
             <p className="app__tagline">Clinician review — plain-language discharge summaries</p>
           </div>
         </div>
