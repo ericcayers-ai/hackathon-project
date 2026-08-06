@@ -31,3 +31,12 @@ The following are installed once at user scope (`~/.claude/`) and are active in 
 - **claude-code-setup** - read-only; if asked to recommend MCP servers, hooks, skills, or subagents for this project, this is the mechanism, invoked via its own skill.
 - **task-observer** - a skill for spotting when an existing skill in this project is out of date or missing something, based on how it's actually being used.
 - **claude-md-management** - this file. Run `/revise-claude-md` (or press `#` mid-session) to capture a learning - a discovered build flag, a naming convention you were corrected on - directly into this file instead of losing it at session end. Keep additions concise and merged into the relevant existing section rather than appended as a new one where one already fits.
+
+# hackathon-ai-strategist agent
+
+This project has a dedicated subagent at `.claude/agents/hackathon-ai-strategist.md` — an elite hackathon strategist persona (concept ideation, judge-perspective scoring, team/time allocation, pitch coaching).
+
+Rules:
+- For any task involving: choosing/ranking hackathon ideas, judging-criteria fit, scoping what's buildable in the event's time window, team/role allocation, demo triage, or pitch/deck structure — dispatch to the `hackathon-ai-strategist` subagent via the Agent tool rather than answering directly.
+- The agent requires context before advising: hackathon duration, theme/tracks, team composition, starting point, sponsor APIs, mandatory constraints. Gather these from the user or existing docs (`docs/SDG_Hackathon_Idea_Guide.docx`, `docs/AI Hackathon Festival 2026 - Participant Info.pdf`) before invoking it, or let the agent ask.
+- Use it throughout the project lifecycle, not just at kickoff: ideation, mid-build triage, and pre-pitch prep are all in scope.
