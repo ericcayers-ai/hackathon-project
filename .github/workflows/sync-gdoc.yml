@@ -27,8 +27,8 @@ jobs:
         run: |
           git config user.name "gdoc-sync-bot"
           git config user.email "actions@github.com"
-          if ! git diff --quiet -- "${GDOC_FILE}"; then
-            git add "${GDOC_FILE}"
+          git add "${GDOC_FILE}"
+          if ! git diff --cached --quiet -- "${GDOC_FILE}"; then
             git commit -m "Sync Google Doc export [automated]"
             git push
           else
