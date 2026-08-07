@@ -33,6 +33,14 @@ export function buildPatientPdf({ text, nurseName, approvedAt }) {
     }
   }
 
+  // Brand mark
+  doc.setFont('helvetica', 'bold')
+  doc.setFontSize(9)
+  doc.setTextColor(43, 58, 103) // --pen
+  doc.text('NURSE NOTES', margin, y)
+  doc.setTextColor(0)
+  y += 16
+
   // Title
   doc.setFont('helvetica', 'bold')
   doc.setFontSize(18)

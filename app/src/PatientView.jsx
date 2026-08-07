@@ -64,11 +64,11 @@ export default function PatientView({ rewrite, approved, onBack }) {
         ← Back to clinician review
       </button>
 
-      <div className="phone">
+      <div className="phone" role="group" aria-label="Preview of the discharge summary on a patient's phone">
         <div className="phone__notch" aria-hidden="true" />
         <div className="phone__screen">
           <header className="phone__header">
-            <span className="phone__logo" aria-hidden="true">✚</span>
+            <span className="phone__logo" aria-hidden="true">NN</span>
             <div>
               <strong>My discharge summary</strong>
               <span className="phone__sub">Reviewed by your care team</span>
@@ -81,6 +81,7 @@ export default function PatientView({ rewrite, approved, onBack }) {
               className="btn btn--sm btn--ghost phone__listen"
               onClick={toggle}
               disabled={!supported || !rewrite.trim()}
+              aria-pressed={speaking}
               title={supported ? 'Read this summary aloud' : 'Text-to-speech is not supported in this browser'}
             >
               {speaking ? '■ Stop' : '🔊 Listen'}
@@ -97,9 +98,15 @@ export default function PatientView({ rewrite, approved, onBack }) {
             )}
           </div>
 
-          <footer className="phone__footer">
-            Approved by {approved?.nurseName || '—'} · {approved?.at || '—'}
-          </footer>
+          <div className="phone__footer">
+            {approved ? (
+              <span className="tag--wristband tag--signed">
+                {approved.nurseName} · {approved.at}
+              </span>
+            ) : (
+              'Not yet signed'
+            )}
+          </div>
         </div>
       </div>
 
@@ -113,7 +120,13 @@ export default function PatientView({ rewrite, approved, onBack }) {
         {rewrite.trim() ? (
           <>
             <div className="qr-panel__code">
-              <QRCodeSVG value={qrPayload} size={200} level="M" includeMargin />
+              <QRCodeSVG
+                value={qrPayload}
+                size={200}
+                level="M"
+                includeMargin
+                title="QR code containing your approved discharge summary"
+              />
             </div>
             {qrTooLong && (
               <p className="qr-panel__warn">
