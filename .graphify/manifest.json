@@ -8,8 +8,8 @@
     "hash": "3c0262da5ffeae03f5411124d02e49e7"
   },
   "C:/Users/ericc/OneDrive/Desktop/Programs/Hackathon-Project/README.md": {
-    "mtime": 1785999203442.4927,
-    "hash": "05bdc1ae1c9c4492b044ab4e1abcb035"
+    "mtime": 1786102888936.1426,
+    "hash": "5384f3cc95c9b2dab2276bba4d3da00c"
   },
   "C:/Users/ericc/OneDrive/Desktop/Programs/Hackathon-Project/docs/IDEATION.txt": {
     "mtime": 1785999203627.2163,
@@ -18,10 +18,6 @@
   "C:/Users/ericc/OneDrive/Desktop/Programs/Hackathon-Project/docs/AI Hackathon Festival 2026 - Participant Info.pdf": {
     "mtime": 1785999203625.2146,
     "hash": "093122d90f5da6e9305c8bebc41c12e5"
-  },
-  "C:/Users/ericc/OneDrive/Desktop/Programs/Hackathon-Project/docs/ai-hackathon-2026-summary.pdf": {
-    "mtime": 1785999203640.279,
-    "hash": "d1fe241ac3f15e8b5ea41f63b031cbbb"
   },
   "C:/Users/ericc/OneDrive/Desktop/Programs/Hackathon-Project/assets/images/01_cold_chain_monitor.png": {
     "mtime": 1785999203458.5415,
@@ -68,7 +64,7 @@
     "hash": "4a1731652aadc733229941e111688870"
   },
   "C:/Users/ericc/OneDrive/Desktop/Programs/Hackathon-Project/.claude/agents/hackathon-ai-strategist.md": {
-    "mtime": 1786014934887.819,
+    "mtime": 1786017866610.857,
     "hash": "7caa78ac2c9589c12108ee9c833a54e9"
   },
   "C:/Users/ericc/OneDrive/Desktop/Programs/Hackathon-Project/.github/workflows/sync-gdoc.yml": {
@@ -76,8 +72,8 @@
     "hash": "d0d82a5234aadc7e7d42037f80ceb8a1"
   },
   "C:/Users/ericc/OneDrive/Desktop/Programs/Hackathon-Project/.graphify/GRAPH_REPORT.md": {
-    "mtime": 1786006920392.463,
-    "hash": "fa07c95de2aacb67edc1226696338d44"
+    "mtime": 1786103251303.7388,
+    "hash": "3bc913d18302473826bbd526663eec57"
   },
   "C:/Users/ericc/OneDrive/Desktop/Programs/Hackathon-Project/.graphify/studio/index.html": {
     "mtime": 1784539840629.0696,
@@ -91,12 +87,220 @@
     "mtime": 1786001080580.88,
     "hash": "c536a04efc0081a35c9b259892b11868"
   },
-  "C:/Users/ericc/OneDrive/Desktop/Programs/Hackathon-Project/context.txt": {
-    "mtime": 1786006546753.262,
-    "hash": "94f9fce3f88bf33169fcebd32318619c"
-  },
   "C:/Users/ericc/OneDrive/Desktop/Programs/Hackathon-Project/prompt.txt": {
     "mtime": 1786010840701.8386,
     "hash": "fe1d25530953973c530905d7d8d2aecb"
+  },
+  "C:/Users/ericc/OneDrive/Desktop/Programs/Hackathon-Project/.graphify/scratch/docx_probe.py": {
+    "mtime": 1786016379252.4873,
+    "hash": "25bc6239bbd50d6c82ab92575df5ca5f"
+  },
+  "C:/Users/ericc/OneDrive/Desktop/Programs/Hackathon-Project/.graphify/scratch/pptx_add_backend.py": {
+    "mtime": 1786016632470.4736,
+    "hash": "0b43f0b395236a8d491cb45e9d7d30df"
+  },
+  "C:/Users/ericc/OneDrive/Desktop/Programs/Hackathon-Project/.graphify/scratch/pptx_dump2.py": {
+    "mtime": 1786016601368.991,
+    "hash": "933dd12155536e6542cd16695325464f"
+  },
+  "C:/Users/ericc/OneDrive/Desktop/Programs/Hackathon-Project/.graphify/scratch/pptx_fix_backend_pos.py": {
+    "mtime": 1786016670941.8484,
+    "hash": "ba2be5b674193590f8c2a719e73b6c91"
+  },
+  "C:/Users/ericc/OneDrive/Desktop/Programs/Hackathon-Project/.graphify/scratch/rewrite_idea6.py": {
+    "mtime": 1786016543485.316,
+    "hash": "6295cd92f520fb95241a70f0233d8673"
+  },
+  "C:/Users/ericc/OneDrive/Desktop/Programs/Hackathon-Project/app/src/App.jsx": {
+    "mtime": 1786102848300.8225,
+    "hash": "f2664f4c9c9e6f020a48e08aef808bca"
+  },
+  "C:/Users/ericc/OneDrive/Desktop/Programs/Hackathon-Project/app/src/lib/extractText.js": {
+    "mtime": 1786017020071.9534,
+    "hash": "be678a4700c0d2c7e19cfd5e02c4a0d2"
+  },
+  "C:/Users/ericc/OneDrive/Desktop/Programs/Hackathon-Project/app/src/lib/llm.js": {
+    "mtime": 1786053369435.2786,
+    "hash": "2817a2fc063b739333fff5037523d2ed"
+  },
+  "C:/Users/ericc/OneDrive/Desktop/Programs/Hackathon-Project/app/src/lib/pdf.js": {
+    "mtime": 1786058981444.1487,
+    "hash": "a4ef0d794e342060d1d119d3881eafa2"
+  },
+  "C:/Users/ericc/OneDrive/Desktop/Programs/Hackathon-Project/app/src/lib/readability.js": {
+    "mtime": 1786017020076.9922,
+    "hash": "4aecbdd17edcd6d76d0885bddafbafd8"
+  },
+  "C:/Users/ericc/OneDrive/Desktop/Programs/Hackathon-Project/app/src/main.jsx": {
+    "mtime": 1786017010952.69,
+    "hash": "9fe0fccfcf8d36df48e888fb05f89963"
+  },
+  "C:/Users/ericc/OneDrive/Desktop/Programs/Hackathon-Project/app/vite.config.js": {
+    "mtime": 1786053744568.796,
+    "hash": "f38c5cf2daf367c5007e181717838e18"
+  },
+  "C:/Users/ericc/OneDrive/Desktop/Programs/Hackathon-Project/.agents/skills/accessibility/SKILL.md": {
+    "mtime": 1784453659401.47,
+    "hash": "8b501fd5421c176e106af8891dc3d502"
+  },
+  "C:/Users/ericc/OneDrive/Desktop/Programs/Hackathon-Project/.agents/skills/accessibility/references/A11Y-PATTERNS.md": {
+    "mtime": 1784453659402.47,
+    "hash": "2995457ea35b394cc9665fa502d66e85"
+  },
+  "C:/Users/ericc/OneDrive/Desktop/Programs/Hackathon-Project/.agents/skills/accessibility/references/WCAG.md": {
+    "mtime": 1784453659402.9705,
+    "hash": "1aeaf4a30d2ceb69edec5a62bfb084ee"
+  },
+  "C:/Users/ericc/OneDrive/Desktop/Programs/Hackathon-Project/.agents/skills/frontend-design/LICENSE.txt": {
+    "mtime": 1784453659108.2407,
+    "hash": "2ee41112a44fe7014dce33e26468ba93"
+  },
+  "C:/Users/ericc/OneDrive/Desktop/Programs/Hackathon-Project/.agents/skills/frontend-design/SKILL.md": {
+    "mtime": 1784453659108.741,
+    "hash": "06a0520e81f698334258c73ff0de533b"
+  },
+  "C:/Users/ericc/OneDrive/Desktop/Programs/Hackathon-Project/.agents/skills/seo/SKILL.md": {
+    "mtime": 1784453658827.2822,
+    "hash": "51a3d2c0e33d8303d0377802e565f54c"
+  },
+  "C:/Users/ericc/OneDrive/Desktop/Programs/Hackathon-Project/.claude/skills/accessibility/SKILL.md": {
+    "mtime": 1784453659401.47,
+    "hash": "8b501fd5421c176e106af8891dc3d502"
+  },
+  "C:/Users/ericc/OneDrive/Desktop/Programs/Hackathon-Project/.claude/skills/accessibility/references/A11Y-PATTERNS.md": {
+    "mtime": 1784453659402.47,
+    "hash": "2995457ea35b394cc9665fa502d66e85"
+  },
+  "C:/Users/ericc/OneDrive/Desktop/Programs/Hackathon-Project/.claude/skills/accessibility/references/WCAG.md": {
+    "mtime": 1784453659402.9705,
+    "hash": "1aeaf4a30d2ceb69edec5a62bfb084ee"
+  },
+  "C:/Users/ericc/OneDrive/Desktop/Programs/Hackathon-Project/.claude/skills/frontend-design/LICENSE.txt": {
+    "mtime": 1784453659108.2407,
+    "hash": "2ee41112a44fe7014dce33e26468ba93"
+  },
+  "C:/Users/ericc/OneDrive/Desktop/Programs/Hackathon-Project/.claude/skills/frontend-design/SKILL.md": {
+    "mtime": 1784453659108.741,
+    "hash": "06a0520e81f698334258c73ff0de533b"
+  },
+  "C:/Users/ericc/OneDrive/Desktop/Programs/Hackathon-Project/.claude/skills/seo/SKILL.md": {
+    "mtime": 1784453658827.2822,
+    "hash": "51a3d2c0e33d8303d0377802e565f54c"
+  },
+  "C:/Users/ericc/OneDrive/Desktop/Programs/Hackathon-Project/.continue/skills/accessibility/SKILL.md": {
+    "mtime": 1784453659401.47,
+    "hash": "8b501fd5421c176e106af8891dc3d502"
+  },
+  "C:/Users/ericc/OneDrive/Desktop/Programs/Hackathon-Project/.continue/skills/accessibility/references/A11Y-PATTERNS.md": {
+    "mtime": 1784453659402.47,
+    "hash": "2995457ea35b394cc9665fa502d66e85"
+  },
+  "C:/Users/ericc/OneDrive/Desktop/Programs/Hackathon-Project/.continue/skills/accessibility/references/WCAG.md": {
+    "mtime": 1784453659402.9705,
+    "hash": "1aeaf4a30d2ceb69edec5a62bfb084ee"
+  },
+  "C:/Users/ericc/OneDrive/Desktop/Programs/Hackathon-Project/.continue/skills/frontend-design/LICENSE.txt": {
+    "mtime": 1784453659108.2407,
+    "hash": "2ee41112a44fe7014dce33e26468ba93"
+  },
+  "C:/Users/ericc/OneDrive/Desktop/Programs/Hackathon-Project/.continue/skills/frontend-design/SKILL.md": {
+    "mtime": 1784453659108.741,
+    "hash": "06a0520e81f698334258c73ff0de533b"
+  },
+  "C:/Users/ericc/OneDrive/Desktop/Programs/Hackathon-Project/.continue/skills/seo/SKILL.md": {
+    "mtime": 1784453658827.2822,
+    "hash": "51a3d2c0e33d8303d0377802e565f54c"
+  },
+  "C:/Users/ericc/OneDrive/Desktop/Programs/Hackathon-Project/.graphify/description-instructions/batch-000.md": {
+    "mtime": 1786015810679.61,
+    "hash": "58ddcb7d8610dc54a0dae407f8dbc011"
+  },
+  "C:/Users/ericc/OneDrive/Desktop/Programs/Hackathon-Project/.graphify/description-instructions/batch-001.md": {
+    "mtime": 1786015810680.1099,
+    "hash": "4d37ca1cf2eb9a44ea8936b64f280b4a"
+  },
+  "C:/Users/ericc/OneDrive/Desktop/Programs/Hackathon-Project/.graphify/label-instructions/communities.md": {
+    "mtime": 1786015810641.0566,
+    "hash": "03f5bd5bf538e0e4340cd7e38360cd47"
+  },
+  "C:/Users/ericc/OneDrive/Desktop/Programs/Hackathon-Project/.graphify/scratch/comp_table10.txt": {
+    "mtime": 1786017956698.8337,
+    "hash": "5cd86a360e6f1009873ebc9715c01962"
+  },
+  "C:/Users/ericc/OneDrive/Desktop/Programs/Hackathon-Project/.graphify/scratch/comp_table11.txt": {
+    "mtime": 1786017956700.341,
+    "hash": "caf04b924074669bfc0679d082e3d3ce"
+  },
+  "C:/Users/ericc/OneDrive/Desktop/Programs/Hackathon-Project/.graphify/scratch/comparison_table.txt": {
+    "mtime": 1786017940478.2698,
+    "hash": "fb0781cd55d292aeba82d5dccd8595eb"
+  },
+  "C:/Users/ericc/OneDrive/Desktop/Programs/Hackathon-Project/.graphify/scratch/idea1_10_dump.txt": {
+    "mtime": 1786017891662.1885,
+    "hash": "713ca04dde5a5d193635ab536ccef8bc"
+  },
+  "C:/Users/ericc/OneDrive/Desktop/Programs/Hackathon-Project/.graphify/scratch/idea6_full.txt": {
+    "mtime": 1786017998989.4324,
+    "hash": "be0b618e8fc17a55d582344fe9e8d189"
+  },
+  "C:/Users/ericc/OneDrive/Desktop/Programs/Hackathon-Project/.graphify/scratch/idea6_new.txt": {
+    "mtime": 1786016573349.4019,
+    "hash": "af6d94d2e3c383bfe3014d6bde3c14b8"
+  },
+  "C:/Users/ericc/OneDrive/Desktop/Programs/Hackathon-Project/.graphify/scratch/idea_structure_check.txt": {
+    "mtime": 1786017827773.6074,
+    "hash": "d3b37d76cfd66f47d8e276f79f77d459"
+  },
+  "C:/Users/ericc/OneDrive/Desktop/Programs/Hackathon-Project/.graphify/scratch/inspect_out.txt": {
+    "mtime": 1786016392148.9905,
+    "hash": "bc97e2a4b3525df0868c52552ed2f3cd"
+  },
+  "C:/Users/ericc/OneDrive/Desktop/Programs/Hackathon-Project/.graphify/scratch/jargon_check.txt": {
+    "mtime": 1786017549464.5466,
+    "hash": "9fe31365af61664f77eff95ebeda12ed"
+  },
+  "C:/Users/ericc/OneDrive/Desktop/Programs/Hackathon-Project/.graphify/scratch/judging_and_tail.txt": {
+    "mtime": 1786016162192.279,
+    "hash": "ac84fdea4e65dfa980f4ab3a8b3dc52b"
+  },
+  "C:/Users/ericc/OneDrive/Desktop/Programs/Hackathon-Project/.graphify/scratch/pptx_dump.txt": {
+    "mtime": 1786015036637.9854,
+    "hash": "4400c192f506304bc96c27d379c50c9e"
+  },
+  "C:/Users/ericc/OneDrive/Desktop/Programs/Hackathon-Project/.graphify/scratch/pptx_dump2.txt": {
+    "mtime": 1786016612014.016,
+    "hash": "c03483f98723ff776ee7dbe0597550f7"
+  },
+  "C:/Users/ericc/OneDrive/Desktop/Programs/Hackathon-Project/app/CLAUDE.md": {
+    "mtime": 1786103084862.52,
+    "hash": "a38f685cb90547a40768269012922460"
+  },
+  "C:/Users/ericc/OneDrive/Desktop/Programs/Hackathon-Project/app/README.md": {
+    "mtime": 1786102876035.3745,
+    "hash": "ed6cf8001320152e4f74835044845355"
+  },
+  "C:/Users/ericc/OneDrive/Desktop/Programs/Hackathon-Project/app/index.html": {
+    "mtime": 1786102830758.1868,
+    "hash": "352cb122c77239c63b4764a9c0f63cca"
+  },
+  "C:/Users/ericc/OneDrive/Desktop/Programs/Hackathon-Project/app/prompts/system-prompt.txt": {
+    "mtime": 1786103901955.364,
+    "hash": "50c46e9dd1dc9ff9ab3cf67b8b635945"
+  },
+  "C:/Users/ericc/OneDrive/Desktop/Programs/Hackathon-Project/app/samples/synthetic-discharge-01.txt": {
+    "mtime": 1786017011003.358,
+    "hash": "4d9b9d21914a8d1ab9a21de98229f1fd"
+  },
+  "C:/Users/ericc/OneDrive/Desktop/Programs/Hackathon-Project/app/src/PatientView.jsx": {
+    "mtime": 1786058891737.9312,
+    "hash": "89668f6ffa30519df8beaeaf54c3a895"
+  },
+  "C:/Users/ericc/OneDrive/Desktop/Programs/Hackathon-Project/docs/decisions/0001-product-name-nurse-notes.md": {
+    "mtime": 1786103102413.7837,
+    "hash": "1ac00f4b1a122eb63849d0b638305cf7"
+  },
+  "C:/Users/ericc/OneDrive/Desktop/Programs/Hackathon-Project/docs/decisions/0002-repo-hygiene-phase-0.md": {
+    "mtime": 1786103112133.596,
+    "hash": "28ee50a21454a55eb115e7701e66ba42"
   }
 }

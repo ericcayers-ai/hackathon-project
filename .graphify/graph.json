@@ -5,8 +5,8 @@
     "provenance": {
       "source_owner": "git",
       "source_id": "repo:github.com/ericcayers-ai/hackathon-project",
-      "observed_at": "2026-08-06T11:30:10.625Z",
-      "source_hash": "68fc5be502e0f4e0b1aecfefc60afb5f869e2f76",
+      "observed_at": "2026-08-07T11:59:07.940Z",
+      "source_hash": "32a6cc8cdb0eb696b7f962b59afe8a8e3d9f960d",
       "adapter_version": "graphify-git/1"
     },
     "community_labels": {
@@ -24,104 +24,109 @@
       "11": "Community 11",
       "12": "Community 12",
       "13": "Community 13",
-      "14": "Community 14"
+      "14": "Community 14",
+      "15": "Community 15",
+      "16": "Community 16",
+      "17": "Community 17",
+      "18": "Community 18",
+      "19": "Community 19",
+      "20": "Community 20",
+      "21": "Community 21"
     },
-    "built_from_commit": "68fc5be502e0f4e0b1aecfefc60afb5f869e2f76"
+    "built_from_commit": "32a6cc8cdb0eb696b7f962b59afe8a8e3d9f960d"
   },
-  "topology_signature": "n=57;e=65;01_cold_chain_monitor_dose_disposition,01_cold_chain_monitor_image,01_cold_chain_monitor_medical_fridge,01_cold_chain_monitor_sensor_device,01_cold_chain_monitor_tamper_log,01_cold_chain_monitor_temperature_chart,02_surplus_matching_growers_image,03_disability_funding_reassessment_image,04_ewaste_routing_image,05_neighbourhood_sdg_indicator_image,06_patient_health_literacy_image,07_disaster_recovery_shocks_image,08_surplus_allocation_food_rescue_image,08_surplus_allocation_ranked_locations_ui,08_surplus_allocation_safety_check_ui,09_crisis_response_allocation_engine_image,09_crisis_response_flood_risk_map,09_crisis_response_supply_chain_flow,branch:repo:github.com/ericcayers-ai/hackathon-project#main,build_docx,build_docx_add_hyperlink,build_docx_bullet,build_docx_labelled,build_docx_make_table,build_docx_numbered,build_docx_para,build_docx_rationale_107,build_docx_shade,build_docx_source_line,claude_md_hackathon_project,commit:repo:github.com/ericcayers-ai/hackathon-project@0c25dcb45625ced8864b5445a31c5a747e0f067e,commit:repo:github.com/ericcayers-ai/hackathon-project@1563e36590a8fb6667dc082a66a1c76bdd41a4c1,commit:repo:github.com/ericcayers-ai/hackathon-project@16bda27ba4ac30a5058d5ffe3441692dfe210101,commit:repo:github.com/ericcayers-ai/hackathon-project@2dff0767ba25e19143a8c8b25d4ea042f2c362a3,commit:repo:github.com/ericcayers-ai/hackathon-project@460c9ed5e5ee648de2d1beb2aee4be4707e2c6ab,commit:repo:github.com/ericcayers-ai/hackathon-project@49b68c966ee132d3015b7502f0de6d99907a641f,commit:repo:github.com/ericcayers-ai/hackathon-project@4f6b143aa6598fdea147b79691dd07a7cd9322a3,commit:repo:github.com/ericcayers-ai/hackathon-project@58216241beaf3fdd48610a547bc40b416f95c02a,commit:repo:github.com/ericcayers-ai/hackathon-project@68fc5be502e0f4e0b1aecfefc60afb5f869e2f76,commit:repo:github.com/ericcayers-ai/hackathon-project@6a71f12c63837cc59e0f0fd6fbad94c5530c5d21,commit:repo:github.com/ericcayers-ai/hackathon-project@7c83d4448fd5aa5cf51066c26e18a4587e1b5027,commit:repo:github.com/ericcayers-ai/hackathon-project@940e5adbbaf1ed668ee2c9eaa5b1f0497cb0d6fb,commit:repo:github.com/ericcayers-ai/hackathon-project@b57214bcdcbc1b977bcf3fc03a8700687450a55c,commit:repo:github.com/ericcayers-ai/hackathon-project@c5761bd15c6852d9553481b5a5835b67e45c5fdc,commit:repo:github.com/ericcayers-ai/hackathon-project@d193f555e8ee24a5a550a7e50cf1911d54447409,commit:repo:github.com/ericcayers-ai/hackathon-project@d34c4f16931606f99d2bc83f88a1d01af4cfaaff,commit:repo:github.com/ericcayers-ai/hackathon-project@ed37f0a76abbab2c44e6c10c69b072e6a09deee3,docs_ideation_txt,gdoc_sdg_hackathon_idea_guide,hackathon_summary_pdf,jargon_interpreter_camera_scan_ui,jargon_interpreter_document_use_cases,jargon_interpreter_verified_summary_card,participant_info_pdf,readme_hackathon_project,surplus_matching_app_ui,universal_jargon_interpreter_concept|01_cold_chain_monitor_dose_disposition\t01_cold_chain_monitor_tamper_log\tconceptually_related_to;01_cold_chain_monitor_dose_disposition\t01_cold_chain_monitor_temperature_chart\tconceptually_related_to;01_cold_chain_monitor_image\t01_cold_chain_monitor_sensor_device\tconceptually_related_to;01_cold_chain_monitor_medical_fridge\t01_cold_chain_monitor_sensor_device\tshares_data_with;01_cold_chain_monitor_sensor_device\t01_cold_chain_monitor_temperature_chart\tshares_data_with;02_surplus_matching_growers_image\tsurplus_matching_app_ui\tconceptually_related_to;08_surplus_allocation_food_rescue_image\t08_surplus_allocation_ranked_locations_ui\tconceptually_related_to;08_surplus_allocation_food_rescue_image\t08_surplus_allocation_safety_check_ui\tconceptually_related_to;09_crisis_response_allocation_engine_image\t09_crisis_response_flood_risk_map\tconceptually_related_to;09_crisis_response_allocation_engine_image\t09_crisis_response_supply_chain_flow\tconceptually_related_to;09_crisis_response_flood_risk_map\t09_crisis_response_supply_chain_flow\tshares_data_with;branch:repo:github.com/ericcayers-ai/hackathon-project#main\tcommit:repo:github.com/ericcayers-ai/hackathon-project@0c25dcb45625ced8864b5445a31c5a747e0f067e\tON_BRANCH;branch:repo:github.com/ericcayers-ai/hackathon-project#main\tcommit:repo:github.com/ericcayers-ai/hackathon-project@1563e36590a8fb6667dc082a66a1c76bdd41a4c1\tON_BRANCH;branch:repo:github.com/ericcayers-ai/hackathon-project#main\tcommit:repo:github.com/ericcayers-ai/hackathon-project@16bda27ba4ac30a5058d5ffe3441692dfe210101\tON_BRANCH;branch:repo:github.com/ericcayers-ai/hackathon-project#main\tcommit:repo:github.com/ericcayers-ai/hackathon-project@2dff0767ba25e19143a8c8b25d4ea042f2c362a3\tON_BRANCH;branch:repo:github.com/ericcayers-ai/hackathon-project#main\tcommit:repo:github.com/ericcayers-ai/hackathon-project@460c9ed5e5ee648de2d1beb2aee4be4707e2c6ab\tON_BRANCH;branch:repo:github.com/ericcayers-ai/hackathon-project#main\tcommit:repo:github.com/ericcayers-ai/hackathon-project@49b68c966ee132d3015b7502f0de6d99907a641f\tON_BRANCH;branch:repo:github.com/ericcayers-ai/hackathon-project#main\tcommit:repo:github.com/ericcayers-ai/hackathon-project@4f6b143aa6598fdea147b79691dd07a7cd9322a3\tON_BRANCH;branch:repo:github.com/ericcayers-ai/hackathon-project#main\tcommit:repo:github.com/ericcayers-ai/hackathon-project@58216241beaf3fdd48610a547bc40b416f95c02a\tON_BRANCH;branch:repo:github.com/ericcayers-ai/hackathon-project#main\tcommit:repo:github.com/ericcayers-ai/hackathon-project@68fc5be502e0f4e0b1aecfefc60afb5f869e2f76\tON_BRANCH;branch:repo:github.com/ericcayers-ai/hackathon-project#main\tcommit:repo:github.com/ericcayers-ai/hackathon-project@6a71f12c63837cc59e0f0fd6fbad94c5530c5d21\tON_BRANCH;branch:repo:github.com/ericcayers-ai/hackathon-project#main\tcommit:repo:github.com/ericcayers-ai/hackathon-project@7c83d4448fd5aa5cf51066c26e18a4587e1b5027\tON_BRANCH;branch:repo:github.com/ericcayers-ai/hackathon-project#main\tcommit:repo:github.com/ericcayers-ai/hackathon-project@940e5adbbaf1ed668ee2c9eaa5b1f0497cb0d6fb\tON_BRANCH;branch:repo:github.com/ericcayers-ai/hackathon-project#main\tcommit:repo:github.com/ericcayers-ai/hackathon-project@b57214bcdcbc1b977bcf3fc03a8700687450a55c\tON_BRANCH;branch:repo:github.com/ericcayers-ai/hackathon-project#main\tcommit:repo:github.com/ericcayers-ai/hackathon-project@c5761bd15c6852d9553481b5a5835b67e45c5fdc\tON_BRANCH;branch:repo:github.com/ericcayers-ai/hackathon-project#main\tcommit:repo:github.com/ericcayers-ai/hackathon-project@d193f555e8ee24a5a550a7e50cf1911d54447409\tON_BRANCH;branch:repo:github.com/ericcayers-ai/hackathon-project#main\tcommit:repo:github.com/ericcayers-ai/hackathon-project@d34c4f16931606f99d2bc83f88a1d01af4cfaaff\tON_BRANCH;branch:repo:github.com/ericcayers-ai/hackathon-project#main\tcommit:repo:github.com/ericcayers-ai/hackathon-project@ed37f0a76abbab2c44e6c10c69b072e6a09deee3\tON_BRANCH;build_docx\tbuild_docx_add_hyperlink\tcontains;build_docx\tbuild_docx_bullet\tcontains;build_docx\tbuild_docx_labelled\tcontains;build_docx\tbuild_docx_make_table\tcontains;build_docx\tbuild_docx_numbered\tcontains;build_docx\tbuild_docx_para\tcontains;build_docx\tbuild_docx_shade\tcontains;build_docx\tbuild_docx_source_line\tcontains;build_docx_add_hyperlink\tbuild_docx_source_line\tcalls;build_docx_labelled\tbuild_docx_rationale_107\trationale_for;build_docx_make_table\tbuild_docx_shade\tcalls;claude_md_hackathon_project\tdocs_ideation_txt\treferences;commit:repo:github.com/ericcayers-ai/hackathon-project@0c25dcb45625ced8864b5445a31c5a747e0f067e\tcommit:repo:github.com/ericcayers-ai/hackathon-project@16bda27ba4ac30a5058d5ffe3441692dfe210101\tPARENT_OF;commit:repo:github.com/ericcayers-ai/hackathon-project@0c25dcb45625ced8864b5445a31c5a747e0f067e\tcommit:repo:github.com/ericcayers-ai/hackathon-project@7c83d4448fd5aa5cf51066c26e18a4587e1b5027\tPARENT_OF;commit:repo:github.com/ericcayers-ai/hackathon-project@1563e36590a8fb6667dc082a66a1c76bdd41a4c1\tcommit:repo:github.com/ericcayers-ai/hackathon-project@460c9ed5e5ee648de2d1beb2aee4be4707e2c6ab\tPARENT_OF;commit:repo:github.com/ericcayers-ai/hackathon-project@1563e36590a8fb6667dc082a66a1c76bdd41a4c1\tcommit:repo:github.com/ericcayers-ai/hackathon-project@d193f555e8ee24a5a550a7e50cf1911d54447409\tPARENT_OF;commit:repo:github.com/ericcayers-ai/hackathon-project@16bda27ba4ac30a5058d5ffe3441692dfe210101\tcommit:repo:github.com/ericcayers-ai/hackathon-project@940e5adbbaf1ed668ee2c9eaa5b1f0497cb0d6fb\tPARENT_OF;commit:repo:github.com/ericcayers-ai/hackathon-project@2dff0767ba25e19143a8c8b25d4ea042f2c362a3\tcommit:repo:github.com/ericcayers-ai/hackathon-project@940e5adbbaf1ed668ee2c9eaa5b1f0497cb0d6fb\tPARENT_OF;commit:repo:github.com/ericcayers-ai/hackathon-project@2dff0767ba25e19143a8c8b25d4ea042f2c362a3\tcommit:repo:github.com/ericcayers-ai/hackathon-project@d34c4f16931606f99d2bc83f88a1d01af4cfaaff\tPARENT_OF;commit:repo:github.com/ericcayers-ai/hackathon-project@460c9ed5e5ee648de2d1beb2aee4be4707e2c6ab\tcommit:repo:github.com/ericcayers-ai/hackathon-project@58216241beaf3fdd48610a547bc40b416f95c02a\tPARENT_OF;commit:repo:github.com/ericcayers-ai/hackathon-project@49b68c966ee132d3015b7502f0de6d99907a641f\tcommit:repo:github.com/ericcayers-ai/hackathon-project@6a71f12c63837cc59e0f0fd6fbad94c5530c5d21\tPARENT_OF;commit:repo:github.com/ericcayers-ai/hackathon-project@49b68c966ee132d3015b7502f0de6d99907a641f\tcommit:repo:github.com/ericcayers-ai/hackathon-project@ed37f0a76abbab2c44e6c10c69b072e6a09deee3\tPARENT_OF;commit:repo:github.com/ericcayers-ai/hackathon-project@4f6b143aa6598fdea147b79691dd07a7cd9322a3\tcommit:repo:github.com/ericcayers-ai/hackathon-project@c5761bd15c6852d9553481b5a5835b67e45c5fdc\tPARENT_OF;commit:repo:github.com/ericcayers-ai/hackathon-project@4f6b143aa6598fdea147b79691dd07a7cd9322a3\tcommit:repo:github.com/ericcayers-ai/hackathon-project@d193f555e8ee24a5a550a7e50cf1911d54447409\tPARENT_OF;commit:repo:github.com/ericcayers-ai/hackathon-project@58216241beaf3fdd48610a547bc40b416f95c02a\tcommit:repo:github.com/ericcayers-ai/hackathon-project@c5761bd15c6852d9553481b5a5835b67e45c5fdc\tPARENT_OF;commit:repo:github.com/ericcayers-ai/hackathon-project@68fc5be502e0f4e0b1aecfefc60afb5f869e2f76\tcommit:repo:github.com/ericcayers-ai/hackathon-project@ed37f0a76abbab2c44e6c10c69b072e6a09deee3\tPARENT_OF;commit:repo:github.com/ericcayers-ai/hackathon-project@6a71f12c63837cc59e0f0fd6fbad94c5530c5d21\tcommit:repo:github.com/ericcayers-ai/hackathon-project@d34c4f16931606f99d2bc83f88a1d01af4cfaaff\tPARENT_OF;commit:repo:github.com/ericcayers-ai/hackathon-project@7c83d4448fd5aa5cf51066c26e18a4587e1b5027\tcommit:repo:github.com/ericcayers-ai/hackathon-project@b57214bcdcbc1b977bcf3fc03a8700687450a55c\tPARENT_OF;commit:repo:github.com/ericcayers-ai/hackathon-project@b57214bcdcbc1b977bcf3fc03a8700687450a55c\tcommit:repo:github.com/ericcayers-ai/hackathon-project@d193f555e8ee24a5a550a7e50cf1911d54447409\tPARENT_OF;docs_ideation_txt\tgdoc_sdg_hackathon_idea_guide\tconceptually_related_to;docs_ideation_txt\treadme_hackathon_project\treferences;gdoc_sdg_hackathon_idea_guide\treadme_hackathon_project\treferences;jargon_interpreter_camera_scan_ui\tjargon_interpreter_verified_summary_card\tconceptually_related_to;jargon_interpreter_camera_scan_ui\tuniversal_jargon_interpreter_concept\tconceptually_related_to;jargon_interpreter_document_use_cases\tuniversal_jargon_interpreter_concept\tconceptually_related_to;jargon_interpreter_verified_summary_card\tuniversal_jargon_interpreter_concept\tconceptually_related_to;participant_info_pdf\treadme_hackathon_project\treferences",
   "nodes": [
     {
-      "id": "build_docx",
       "label": "build_docx.py",
       "file_type": "code",
       "source_file": "tools/build_docx.py",
       "source_location": "L1",
-      "community": 1,
-      "community_name": "Community 1"
+      "community": 3,
+      "community_name": "Community 3",
+      "id": "build_docx"
     },
     {
-      "id": "build_docx_add_hyperlink",
       "label": "add_hyperlink()",
       "file_type": "code",
       "source_file": "tools/build_docx.py",
       "source_location": "L46",
-      "community": 1,
-      "community_name": "Community 1"
+      "community": 3,
+      "community_name": "Community 3",
+      "id": "build_docx_add_hyperlink"
     },
     {
-      "id": "build_docx_para",
       "label": "para()",
       "file_type": "code",
       "source_file": "tools/build_docx.py",
       "source_location": "L72",
-      "community": 1,
-      "community_name": "Community 1"
+      "community": 3,
+      "community_name": "Community 3",
+      "id": "build_docx_para"
     },
     {
-      "id": "build_docx_bullet",
       "label": "bullet()",
       "file_type": "code",
       "source_file": "tools/build_docx.py",
       "source_location": "L90",
-      "community": 1,
-      "community_name": "Community 1"
+      "community": 3,
+      "community_name": "Community 3",
+      "id": "build_docx_bullet"
     },
     {
-      "id": "build_docx_numbered",
       "label": "numbered()",
       "file_type": "code",
       "source_file": "tools/build_docx.py",
       "source_location": "L98",
-      "community": 1,
-      "community_name": "Community 1"
+      "community": 3,
+      "community_name": "Community 3",
+      "id": "build_docx_numbered"
     },
     {
-      "id": "build_docx_labelled",
       "label": "labelled()",
       "file_type": "code",
       "source_file": "tools/build_docx.py",
       "source_location": "L106",
-      "community": 1,
-      "community_name": "Community 1"
+      "community": 3,
+      "community_name": "Community 3",
+      "id": "build_docx_labelled"
     },
     {
-      "id": "build_docx_shade",
       "label": "shade()",
       "file_type": "code",
       "source_file": "tools/build_docx.py",
       "source_location": "L116",
-      "community": 1,
-      "community_name": "Community 1"
+      "community": 3,
+      "community_name": "Community 3",
+      "id": "build_docx_shade"
     },
     {
-      "id": "build_docx_make_table",
       "label": "make_table()",
       "file_type": "code",
       "source_file": "tools/build_docx.py",
       "source_location": "L124",
-      "community": 1,
-      "community_name": "Community 1"
+      "community": 3,
+      "community_name": "Community 3",
+      "id": "build_docx_make_table"
     },
     {
-      "id": "build_docx_source_line",
       "label": "source_line()",
       "file_type": "code",
       "source_file": "tools/build_docx.py",
       "source_location": "L153",
-      "community": 1,
-      "community_name": "Community 1"
+      "community": 3,
+      "community_name": "Community 3",
+      "id": "build_docx_source_line"
     },
     {
-      "id": "build_docx_rationale_107",
       "label": "Bold inline label followed by body text.",
       "file_type": "rationale",
       "source_file": "tools/build_docx.py",
       "source_location": "L107",
-      "community": 1,
-      "community_name": "Community 1"
+      "community": 3,
+      "community_name": "Community 3",
+      "id": "build_docx_rationale_107"
     },
     {
-      "id": "commit:repo:github.com/ericcayers-ai/hackathon-project@0c25dcb45625ced8864b5445a31c5a747e0f067e",
       "label": "0c25dcb Fix sync-gdoc: git diff --quiet misses new untracked file",
       "file_type": "concept",
       "source_file": "git",
@@ -136,10 +141,10 @@
         "7c83d4448fd5aa5cf51066c26e18a4587e1b5027"
       ],
       "community": 0,
-      "community_name": "Community 0"
+      "community_name": "Community 0",
+      "id": "commit:repo:github.com/ericcayers-ai/hackathon-project@0c25dcb45625ced8864b5445a31c5a747e0f067e"
     },
     {
-      "id": "commit:repo:github.com/ericcayers-ai/hackathon-project@1563e36590a8fb6667dc082a66a1c76bdd41a4c1",
       "label": "1563e36 Add files via upload",
       "file_type": "concept",
       "source_file": "git",
@@ -153,11 +158,11 @@
       "parents": [
         "460c9ed5e5ee648de2d1beb2aee4be4707e2c6ab"
       ],
-      "community": 3,
-      "community_name": "Community 3"
+      "community": 0,
+      "community_name": "Community 0",
+      "id": "commit:repo:github.com/ericcayers-ai/hackathon-project@1563e36590a8fb6667dc082a66a1c76bdd41a4c1"
     },
     {
-      "id": "commit:repo:github.com/ericcayers-ai/hackathon-project@16bda27ba4ac30a5058d5ffe3441692dfe210101",
       "label": "16bda27 Sync Google Doc export [automated]",
       "file_type": "concept",
       "source_file": "git",
@@ -172,10 +177,10 @@
         "0c25dcb45625ced8864b5445a31c5a747e0f067e"
       ],
       "community": 0,
-      "community_name": "Community 0"
+      "community_name": "Community 0",
+      "id": "commit:repo:github.com/ericcayers-ai/hackathon-project@16bda27ba4ac30a5058d5ffe3441692dfe210101"
     },
     {
-      "id": "commit:repo:github.com/ericcayers-ai/hackathon-project@2dff0767ba25e19143a8c8b25d4ea042f2c362a3",
       "label": "2dff076 Sync Google Doc export [automated]",
       "file_type": "concept",
       "source_file": "git",
@@ -190,10 +195,10 @@
         "940e5adbbaf1ed668ee2c9eaa5b1f0497cb0d6fb"
       ],
       "community": 0,
-      "community_name": "Community 0"
+      "community_name": "Community 0",
+      "id": "commit:repo:github.com/ericcayers-ai/hackathon-project@2dff0767ba25e19143a8c8b25d4ea042f2c362a3"
     },
     {
-      "id": "commit:repo:github.com/ericcayers-ai/hackathon-project@460c9ed5e5ee648de2d1beb2aee4be4707e2c6ab",
       "label": "460c9ed Delete AI Hackathon 2026 - Ideation.docx",
       "file_type": "concept",
       "source_file": "git",
@@ -207,11 +212,11 @@
       "parents": [
         "58216241beaf3fdd48610a547bc40b416f95c02a"
       ],
-      "community": 3,
-      "community_name": "Community 3"
+      "community": 0,
+      "community_name": "Community 0",
+      "id": "commit:repo:github.com/ericcayers-ai/hackathon-project@460c9ed5e5ee648de2d1beb2aee4be4707e2c6ab"
     },
     {
-      "id": "commit:repo:github.com/ericcayers-ai/hackathon-project@49b68c966ee132d3015b7502f0de6d99907a641f",
       "label": "49b68c9 Organize docs etc",
       "file_type": "concept",
       "source_file": "git",
@@ -226,10 +231,10 @@
         "6a71f12c63837cc59e0f0fd6fbad94c5530c5d21"
       ],
       "community": 0,
-      "community_name": "Community 0"
+      "community_name": "Community 0",
+      "id": "commit:repo:github.com/ericcayers-ai/hackathon-project@49b68c966ee132d3015b7502f0de6d99907a641f"
     },
     {
-      "id": "commit:repo:github.com/ericcayers-ai/hackathon-project@4f6b143aa6598fdea147b79691dd07a7cd9322a3",
       "label": "4f6b143 Merge README from origin",
       "file_type": "concept",
       "source_file": "git",
@@ -243,11 +248,11 @@
       "parents": [
         "c5761bd15c6852d9553481b5a5835b67e45c5fdc"
       ],
-      "community": 3,
-      "community_name": "Community 3"
+      "community": 0,
+      "community_name": "Community 0",
+      "id": "commit:repo:github.com/ericcayers-ai/hackathon-project@4f6b143aa6598fdea147b79691dd07a7cd9322a3"
     },
     {
-      "id": "commit:repo:github.com/ericcayers-ai/hackathon-project@58216241beaf3fdd48610a547bc40b416f95c02a",
       "label": "5821624 Claude workflow setup and current plan",
       "file_type": "concept",
       "source_file": "git",
@@ -261,11 +266,11 @@
       "parents": [
         "c5761bd15c6852d9553481b5a5835b67e45c5fdc"
       ],
-      "community": 3,
-      "community_name": "Community 3"
+      "community": 0,
+      "community_name": "Community 0",
+      "id": "commit:repo:github.com/ericcayers-ai/hackathon-project@58216241beaf3fdd48610a547bc40b416f95c02a"
     },
     {
-      "id": "commit:repo:github.com/ericcayers-ai/hackathon-project@68fc5be502e0f4e0b1aecfefc60afb5f869e2f76",
       "label": "68fc5be Update prompt file",
       "file_type": "concept",
       "source_file": "git",
@@ -280,10 +285,10 @@
         "ed37f0a76abbab2c44e6c10c69b072e6a09deee3"
       ],
       "community": 0,
-      "community_name": "Community 0"
+      "community_name": "Community 0",
+      "id": "commit:repo:github.com/ericcayers-ai/hackathon-project@68fc5be502e0f4e0b1aecfefc60afb5f869e2f76"
     },
     {
-      "id": "commit:repo:github.com/ericcayers-ai/hackathon-project@6a71f12c63837cc59e0f0fd6fbad94c5530c5d21",
       "label": "6a71f12 Add hackathon-ai-strategist subagent and wire it into CLAUDE.md routing rules",
       "file_type": "concept",
       "source_file": "git",
@@ -298,10 +303,10 @@
         "d34c4f16931606f99d2bc83f88a1d01af4cfaaff"
       ],
       "community": 0,
-      "community_name": "Community 0"
+      "community_name": "Community 0",
+      "id": "commit:repo:github.com/ericcayers-ai/hackathon-project@6a71f12c63837cc59e0f0fd6fbad94c5530c5d21"
     },
     {
-      "id": "commit:repo:github.com/ericcayers-ai/hackathon-project@7c83d4448fd5aa5cf51066c26e18a4587e1b5027",
       "label": "7c83d44 Add scheduled GitHub Action to sync Google Doc export into repo",
       "file_type": "concept",
       "source_file": "git",
@@ -316,10 +321,10 @@
         "b57214bcdcbc1b977bcf3fc03a8700687450a55c"
       ],
       "community": 0,
-      "community_name": "Community 0"
+      "community_name": "Community 0",
+      "id": "commit:repo:github.com/ericcayers-ai/hackathon-project@7c83d4448fd5aa5cf51066c26e18a4587e1b5027"
     },
     {
-      "id": "commit:repo:github.com/ericcayers-ai/hackathon-project@940e5adbbaf1ed668ee2c9eaa5b1f0497cb0d6fb",
       "label": "940e5ad Merge gdoc export with images into single tracked docx; simplify sync workflow to one file",
       "file_type": "concept",
       "source_file": "git",
@@ -334,10 +339,10 @@
         "16bda27ba4ac30a5058d5ffe3441692dfe210101"
       ],
       "community": 0,
-      "community_name": "Community 0"
+      "community_name": "Community 0",
+      "id": "commit:repo:github.com/ericcayers-ai/hackathon-project@940e5adbbaf1ed668ee2c9eaa5b1f0497cb0d6fb"
     },
     {
-      "id": "commit:repo:github.com/ericcayers-ai/hackathon-project@b57214bcdcbc1b977bcf3fc03a8700687450a55c",
       "label": "b57214b Add concept images per idea; confirm doc matches Google Doc source",
       "file_type": "concept",
       "source_file": "git",
@@ -352,10 +357,10 @@
         "d193f555e8ee24a5a550a7e50cf1911d54447409"
       ],
       "community": 0,
-      "community_name": "Community 0"
+      "community_name": "Community 0",
+      "id": "commit:repo:github.com/ericcayers-ai/hackathon-project@b57214bcdcbc1b977bcf3fc03a8700687450a55c"
     },
     {
-      "id": "commit:repo:github.com/ericcayers-ai/hackathon-project@c5761bd15c6852d9553481b5a5835b67e45c5fdc",
       "label": "c5761bd Initial hackathon project commit",
       "file_type": "concept",
       "source_file": "git",
@@ -367,11 +372,11 @@
       "message_summary": "Initial hackathon project commit",
       "message_length": 32,
       "parents": [],
-      "community": 3,
-      "community_name": "Community 3"
+      "community": 0,
+      "community_name": "Community 0",
+      "id": "commit:repo:github.com/ericcayers-ai/hackathon-project@c5761bd15c6852d9553481b5a5835b67e45c5fdc"
     },
     {
-      "id": "commit:repo:github.com/ericcayers-ai/hackathon-project@d193f555e8ee24a5a550a7e50cf1911d54447409",
       "label": "d193f55 Merge remote-tracking branch 'origin/main'",
       "file_type": "concept",
       "source_file": "git",
@@ -386,11 +391,11 @@
         "4f6b143aa6598fdea147b79691dd07a7cd9322a3",
         "1563e36590a8fb6667dc082a66a1c76bdd41a4c1"
       ],
-      "community": 3,
-      "community_name": "Community 3"
+      "community": 0,
+      "community_name": "Community 0",
+      "id": "commit:repo:github.com/ericcayers-ai/hackathon-project@d193f555e8ee24a5a550a7e50cf1911d54447409"
     },
     {
-      "id": "commit:repo:github.com/ericcayers-ai/hackathon-project@d34c4f16931606f99d2bc83f88a1d01af4cfaaff",
       "label": "d34c4f1 Organize repo: docs/, assets/images/, tools/; drop stale zip and session export",
       "file_type": "concept",
       "source_file": "git",
@@ -405,10 +410,10 @@
         "2dff0767ba25e19143a8c8b25d4ea042f2c362a3"
       ],
       "community": 0,
-      "community_name": "Community 0"
+      "community_name": "Community 0",
+      "id": "commit:repo:github.com/ericcayers-ai/hackathon-project@d34c4f16931606f99d2bc83f88a1d01af4cfaaff"
     },
     {
-      "id": "commit:repo:github.com/ericcayers-ai/hackathon-project@ed37f0a76abbab2c44e6c10c69b072e6a09deee3",
       "label": "ed37f0a Update prompt file",
       "file_type": "concept",
       "source_file": "git",
@@ -423,22 +428,22 @@
         "49b68c966ee132d3015b7502f0de6d99907a641f"
       ],
       "community": 0,
-      "community_name": "Community 0"
+      "community_name": "Community 0",
+      "id": "commit:repo:github.com/ericcayers-ai/hackathon-project@ed37f0a76abbab2c44e6c10c69b072e6a09deee3"
     },
     {
-      "id": "branch:repo:github.com/ericcayers-ai/hackathon-project#main",
       "label": "main",
       "file_type": "concept",
       "source_file": "git",
       "node_type": "Branch",
       "repo": "repo:github.com/ericcayers-ai/hackathon-project",
       "branch_name": "main",
-      "head_sha": "68fc5be502e0f4e0b1aecfefc60afb5f869e2f76",
+      "head_sha": "32a6cc8cdb0eb696b7f962b59afe8a8e3d9f960d",
       "community": 0,
-      "community_name": "Community 0"
+      "community_name": "Community 0",
+      "id": "branch:repo:github.com/ericcayers-ai/hackathon-project#main"
     },
     {
-      "id": "gdoc_sdg_hackathon_idea_guide",
       "label": "SDG Hackathon Idea Guide (Google Doc)",
       "file_type": "document",
       "source_file": ".github/workflows/sync-gdoc.yml",
@@ -448,11 +453,11 @@
       "author": null,
       "contributor": null,
       "rationale": "Source of truth for hackathon ideation doc; team edits Google Doc, sync workflow propagates to docx.",
-      "community": 4,
-      "community_name": "Community 4"
+      "community": 7,
+      "community_name": "Community 7",
+      "id": "gdoc_sdg_hackathon_idea_guide"
     },
     {
-      "id": "claude_md_hackathon_project",
       "label": "CLAUDE.md (Hackathon-Project)",
       "file_type": "document",
       "source_file": "CLAUDE.md",
@@ -462,11 +467,11 @@
       "author": null,
       "contributor": null,
       "rationale": "Project instructions covering graphify enforcement rules, companion tooling, and hackathon-ai-strategist agent dispatch rules.",
-      "community": 4,
-      "community_name": "Community 4"
+      "community": 7,
+      "community_name": "Community 7",
+      "id": "claude_md_hackathon_project"
     },
     {
-      "id": "readme_hackathon_project",
       "label": "README.md (Hackathon-Project)",
       "file_type": "document",
       "source_file": "README.md",
@@ -476,11 +481,11 @@
       "author": null,
       "contributor": null,
       "rationale": null,
-      "community": 4,
-      "community_name": "Community 4"
+      "community": 7,
+      "community_name": "Community 7",
+      "id": "readme_hackathon_project"
     },
     {
-      "id": "docs_ideation_txt",
       "label": "IDEATION.txt (earlier plain-text draft)",
       "file_type": "document",
       "source_file": "docs/IDEATION.txt",
@@ -490,11 +495,11 @@
       "author": null,
       "contributor": null,
       "rationale": "Superseded by docx but kept for history.",
-      "community": 4,
-      "community_name": "Community 4"
+      "community": 7,
+      "community_name": "Community 7",
+      "id": "docs_ideation_txt"
     },
     {
-      "id": "participant_info_pdf",
       "label": "AI Hackathon Festival 2026 - Participant Info PDF",
       "file_type": "document",
       "source_file": ".graphify/converted/pdf/AI_Hackathon_Festival_2026_-_Participant_Info_88eebc4a5b4d.md",
@@ -504,11 +509,11 @@
       "author": null,
       "contributor": null,
       "rationale": "Official event brief: schedule, venue, judging, rules, SDG problem categories, pitch template.",
-      "community": 4,
-      "community_name": "Community 4"
+      "community": 7,
+      "community_name": "Community 7",
+      "id": "participant_info_pdf"
     },
     {
-      "id": "hackathon_summary_pdf",
       "label": "AI Hackathon 2026 Summary PDF",
       "file_type": "document",
       "source_file": ".graphify/converted/pdf/ai-hackathon-2026-summary_3c2c6f0c6149.md",
@@ -518,11 +523,11 @@
       "author": null,
       "contributor": null,
       "rationale": "Derived shorter summary; contains detailed idea comparison and analysis for hackathon concepts.",
-      "community": 14,
-      "community_name": "Community 14"
+      "community": 21,
+      "community_name": "Community 21",
+      "id": "hackathon_summary_pdf"
     },
     {
-      "id": "01_cold_chain_monitor_image",
       "label": "Cold Chain Monitor Concept Image",
       "file_type": "image",
       "source_file": "assets/images/01_cold_chain_monitor.png",
@@ -532,11 +537,11 @@
       "author": null,
       "contributor": null,
       "rationale": "Concept illustration of IoT temperature sensor device projecting a holographic dashboard showing a temperature spike, dose-disposition alert, and tamper-evident log.",
-      "community": 2,
-      "community_name": "Community 2"
+      "community": 6,
+      "community_name": "Community 6",
+      "id": "01_cold_chain_monitor_image"
     },
     {
-      "id": "01_cold_chain_monitor_sensor_device",
       "label": "IoT Sensor/Gateway Device",
       "file_type": "image",
       "source_file": "assets/images/01_cold_chain_monitor.png",
@@ -546,11 +551,11 @@
       "author": null,
       "contributor": null,
       "rationale": "White puck-shaped IoT hardware device wired to the medical fridge, projecting the dashboard UI.",
-      "community": 2,
-      "community_name": "Community 2"
+      "community": 6,
+      "community_name": "Community 6",
+      "id": "01_cold_chain_monitor_sensor_device"
     },
     {
-      "id": "01_cold_chain_monitor_temperature_chart",
       "label": "Temperature Excursion Chart",
       "file_type": "image",
       "source_file": "assets/images/01_cold_chain_monitor.png",
@@ -560,11 +565,11 @@
       "author": null,
       "contributor": null,
       "rationale": "Line chart showing a sharp red temperature spike deviation from baseline teal trend line.",
-      "community": 2,
-      "community_name": "Community 2"
+      "community": 6,
+      "community_name": "Community 6",
+      "id": "01_cold_chain_monitor_temperature_chart"
     },
     {
-      "id": "01_cold_chain_monitor_dose_disposition",
       "label": "Dose-Disposition Quarantine Alert",
       "file_type": "image",
       "source_file": "assets/images/01_cold_chain_monitor.png",
@@ -573,12 +578,12 @@
       "captured_at": null,
       "author": null,
       "contributor": null,
-      "rationale": "UI panel reading 'Dose-disposition: Quarantine batch — review'.",
-      "community": 2,
-      "community_name": "Community 2"
+      "rationale": "UI panel reading 'Dose-disposition: Quarantine batch \u2014 review'.",
+      "community": 6,
+      "community_name": "Community 6",
+      "id": "01_cold_chain_monitor_dose_disposition"
     },
     {
-      "id": "01_cold_chain_monitor_tamper_log",
       "label": "Tamper-Evident Log",
       "file_type": "image",
       "source_file": "assets/images/01_cold_chain_monitor.png",
@@ -588,11 +593,11 @@
       "author": null,
       "contributor": null,
       "rationale": "UI panel with lock/chain icon labeled 'Tamper-evident log'.",
-      "community": 2,
-      "community_name": "Community 2"
+      "community": 6,
+      "community_name": "Community 6",
+      "id": "01_cold_chain_monitor_tamper_log"
     },
     {
-      "id": "01_cold_chain_monitor_medical_fridge",
       "label": "Medical Refrigerator/Vaccine Storage Unit",
       "file_type": "image",
       "source_file": "assets/images/01_cold_chain_monitor.png",
@@ -602,11 +607,11 @@
       "author": null,
       "contributor": null,
       "rationale": "Open medical-grade refrigerator with vials/medication boxes being accessed by a hand.",
-      "community": 2,
-      "community_name": "Community 2"
+      "community": 6,
+      "community_name": "Community 6",
+      "id": "01_cold_chain_monitor_medical_fridge"
     },
     {
-      "id": "02_surplus_matching_growers_image",
       "label": "Surplus Matching for Growers Concept Image",
       "file_type": "image",
       "source_file": "assets/images/02_surplus_matching_growers.png",
@@ -616,11 +621,11 @@
       "author": null,
       "contributor": null,
       "rationale": "Mockup photo of rugged tablet showing delivery-routing/matching app UI next to crates of surplus produce.",
-      "community": 8,
-      "community_name": "Community 8"
+      "community": 14,
+      "community_name": "Community 14",
+      "id": "02_surplus_matching_growers_image"
     },
     {
-      "id": "surplus_matching_app_ui",
       "label": "Surplus Matching App UI (Tablet Mockup)",
       "file_type": "image",
       "source_file": "assets/images/02_surplus_matching_growers.png",
@@ -630,11 +635,11 @@
       "author": null,
       "contributor": null,
       "rationale": "On-screen UI: produce thumbnail, verified/quality badge icon, map with farm icon branching via routes to multiple pinned delivery destinations.",
-      "community": 8,
-      "community_name": "Community 8"
+      "community": 14,
+      "community_name": "Community 14",
+      "id": "surplus_matching_app_ui"
     },
     {
-      "id": "03_disability_funding_reassessment_image",
       "label": "Disability Funding Reassessment Dashboard Illustration",
       "file_type": "image",
       "source_file": "assets/images/03_disability_funding_reassessment.png",
@@ -644,11 +649,11 @@
       "author": null,
       "contributor": null,
       "rationale": "Stock-style illustration of tablet showing two bar charts (verified/completed metric and goal/target metric) with wireless signal icon.",
-      "community": 9,
-      "community_name": "Community 9"
+      "community": 16,
+      "community_name": "Community 16",
+      "id": "03_disability_funding_reassessment_image"
     },
     {
-      "id": "04_ewaste_routing_image",
       "label": "E-Waste Routing Concept Image",
       "file_type": "image",
       "source_file": "assets/images/04_ewaste_routing.png",
@@ -658,11 +663,11 @@
       "author": null,
       "contributor": null,
       "rationale": "Illustrates app scanning broken devices and routing them to repair or recycling.",
-      "community": 10,
-      "community_name": "Community 10"
+      "community": 17,
+      "community_name": "Community 17",
+      "id": "04_ewaste_routing_image"
     },
     {
-      "id": "05_neighbourhood_sdg_indicator_image",
       "label": "Neighbourhood SDG Indicator Map Mockup",
       "file_type": "image",
       "source_file": "assets/images/05_neighbourhood_sdg_indicator.png",
@@ -672,11 +677,11 @@
       "author": null,
       "contributor": null,
       "rationale": "3D aerial map of residential neighbourhood with highlighted green park parcel and a gauge/dial UI suggesting a livability or sustainability score.",
-      "community": 11,
-      "community_name": "Community 11"
+      "community": 18,
+      "community_name": "Community 18",
+      "id": "05_neighbourhood_sdg_indicator_image"
     },
     {
-      "id": "06_patient_health_literacy_image",
       "label": "Patient Health Literacy Tablet UI",
       "file_type": "image",
       "source_file": "assets/images/06_patient_health_literacy.png",
@@ -686,11 +691,11 @@
       "author": null,
       "contributor": null,
       "rationale": "Illustration of patient viewing simplified discharge/medication instructions on tablet with icon-based summary alongside dense original text.",
-      "community": 12,
-      "community_name": "Community 12"
+      "community": 19,
+      "community_name": "Community 19",
+      "id": "06_patient_health_literacy_image"
     },
     {
-      "id": "07_disaster_recovery_shocks_image",
       "label": "Disaster Recovery Shocks - Emergency Response Dashboard",
       "file_type": "image",
       "source_file": "assets/images/07_disaster_recovery_shocks.png",
@@ -700,11 +705,11 @@
       "author": null,
       "contributor": null,
       "rationale": "Photo of silhouetted people viewing screen showing flood map with red heat-cluster markers plus a ranked bar-list metrics panel.",
-      "community": 13,
-      "community_name": "Community 13"
+      "community": 20,
+      "community_name": "Community 20",
+      "id": "07_disaster_recovery_shocks_image"
     },
     {
-      "id": "08_surplus_allocation_food_rescue_image",
       "label": "Surplus Food Allocation / Food Rescue Concept",
       "file_type": "image",
       "source_file": "assets/images/08_surplus_allocation_food_rescue.png",
@@ -714,11 +719,11 @@
       "author": null,
       "contributor": null,
       "rationale": "Concept image showing commercial kitchen with tray of surplus cooked food, timer icon, and phone displaying chat prompt, safety-verified checkmark, and ranked recipient locations.",
-      "community": 6,
-      "community_name": "Community 6"
+      "community": 12,
+      "community_name": "Community 12",
+      "id": "08_surplus_allocation_food_rescue_image"
     },
     {
-      "id": "08_surplus_allocation_safety_check_ui",
       "label": "Food Safety Verification Icon (Shield Checkmark)",
       "file_type": "image",
       "source_file": "assets/images/08_surplus_allocation_food_rescue.png",
@@ -728,11 +733,11 @@
       "author": null,
       "contributor": null,
       "rationale": "Green shield with checkmark UI element implying food safety validation step before allocation/dispatch.",
-      "community": 6,
-      "community_name": "Community 6"
+      "community": 12,
+      "community_name": "Community 12",
+      "id": "08_surplus_allocation_safety_check_ui"
     },
     {
-      "id": "08_surplus_allocation_ranked_locations_ui",
       "label": "Ranked Recipient Locations List (1-2-3 pins)",
       "file_type": "image",
       "source_file": "assets/images/08_surplus_allocation_food_rescue.png",
@@ -742,11 +747,11 @@
       "author": null,
       "contributor": null,
       "rationale": "UI list showing three ranked pin-marked locations, implying allocation/routing algorithm.",
-      "community": 6,
-      "community_name": "Community 6"
+      "community": 12,
+      "community_name": "Community 12",
+      "id": "08_surplus_allocation_ranked_locations_ui"
     },
     {
-      "id": "09_crisis_response_allocation_engine_image",
       "label": "Crisis Response Allocation Engine Diagram",
       "file_type": "image",
       "source_file": "assets/images/09_crisis_response_allocation_engine.png",
@@ -756,11 +761,11 @@
       "author": null,
       "contributor": null,
       "rationale": "Diagram showing flood-risk heatmap map and supply-chain flow (Food pallet -> Supply-depot -> Evacuation-centre).",
-      "community": 7,
-      "community_name": "Community 7"
+      "community": 13,
+      "community_name": "Community 13",
+      "id": "09_crisis_response_allocation_engine_image"
     },
     {
-      "id": "09_crisis_response_flood_risk_map",
       "label": "Flood Risk Heatmap / Road Network Map",
       "file_type": "image",
       "source_file": "assets/images/09_crisis_response_allocation_engine.png",
@@ -770,11 +775,11 @@
       "author": null,
       "contributor": null,
       "rationale": "Map panel showing flood risk heat zones, road closures, and route network.",
-      "community": 7,
-      "community_name": "Community 7"
+      "community": 13,
+      "community_name": "Community 13",
+      "id": "09_crisis_response_flood_risk_map"
     },
     {
-      "id": "09_crisis_response_supply_chain_flow",
       "label": "Supply Chain Flow: Food Pallet to Evacuation Centre",
       "file_type": "image",
       "source_file": "assets/images/09_crisis_response_allocation_engine.png",
@@ -784,11 +789,11 @@
       "author": null,
       "contributor": null,
       "rationale": "Icon flow depicting logistics pipeline from food pallet to supply depot to evacuation centre via verified route.",
-      "community": 7,
-      "community_name": "Community 7"
+      "community": 13,
+      "community_name": "Community 13",
+      "id": "09_crisis_response_supply_chain_flow"
     },
     {
-      "id": "universal_jargon_interpreter_concept",
       "label": "Universal Jargon Interpreter App",
       "file_type": "image",
       "source_file": "assets/images/10_universal_jargon_interpreter.png",
@@ -798,11 +803,11 @@
       "author": null,
       "contributor": null,
       "rationale": "Product concept mockup: phone camera scanning handwritten prescription and translating it into plain-language, verified summary card.",
-      "community": 5,
-      "community_name": "Community 5"
+      "community": 10,
+      "community_name": "Community 10",
+      "id": "universal_jargon_interpreter_concept"
     },
     {
-      "id": "jargon_interpreter_camera_scan_ui",
       "label": "Camera Scan Split-View UI",
       "file_type": "image",
       "source_file": "assets/images/10_universal_jargon_interpreter.png",
@@ -812,11 +817,11 @@
       "author": null,
       "contributor": null,
       "rationale": "Split-screen phone UI: live camera feed of handwritten note, dark card with plain-language summary.",
-      "community": 5,
-      "community_name": "Community 5"
+      "community": 10,
+      "community_name": "Community 10",
+      "id": "jargon_interpreter_camera_scan_ui"
     },
     {
-      "id": "jargon_interpreter_verified_summary_card",
       "label": "Verified Plain-Language Summary Card",
       "file_type": "image",
       "source_file": "assets/images/10_universal_jargon_interpreter.png",
@@ -826,11 +831,11 @@
       "author": null,
       "contributor": null,
       "rationale": "UI element with trust badge indicating verified, grounded content summary.",
-      "community": 5,
-      "community_name": "Community 5"
+      "community": 10,
+      "community_name": "Community 10",
+      "id": "jargon_interpreter_verified_summary_card"
     },
     {
-      "id": "jargon_interpreter_document_use_cases",
       "label": "Target Documents (Prescription, Tenancy Agreement)",
       "file_type": "image",
       "source_file": "assets/images/10_universal_jargon_interpreter.png",
@@ -840,14 +845,720 @@
       "author": null,
       "contributor": null,
       "rationale": "Physical props: handwritten prescription and printed tenancy agreement representing jargon-heavy document types.",
+      "community": 10,
+      "community_name": "Community 10",
+      "id": "jargon_interpreter_document_use_cases"
+    },
+    {
+      "label": "App.jsx",
+      "file_type": "code",
+      "source_file": "app/src/App.jsx",
+      "source_location": "L1",
+      "community": 1,
+      "community_name": "Community 1",
+      "id": "src_app"
+    },
+    {
+      "label": "GradeBadge()",
+      "file_type": "code",
+      "source_file": "app/src/App.jsx",
+      "source_location": "L9",
+      "community": 8,
+      "community_name": "Community 8",
+      "id": "src_app_gradebadge"
+    },
+    {
+      "label": "JargonBadge()",
+      "file_type": "code",
+      "source_file": "app/src/App.jsx",
+      "source_location": "L26",
+      "community": 1,
+      "community_name": "Community 1",
+      "id": "src_app_jargonbadge"
+    },
+    {
+      "label": "App()",
+      "file_type": "code",
+      "source_file": "app/src/App.jsx",
+      "source_location": "L45",
+      "community": 1,
+      "community_name": "Community 1",
+      "id": "src_app_app"
+    },
+    {
+      "label": "PatientView.jsx",
+      "file_type": "code",
+      "source_file": "app/src/PatientView.jsx",
+      "source_location": "L1",
+      "community": 8,
+      "community_name": "Community 8",
+      "id": "src_patientview"
+    },
+    {
+      "label": "speakSupported()",
+      "file_type": "code",
+      "source_file": "app/src/PatientView.jsx",
+      "source_location": "L22",
+      "community": 8,
+      "community_name": "Community 8",
+      "id": "src_patientview_speaksupported"
+    },
+    {
+      "label": "useSpeech()",
+      "file_type": "code",
+      "source_file": "app/src/PatientView.jsx",
+      "source_location": "L26",
+      "community": 8,
+      "community_name": "Community 8",
+      "id": "src_patientview_usespeech"
+    },
+    {
+      "label": "PatientView()",
+      "file_type": "code",
+      "source_file": "app/src/PatientView.jsx",
+      "source_location": "L51",
+      "community": 8,
+      "community_name": "Community 8",
+      "id": "src_patientview_patientview"
+    },
+    {
+      "label": "extractText.js",
+      "file_type": "code",
+      "source_file": "app/src/lib/extractText.js",
+      "source_location": "L1",
+      "community": 1,
+      "community_name": "Community 1",
+      "id": "lib_extracttext"
+    },
+    {
+      "label": "extractPdf()",
+      "file_type": "code",
+      "source_file": "app/src/lib/extractText.js",
+      "source_location": "L9",
+      "community": 1,
+      "community_name": "Community 1",
+      "id": "lib_extracttext_extractpdf"
+    },
+    {
+      "label": "extractText()",
+      "file_type": "code",
+      "source_file": "app/src/lib/extractText.js",
+      "source_location": "L32",
+      "community": 1,
+      "community_name": "Community 1",
+      "id": "lib_extracttext_extracttext"
+    },
+    {
+      "label": "llm.js",
+      "file_type": "code",
+      "source_file": "app/src/lib/llm.js",
+      "source_location": "L1",
+      "community": 2,
+      "community_name": "Community 2",
+      "id": "lib_llm"
+    },
+    {
+      "label": "generateRewrite()",
+      "file_type": "code",
+      "source_file": "app/src/lib/llm.js",
+      "source_location": "L20",
+      "community": 2,
+      "community_name": "Community 2",
+      "id": "lib_llm_generaterewrite"
+    },
+    {
+      "label": "pdf.js",
+      "file_type": "code",
+      "source_file": "app/src/lib/pdf.js",
+      "source_location": "L1",
       "community": 5,
-      "community_name": "Community 5"
+      "community_name": "Community 5",
+      "id": "lib_pdf"
+    },
+    {
+      "label": "KNOWN_HEADINGS",
+      "file_type": "code",
+      "source_file": "app/src/lib/pdf.js",
+      "source_location": "L9",
+      "community": 5,
+      "community_name": "Community 5",
+      "id": "lib_pdf_known_headings"
+    },
+    {
+      "label": "isHeading()",
+      "file_type": "code",
+      "source_file": "app/src/lib/pdf.js",
+      "source_location": "L20",
+      "community": 5,
+      "community_name": "Community 5",
+      "id": "lib_pdf_isheading"
+    },
+    {
+      "label": "buildPatientPdf()",
+      "file_type": "code",
+      "source_file": "app/src/lib/pdf.js",
+      "source_location": "L25",
+      "community": 5,
+      "community_name": "Community 5",
+      "id": "lib_pdf_buildpatientpdf"
+    },
+    {
+      "label": "downloadPatientPdf()",
+      "file_type": "code",
+      "source_file": "app/src/lib/pdf.js",
+      "source_location": "L106",
+      "community": 5,
+      "community_name": "Community 5",
+      "id": "lib_pdf_downloadpatientpdf"
+    },
+    {
+      "label": "readability.js",
+      "file_type": "code",
+      "source_file": "app/src/lib/readability.js",
+      "source_location": "L1",
+      "community": 1,
+      "community_name": "Community 1",
+      "id": "lib_readability"
+    },
+    {
+      "label": "countSyllablesInWord()",
+      "file_type": "code",
+      "source_file": "app/src/lib/readability.js",
+      "source_location": "L4",
+      "community": 1,
+      "community_name": "Community 1",
+      "id": "lib_readability_countsyllablesinword"
+    },
+    {
+      "label": "countSentences()",
+      "file_type": "code",
+      "source_file": "app/src/lib/readability.js",
+      "source_location": "L17",
+      "community": 1,
+      "community_name": "Community 1",
+      "id": "lib_readability_countsentences"
+    },
+    {
+      "label": "readingGrade()",
+      "file_type": "code",
+      "source_file": "app/src/lib/readability.js",
+      "source_location": "L29",
+      "community": 1,
+      "community_name": "Community 1",
+      "id": "lib_readability_readinggrade"
+    },
+    {
+      "label": "gradeLabel()",
+      "file_type": "code",
+      "source_file": "app/src/lib/readability.js",
+      "source_location": "L50",
+      "community": 1,
+      "community_name": "Community 1",
+      "id": "lib_readability_gradelabel"
+    },
+    {
+      "label": "ACRONYMS",
+      "file_type": "code",
+      "source_file": "app/src/lib/readability.js",
+      "source_location": "L68",
+      "community": 1,
+      "community_name": "Community 1",
+      "id": "lib_readability_acronyms"
+    },
+    {
+      "label": "JARGON_WORDS",
+      "file_type": "code",
+      "source_file": "app/src/lib/readability.js",
+      "source_location": "L76",
+      "community": 1,
+      "community_name": "Community 1",
+      "id": "lib_readability_jargon_words"
+    },
+    {
+      "label": "escapeRe()",
+      "file_type": "code",
+      "source_file": "app/src/lib/readability.js",
+      "source_location": "L82",
+      "community": 1,
+      "community_name": "Community 1",
+      "id": "lib_readability_escapere"
+    },
+    {
+      "label": "ACRONYM_RE",
+      "file_type": "code",
+      "source_file": "app/src/lib/readability.js",
+      "source_location": "L91",
+      "community": 1,
+      "community_name": "Community 1",
+      "id": "lib_readability_acronym_re"
+    },
+    {
+      "label": "WORD_RE",
+      "file_type": "code",
+      "source_file": "app/src/lib/readability.js",
+      "source_location": "L95",
+      "community": 1,
+      "community_name": "Community 1",
+      "id": "lib_readability_word_re"
+    },
+    {
+      "label": "PATTERN_RE",
+      "file_type": "code",
+      "source_file": "app/src/lib/readability.js",
+      "source_location": "L97",
+      "community": 1,
+      "community_name": "Community 1",
+      "id": "lib_readability_pattern_re"
+    },
+    {
+      "label": "countJargon()",
+      "file_type": "code",
+      "source_file": "app/src/lib/readability.js",
+      "source_location": "L103",
+      "community": 1,
+      "community_name": "Community 1",
+      "id": "lib_readability_countjargon"
+    },
+    {
+      "label": "main.jsx",
+      "file_type": "code",
+      "source_file": "app/src/main.jsx",
+      "source_location": "L1",
+      "community": 2,
+      "community_name": "Community 2",
+      "id": "src_main"
+    },
+    {
+      "label": "vite.config.js",
+      "file_type": "code",
+      "source_file": "app/vite.config.js",
+      "source_location": "L1",
+      "community": 2,
+      "community_name": "Community 2",
+      "id": "app_vite_config"
+    },
+    {
+      "label": "proxy",
+      "file_type": "code",
+      "source_file": "app/vite.config.js",
+      "source_location": "L14",
+      "community": 2,
+      "community_name": "Community 2",
+      "id": "app_vite_config_proxy"
+    },
+    {
+      "label": "build_docx.py",
+      "file_type": "code",
+      "source_file": "tools/build_docx.py",
+      "source_location": "L1",
+      "community": 4,
+      "community_name": "Community 4",
+      "id": "tools_build_docx"
+    },
+    {
+      "label": "add_hyperlink()",
+      "file_type": "code",
+      "source_file": "tools/build_docx.py",
+      "source_location": "L46",
+      "community": 4,
+      "community_name": "Community 4",
+      "id": "tools_build_docx_add_hyperlink"
+    },
+    {
+      "label": "para()",
+      "file_type": "code",
+      "source_file": "tools/build_docx.py",
+      "source_location": "L72",
+      "community": 4,
+      "community_name": "Community 4",
+      "id": "tools_build_docx_para"
+    },
+    {
+      "label": "bullet()",
+      "file_type": "code",
+      "source_file": "tools/build_docx.py",
+      "source_location": "L90",
+      "community": 4,
+      "community_name": "Community 4",
+      "id": "tools_build_docx_bullet"
+    },
+    {
+      "label": "numbered()",
+      "file_type": "code",
+      "source_file": "tools/build_docx.py",
+      "source_location": "L98",
+      "community": 4,
+      "community_name": "Community 4",
+      "id": "tools_build_docx_numbered"
+    },
+    {
+      "label": "labelled()",
+      "file_type": "code",
+      "source_file": "tools/build_docx.py",
+      "source_location": "L106",
+      "community": 4,
+      "community_name": "Community 4",
+      "id": "tools_build_docx_labelled"
+    },
+    {
+      "label": "shade()",
+      "file_type": "code",
+      "source_file": "tools/build_docx.py",
+      "source_location": "L116",
+      "community": 4,
+      "community_name": "Community 4",
+      "id": "tools_build_docx_shade"
+    },
+    {
+      "label": "make_table()",
+      "file_type": "code",
+      "source_file": "tools/build_docx.py",
+      "source_location": "L124",
+      "community": 4,
+      "community_name": "Community 4",
+      "id": "tools_build_docx_make_table"
+    },
+    {
+      "label": "source_line()",
+      "file_type": "code",
+      "source_file": "tools/build_docx.py",
+      "source_location": "L153",
+      "community": 4,
+      "community_name": "Community 4",
+      "id": "tools_build_docx_source_line"
+    },
+    {
+      "label": "Bold inline label followed by body text.",
+      "file_type": "rationale",
+      "source_file": "tools/build_docx.py",
+      "source_location": "L107",
+      "community": 4,
+      "community_name": "Community 4",
+      "id": "tools_build_docx_rationale_107"
+    },
+    {
+      "label": "0f4a291 Overhaul pptx design, fix duplicate/overclaim bugs, add PIAAC reading-level section to docx",
+      "file_type": "concept",
+      "source_file": "git",
+      "node_type": "Commit",
+      "repo": "repo:github.com/ericcayers-ai/hackathon-project",
+      "sha": "0f4a29104d33e041967e3a4152d19e3a71e6fea1",
+      "author": "Eric Ayers <eric.c.ayers@gmail.com>",
+      "authoredAt": "2026-08-07T11:24:48+12:00",
+      "message_summary": "Overhaul pptx design, fix duplicate/overclaim bugs, add PIAAC reading-level section to docx",
+      "message_length": 353,
+      "parents": [
+        "fb89a6574083158285863c77242e14c78fafb19d"
+      ],
+      "community": 5,
+      "community_name": "Community 5",
+      "id": "commit:repo:github.com/ericcayers-ai/hackathon-project@0f4a29104d33e041967e3a4152d19e3a71e6fea1"
+    },
+    {
+      "label": "23bc223 Merge remote-tracking branch 'origin/main' into main",
+      "file_type": "concept",
+      "source_file": "git",
+      "node_type": "Commit",
+      "repo": "repo:github.com/ericcayers-ai/hackathon-project",
+      "sha": "23bc22363229f2b0bc17c4d3b39439849fa48195",
+      "author": "Eric Ayers <eric.c.ayers@gmail.com>",
+      "authoredAt": "2026-08-07T09:41:30+12:00",
+      "message_summary": "Merge remote-tracking branch 'origin/main' into main",
+      "message_length": 103,
+      "parents": [
+        "c1b47d3b3bf52fe5fc32cb000a5d1bce8f56518e",
+        "2db3f5d4b4e642389c3130dc6542c24a116968f6"
+      ],
+      "community": 2,
+      "community_name": "Community 2",
+      "id": "commit:repo:github.com/ericcayers-ai/hackathon-project@23bc22363229f2b0bc17c4d3b39439849fa48195"
+    },
+    {
+      "label": "2db3f5d Sync Google Doc export [automated]",
+      "file_type": "concept",
+      "source_file": "git",
+      "node_type": "Commit",
+      "repo": "repo:github.com/ericcayers-ai/hackathon-project",
+      "sha": "2db3f5d4b4e642389c3130dc6542c24a116968f6",
+      "author": "gdoc-sync-bot <actions@github.com>",
+      "authoredAt": "2026-08-06T13:31:02Z",
+      "message_summary": "Sync Google Doc export [automated]",
+      "message_length": 34,
+      "parents": [
+        "eda92145df33142918b07c85eefe69d5b5128939"
+      ],
+      "community": 2,
+      "community_name": "Community 2",
+      "id": "commit:repo:github.com/ericcayers-ai/hackathon-project@2db3f5d4b4e642389c3130dc6542c24a116968f6"
+    },
+    {
+      "label": "32a6cc8 Untrack graphify session state (branch.json, worktree.json, cache/)",
+      "file_type": "concept",
+      "source_file": "git",
+      "node_type": "Commit",
+      "repo": "repo:github.com/ericcayers-ai/hackathon-project",
+      "sha": "32a6cc8cdb0eb696b7f962b59afe8a8e3d9f960d",
+      "author": "Eric Ayers <eric.c.ayers@gmail.com>",
+      "authoredAt": "2026-08-07T23:57:32+12:00",
+      "message_summary": "Untrack graphify session state (branch.json, worktree.json, cache/)",
+      "message_length": 266,
+      "parents": [
+        "3edbcc3f5a47dbdb73a310e3f41054443886a6b9"
+      ],
+      "community": 5,
+      "community_name": "Community 5",
+      "id": "commit:repo:github.com/ericcayers-ai/hackathon-project@32a6cc8cdb0eb696b7f962b59afe8a8e3d9f960d"
+    },
+    {
+      "label": "3edbcc3 Phase 0: rename ClearChart back to Nurse Notes; repo hygiene",
+      "file_type": "concept",
+      "source_file": "git",
+      "node_type": "Commit",
+      "repo": "repo:github.com/ericcayers-ai/hackathon-project",
+      "sha": "3edbcc3f5a47dbdb73a310e3f41054443886a6b9",
+      "author": "Eric Ayers <eric.c.ayers@gmail.com>",
+      "authoredAt": "2026-08-07T23:47:27+12:00",
+      "message_summary": "Phase 0: rename ClearChart back to Nurse Notes; repo hygiene",
+      "message_length": 795,
+      "parents": [
+        "c4efce65e04bb196940177012d05665097ac6326",
+        "7ed0528c383d603c2e4a6f4c921976dbdde6507b"
+      ],
+      "community": 5,
+      "community_name": "Community 5",
+      "id": "commit:repo:github.com/ericcayers-ai/hackathon-project@3edbcc3f5a47dbdb73a310e3f41054443886a6b9"
+    },
+    {
+      "label": "7ed0528 Sync Google Doc export [automated]",
+      "file_type": "concept",
+      "source_file": "git",
+      "node_type": "Commit",
+      "repo": "repo:github.com/ericcayers-ai/hackathon-project",
+      "sha": "7ed0528c383d603c2e4a6f4c921976dbdde6507b",
+      "author": "gdoc-sync-bot <actions@github.com>",
+      "authoredAt": "2026-08-06T23:48:02Z",
+      "message_summary": "Sync Google Doc export [automated]",
+      "message_length": 34,
+      "parents": [
+        "fb89a6574083158285863c77242e14c78fafb19d"
+      ],
+      "community": 0,
+      "community_name": "Community 0",
+      "id": "commit:repo:github.com/ericcayers-ai/hackathon-project@7ed0528c383d603c2e4a6f4c921976dbdde6507b"
+    },
+    {
+      "label": "a64c5a6 Sync Google Doc export [automated]",
+      "file_type": "concept",
+      "source_file": "git",
+      "node_type": "Commit",
+      "repo": "repo:github.com/ericcayers-ai/hackathon-project",
+      "sha": "a64c5a6ed3f72640e52718c3da5510558cc37bd3",
+      "author": "gdoc-sync-bot <actions@github.com>",
+      "authoredAt": "2026-08-07T02:01:43Z",
+      "message_summary": "Sync Google Doc export [automated]",
+      "message_length": 34,
+      "parents": [
+        "7ed0528c383d603c2e4a6f4c921976dbdde6507b"
+      ],
+      "community": 0,
+      "community_name": "Community 0",
+      "id": "commit:repo:github.com/ericcayers-ai/hackathon-project@a64c5a6ed3f72640e52718c3da5510558cc37bd3"
+    },
+    {
+      "label": "c1b47d3 Fix ClearChart branding in live frontend, close docx Task 2 comparison gap",
+      "file_type": "concept",
+      "source_file": "git",
+      "node_type": "Commit",
+      "repo": "repo:github.com/ericcayers-ai/hackathon-project",
+      "sha": "c1b47d3b3bf52fe5fc32cb000a5d1bce8f56518e",
+      "author": "Eric Ayers <eric.c.ayers@gmail.com>",
+      "authoredAt": "2026-08-07T06:17:49+12:00",
+      "message_summary": "Fix ClearChart branding in live frontend, close docx Task 2 comparison gap",
+      "message_length": 561,
+      "parents": [
+        "eda92145df33142918b07c85eefe69d5b5128939"
+      ],
+      "community": 2,
+      "community_name": "Community 2",
+      "id": "commit:repo:github.com/ericcayers-ai/hackathon-project@c1b47d3b3bf52fe5fc32cb000a5d1bce8f56518e"
+    },
+    {
+      "label": "c4efce6 Merge upstream Nurse-Notes improvements: better prompt, cleaner PatientView",
+      "file_type": "concept",
+      "source_file": "git",
+      "node_type": "Commit",
+      "repo": "repo:github.com/ericcayers-ai/hackathon-project",
+      "sha": "c4efce65e04bb196940177012d05665097ac6326",
+      "author": "Eric Ayers <eric.c.ayers@gmail.com>",
+      "authoredAt": "2026-08-07T11:34:27+12:00",
+      "message_summary": "Merge upstream Nurse-Notes improvements: better prompt, cleaner PatientView",
+      "message_length": 1177,
+      "parents": [
+        "0f4a29104d33e041967e3a4152d19e3a71e6fea1"
+      ],
+      "community": 5,
+      "community_name": "Community 5",
+      "id": "commit:repo:github.com/ericcayers-ai/hackathon-project@c4efce65e04bb196940177012d05665097ac6326"
+    },
+    {
+      "label": "d2fe56b Sync Google Doc export [automated]",
+      "file_type": "concept",
+      "source_file": "git",
+      "node_type": "Commit",
+      "repo": "repo:github.com/ericcayers-ai/hackathon-project",
+      "sha": "d2fe56bde9707bc38f371a990c5ac91782632473",
+      "author": "gdoc-sync-bot <actions@github.com>",
+      "authoredAt": "2026-08-07T06:58:09Z",
+      "message_summary": "Sync Google Doc export [automated]",
+      "message_length": 34,
+      "parents": [
+        "a64c5a6ed3f72640e52718c3da5510558cc37bd3"
+      ],
+      "community": 0,
+      "community_name": "Community 0",
+      "id": "commit:repo:github.com/ericcayers-ai/hackathon-project@d2fe56bde9707bc38f371a990c5ac91782632473"
+    },
+    {
+      "label": "eda9214 Update docs and merge ClearChart app (wip)",
+      "file_type": "concept",
+      "source_file": "git",
+      "node_type": "Commit",
+      "repo": "repo:github.com/ericcayers-ai/hackathon-project",
+      "sha": "eda92145df33142918b07c85eefe69d5b5128939",
+      "author": "Eric Ayers <eric.c.ayers@gmail.com>",
+      "authoredAt": "2026-08-07T00:23:21+12:00",
+      "message_summary": "Update docs and merge ClearChart app (wip)",
+      "message_length": 42,
+      "parents": [
+        "68fc5be502e0f4e0b1aecfefc60afb5f869e2f76"
+      ],
+      "community": 2,
+      "community_name": "Community 2",
+      "id": "commit:repo:github.com/ericcayers-ai/hackathon-project@eda92145df33142918b07c85eefe69d5b5128939"
+    },
+    {
+      "label": "fb89a65 Add patient mobile view, QR save-to-phone, TTS; single-file build; ManageMyHealth research",
+      "file_type": "concept",
+      "source_file": "git",
+      "node_type": "Commit",
+      "repo": "repo:github.com/ericcayers-ai/hackathon-project",
+      "sha": "fb89a6574083158285863c77242e14c78fafb19d",
+      "author": "Eric Ayers <eric.c.ayers@gmail.com>",
+      "authoredAt": "2026-08-07T10:09:30+12:00",
+      "message_summary": "Add patient mobile view, QR save-to-phone, TTS; single-file build; ManageMyHealth research",
+      "message_length": 803,
+      "parents": [
+        "23bc22363229f2b0bc17c4d3b39439849fa48195"
+      ],
+      "community": 2,
+      "community_name": "Community 2",
+      "id": "commit:repo:github.com/ericcayers-ai/hackathon-project@fb89a6574083158285863c77242e14c78fafb19d"
+    },
+    {
+      "label": "worktree-nurse-notes-ui-overhaul",
+      "file_type": "concept",
+      "source_file": "git",
+      "node_type": "Branch",
+      "repo": "repo:github.com/ericcayers-ai/hackathon-project",
+      "branch_name": "worktree-nurse-notes-ui-overhaul",
+      "head_sha": "d2fe56bde9707bc38f371a990c5ac91782632473",
+      "community": 0,
+      "community_name": "Community 0",
+      "id": "branch:repo:github.com/ericcayers-ai/hackathon-project#worktree-nurse-notes-ui-overhaul"
+    },
+    {
+      "label": "App.jsx",
+      "file_type": "code",
+      "source_file": "app/src/App.jsx",
+      "source_location": "L1",
+      "community": 9,
+      "community_name": "Community 9",
+      "id": "app"
+    },
+    {
+      "label": "GradeBadge()",
+      "file_type": "code",
+      "source_file": "app/src/App.jsx",
+      "source_location": "L9",
+      "community": 9,
+      "community_name": "Community 9",
+      "id": "app_gradebadge"
+    },
+    {
+      "label": "JargonBadge()",
+      "file_type": "code",
+      "source_file": "app/src/App.jsx",
+      "source_location": "L26",
+      "community": 9,
+      "community_name": "Community 9",
+      "id": "app_jargonbadge"
+    },
+    {
+      "label": "App()",
+      "file_type": "code",
+      "source_file": "app/src/App.jsx",
+      "source_location": "L45",
+      "community": 9,
+      "community_name": "Community 9",
+      "id": "app_app"
+    },
+    {
+      "label": "PatientView.jsx",
+      "file_type": "code",
+      "source_file": "app/src/PatientView.jsx",
+      "source_location": "L1",
+      "community": 11,
+      "community_name": "Community 11",
+      "id": "patientview"
+    },
+    {
+      "label": "speakSupported()",
+      "file_type": "code",
+      "source_file": "app/src/PatientView.jsx",
+      "source_location": "L22",
+      "community": 11,
+      "community_name": "Community 11",
+      "id": "patientview_speaksupported"
+    },
+    {
+      "label": "useSpeech()",
+      "file_type": "code",
+      "source_file": "app/src/PatientView.jsx",
+      "source_location": "L26",
+      "community": 11,
+      "community_name": "Community 11",
+      "id": "patientview_usespeech"
+    },
+    {
+      "label": "PatientView()",
+      "file_type": "code",
+      "source_file": "app/src/PatientView.jsx",
+      "source_location": "L51",
+      "community": 11,
+      "community_name": "Community 11",
+      "id": "patientview_patientview"
+    },
+    {
+      "label": "vite.config.js",
+      "file_type": "code",
+      "source_file": "app/vite.config.js",
+      "source_location": "L1",
+      "community": 15,
+      "community_name": "Community 15",
+      "id": "vite_config"
+    },
+    {
+      "label": "proxy",
+      "file_type": "code",
+      "source_file": "app/vite.config.js",
+      "source_location": "L14",
+      "community": 15,
+      "community_name": "Community 15",
+      "id": "vite_config_proxy"
     }
   ],
   "links": [
     {
-      "source": "build_docx",
-      "target": "build_docx_add_hyperlink",
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "tools/build_docx.py",
@@ -855,11 +1566,11 @@
       "weight": 1,
       "_src": "build_docx",
       "_tgt": "build_docx_add_hyperlink",
-      "confidence_score": 1
+      "confidence_score": 1,
+      "source": "build_docx",
+      "target": "build_docx_add_hyperlink"
     },
     {
-      "source": "build_docx",
-      "target": "build_docx_bullet",
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "tools/build_docx.py",
@@ -867,11 +1578,11 @@
       "weight": 1,
       "_src": "build_docx",
       "_tgt": "build_docx_bullet",
-      "confidence_score": 1
+      "confidence_score": 1,
+      "source": "build_docx",
+      "target": "build_docx_bullet"
     },
     {
-      "source": "build_docx",
-      "target": "build_docx_labelled",
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "tools/build_docx.py",
@@ -879,11 +1590,11 @@
       "weight": 1,
       "_src": "build_docx",
       "_tgt": "build_docx_labelled",
-      "confidence_score": 1
+      "confidence_score": 1,
+      "source": "build_docx",
+      "target": "build_docx_labelled"
     },
     {
-      "source": "build_docx",
-      "target": "build_docx_make_table",
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "tools/build_docx.py",
@@ -891,11 +1602,11 @@
       "weight": 1,
       "_src": "build_docx",
       "_tgt": "build_docx_make_table",
-      "confidence_score": 1
+      "confidence_score": 1,
+      "source": "build_docx",
+      "target": "build_docx_make_table"
     },
     {
-      "source": "build_docx",
-      "target": "build_docx_numbered",
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "tools/build_docx.py",
@@ -903,11 +1614,11 @@
       "weight": 1,
       "_src": "build_docx",
       "_tgt": "build_docx_numbered",
-      "confidence_score": 1
+      "confidence_score": 1,
+      "source": "build_docx",
+      "target": "build_docx_numbered"
     },
     {
-      "source": "build_docx",
-      "target": "build_docx_para",
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "tools/build_docx.py",
@@ -915,11 +1626,11 @@
       "weight": 1,
       "_src": "build_docx",
       "_tgt": "build_docx_para",
-      "confidence_score": 1
+      "confidence_score": 1,
+      "source": "build_docx",
+      "target": "build_docx_para"
     },
     {
-      "source": "build_docx",
-      "target": "build_docx_shade",
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "tools/build_docx.py",
@@ -927,11 +1638,11 @@
       "weight": 1,
       "_src": "build_docx",
       "_tgt": "build_docx_shade",
-      "confidence_score": 1
+      "confidence_score": 1,
+      "source": "build_docx",
+      "target": "build_docx_shade"
     },
     {
-      "source": "build_docx",
-      "target": "build_docx_source_line",
       "relation": "contains",
       "confidence": "EXTRACTED",
       "source_file": "tools/build_docx.py",
@@ -939,35 +1650,11 @@
       "weight": 1,
       "_src": "build_docx",
       "_tgt": "build_docx_source_line",
-      "confidence_score": 1
+      "confidence_score": 1,
+      "source": "build_docx",
+      "target": "build_docx_source_line"
     },
     {
-      "source": "build_docx_make_table",
-      "target": "build_docx_shade",
-      "relation": "calls",
-      "confidence": "EXTRACTED",
-      "source_file": "tools/build_docx.py",
-      "source_location": "L136",
-      "weight": 1,
-      "_src": "build_docx_make_table",
-      "_tgt": "build_docx_shade",
-      "confidence_score": 1
-    },
-    {
-      "source": "build_docx_rationale_107",
-      "target": "build_docx_labelled",
-      "relation": "rationale_for",
-      "confidence": "EXTRACTED",
-      "source_file": "tools/build_docx.py",
-      "source_location": "L107",
-      "weight": 1,
-      "_src": "build_docx_rationale_107",
-      "_tgt": "build_docx_labelled",
-      "confidence_score": 1
-    },
-    {
-      "source": "build_docx_source_line",
-      "target": "build_docx_add_hyperlink",
       "relation": "calls",
       "confidence": "EXTRACTED",
       "source_file": "tools/build_docx.py",
@@ -975,495 +1662,655 @@
       "weight": 1,
       "_src": "build_docx_source_line",
       "_tgt": "build_docx_add_hyperlink",
-      "confidence_score": 1
+      "confidence_score": 1,
+      "source": "build_docx_add_hyperlink",
+      "target": "build_docx_source_line"
     },
     {
-      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@0c25dcb45625ced8864b5445a31c5a747e0f067e",
-      "target": "branch:repo:github.com/ericcayers-ai/hackathon-project#main",
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/build_docx.py",
+      "source_location": "L107",
+      "weight": 1,
+      "_src": "build_docx_rationale_107",
+      "_tgt": "build_docx_labelled",
+      "confidence_score": 1,
+      "source": "build_docx_labelled",
+      "target": "build_docx_rationale_107"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/build_docx.py",
+      "source_location": "L136",
+      "weight": 1,
+      "_src": "build_docx_make_table",
+      "_tgt": "build_docx_shade",
+      "confidence_score": 1,
+      "source": "build_docx_shade",
+      "target": "build_docx_make_table"
+    },
+    {
       "relation": "ON_BRANCH",
       "confidence": "EXTRACTED",
       "source_file": "git",
       "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@0c25dcb45625ced8864b5445a31c5a747e0f067e",
       "_tgt": "branch:repo:github.com/ericcayers-ai/hackathon-project#main",
-      "confidence_score": 1
+      "confidence_score": 1,
+      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@0c25dcb45625ced8864b5445a31c5a747e0f067e",
+      "target": "branch:repo:github.com/ericcayers-ai/hackathon-project#main"
     },
     {
-      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@0c25dcb45625ced8864b5445a31c5a747e0f067e",
-      "target": "commit:repo:github.com/ericcayers-ai/hackathon-project@16bda27ba4ac30a5058d5ffe3441692dfe210101",
       "relation": "PARENT_OF",
       "confidence": "EXTRACTED",
       "source_file": "git",
       "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@0c25dcb45625ced8864b5445a31c5a747e0f067e",
       "_tgt": "commit:repo:github.com/ericcayers-ai/hackathon-project@16bda27ba4ac30a5058d5ffe3441692dfe210101",
-      "confidence_score": 1
+      "confidence_score": 1,
+      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@0c25dcb45625ced8864b5445a31c5a747e0f067e",
+      "target": "commit:repo:github.com/ericcayers-ai/hackathon-project@16bda27ba4ac30a5058d5ffe3441692dfe210101"
     },
     {
-      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@1563e36590a8fb6667dc082a66a1c76bdd41a4c1",
-      "target": "branch:repo:github.com/ericcayers-ai/hackathon-project#main",
-      "relation": "ON_BRANCH",
-      "confidence": "EXTRACTED",
-      "source_file": "git",
-      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@1563e36590a8fb6667dc082a66a1c76bdd41a4c1",
-      "_tgt": "branch:repo:github.com/ericcayers-ai/hackathon-project#main",
-      "confidence_score": 1
-    },
-    {
-      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@1563e36590a8fb6667dc082a66a1c76bdd41a4c1",
-      "target": "commit:repo:github.com/ericcayers-ai/hackathon-project@d193f555e8ee24a5a550a7e50cf1911d54447409",
-      "relation": "PARENT_OF",
-      "confidence": "EXTRACTED",
-      "source_file": "git",
-      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@1563e36590a8fb6667dc082a66a1c76bdd41a4c1",
-      "_tgt": "commit:repo:github.com/ericcayers-ai/hackathon-project@d193f555e8ee24a5a550a7e50cf1911d54447409",
-      "confidence_score": 1
-    },
-    {
-      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@16bda27ba4ac30a5058d5ffe3441692dfe210101",
-      "target": "branch:repo:github.com/ericcayers-ai/hackathon-project#main",
-      "relation": "ON_BRANCH",
-      "confidence": "EXTRACTED",
-      "source_file": "git",
-      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@16bda27ba4ac30a5058d5ffe3441692dfe210101",
-      "_tgt": "branch:repo:github.com/ericcayers-ai/hackathon-project#main",
-      "confidence_score": 1
-    },
-    {
-      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@16bda27ba4ac30a5058d5ffe3441692dfe210101",
-      "target": "commit:repo:github.com/ericcayers-ai/hackathon-project@940e5adbbaf1ed668ee2c9eaa5b1f0497cb0d6fb",
-      "relation": "PARENT_OF",
-      "confidence": "EXTRACTED",
-      "source_file": "git",
-      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@16bda27ba4ac30a5058d5ffe3441692dfe210101",
-      "_tgt": "commit:repo:github.com/ericcayers-ai/hackathon-project@940e5adbbaf1ed668ee2c9eaa5b1f0497cb0d6fb",
-      "confidence_score": 1
-    },
-    {
-      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@2dff0767ba25e19143a8c8b25d4ea042f2c362a3",
-      "target": "branch:repo:github.com/ericcayers-ai/hackathon-project#main",
-      "relation": "ON_BRANCH",
-      "confidence": "EXTRACTED",
-      "source_file": "git",
-      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@2dff0767ba25e19143a8c8b25d4ea042f2c362a3",
-      "_tgt": "branch:repo:github.com/ericcayers-ai/hackathon-project#main",
-      "confidence_score": 1
-    },
-    {
-      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@2dff0767ba25e19143a8c8b25d4ea042f2c362a3",
-      "target": "commit:repo:github.com/ericcayers-ai/hackathon-project@d34c4f16931606f99d2bc83f88a1d01af4cfaaff",
-      "relation": "PARENT_OF",
-      "confidence": "EXTRACTED",
-      "source_file": "git",
-      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@2dff0767ba25e19143a8c8b25d4ea042f2c362a3",
-      "_tgt": "commit:repo:github.com/ericcayers-ai/hackathon-project@d34c4f16931606f99d2bc83f88a1d01af4cfaaff",
-      "confidence_score": 1
-    },
-    {
-      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@460c9ed5e5ee648de2d1beb2aee4be4707e2c6ab",
-      "target": "branch:repo:github.com/ericcayers-ai/hackathon-project#main",
-      "relation": "ON_BRANCH",
-      "confidence": "EXTRACTED",
-      "source_file": "git",
-      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@460c9ed5e5ee648de2d1beb2aee4be4707e2c6ab",
-      "_tgt": "branch:repo:github.com/ericcayers-ai/hackathon-project#main",
-      "confidence_score": 1
-    },
-    {
-      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@460c9ed5e5ee648de2d1beb2aee4be4707e2c6ab",
-      "target": "commit:repo:github.com/ericcayers-ai/hackathon-project@1563e36590a8fb6667dc082a66a1c76bdd41a4c1",
-      "relation": "PARENT_OF",
-      "confidence": "EXTRACTED",
-      "source_file": "git",
-      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@460c9ed5e5ee648de2d1beb2aee4be4707e2c6ab",
-      "_tgt": "commit:repo:github.com/ericcayers-ai/hackathon-project@1563e36590a8fb6667dc082a66a1c76bdd41a4c1",
-      "confidence_score": 1
-    },
-    {
-      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@49b68c966ee132d3015b7502f0de6d99907a641f",
-      "target": "branch:repo:github.com/ericcayers-ai/hackathon-project#main",
-      "relation": "ON_BRANCH",
-      "confidence": "EXTRACTED",
-      "source_file": "git",
-      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@49b68c966ee132d3015b7502f0de6d99907a641f",
-      "_tgt": "branch:repo:github.com/ericcayers-ai/hackathon-project#main",
-      "confidence_score": 1
-    },
-    {
-      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@49b68c966ee132d3015b7502f0de6d99907a641f",
-      "target": "commit:repo:github.com/ericcayers-ai/hackathon-project@ed37f0a76abbab2c44e6c10c69b072e6a09deee3",
-      "relation": "PARENT_OF",
-      "confidence": "EXTRACTED",
-      "source_file": "git",
-      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@49b68c966ee132d3015b7502f0de6d99907a641f",
-      "_tgt": "commit:repo:github.com/ericcayers-ai/hackathon-project@ed37f0a76abbab2c44e6c10c69b072e6a09deee3",
-      "confidence_score": 1
-    },
-    {
-      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@4f6b143aa6598fdea147b79691dd07a7cd9322a3",
-      "target": "branch:repo:github.com/ericcayers-ai/hackathon-project#main",
-      "relation": "ON_BRANCH",
-      "confidence": "EXTRACTED",
-      "source_file": "git",
-      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@4f6b143aa6598fdea147b79691dd07a7cd9322a3",
-      "_tgt": "branch:repo:github.com/ericcayers-ai/hackathon-project#main",
-      "confidence_score": 1
-    },
-    {
-      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@4f6b143aa6598fdea147b79691dd07a7cd9322a3",
-      "target": "commit:repo:github.com/ericcayers-ai/hackathon-project@d193f555e8ee24a5a550a7e50cf1911d54447409",
-      "relation": "PARENT_OF",
-      "confidence": "EXTRACTED",
-      "source_file": "git",
-      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@4f6b143aa6598fdea147b79691dd07a7cd9322a3",
-      "_tgt": "commit:repo:github.com/ericcayers-ai/hackathon-project@d193f555e8ee24a5a550a7e50cf1911d54447409",
-      "confidence_score": 1
-    },
-    {
-      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@58216241beaf3fdd48610a547bc40b416f95c02a",
-      "target": "branch:repo:github.com/ericcayers-ai/hackathon-project#main",
-      "relation": "ON_BRANCH",
-      "confidence": "EXTRACTED",
-      "source_file": "git",
-      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@58216241beaf3fdd48610a547bc40b416f95c02a",
-      "_tgt": "branch:repo:github.com/ericcayers-ai/hackathon-project#main",
-      "confidence_score": 1
-    },
-    {
-      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@58216241beaf3fdd48610a547bc40b416f95c02a",
-      "target": "commit:repo:github.com/ericcayers-ai/hackathon-project@460c9ed5e5ee648de2d1beb2aee4be4707e2c6ab",
-      "relation": "PARENT_OF",
-      "confidence": "EXTRACTED",
-      "source_file": "git",
-      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@58216241beaf3fdd48610a547bc40b416f95c02a",
-      "_tgt": "commit:repo:github.com/ericcayers-ai/hackathon-project@460c9ed5e5ee648de2d1beb2aee4be4707e2c6ab",
-      "confidence_score": 1
-    },
-    {
-      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@68fc5be502e0f4e0b1aecfefc60afb5f869e2f76",
-      "target": "branch:repo:github.com/ericcayers-ai/hackathon-project#main",
-      "relation": "ON_BRANCH",
-      "confidence": "EXTRACTED",
-      "source_file": "git",
-      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@68fc5be502e0f4e0b1aecfefc60afb5f869e2f76",
-      "_tgt": "branch:repo:github.com/ericcayers-ai/hackathon-project#main",
-      "confidence_score": 1
-    },
-    {
-      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@6a71f12c63837cc59e0f0fd6fbad94c5530c5d21",
-      "target": "branch:repo:github.com/ericcayers-ai/hackathon-project#main",
-      "relation": "ON_BRANCH",
-      "confidence": "EXTRACTED",
-      "source_file": "git",
-      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@6a71f12c63837cc59e0f0fd6fbad94c5530c5d21",
-      "_tgt": "branch:repo:github.com/ericcayers-ai/hackathon-project#main",
-      "confidence_score": 1
-    },
-    {
-      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@6a71f12c63837cc59e0f0fd6fbad94c5530c5d21",
-      "target": "commit:repo:github.com/ericcayers-ai/hackathon-project@49b68c966ee132d3015b7502f0de6d99907a641f",
-      "relation": "PARENT_OF",
-      "confidence": "EXTRACTED",
-      "source_file": "git",
-      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@6a71f12c63837cc59e0f0fd6fbad94c5530c5d21",
-      "_tgt": "commit:repo:github.com/ericcayers-ai/hackathon-project@49b68c966ee132d3015b7502f0de6d99907a641f",
-      "confidence_score": 1
-    },
-    {
-      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@7c83d4448fd5aa5cf51066c26e18a4587e1b5027",
-      "target": "branch:repo:github.com/ericcayers-ai/hackathon-project#main",
-      "relation": "ON_BRANCH",
-      "confidence": "EXTRACTED",
-      "source_file": "git",
-      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@7c83d4448fd5aa5cf51066c26e18a4587e1b5027",
-      "_tgt": "branch:repo:github.com/ericcayers-ai/hackathon-project#main",
-      "confidence_score": 1
-    },
-    {
-      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@7c83d4448fd5aa5cf51066c26e18a4587e1b5027",
-      "target": "commit:repo:github.com/ericcayers-ai/hackathon-project@0c25dcb45625ced8864b5445a31c5a747e0f067e",
       "relation": "PARENT_OF",
       "confidence": "EXTRACTED",
       "source_file": "git",
       "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@7c83d4448fd5aa5cf51066c26e18a4587e1b5027",
       "_tgt": "commit:repo:github.com/ericcayers-ai/hackathon-project@0c25dcb45625ced8864b5445a31c5a747e0f067e",
-      "confidence_score": 1
+      "confidence_score": 1,
+      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@0c25dcb45625ced8864b5445a31c5a747e0f067e",
+      "target": "commit:repo:github.com/ericcayers-ai/hackathon-project@7c83d4448fd5aa5cf51066c26e18a4587e1b5027"
     },
     {
-      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@940e5adbbaf1ed668ee2c9eaa5b1f0497cb0d6fb",
-      "target": "branch:repo:github.com/ericcayers-ai/hackathon-project#main",
       "relation": "ON_BRANCH",
       "confidence": "EXTRACTED",
       "source_file": "git",
-      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@940e5adbbaf1ed668ee2c9eaa5b1f0497cb0d6fb",
-      "_tgt": "branch:repo:github.com/ericcayers-ai/hackathon-project#main",
-      "confidence_score": 1
+      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@0c25dcb45625ced8864b5445a31c5a747e0f067e",
+      "_tgt": "branch:repo:github.com/ericcayers-ai/hackathon-project#worktree-nurse-notes-ui-overhaul",
+      "confidence_score": 1,
+      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@0c25dcb45625ced8864b5445a31c5a747e0f067e",
+      "target": "branch:repo:github.com/ericcayers-ai/hackathon-project#worktree-nurse-notes-ui-overhaul"
     },
     {
-      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@940e5adbbaf1ed668ee2c9eaa5b1f0497cb0d6fb",
-      "target": "commit:repo:github.com/ericcayers-ai/hackathon-project@2dff0767ba25e19143a8c8b25d4ea042f2c362a3",
+      "relation": "ON_BRANCH",
+      "confidence": "EXTRACTED",
+      "source_file": "git",
+      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@1563e36590a8fb6667dc082a66a1c76bdd41a4c1",
+      "_tgt": "branch:repo:github.com/ericcayers-ai/hackathon-project#main",
+      "confidence_score": 1,
+      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@1563e36590a8fb6667dc082a66a1c76bdd41a4c1",
+      "target": "branch:repo:github.com/ericcayers-ai/hackathon-project#main"
+    },
+    {
+      "relation": "PARENT_OF",
+      "confidence": "EXTRACTED",
+      "source_file": "git",
+      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@1563e36590a8fb6667dc082a66a1c76bdd41a4c1",
+      "_tgt": "commit:repo:github.com/ericcayers-ai/hackathon-project@d193f555e8ee24a5a550a7e50cf1911d54447409",
+      "confidence_score": 1,
+      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@1563e36590a8fb6667dc082a66a1c76bdd41a4c1",
+      "target": "commit:repo:github.com/ericcayers-ai/hackathon-project@d193f555e8ee24a5a550a7e50cf1911d54447409"
+    },
+    {
+      "relation": "PARENT_OF",
+      "confidence": "EXTRACTED",
+      "source_file": "git",
+      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@460c9ed5e5ee648de2d1beb2aee4be4707e2c6ab",
+      "_tgt": "commit:repo:github.com/ericcayers-ai/hackathon-project@1563e36590a8fb6667dc082a66a1c76bdd41a4c1",
+      "confidence_score": 1,
+      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@1563e36590a8fb6667dc082a66a1c76bdd41a4c1",
+      "target": "commit:repo:github.com/ericcayers-ai/hackathon-project@460c9ed5e5ee648de2d1beb2aee4be4707e2c6ab"
+    },
+    {
+      "relation": "ON_BRANCH",
+      "confidence": "EXTRACTED",
+      "source_file": "git",
+      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@1563e36590a8fb6667dc082a66a1c76bdd41a4c1",
+      "_tgt": "branch:repo:github.com/ericcayers-ai/hackathon-project#worktree-nurse-notes-ui-overhaul",
+      "confidence_score": 1,
+      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@1563e36590a8fb6667dc082a66a1c76bdd41a4c1",
+      "target": "branch:repo:github.com/ericcayers-ai/hackathon-project#worktree-nurse-notes-ui-overhaul"
+    },
+    {
+      "relation": "ON_BRANCH",
+      "confidence": "EXTRACTED",
+      "source_file": "git",
+      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@16bda27ba4ac30a5058d5ffe3441692dfe210101",
+      "_tgt": "branch:repo:github.com/ericcayers-ai/hackathon-project#main",
+      "confidence_score": 1,
+      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@16bda27ba4ac30a5058d5ffe3441692dfe210101",
+      "target": "branch:repo:github.com/ericcayers-ai/hackathon-project#main"
+    },
+    {
+      "relation": "PARENT_OF",
+      "confidence": "EXTRACTED",
+      "source_file": "git",
+      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@16bda27ba4ac30a5058d5ffe3441692dfe210101",
+      "_tgt": "commit:repo:github.com/ericcayers-ai/hackathon-project@940e5adbbaf1ed668ee2c9eaa5b1f0497cb0d6fb",
+      "confidence_score": 1,
+      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@16bda27ba4ac30a5058d5ffe3441692dfe210101",
+      "target": "commit:repo:github.com/ericcayers-ai/hackathon-project@940e5adbbaf1ed668ee2c9eaa5b1f0497cb0d6fb"
+    },
+    {
+      "relation": "ON_BRANCH",
+      "confidence": "EXTRACTED",
+      "source_file": "git",
+      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@16bda27ba4ac30a5058d5ffe3441692dfe210101",
+      "_tgt": "branch:repo:github.com/ericcayers-ai/hackathon-project#worktree-nurse-notes-ui-overhaul",
+      "confidence_score": 1,
+      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@16bda27ba4ac30a5058d5ffe3441692dfe210101",
+      "target": "branch:repo:github.com/ericcayers-ai/hackathon-project#worktree-nurse-notes-ui-overhaul"
+    },
+    {
+      "relation": "ON_BRANCH",
+      "confidence": "EXTRACTED",
+      "source_file": "git",
+      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@2dff0767ba25e19143a8c8b25d4ea042f2c362a3",
+      "_tgt": "branch:repo:github.com/ericcayers-ai/hackathon-project#main",
+      "confidence_score": 1,
+      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@2dff0767ba25e19143a8c8b25d4ea042f2c362a3",
+      "target": "branch:repo:github.com/ericcayers-ai/hackathon-project#main"
+    },
+    {
+      "relation": "PARENT_OF",
+      "confidence": "EXTRACTED",
+      "source_file": "git",
+      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@2dff0767ba25e19143a8c8b25d4ea042f2c362a3",
+      "_tgt": "commit:repo:github.com/ericcayers-ai/hackathon-project@d34c4f16931606f99d2bc83f88a1d01af4cfaaff",
+      "confidence_score": 1,
+      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@2dff0767ba25e19143a8c8b25d4ea042f2c362a3",
+      "target": "commit:repo:github.com/ericcayers-ai/hackathon-project@d34c4f16931606f99d2bc83f88a1d01af4cfaaff"
+    },
+    {
       "relation": "PARENT_OF",
       "confidence": "EXTRACTED",
       "source_file": "git",
       "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@940e5adbbaf1ed668ee2c9eaa5b1f0497cb0d6fb",
       "_tgt": "commit:repo:github.com/ericcayers-ai/hackathon-project@2dff0767ba25e19143a8c8b25d4ea042f2c362a3",
-      "confidence_score": 1
+      "confidence_score": 1,
+      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@2dff0767ba25e19143a8c8b25d4ea042f2c362a3",
+      "target": "commit:repo:github.com/ericcayers-ai/hackathon-project@940e5adbbaf1ed668ee2c9eaa5b1f0497cb0d6fb"
     },
     {
-      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@b57214bcdcbc1b977bcf3fc03a8700687450a55c",
-      "target": "branch:repo:github.com/ericcayers-ai/hackathon-project#main",
       "relation": "ON_BRANCH",
       "confidence": "EXTRACTED",
       "source_file": "git",
-      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@b57214bcdcbc1b977bcf3fc03a8700687450a55c",
-      "_tgt": "branch:repo:github.com/ericcayers-ai/hackathon-project#main",
-      "confidence_score": 1
+      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@2dff0767ba25e19143a8c8b25d4ea042f2c362a3",
+      "_tgt": "branch:repo:github.com/ericcayers-ai/hackathon-project#worktree-nurse-notes-ui-overhaul",
+      "confidence_score": 1,
+      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@2dff0767ba25e19143a8c8b25d4ea042f2c362a3",
+      "target": "branch:repo:github.com/ericcayers-ai/hackathon-project#worktree-nurse-notes-ui-overhaul"
     },
     {
-      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@b57214bcdcbc1b977bcf3fc03a8700687450a55c",
-      "target": "commit:repo:github.com/ericcayers-ai/hackathon-project@7c83d4448fd5aa5cf51066c26e18a4587e1b5027",
+      "relation": "ON_BRANCH",
+      "confidence": "EXTRACTED",
+      "source_file": "git",
+      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@460c9ed5e5ee648de2d1beb2aee4be4707e2c6ab",
+      "_tgt": "branch:repo:github.com/ericcayers-ai/hackathon-project#main",
+      "confidence_score": 1,
+      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@460c9ed5e5ee648de2d1beb2aee4be4707e2c6ab",
+      "target": "branch:repo:github.com/ericcayers-ai/hackathon-project#main"
+    },
+    {
       "relation": "PARENT_OF",
       "confidence": "EXTRACTED",
       "source_file": "git",
-      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@b57214bcdcbc1b977bcf3fc03a8700687450a55c",
-      "_tgt": "commit:repo:github.com/ericcayers-ai/hackathon-project@7c83d4448fd5aa5cf51066c26e18a4587e1b5027",
-      "confidence_score": 1
+      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@58216241beaf3fdd48610a547bc40b416f95c02a",
+      "_tgt": "commit:repo:github.com/ericcayers-ai/hackathon-project@460c9ed5e5ee648de2d1beb2aee4be4707e2c6ab",
+      "confidence_score": 1,
+      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@460c9ed5e5ee648de2d1beb2aee4be4707e2c6ab",
+      "target": "commit:repo:github.com/ericcayers-ai/hackathon-project@58216241beaf3fdd48610a547bc40b416f95c02a"
     },
     {
-      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@c5761bd15c6852d9553481b5a5835b67e45c5fdc",
-      "target": "branch:repo:github.com/ericcayers-ai/hackathon-project#main",
       "relation": "ON_BRANCH",
       "confidence": "EXTRACTED",
       "source_file": "git",
-      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@c5761bd15c6852d9553481b5a5835b67e45c5fdc",
-      "_tgt": "branch:repo:github.com/ericcayers-ai/hackathon-project#main",
-      "confidence_score": 1
+      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@460c9ed5e5ee648de2d1beb2aee4be4707e2c6ab",
+      "_tgt": "branch:repo:github.com/ericcayers-ai/hackathon-project#worktree-nurse-notes-ui-overhaul",
+      "confidence_score": 1,
+      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@460c9ed5e5ee648de2d1beb2aee4be4707e2c6ab",
+      "target": "branch:repo:github.com/ericcayers-ai/hackathon-project#worktree-nurse-notes-ui-overhaul"
     },
     {
-      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@c5761bd15c6852d9553481b5a5835b67e45c5fdc",
-      "target": "commit:repo:github.com/ericcayers-ai/hackathon-project@4f6b143aa6598fdea147b79691dd07a7cd9322a3",
+      "relation": "ON_BRANCH",
+      "confidence": "EXTRACTED",
+      "source_file": "git",
+      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@49b68c966ee132d3015b7502f0de6d99907a641f",
+      "_tgt": "branch:repo:github.com/ericcayers-ai/hackathon-project#main",
+      "confidence_score": 1,
+      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@49b68c966ee132d3015b7502f0de6d99907a641f",
+      "target": "branch:repo:github.com/ericcayers-ai/hackathon-project#main"
+    },
+    {
+      "relation": "PARENT_OF",
+      "confidence": "EXTRACTED",
+      "source_file": "git",
+      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@49b68c966ee132d3015b7502f0de6d99907a641f",
+      "_tgt": "commit:repo:github.com/ericcayers-ai/hackathon-project@ed37f0a76abbab2c44e6c10c69b072e6a09deee3",
+      "confidence_score": 1,
+      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@49b68c966ee132d3015b7502f0de6d99907a641f",
+      "target": "commit:repo:github.com/ericcayers-ai/hackathon-project@ed37f0a76abbab2c44e6c10c69b072e6a09deee3"
+    },
+    {
+      "relation": "PARENT_OF",
+      "confidence": "EXTRACTED",
+      "source_file": "git",
+      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@6a71f12c63837cc59e0f0fd6fbad94c5530c5d21",
+      "_tgt": "commit:repo:github.com/ericcayers-ai/hackathon-project@49b68c966ee132d3015b7502f0de6d99907a641f",
+      "confidence_score": 1,
+      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@49b68c966ee132d3015b7502f0de6d99907a641f",
+      "target": "commit:repo:github.com/ericcayers-ai/hackathon-project@6a71f12c63837cc59e0f0fd6fbad94c5530c5d21"
+    },
+    {
+      "relation": "ON_BRANCH",
+      "confidence": "EXTRACTED",
+      "source_file": "git",
+      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@49b68c966ee132d3015b7502f0de6d99907a641f",
+      "_tgt": "branch:repo:github.com/ericcayers-ai/hackathon-project#worktree-nurse-notes-ui-overhaul",
+      "confidence_score": 1,
+      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@49b68c966ee132d3015b7502f0de6d99907a641f",
+      "target": "branch:repo:github.com/ericcayers-ai/hackathon-project#worktree-nurse-notes-ui-overhaul"
+    },
+    {
+      "relation": "ON_BRANCH",
+      "confidence": "EXTRACTED",
+      "source_file": "git",
+      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@4f6b143aa6598fdea147b79691dd07a7cd9322a3",
+      "_tgt": "branch:repo:github.com/ericcayers-ai/hackathon-project#main",
+      "confidence_score": 1,
+      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@4f6b143aa6598fdea147b79691dd07a7cd9322a3",
+      "target": "branch:repo:github.com/ericcayers-ai/hackathon-project#main"
+    },
+    {
+      "relation": "PARENT_OF",
+      "confidence": "EXTRACTED",
+      "source_file": "git",
+      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@4f6b143aa6598fdea147b79691dd07a7cd9322a3",
+      "_tgt": "commit:repo:github.com/ericcayers-ai/hackathon-project@d193f555e8ee24a5a550a7e50cf1911d54447409",
+      "confidence_score": 1,
+      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@4f6b143aa6598fdea147b79691dd07a7cd9322a3",
+      "target": "commit:repo:github.com/ericcayers-ai/hackathon-project@d193f555e8ee24a5a550a7e50cf1911d54447409"
+    },
+    {
       "relation": "PARENT_OF",
       "confidence": "EXTRACTED",
       "source_file": "git",
       "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@c5761bd15c6852d9553481b5a5835b67e45c5fdc",
       "_tgt": "commit:repo:github.com/ericcayers-ai/hackathon-project@4f6b143aa6598fdea147b79691dd07a7cd9322a3",
-      "confidence_score": 1
+      "confidence_score": 1,
+      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@4f6b143aa6598fdea147b79691dd07a7cd9322a3",
+      "target": "commit:repo:github.com/ericcayers-ai/hackathon-project@c5761bd15c6852d9553481b5a5835b67e45c5fdc"
     },
     {
-      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@c5761bd15c6852d9553481b5a5835b67e45c5fdc",
-      "target": "commit:repo:github.com/ericcayers-ai/hackathon-project@58216241beaf3fdd48610a547bc40b416f95c02a",
+      "relation": "ON_BRANCH",
+      "confidence": "EXTRACTED",
+      "source_file": "git",
+      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@4f6b143aa6598fdea147b79691dd07a7cd9322a3",
+      "_tgt": "branch:repo:github.com/ericcayers-ai/hackathon-project#worktree-nurse-notes-ui-overhaul",
+      "confidence_score": 1,
+      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@4f6b143aa6598fdea147b79691dd07a7cd9322a3",
+      "target": "branch:repo:github.com/ericcayers-ai/hackathon-project#worktree-nurse-notes-ui-overhaul"
+    },
+    {
+      "relation": "ON_BRANCH",
+      "confidence": "EXTRACTED",
+      "source_file": "git",
+      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@58216241beaf3fdd48610a547bc40b416f95c02a",
+      "_tgt": "branch:repo:github.com/ericcayers-ai/hackathon-project#main",
+      "confidence_score": 1,
+      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@58216241beaf3fdd48610a547bc40b416f95c02a",
+      "target": "branch:repo:github.com/ericcayers-ai/hackathon-project#main"
+    },
+    {
       "relation": "PARENT_OF",
       "confidence": "EXTRACTED",
       "source_file": "git",
       "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@c5761bd15c6852d9553481b5a5835b67e45c5fdc",
       "_tgt": "commit:repo:github.com/ericcayers-ai/hackathon-project@58216241beaf3fdd48610a547bc40b416f95c02a",
-      "confidence_score": 1
+      "confidence_score": 1,
+      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@58216241beaf3fdd48610a547bc40b416f95c02a",
+      "target": "commit:repo:github.com/ericcayers-ai/hackathon-project@c5761bd15c6852d9553481b5a5835b67e45c5fdc"
     },
     {
-      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@d193f555e8ee24a5a550a7e50cf1911d54447409",
-      "target": "branch:repo:github.com/ericcayers-ai/hackathon-project#main",
       "relation": "ON_BRANCH",
       "confidence": "EXTRACTED",
       "source_file": "git",
-      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@d193f555e8ee24a5a550a7e50cf1911d54447409",
-      "_tgt": "branch:repo:github.com/ericcayers-ai/hackathon-project#main",
-      "confidence_score": 1
+      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@58216241beaf3fdd48610a547bc40b416f95c02a",
+      "_tgt": "branch:repo:github.com/ericcayers-ai/hackathon-project#worktree-nurse-notes-ui-overhaul",
+      "confidence_score": 1,
+      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@58216241beaf3fdd48610a547bc40b416f95c02a",
+      "target": "branch:repo:github.com/ericcayers-ai/hackathon-project#worktree-nurse-notes-ui-overhaul"
     },
     {
-      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@d193f555e8ee24a5a550a7e50cf1911d54447409",
-      "target": "commit:repo:github.com/ericcayers-ai/hackathon-project@b57214bcdcbc1b977bcf3fc03a8700687450a55c",
-      "relation": "PARENT_OF",
-      "confidence": "EXTRACTED",
-      "source_file": "git",
-      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@d193f555e8ee24a5a550a7e50cf1911d54447409",
-      "_tgt": "commit:repo:github.com/ericcayers-ai/hackathon-project@b57214bcdcbc1b977bcf3fc03a8700687450a55c",
-      "confidence_score": 1
-    },
-    {
-      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@d34c4f16931606f99d2bc83f88a1d01af4cfaaff",
-      "target": "branch:repo:github.com/ericcayers-ai/hackathon-project#main",
       "relation": "ON_BRANCH",
       "confidence": "EXTRACTED",
       "source_file": "git",
-      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@d34c4f16931606f99d2bc83f88a1d01af4cfaaff",
+      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@68fc5be502e0f4e0b1aecfefc60afb5f869e2f76",
       "_tgt": "branch:repo:github.com/ericcayers-ai/hackathon-project#main",
-      "confidence_score": 1
+      "confidence_score": 1,
+      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@68fc5be502e0f4e0b1aecfefc60afb5f869e2f76",
+      "target": "branch:repo:github.com/ericcayers-ai/hackathon-project#main"
     },
     {
-      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@d34c4f16931606f99d2bc83f88a1d01af4cfaaff",
-      "target": "commit:repo:github.com/ericcayers-ai/hackathon-project@6a71f12c63837cc59e0f0fd6fbad94c5530c5d21",
-      "relation": "PARENT_OF",
-      "confidence": "EXTRACTED",
-      "source_file": "git",
-      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@d34c4f16931606f99d2bc83f88a1d01af4cfaaff",
-      "_tgt": "commit:repo:github.com/ericcayers-ai/hackathon-project@6a71f12c63837cc59e0f0fd6fbad94c5530c5d21",
-      "confidence_score": 1
-    },
-    {
-      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@ed37f0a76abbab2c44e6c10c69b072e6a09deee3",
-      "target": "branch:repo:github.com/ericcayers-ai/hackathon-project#main",
-      "relation": "ON_BRANCH",
-      "confidence": "EXTRACTED",
-      "source_file": "git",
-      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@ed37f0a76abbab2c44e6c10c69b072e6a09deee3",
-      "_tgt": "branch:repo:github.com/ericcayers-ai/hackathon-project#main",
-      "confidence_score": 1
-    },
-    {
-      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@ed37f0a76abbab2c44e6c10c69b072e6a09deee3",
-      "target": "commit:repo:github.com/ericcayers-ai/hackathon-project@68fc5be502e0f4e0b1aecfefc60afb5f869e2f76",
       "relation": "PARENT_OF",
       "confidence": "EXTRACTED",
       "source_file": "git",
       "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@ed37f0a76abbab2c44e6c10c69b072e6a09deee3",
       "_tgt": "commit:repo:github.com/ericcayers-ai/hackathon-project@68fc5be502e0f4e0b1aecfefc60afb5f869e2f76",
-      "confidence_score": 1
-    },
-    {
-      "source": "01_cold_chain_monitor_dose_disposition",
-      "target": "01_cold_chain_monitor_tamper_log",
-      "relation": "conceptually_related_to",
-      "confidence": "INFERRED",
-      "confidence_score": 0.7,
-      "source_file": "assets/images/01_cold_chain_monitor.png",
-      "source_location": null,
-      "weight": 1,
-      "_src": "01_cold_chain_monitor_dose_disposition",
-      "_tgt": "01_cold_chain_monitor_tamper_log"
-    },
-    {
-      "source": "01_cold_chain_monitor_image",
-      "target": "01_cold_chain_monitor_sensor_device",
-      "relation": "conceptually_related_to",
-      "confidence": "EXTRACTED",
       "confidence_score": 1,
-      "source_file": "assets/images/01_cold_chain_monitor.png",
-      "source_location": null,
-      "weight": 1,
-      "_src": "01_cold_chain_monitor_image",
-      "_tgt": "01_cold_chain_monitor_sensor_device"
+      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@68fc5be502e0f4e0b1aecfefc60afb5f869e2f76",
+      "target": "commit:repo:github.com/ericcayers-ai/hackathon-project@ed37f0a76abbab2c44e6c10c69b072e6a09deee3"
     },
     {
-      "source": "01_cold_chain_monitor_sensor_device",
-      "target": "01_cold_chain_monitor_medical_fridge",
-      "relation": "shares_data_with",
+      "relation": "ON_BRANCH",
       "confidence": "EXTRACTED",
+      "source_file": "git",
+      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@68fc5be502e0f4e0b1aecfefc60afb5f869e2f76",
+      "_tgt": "branch:repo:github.com/ericcayers-ai/hackathon-project#worktree-nurse-notes-ui-overhaul",
       "confidence_score": 1,
-      "source_file": "assets/images/01_cold_chain_monitor.png",
-      "source_location": null,
-      "weight": 1,
-      "_src": "01_cold_chain_monitor_sensor_device",
-      "_tgt": "01_cold_chain_monitor_medical_fridge"
+      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@68fc5be502e0f4e0b1aecfefc60afb5f869e2f76",
+      "target": "branch:repo:github.com/ericcayers-ai/hackathon-project#worktree-nurse-notes-ui-overhaul"
     },
     {
-      "source": "01_cold_chain_monitor_sensor_device",
-      "target": "01_cold_chain_monitor_temperature_chart",
-      "relation": "shares_data_with",
+      "relation": "PARENT_OF",
       "confidence": "EXTRACTED",
+      "source_file": "git",
+      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@68fc5be502e0f4e0b1aecfefc60afb5f869e2f76",
+      "_tgt": "commit:repo:github.com/ericcayers-ai/hackathon-project@eda92145df33142918b07c85eefe69d5b5128939",
       "confidence_score": 1,
-      "source_file": "assets/images/01_cold_chain_monitor.png",
-      "source_location": null,
-      "weight": 1,
-      "_src": "01_cold_chain_monitor_sensor_device",
-      "_tgt": "01_cold_chain_monitor_temperature_chart"
+      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@68fc5be502e0f4e0b1aecfefc60afb5f869e2f76",
+      "target": "commit:repo:github.com/ericcayers-ai/hackathon-project@eda92145df33142918b07c85eefe69d5b5128939"
     },
     {
-      "source": "01_cold_chain_monitor_temperature_chart",
-      "target": "01_cold_chain_monitor_dose_disposition",
-      "relation": "conceptually_related_to",
-      "confidence": "INFERRED",
-      "confidence_score": 0.85,
-      "source_file": "assets/images/01_cold_chain_monitor.png",
-      "source_location": null,
-      "weight": 1,
-      "_src": "01_cold_chain_monitor_temperature_chart",
-      "_tgt": "01_cold_chain_monitor_dose_disposition"
-    },
-    {
-      "source": "02_surplus_matching_growers_image",
-      "target": "surplus_matching_app_ui",
-      "relation": "conceptually_related_to",
+      "relation": "ON_BRANCH",
       "confidence": "EXTRACTED",
+      "source_file": "git",
+      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@6a71f12c63837cc59e0f0fd6fbad94c5530c5d21",
+      "_tgt": "branch:repo:github.com/ericcayers-ai/hackathon-project#main",
       "confidence_score": 1,
-      "source_file": "assets/images/02_surplus_matching_growers.png",
-      "source_location": null,
-      "weight": 1,
-      "_src": "02_surplus_matching_growers_image",
-      "_tgt": "surplus_matching_app_ui"
+      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@6a71f12c63837cc59e0f0fd6fbad94c5530c5d21",
+      "target": "branch:repo:github.com/ericcayers-ai/hackathon-project#main"
     },
     {
-      "source": "08_surplus_allocation_food_rescue_image",
-      "target": "08_surplus_allocation_ranked_locations_ui",
-      "relation": "conceptually_related_to",
+      "relation": "PARENT_OF",
       "confidence": "EXTRACTED",
+      "source_file": "git",
+      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@d34c4f16931606f99d2bc83f88a1d01af4cfaaff",
+      "_tgt": "commit:repo:github.com/ericcayers-ai/hackathon-project@6a71f12c63837cc59e0f0fd6fbad94c5530c5d21",
       "confidence_score": 1,
-      "source_file": "assets/images/08_surplus_allocation_food_rescue.png",
-      "source_location": null,
-      "weight": 1,
-      "_src": "08_surplus_allocation_food_rescue_image",
-      "_tgt": "08_surplus_allocation_ranked_locations_ui"
+      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@6a71f12c63837cc59e0f0fd6fbad94c5530c5d21",
+      "target": "commit:repo:github.com/ericcayers-ai/hackathon-project@d34c4f16931606f99d2bc83f88a1d01af4cfaaff"
     },
     {
-      "source": "08_surplus_allocation_food_rescue_image",
-      "target": "08_surplus_allocation_safety_check_ui",
-      "relation": "conceptually_related_to",
+      "relation": "ON_BRANCH",
       "confidence": "EXTRACTED",
+      "source_file": "git",
+      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@6a71f12c63837cc59e0f0fd6fbad94c5530c5d21",
+      "_tgt": "branch:repo:github.com/ericcayers-ai/hackathon-project#worktree-nurse-notes-ui-overhaul",
       "confidence_score": 1,
-      "source_file": "assets/images/08_surplus_allocation_food_rescue.png",
-      "source_location": null,
-      "weight": 1,
-      "_src": "08_surplus_allocation_food_rescue_image",
-      "_tgt": "08_surplus_allocation_safety_check_ui"
+      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@6a71f12c63837cc59e0f0fd6fbad94c5530c5d21",
+      "target": "branch:repo:github.com/ericcayers-ai/hackathon-project#worktree-nurse-notes-ui-overhaul"
     },
     {
-      "source": "09_crisis_response_allocation_engine_image",
-      "target": "09_crisis_response_flood_risk_map",
-      "relation": "conceptually_related_to",
+      "relation": "ON_BRANCH",
       "confidence": "EXTRACTED",
+      "source_file": "git",
+      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@7c83d4448fd5aa5cf51066c26e18a4587e1b5027",
+      "_tgt": "branch:repo:github.com/ericcayers-ai/hackathon-project#main",
       "confidence_score": 1,
-      "source_file": "assets/images/09_crisis_response_allocation_engine.png",
-      "source_location": null,
-      "weight": 1,
-      "_src": "09_crisis_response_allocation_engine_image",
-      "_tgt": "09_crisis_response_flood_risk_map"
+      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@7c83d4448fd5aa5cf51066c26e18a4587e1b5027",
+      "target": "branch:repo:github.com/ericcayers-ai/hackathon-project#main"
     },
     {
-      "source": "09_crisis_response_allocation_engine_image",
-      "target": "09_crisis_response_supply_chain_flow",
-      "relation": "conceptually_related_to",
+      "relation": "PARENT_OF",
       "confidence": "EXTRACTED",
+      "source_file": "git",
+      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@b57214bcdcbc1b977bcf3fc03a8700687450a55c",
+      "_tgt": "commit:repo:github.com/ericcayers-ai/hackathon-project@7c83d4448fd5aa5cf51066c26e18a4587e1b5027",
       "confidence_score": 1,
-      "source_file": "assets/images/09_crisis_response_allocation_engine.png",
-      "source_location": null,
-      "weight": 1,
-      "_src": "09_crisis_response_allocation_engine_image",
-      "_tgt": "09_crisis_response_supply_chain_flow"
+      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@7c83d4448fd5aa5cf51066c26e18a4587e1b5027",
+      "target": "commit:repo:github.com/ericcayers-ai/hackathon-project@b57214bcdcbc1b977bcf3fc03a8700687450a55c"
     },
     {
-      "source": "09_crisis_response_flood_risk_map",
-      "target": "09_crisis_response_supply_chain_flow",
-      "relation": "shares_data_with",
-      "confidence": "INFERRED",
-      "confidence_score": 0.8,
-      "source_file": "assets/images/09_crisis_response_allocation_engine.png",
-      "source_location": null,
-      "weight": 1,
-      "_src": "09_crisis_response_flood_risk_map",
-      "_tgt": "09_crisis_response_supply_chain_flow"
-    },
-    {
-      "source": "claude_md_hackathon_project",
-      "target": "docs_ideation_txt",
-      "relation": "references",
+      "relation": "ON_BRANCH",
       "confidence": "EXTRACTED",
+      "source_file": "git",
+      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@7c83d4448fd5aa5cf51066c26e18a4587e1b5027",
+      "_tgt": "branch:repo:github.com/ericcayers-ai/hackathon-project#worktree-nurse-notes-ui-overhaul",
       "confidence_score": 1,
-      "source_file": "CLAUDE.md",
-      "source_location": null,
-      "weight": 1,
-      "_src": "claude_md_hackathon_project",
-      "_tgt": "docs_ideation_txt"
+      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@7c83d4448fd5aa5cf51066c26e18a4587e1b5027",
+      "target": "branch:repo:github.com/ericcayers-ai/hackathon-project#worktree-nurse-notes-ui-overhaul"
     },
     {
-      "source": "docs_ideation_txt",
-      "target": "gdoc_sdg_hackathon_idea_guide",
+      "relation": "ON_BRANCH",
+      "confidence": "EXTRACTED",
+      "source_file": "git",
+      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@940e5adbbaf1ed668ee2c9eaa5b1f0497cb0d6fb",
+      "_tgt": "branch:repo:github.com/ericcayers-ai/hackathon-project#main",
+      "confidence_score": 1,
+      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@940e5adbbaf1ed668ee2c9eaa5b1f0497cb0d6fb",
+      "target": "branch:repo:github.com/ericcayers-ai/hackathon-project#main"
+    },
+    {
+      "relation": "ON_BRANCH",
+      "confidence": "EXTRACTED",
+      "source_file": "git",
+      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@940e5adbbaf1ed668ee2c9eaa5b1f0497cb0d6fb",
+      "_tgt": "branch:repo:github.com/ericcayers-ai/hackathon-project#worktree-nurse-notes-ui-overhaul",
+      "confidence_score": 1,
+      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@940e5adbbaf1ed668ee2c9eaa5b1f0497cb0d6fb",
+      "target": "branch:repo:github.com/ericcayers-ai/hackathon-project#worktree-nurse-notes-ui-overhaul"
+    },
+    {
+      "relation": "ON_BRANCH",
+      "confidence": "EXTRACTED",
+      "source_file": "git",
+      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@b57214bcdcbc1b977bcf3fc03a8700687450a55c",
+      "_tgt": "branch:repo:github.com/ericcayers-ai/hackathon-project#main",
+      "confidence_score": 1,
+      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@b57214bcdcbc1b977bcf3fc03a8700687450a55c",
+      "target": "branch:repo:github.com/ericcayers-ai/hackathon-project#main"
+    },
+    {
+      "relation": "PARENT_OF",
+      "confidence": "EXTRACTED",
+      "source_file": "git",
+      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@d193f555e8ee24a5a550a7e50cf1911d54447409",
+      "_tgt": "commit:repo:github.com/ericcayers-ai/hackathon-project@b57214bcdcbc1b977bcf3fc03a8700687450a55c",
+      "confidence_score": 1,
+      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@b57214bcdcbc1b977bcf3fc03a8700687450a55c",
+      "target": "commit:repo:github.com/ericcayers-ai/hackathon-project@d193f555e8ee24a5a550a7e50cf1911d54447409"
+    },
+    {
+      "relation": "ON_BRANCH",
+      "confidence": "EXTRACTED",
+      "source_file": "git",
+      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@b57214bcdcbc1b977bcf3fc03a8700687450a55c",
+      "_tgt": "branch:repo:github.com/ericcayers-ai/hackathon-project#worktree-nurse-notes-ui-overhaul",
+      "confidence_score": 1,
+      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@b57214bcdcbc1b977bcf3fc03a8700687450a55c",
+      "target": "branch:repo:github.com/ericcayers-ai/hackathon-project#worktree-nurse-notes-ui-overhaul"
+    },
+    {
+      "relation": "ON_BRANCH",
+      "confidence": "EXTRACTED",
+      "source_file": "git",
+      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@c5761bd15c6852d9553481b5a5835b67e45c5fdc",
+      "_tgt": "branch:repo:github.com/ericcayers-ai/hackathon-project#main",
+      "confidence_score": 1,
+      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@c5761bd15c6852d9553481b5a5835b67e45c5fdc",
+      "target": "branch:repo:github.com/ericcayers-ai/hackathon-project#main"
+    },
+    {
+      "relation": "ON_BRANCH",
+      "confidence": "EXTRACTED",
+      "source_file": "git",
+      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@c5761bd15c6852d9553481b5a5835b67e45c5fdc",
+      "_tgt": "branch:repo:github.com/ericcayers-ai/hackathon-project#worktree-nurse-notes-ui-overhaul",
+      "confidence_score": 1,
+      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@c5761bd15c6852d9553481b5a5835b67e45c5fdc",
+      "target": "branch:repo:github.com/ericcayers-ai/hackathon-project#worktree-nurse-notes-ui-overhaul"
+    },
+    {
+      "relation": "ON_BRANCH",
+      "confidence": "EXTRACTED",
+      "source_file": "git",
+      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@d193f555e8ee24a5a550a7e50cf1911d54447409",
+      "_tgt": "branch:repo:github.com/ericcayers-ai/hackathon-project#main",
+      "confidence_score": 1,
+      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@d193f555e8ee24a5a550a7e50cf1911d54447409",
+      "target": "branch:repo:github.com/ericcayers-ai/hackathon-project#main"
+    },
+    {
+      "relation": "ON_BRANCH",
+      "confidence": "EXTRACTED",
+      "source_file": "git",
+      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@d193f555e8ee24a5a550a7e50cf1911d54447409",
+      "_tgt": "branch:repo:github.com/ericcayers-ai/hackathon-project#worktree-nurse-notes-ui-overhaul",
+      "confidence_score": 1,
+      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@d193f555e8ee24a5a550a7e50cf1911d54447409",
+      "target": "branch:repo:github.com/ericcayers-ai/hackathon-project#worktree-nurse-notes-ui-overhaul"
+    },
+    {
+      "relation": "ON_BRANCH",
+      "confidence": "EXTRACTED",
+      "source_file": "git",
+      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@d34c4f16931606f99d2bc83f88a1d01af4cfaaff",
+      "_tgt": "branch:repo:github.com/ericcayers-ai/hackathon-project#main",
+      "confidence_score": 1,
+      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@d34c4f16931606f99d2bc83f88a1d01af4cfaaff",
+      "target": "branch:repo:github.com/ericcayers-ai/hackathon-project#main"
+    },
+    {
+      "relation": "ON_BRANCH",
+      "confidence": "EXTRACTED",
+      "source_file": "git",
+      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@d34c4f16931606f99d2bc83f88a1d01af4cfaaff",
+      "_tgt": "branch:repo:github.com/ericcayers-ai/hackathon-project#worktree-nurse-notes-ui-overhaul",
+      "confidence_score": 1,
+      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@d34c4f16931606f99d2bc83f88a1d01af4cfaaff",
+      "target": "branch:repo:github.com/ericcayers-ai/hackathon-project#worktree-nurse-notes-ui-overhaul"
+    },
+    {
+      "relation": "ON_BRANCH",
+      "confidence": "EXTRACTED",
+      "source_file": "git",
+      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@ed37f0a76abbab2c44e6c10c69b072e6a09deee3",
+      "_tgt": "branch:repo:github.com/ericcayers-ai/hackathon-project#main",
+      "confidence_score": 1,
+      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@ed37f0a76abbab2c44e6c10c69b072e6a09deee3",
+      "target": "branch:repo:github.com/ericcayers-ai/hackathon-project#main"
+    },
+    {
+      "relation": "ON_BRANCH",
+      "confidence": "EXTRACTED",
+      "source_file": "git",
+      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@ed37f0a76abbab2c44e6c10c69b072e6a09deee3",
+      "_tgt": "branch:repo:github.com/ericcayers-ai/hackathon-project#worktree-nurse-notes-ui-overhaul",
+      "confidence_score": 1,
+      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@ed37f0a76abbab2c44e6c10c69b072e6a09deee3",
+      "target": "branch:repo:github.com/ericcayers-ai/hackathon-project#worktree-nurse-notes-ui-overhaul"
+    },
+    {
+      "relation": "ON_BRANCH",
+      "confidence": "EXTRACTED",
+      "source_file": "git",
+      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@0f4a29104d33e041967e3a4152d19e3a71e6fea1",
+      "_tgt": "branch:repo:github.com/ericcayers-ai/hackathon-project#main",
+      "confidence_score": 1,
+      "source": "branch:repo:github.com/ericcayers-ai/hackathon-project#main",
+      "target": "commit:repo:github.com/ericcayers-ai/hackathon-project@0f4a29104d33e041967e3a4152d19e3a71e6fea1"
+    },
+    {
+      "relation": "ON_BRANCH",
+      "confidence": "EXTRACTED",
+      "source_file": "git",
+      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@23bc22363229f2b0bc17c4d3b39439849fa48195",
+      "_tgt": "branch:repo:github.com/ericcayers-ai/hackathon-project#main",
+      "confidence_score": 1,
+      "source": "branch:repo:github.com/ericcayers-ai/hackathon-project#main",
+      "target": "commit:repo:github.com/ericcayers-ai/hackathon-project@23bc22363229f2b0bc17c4d3b39439849fa48195"
+    },
+    {
+      "relation": "ON_BRANCH",
+      "confidence": "EXTRACTED",
+      "source_file": "git",
+      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@2db3f5d4b4e642389c3130dc6542c24a116968f6",
+      "_tgt": "branch:repo:github.com/ericcayers-ai/hackathon-project#main",
+      "confidence_score": 1,
+      "source": "branch:repo:github.com/ericcayers-ai/hackathon-project#main",
+      "target": "commit:repo:github.com/ericcayers-ai/hackathon-project@2db3f5d4b4e642389c3130dc6542c24a116968f6"
+    },
+    {
+      "relation": "ON_BRANCH",
+      "confidence": "EXTRACTED",
+      "source_file": "git",
+      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@32a6cc8cdb0eb696b7f962b59afe8a8e3d9f960d",
+      "_tgt": "branch:repo:github.com/ericcayers-ai/hackathon-project#main",
+      "confidence_score": 1,
+      "source": "branch:repo:github.com/ericcayers-ai/hackathon-project#main",
+      "target": "commit:repo:github.com/ericcayers-ai/hackathon-project@32a6cc8cdb0eb696b7f962b59afe8a8e3d9f960d"
+    },
+    {
+      "relation": "ON_BRANCH",
+      "confidence": "EXTRACTED",
+      "source_file": "git",
+      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@3edbcc3f5a47dbdb73a310e3f41054443886a6b9",
+      "_tgt": "branch:repo:github.com/ericcayers-ai/hackathon-project#main",
+      "confidence_score": 1,
+      "source": "branch:repo:github.com/ericcayers-ai/hackathon-project#main",
+      "target": "commit:repo:github.com/ericcayers-ai/hackathon-project@3edbcc3f5a47dbdb73a310e3f41054443886a6b9"
+    },
+    {
+      "relation": "ON_BRANCH",
+      "confidence": "EXTRACTED",
+      "source_file": "git",
+      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@7ed0528c383d603c2e4a6f4c921976dbdde6507b",
+      "_tgt": "branch:repo:github.com/ericcayers-ai/hackathon-project#main",
+      "confidence_score": 1,
+      "source": "branch:repo:github.com/ericcayers-ai/hackathon-project#main",
+      "target": "commit:repo:github.com/ericcayers-ai/hackathon-project@7ed0528c383d603c2e4a6f4c921976dbdde6507b"
+    },
+    {
+      "relation": "ON_BRANCH",
+      "confidence": "EXTRACTED",
+      "source_file": "git",
+      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@c1b47d3b3bf52fe5fc32cb000a5d1bce8f56518e",
+      "_tgt": "branch:repo:github.com/ericcayers-ai/hackathon-project#main",
+      "confidence_score": 1,
+      "source": "branch:repo:github.com/ericcayers-ai/hackathon-project#main",
+      "target": "commit:repo:github.com/ericcayers-ai/hackathon-project@c1b47d3b3bf52fe5fc32cb000a5d1bce8f56518e"
+    },
+    {
+      "relation": "ON_BRANCH",
+      "confidence": "EXTRACTED",
+      "source_file": "git",
+      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@c4efce65e04bb196940177012d05665097ac6326",
+      "_tgt": "branch:repo:github.com/ericcayers-ai/hackathon-project#main",
+      "confidence_score": 1,
+      "source": "branch:repo:github.com/ericcayers-ai/hackathon-project#main",
+      "target": "commit:repo:github.com/ericcayers-ai/hackathon-project@c4efce65e04bb196940177012d05665097ac6326"
+    },
+    {
+      "relation": "ON_BRANCH",
+      "confidence": "EXTRACTED",
+      "source_file": "git",
+      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@eda92145df33142918b07c85eefe69d5b5128939",
+      "_tgt": "branch:repo:github.com/ericcayers-ai/hackathon-project#main",
+      "confidence_score": 1,
+      "source": "branch:repo:github.com/ericcayers-ai/hackathon-project#main",
+      "target": "commit:repo:github.com/ericcayers-ai/hackathon-project@eda92145df33142918b07c85eefe69d5b5128939"
+    },
+    {
+      "relation": "ON_BRANCH",
+      "confidence": "EXTRACTED",
+      "source_file": "git",
+      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@fb89a6574083158285863c77242e14c78fafb19d",
+      "_tgt": "branch:repo:github.com/ericcayers-ai/hackathon-project#main",
+      "confidence_score": 1,
+      "source": "branch:repo:github.com/ericcayers-ai/hackathon-project#main",
+      "target": "commit:repo:github.com/ericcayers-ai/hackathon-project@fb89a6574083158285863c77242e14c78fafb19d"
+    },
+    {
       "relation": "conceptually_related_to",
       "confidence": "INFERRED",
       "confidence_score": 0.8,
@@ -1471,11 +2318,191 @@
       "source_location": null,
       "weight": 1,
       "_src": "docs_ideation_txt",
-      "_tgt": "gdoc_sdg_hackathon_idea_guide"
+      "_tgt": "gdoc_sdg_hackathon_idea_guide",
+      "source": "gdoc_sdg_hackathon_idea_guide",
+      "target": "docs_ideation_txt"
     },
     {
-      "source": "jargon_interpreter_camera_scan_ui",
-      "target": "universal_jargon_interpreter_concept",
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1,
+      "_src": "readme_hackathon_project",
+      "_tgt": "gdoc_sdg_hackathon_idea_guide",
+      "source": "gdoc_sdg_hackathon_idea_guide",
+      "target": "readme_hackathon_project"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "CLAUDE.md",
+      "source_location": null,
+      "weight": 1,
+      "_src": "claude_md_hackathon_project",
+      "_tgt": "docs_ideation_txt",
+      "source": "claude_md_hackathon_project",
+      "target": "docs_ideation_txt"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1,
+      "_src": "readme_hackathon_project",
+      "_tgt": "docs_ideation_txt",
+      "source": "readme_hackathon_project",
+      "target": "docs_ideation_txt"
+    },
+    {
+      "relation": "references",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "README.md",
+      "source_location": null,
+      "weight": 1,
+      "_src": "readme_hackathon_project",
+      "_tgt": "participant_info_pdf",
+      "source": "readme_hackathon_project",
+      "target": "participant_info_pdf"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "assets/images/01_cold_chain_monitor.png",
+      "source_location": null,
+      "weight": 1,
+      "_src": "01_cold_chain_monitor_image",
+      "_tgt": "01_cold_chain_monitor_sensor_device",
+      "source": "01_cold_chain_monitor_image",
+      "target": "01_cold_chain_monitor_sensor_device"
+    },
+    {
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "assets/images/01_cold_chain_monitor.png",
+      "source_location": null,
+      "weight": 1,
+      "_src": "01_cold_chain_monitor_sensor_device",
+      "_tgt": "01_cold_chain_monitor_medical_fridge",
+      "source": "01_cold_chain_monitor_sensor_device",
+      "target": "01_cold_chain_monitor_medical_fridge"
+    },
+    {
+      "relation": "shares_data_with",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "assets/images/01_cold_chain_monitor.png",
+      "source_location": null,
+      "weight": 1,
+      "_src": "01_cold_chain_monitor_sensor_device",
+      "_tgt": "01_cold_chain_monitor_temperature_chart",
+      "source": "01_cold_chain_monitor_sensor_device",
+      "target": "01_cold_chain_monitor_temperature_chart"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.85,
+      "source_file": "assets/images/01_cold_chain_monitor.png",
+      "source_location": null,
+      "weight": 1,
+      "_src": "01_cold_chain_monitor_temperature_chart",
+      "_tgt": "01_cold_chain_monitor_dose_disposition",
+      "source": "01_cold_chain_monitor_temperature_chart",
+      "target": "01_cold_chain_monitor_dose_disposition"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "INFERRED",
+      "confidence_score": 0.7,
+      "source_file": "assets/images/01_cold_chain_monitor.png",
+      "source_location": null,
+      "weight": 1,
+      "_src": "01_cold_chain_monitor_dose_disposition",
+      "_tgt": "01_cold_chain_monitor_tamper_log",
+      "source": "01_cold_chain_monitor_dose_disposition",
+      "target": "01_cold_chain_monitor_tamper_log"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "assets/images/02_surplus_matching_growers.png",
+      "source_location": null,
+      "weight": 1,
+      "_src": "02_surplus_matching_growers_image",
+      "_tgt": "surplus_matching_app_ui",
+      "source": "02_surplus_matching_growers_image",
+      "target": "surplus_matching_app_ui"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "assets/images/08_surplus_allocation_food_rescue.png",
+      "source_location": null,
+      "weight": 1,
+      "_src": "08_surplus_allocation_food_rescue_image",
+      "_tgt": "08_surplus_allocation_ranked_locations_ui",
+      "source": "08_surplus_allocation_food_rescue_image",
+      "target": "08_surplus_allocation_ranked_locations_ui"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "assets/images/08_surplus_allocation_food_rescue.png",
+      "source_location": null,
+      "weight": 1,
+      "_src": "08_surplus_allocation_food_rescue_image",
+      "_tgt": "08_surplus_allocation_safety_check_ui",
+      "source": "08_surplus_allocation_food_rescue_image",
+      "target": "08_surplus_allocation_safety_check_ui"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "assets/images/09_crisis_response_allocation_engine.png",
+      "source_location": null,
+      "weight": 1,
+      "_src": "09_crisis_response_allocation_engine_image",
+      "_tgt": "09_crisis_response_flood_risk_map",
+      "source": "09_crisis_response_allocation_engine_image",
+      "target": "09_crisis_response_flood_risk_map"
+    },
+    {
+      "relation": "conceptually_related_to",
+      "confidence": "EXTRACTED",
+      "confidence_score": 1,
+      "source_file": "assets/images/09_crisis_response_allocation_engine.png",
+      "source_location": null,
+      "weight": 1,
+      "_src": "09_crisis_response_allocation_engine_image",
+      "_tgt": "09_crisis_response_supply_chain_flow",
+      "source": "09_crisis_response_allocation_engine_image",
+      "target": "09_crisis_response_supply_chain_flow"
+    },
+    {
+      "relation": "shares_data_with",
+      "confidence": "INFERRED",
+      "confidence_score": 0.8,
+      "source_file": "assets/images/09_crisis_response_allocation_engine.png",
+      "source_location": null,
+      "weight": 1,
+      "_src": "09_crisis_response_flood_risk_map",
+      "_tgt": "09_crisis_response_supply_chain_flow",
+      "source": "09_crisis_response_flood_risk_map",
+      "target": "09_crisis_response_supply_chain_flow"
+    },
+    {
       "relation": "conceptually_related_to",
       "confidence": "EXTRACTED",
       "confidence_score": 1,
@@ -1483,11 +2510,11 @@
       "source_location": null,
       "weight": 1,
       "_src": "jargon_interpreter_camera_scan_ui",
-      "_tgt": "universal_jargon_interpreter_concept"
+      "_tgt": "universal_jargon_interpreter_concept",
+      "source": "universal_jargon_interpreter_concept",
+      "target": "jargon_interpreter_camera_scan_ui"
     },
     {
-      "source": "jargon_interpreter_document_use_cases",
-      "target": "universal_jargon_interpreter_concept",
       "relation": "conceptually_related_to",
       "confidence": "INFERRED",
       "confidence_score": 0.8,
@@ -1495,11 +2522,11 @@
       "source_location": null,
       "weight": 1,
       "_src": "jargon_interpreter_document_use_cases",
-      "_tgt": "universal_jargon_interpreter_concept"
+      "_tgt": "universal_jargon_interpreter_concept",
+      "source": "universal_jargon_interpreter_concept",
+      "target": "jargon_interpreter_document_use_cases"
     },
     {
-      "source": "jargon_interpreter_verified_summary_card",
-      "target": "jargon_interpreter_camera_scan_ui",
       "relation": "conceptually_related_to",
       "confidence": "EXTRACTED",
       "confidence_score": 1,
@@ -1507,11 +2534,11 @@
       "source_location": null,
       "weight": 1,
       "_src": "jargon_interpreter_verified_summary_card",
-      "_tgt": "jargon_interpreter_camera_scan_ui"
+      "_tgt": "universal_jargon_interpreter_concept",
+      "source": "universal_jargon_interpreter_concept",
+      "target": "jargon_interpreter_verified_summary_card"
     },
     {
-      "source": "jargon_interpreter_verified_summary_card",
-      "target": "universal_jargon_interpreter_concept",
       "relation": "conceptually_related_to",
       "confidence": "EXTRACTED",
       "confidence_score": 1,
@@ -1519,59 +2546,1110 @@
       "source_location": null,
       "weight": 1,
       "_src": "jargon_interpreter_verified_summary_card",
-      "_tgt": "universal_jargon_interpreter_concept"
+      "_tgt": "jargon_interpreter_camera_scan_ui",
+      "source": "jargon_interpreter_camera_scan_ui",
+      "target": "jargon_interpreter_verified_summary_card"
     },
     {
-      "source": "readme_hackathon_project",
-      "target": "docs_ideation_txt",
-      "relation": "references",
+      "relation": "MODIFIES",
       "confidence": "EXTRACTED",
+      "source_file": "app/src/App.jsx",
+      "added": 2,
+      "deleted": 2,
+      "file_path": "app/src/App.jsx",
+      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@3edbcc3f5a47dbdb73a310e3f41054443886a6b9",
+      "_tgt": "src_app",
       "confidence_score": 1,
-      "source_file": "README.md",
-      "source_location": null,
-      "weight": 1,
-      "_src": "readme_hackathon_project",
-      "_tgt": "docs_ideation_txt"
+      "source": "src_app",
+      "target": "commit:repo:github.com/ericcayers-ai/hackathon-project@3edbcc3f5a47dbdb73a310e3f41054443886a6b9"
     },
     {
-      "source": "readme_hackathon_project",
-      "target": "gdoc_sdg_hackathon_idea_guide",
-      "relation": "references",
+      "relation": "MODIFIES",
       "confidence": "EXTRACTED",
+      "source_file": "app/src/App.jsx",
+      "added": 1,
+      "deleted": 1,
+      "file_path": "app/src/App.jsx",
+      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@c1b47d3b3bf52fe5fc32cb000a5d1bce8f56518e",
+      "_tgt": "src_app",
       "confidence_score": 1,
-      "source_file": "README.md",
-      "source_location": null,
-      "weight": 1,
-      "_src": "readme_hackathon_project",
-      "_tgt": "gdoc_sdg_hackathon_idea_guide"
+      "source": "src_app",
+      "target": "commit:repo:github.com/ericcayers-ai/hackathon-project@c1b47d3b3bf52fe5fc32cb000a5d1bce8f56518e"
     },
     {
-      "source": "readme_hackathon_project",
-      "target": "participant_info_pdf",
-      "relation": "references",
+      "relation": "MODIFIES",
       "confidence": "EXTRACTED",
+      "source_file": "app/src/App.jsx",
+      "added": 310,
+      "deleted": 0,
+      "file_path": "app/src/App.jsx",
+      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@eda92145df33142918b07c85eefe69d5b5128939",
+      "_tgt": "src_app",
       "confidence_score": 1,
-      "source_file": "README.md",
-      "source_location": null,
-      "weight": 1,
-      "_src": "readme_hackathon_project",
-      "_tgt": "participant_info_pdf"
-    }
-  ],
-  "hyperedges": [
+      "source": "src_app",
+      "target": "commit:repo:github.com/ericcayers-ai/hackathon-project@eda92145df33142918b07c85eefe69d5b5128939"
+    },
     {
-      "id": "hackathon_ideation_docs",
-      "label": "Hackathon Ideation Documentation Chain",
-      "nodes": [
-        "readme_hackathon_project",
-        "gdoc_sdg_hackathon_idea_guide",
-        "docs_ideation_txt",
-        "sync-gdoc_workflow"
-      ],
-      "relation": "form",
+      "relation": "MODIFIES",
       "confidence": "EXTRACTED",
-      "confidence_score": 0.9,
-      "source_file": "README.md"
+      "source_file": "app/src/App.jsx",
+      "added": 36,
+      "deleted": 6,
+      "file_path": "app/src/App.jsx",
+      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@fb89a6574083158285863c77242e14c78fafb19d",
+      "_tgt": "src_app",
+      "confidence_score": 1,
+      "source": "src_app",
+      "target": "commit:repo:github.com/ericcayers-ai/hackathon-project@fb89a6574083158285863c77242e14c78fafb19d"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/App.jsx",
+      "source_location": "L3",
+      "weight": 1,
+      "_src": "src_app",
+      "_tgt": "lib_extracttext_extracttext",
+      "confidence_score": 1,
+      "source": "src_app",
+      "target": "lib_extracttext_extracttext"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/App.jsx",
+      "source_location": "L2",
+      "weight": 1,
+      "_src": "src_app",
+      "_tgt": "lib_llm_generaterewrite",
+      "confidence_score": 1,
+      "source": "src_app",
+      "target": "lib_llm_generaterewrite"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/App.jsx",
+      "source_location": "L5",
+      "weight": 1,
+      "_src": "src_app",
+      "_tgt": "lib_pdf_downloadpatientpdf",
+      "confidence_score": 1,
+      "source": "src_app",
+      "target": "lib_pdf_downloadpatientpdf"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/App.jsx",
+      "source_location": "L4",
+      "weight": 1,
+      "_src": "src_app",
+      "_tgt": "lib_readability_countjargon",
+      "confidence_score": 1,
+      "source": "src_app",
+      "target": "lib_readability_countjargon"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/App.jsx",
+      "source_location": "L4",
+      "weight": 1,
+      "_src": "src_app",
+      "_tgt": "lib_readability_gradelabel",
+      "confidence_score": 1,
+      "source": "src_app",
+      "target": "lib_readability_gradelabel"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/App.jsx",
+      "source_location": "L4",
+      "weight": 1,
+      "_src": "src_app",
+      "_tgt": "lib_readability_readinggrade",
+      "confidence_score": 1,
+      "source": "src_app",
+      "target": "lib_readability_readinggrade"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/App.jsx",
+      "source_location": "L44",
+      "weight": 1,
+      "_src": "src_app",
+      "_tgt": "src_app_app",
+      "confidence_score": 1,
+      "source": "src_app",
+      "target": "src_app_app"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/App.jsx",
+      "source_location": "L8",
+      "weight": 1,
+      "_src": "src_app",
+      "_tgt": "src_app_gradebadge",
+      "confidence_score": 1,
+      "source": "src_app",
+      "target": "src_app_gradebadge"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/App.jsx",
+      "source_location": "L25",
+      "weight": 1,
+      "_src": "src_app",
+      "_tgt": "src_app_jargonbadge",
+      "confidence_score": 1,
+      "source": "src_app",
+      "target": "src_app_jargonbadge"
+    },
+    {
+      "relation": "imports",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/PatientView.jsx",
+      "source_location": "L3",
+      "weight": 1,
+      "_src": "src_patientview",
+      "_tgt": "src_app_gradebadge",
+      "confidence_score": 1,
+      "source": "src_app_gradebadge",
+      "target": "src_patientview"
+    },
+    {
+      "relation": "MODIFIES",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/PatientView.jsx",
+      "added": 8,
+      "deleted": 4,
+      "file_path": "app/src/PatientView.jsx",
+      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@c4efce65e04bb196940177012d05665097ac6326",
+      "_tgt": "src_patientview",
+      "confidence_score": 1,
+      "source": "src_patientview",
+      "target": "commit:repo:github.com/ericcayers-ai/hackathon-project@c4efce65e04bb196940177012d05665097ac6326"
+    },
+    {
+      "relation": "MODIFIES",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/PatientView.jsx",
+      "added": 131,
+      "deleted": 0,
+      "file_path": "app/src/PatientView.jsx",
+      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@fb89a6574083158285863c77242e14c78fafb19d",
+      "_tgt": "src_patientview",
+      "confidence_score": 1,
+      "source": "src_patientview",
+      "target": "commit:repo:github.com/ericcayers-ai/hackathon-project@fb89a6574083158285863c77242e14c78fafb19d"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/PatientView.jsx",
+      "source_location": "L53",
+      "weight": 1,
+      "_src": "src_patientview",
+      "_tgt": "src_patientview_patientview",
+      "confidence_score": 1,
+      "source": "src_patientview",
+      "target": "src_patientview_patientview"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/PatientView.jsx",
+      "source_location": "L22",
+      "weight": 1,
+      "_src": "src_patientview",
+      "_tgt": "src_patientview_speaksupported",
+      "confidence_score": 1,
+      "source": "src_patientview",
+      "target": "src_patientview_speaksupported"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/PatientView.jsx",
+      "source_location": "L26",
+      "weight": 1,
+      "_src": "src_patientview",
+      "_tgt": "src_patientview_usespeech",
+      "confidence_score": 1,
+      "source": "src_patientview",
+      "target": "src_patientview_usespeech"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/PatientView.jsx",
+      "source_location": "L50",
+      "weight": 1,
+      "_src": "src_patientview_usespeech",
+      "_tgt": "src_patientview_speaksupported",
+      "confidence_score": 1,
+      "source": "src_patientview_speaksupported",
+      "target": "src_patientview_usespeech"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/PatientView.jsx",
+      "source_location": "L54",
+      "weight": 1,
+      "_src": "src_patientview_patientview",
+      "_tgt": "src_patientview_usespeech",
+      "confidence_score": 1,
+      "source": "src_patientview_usespeech",
+      "target": "src_patientview_patientview"
+    },
+    {
+      "relation": "MODIFIES",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/lib/extractText.js",
+      "added": 39,
+      "deleted": 0,
+      "file_path": "app/src/lib/extractText.js",
+      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@eda92145df33142918b07c85eefe69d5b5128939",
+      "_tgt": "lib_extracttext",
+      "confidence_score": 1,
+      "source": "lib_extracttext",
+      "target": "commit:repo:github.com/ericcayers-ai/hackathon-project@eda92145df33142918b07c85eefe69d5b5128939"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/lib/extractText.js",
+      "source_location": "L9",
+      "weight": 1,
+      "_src": "lib_extracttext",
+      "_tgt": "lib_extracttext_extractpdf",
+      "confidence_score": 1,
+      "source": "lib_extracttext",
+      "target": "lib_extracttext_extractpdf"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/lib/extractText.js",
+      "source_location": "L32",
+      "weight": 1,
+      "_src": "lib_extracttext",
+      "_tgt": "lib_extracttext_extracttext",
+      "confidence_score": 1,
+      "source": "lib_extracttext",
+      "target": "lib_extracttext_extracttext"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/lib/extractText.js",
+      "source_location": "L35",
+      "weight": 1,
+      "_src": "lib_extracttext_extracttext",
+      "_tgt": "lib_extracttext_extractpdf",
+      "confidence_score": 1,
+      "source": "lib_extracttext_extractpdf",
+      "target": "lib_extracttext_extracttext"
+    },
+    {
+      "relation": "MODIFIES",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/lib/llm.js",
+      "added": 76,
+      "deleted": 0,
+      "file_path": "app/src/lib/llm.js",
+      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@eda92145df33142918b07c85eefe69d5b5128939",
+      "_tgt": "lib_llm",
+      "confidence_score": 1,
+      "source": "lib_llm",
+      "target": "commit:repo:github.com/ericcayers-ai/hackathon-project@eda92145df33142918b07c85eefe69d5b5128939"
+    },
+    {
+      "relation": "MODIFIES",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/lib/llm.js",
+      "added": 9,
+      "deleted": 5,
+      "file_path": "app/src/lib/llm.js",
+      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@fb89a6574083158285863c77242e14c78fafb19d",
+      "_tgt": "lib_llm",
+      "confidence_score": 1,
+      "source": "lib_llm",
+      "target": "commit:repo:github.com/ericcayers-ai/hackathon-project@fb89a6574083158285863c77242e14c78fafb19d"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/lib/llm.js",
+      "source_location": "L16",
+      "weight": 1,
+      "_src": "lib_llm",
+      "_tgt": "lib_llm_generaterewrite",
+      "confidence_score": 1,
+      "source": "lib_llm",
+      "target": "lib_llm_generaterewrite"
+    },
+    {
+      "relation": "MODIFIES",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/lib/pdf.js",
+      "added": 6,
+      "deleted": 2,
+      "file_path": "app/src/lib/pdf.js",
+      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@c4efce65e04bb196940177012d05665097ac6326",
+      "_tgt": "lib_pdf",
+      "confidence_score": 1,
+      "source": "lib_pdf",
+      "target": "commit:repo:github.com/ericcayers-ai/hackathon-project@c4efce65e04bb196940177012d05665097ac6326"
+    },
+    {
+      "relation": "MODIFIES",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/lib/pdf.js",
+      "added": 106,
+      "deleted": 0,
+      "file_path": "app/src/lib/pdf.js",
+      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@eda92145df33142918b07c85eefe69d5b5128939",
+      "_tgt": "lib_pdf",
+      "confidence_score": 1,
+      "source": "lib_pdf",
+      "target": "commit:repo:github.com/ericcayers-ai/hackathon-project@eda92145df33142918b07c85eefe69d5b5128939"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/lib/pdf.js",
+      "source_location": "L21",
+      "weight": 1,
+      "_src": "lib_pdf",
+      "_tgt": "lib_pdf_buildpatientpdf",
+      "confidence_score": 1,
+      "source": "lib_pdf",
+      "target": "lib_pdf_buildpatientpdf"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/lib/pdf.js",
+      "source_location": "L102",
+      "weight": 1,
+      "_src": "lib_pdf",
+      "_tgt": "lib_pdf_downloadpatientpdf",
+      "confidence_score": 1,
+      "source": "lib_pdf",
+      "target": "lib_pdf_downloadpatientpdf"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/lib/pdf.js",
+      "source_location": "L16",
+      "weight": 1,
+      "_src": "lib_pdf",
+      "_tgt": "lib_pdf_isheading",
+      "confidence_score": 1,
+      "source": "lib_pdf",
+      "target": "lib_pdf_isheading"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/lib/pdf.js",
+      "source_location": "L7",
+      "weight": 1,
+      "_src": "lib_pdf",
+      "_tgt": "lib_pdf_known_headings",
+      "confidence_score": 1,
+      "source": "lib_pdf",
+      "target": "lib_pdf_known_headings"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/lib/pdf.js",
+      "source_location": "L61",
+      "weight": 1,
+      "_src": "lib_pdf_buildpatientpdf",
+      "_tgt": "lib_pdf_isheading",
+      "confidence_score": 1,
+      "source": "lib_pdf_isheading",
+      "target": "lib_pdf_buildpatientpdf"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/lib/pdf.js",
+      "source_location": "L103",
+      "weight": 1,
+      "_src": "lib_pdf_downloadpatientpdf",
+      "_tgt": "lib_pdf_buildpatientpdf",
+      "confidence_score": 1,
+      "source": "lib_pdf_buildpatientpdf",
+      "target": "lib_pdf_downloadpatientpdf"
+    },
+    {
+      "relation": "MODIFIES",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/lib/readability.js",
+      "added": 112,
+      "deleted": 0,
+      "file_path": "app/src/lib/readability.js",
+      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@eda92145df33142918b07c85eefe69d5b5128939",
+      "_tgt": "lib_readability",
+      "confidence_score": 1,
+      "source": "lib_readability",
+      "target": "commit:repo:github.com/ericcayers-ai/hackathon-project@eda92145df33142918b07c85eefe69d5b5128939"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/lib/readability.js",
+      "source_location": "L91",
+      "weight": 1,
+      "_src": "lib_readability",
+      "_tgt": "lib_readability_acronym_re",
+      "confidence_score": 1,
+      "source": "lib_readability",
+      "target": "lib_readability_acronym_re"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/lib/readability.js",
+      "source_location": "L68",
+      "weight": 1,
+      "_src": "lib_readability",
+      "_tgt": "lib_readability_acronyms",
+      "confidence_score": 1,
+      "source": "lib_readability",
+      "target": "lib_readability_acronyms"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/lib/readability.js",
+      "source_location": "L103",
+      "weight": 1,
+      "_src": "lib_readability",
+      "_tgt": "lib_readability_countjargon",
+      "confidence_score": 1,
+      "source": "lib_readability",
+      "target": "lib_readability_countjargon"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/lib/readability.js",
+      "source_location": "L17",
+      "weight": 1,
+      "_src": "lib_readability",
+      "_tgt": "lib_readability_countsentences",
+      "confidence_score": 1,
+      "source": "lib_readability",
+      "target": "lib_readability_countsentences"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/lib/readability.js",
+      "source_location": "L4",
+      "weight": 1,
+      "_src": "lib_readability",
+      "_tgt": "lib_readability_countsyllablesinword",
+      "confidence_score": 1,
+      "source": "lib_readability",
+      "target": "lib_readability_countsyllablesinword"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/lib/readability.js",
+      "source_location": "L82",
+      "weight": 1,
+      "_src": "lib_readability",
+      "_tgt": "lib_readability_escapere",
+      "confidence_score": 1,
+      "source": "lib_readability",
+      "target": "lib_readability_escapere"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/lib/readability.js",
+      "source_location": "L50",
+      "weight": 1,
+      "_src": "lib_readability",
+      "_tgt": "lib_readability_gradelabel",
+      "confidence_score": 1,
+      "source": "lib_readability",
+      "target": "lib_readability_gradelabel"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/lib/readability.js",
+      "source_location": "L76",
+      "weight": 1,
+      "_src": "lib_readability",
+      "_tgt": "lib_readability_jargon_words",
+      "confidence_score": 1,
+      "source": "lib_readability",
+      "target": "lib_readability_jargon_words"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/lib/readability.js",
+      "source_location": "L97",
+      "weight": 1,
+      "_src": "lib_readability",
+      "_tgt": "lib_readability_pattern_re",
+      "confidence_score": 1,
+      "source": "lib_readability",
+      "target": "lib_readability_pattern_re"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/lib/readability.js",
+      "source_location": "L29",
+      "weight": 1,
+      "_src": "lib_readability",
+      "_tgt": "lib_readability_readinggrade",
+      "confidence_score": 1,
+      "source": "lib_readability",
+      "target": "lib_readability_readinggrade"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/lib/readability.js",
+      "source_location": "L95",
+      "weight": 1,
+      "_src": "lib_readability",
+      "_tgt": "lib_readability_word_re",
+      "confidence_score": 1,
+      "source": "lib_readability",
+      "target": "lib_readability_word_re"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/lib/readability.js",
+      "source_location": "L32",
+      "weight": 1,
+      "_src": "lib_readability_readinggrade",
+      "_tgt": "lib_readability_countsentences",
+      "confidence_score": 1,
+      "source": "lib_readability_countsentences",
+      "target": "lib_readability_readinggrade"
+    },
+    {
+      "relation": "MODIFIES",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/main.jsx",
+      "added": 10,
+      "deleted": 0,
+      "file_path": "app/src/main.jsx",
+      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@eda92145df33142918b07c85eefe69d5b5128939",
+      "_tgt": "src_main",
+      "confidence_score": 1,
+      "source": "src_main",
+      "target": "commit:repo:github.com/ericcayers-ai/hackathon-project@eda92145df33142918b07c85eefe69d5b5128939"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/vite.config.js",
+      "source_location": "L14",
+      "weight": 1,
+      "_src": "app_vite_config",
+      "_tgt": "app_vite_config_proxy",
+      "confidence_score": 1,
+      "source": "app_vite_config",
+      "target": "app_vite_config_proxy"
+    },
+    {
+      "relation": "MODIFIES",
+      "confidence": "EXTRACTED",
+      "source_file": "app/vite.config.js",
+      "added": 22,
+      "deleted": 0,
+      "file_path": "app/vite.config.js",
+      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@eda92145df33142918b07c85eefe69d5b5128939",
+      "_tgt": "app_vite_config",
+      "confidence_score": 1,
+      "source": "app_vite_config",
+      "target": "commit:repo:github.com/ericcayers-ai/hackathon-project@eda92145df33142918b07c85eefe69d5b5128939"
+    },
+    {
+      "relation": "MODIFIES",
+      "confidence": "EXTRACTED",
+      "source_file": "app/vite.config.js",
+      "added": 5,
+      "deleted": 1,
+      "file_path": "app/vite.config.js",
+      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@fb89a6574083158285863c77242e14c78fafb19d",
+      "_tgt": "app_vite_config",
+      "confidence_score": 1,
+      "source": "app_vite_config",
+      "target": "commit:repo:github.com/ericcayers-ai/hackathon-project@fb89a6574083158285863c77242e14c78fafb19d"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/build_docx.py",
+      "source_location": "L46",
+      "weight": 1,
+      "_src": "tools_build_docx",
+      "_tgt": "tools_build_docx_add_hyperlink",
+      "confidence_score": 1,
+      "source": "tools_build_docx",
+      "target": "tools_build_docx_add_hyperlink"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/build_docx.py",
+      "source_location": "L90",
+      "weight": 1,
+      "_src": "tools_build_docx",
+      "_tgt": "tools_build_docx_bullet",
+      "confidence_score": 1,
+      "source": "tools_build_docx",
+      "target": "tools_build_docx_bullet"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/build_docx.py",
+      "source_location": "L106",
+      "weight": 1,
+      "_src": "tools_build_docx",
+      "_tgt": "tools_build_docx_labelled",
+      "confidence_score": 1,
+      "source": "tools_build_docx",
+      "target": "tools_build_docx_labelled"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/build_docx.py",
+      "source_location": "L124",
+      "weight": 1,
+      "_src": "tools_build_docx",
+      "_tgt": "tools_build_docx_make_table",
+      "confidence_score": 1,
+      "source": "tools_build_docx",
+      "target": "tools_build_docx_make_table"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/build_docx.py",
+      "source_location": "L98",
+      "weight": 1,
+      "_src": "tools_build_docx",
+      "_tgt": "tools_build_docx_numbered",
+      "confidence_score": 1,
+      "source": "tools_build_docx",
+      "target": "tools_build_docx_numbered"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/build_docx.py",
+      "source_location": "L72",
+      "weight": 1,
+      "_src": "tools_build_docx",
+      "_tgt": "tools_build_docx_para",
+      "confidence_score": 1,
+      "source": "tools_build_docx",
+      "target": "tools_build_docx_para"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/build_docx.py",
+      "source_location": "L116",
+      "weight": 1,
+      "_src": "tools_build_docx",
+      "_tgt": "tools_build_docx_shade",
+      "confidence_score": 1,
+      "source": "tools_build_docx",
+      "target": "tools_build_docx_shade"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/build_docx.py",
+      "source_location": "L153",
+      "weight": 1,
+      "_src": "tools_build_docx",
+      "_tgt": "tools_build_docx_source_line",
+      "confidence_score": 1,
+      "source": "tools_build_docx",
+      "target": "tools_build_docx_source_line"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/build_docx.py",
+      "source_location": "L159",
+      "weight": 1,
+      "_src": "tools_build_docx_source_line",
+      "_tgt": "tools_build_docx_add_hyperlink",
+      "confidence_score": 1,
+      "source": "tools_build_docx_add_hyperlink",
+      "target": "tools_build_docx_source_line"
+    },
+    {
+      "relation": "rationale_for",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/build_docx.py",
+      "source_location": "L107",
+      "weight": 1,
+      "_src": "tools_build_docx_rationale_107",
+      "_tgt": "tools_build_docx_labelled",
+      "confidence_score": 1,
+      "source": "tools_build_docx_labelled",
+      "target": "tools_build_docx_rationale_107"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "tools/build_docx.py",
+      "source_location": "L136",
+      "weight": 1,
+      "_src": "tools_build_docx_make_table",
+      "_tgt": "tools_build_docx_shade",
+      "confidence_score": 1,
+      "source": "tools_build_docx_shade",
+      "target": "tools_build_docx_make_table"
+    },
+    {
+      "relation": "PARENT_OF",
+      "confidence": "EXTRACTED",
+      "source_file": "git",
+      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@0f4a29104d33e041967e3a4152d19e3a71e6fea1",
+      "_tgt": "commit:repo:github.com/ericcayers-ai/hackathon-project@c4efce65e04bb196940177012d05665097ac6326",
+      "confidence_score": 1,
+      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@0f4a29104d33e041967e3a4152d19e3a71e6fea1",
+      "target": "commit:repo:github.com/ericcayers-ai/hackathon-project@c4efce65e04bb196940177012d05665097ac6326"
+    },
+    {
+      "relation": "PARENT_OF",
+      "confidence": "EXTRACTED",
+      "source_file": "git",
+      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@fb89a6574083158285863c77242e14c78fafb19d",
+      "_tgt": "commit:repo:github.com/ericcayers-ai/hackathon-project@0f4a29104d33e041967e3a4152d19e3a71e6fea1",
+      "confidence_score": 1,
+      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@0f4a29104d33e041967e3a4152d19e3a71e6fea1",
+      "target": "commit:repo:github.com/ericcayers-ai/hackathon-project@fb89a6574083158285863c77242e14c78fafb19d"
+    },
+    {
+      "relation": "ON_BRANCH",
+      "confidence": "EXTRACTED",
+      "source_file": "git",
+      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@23bc22363229f2b0bc17c4d3b39439849fa48195",
+      "_tgt": "branch:repo:github.com/ericcayers-ai/hackathon-project#worktree-nurse-notes-ui-overhaul",
+      "confidence_score": 1,
+      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@23bc22363229f2b0bc17c4d3b39439849fa48195",
+      "target": "branch:repo:github.com/ericcayers-ai/hackathon-project#worktree-nurse-notes-ui-overhaul"
+    },
+    {
+      "relation": "PARENT_OF",
+      "confidence": "EXTRACTED",
+      "source_file": "git",
+      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@23bc22363229f2b0bc17c4d3b39439849fa48195",
+      "_tgt": "commit:repo:github.com/ericcayers-ai/hackathon-project@fb89a6574083158285863c77242e14c78fafb19d",
+      "confidence_score": 1,
+      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@23bc22363229f2b0bc17c4d3b39439849fa48195",
+      "target": "commit:repo:github.com/ericcayers-ai/hackathon-project@fb89a6574083158285863c77242e14c78fafb19d"
+    },
+    {
+      "relation": "PARENT_OF",
+      "confidence": "EXTRACTED",
+      "source_file": "git",
+      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@2db3f5d4b4e642389c3130dc6542c24a116968f6",
+      "_tgt": "commit:repo:github.com/ericcayers-ai/hackathon-project@23bc22363229f2b0bc17c4d3b39439849fa48195",
+      "confidence_score": 1,
+      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@23bc22363229f2b0bc17c4d3b39439849fa48195",
+      "target": "commit:repo:github.com/ericcayers-ai/hackathon-project@2db3f5d4b4e642389c3130dc6542c24a116968f6"
+    },
+    {
+      "relation": "PARENT_OF",
+      "confidence": "EXTRACTED",
+      "source_file": "git",
+      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@c1b47d3b3bf52fe5fc32cb000a5d1bce8f56518e",
+      "_tgt": "commit:repo:github.com/ericcayers-ai/hackathon-project@23bc22363229f2b0bc17c4d3b39439849fa48195",
+      "confidence_score": 1,
+      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@23bc22363229f2b0bc17c4d3b39439849fa48195",
+      "target": "commit:repo:github.com/ericcayers-ai/hackathon-project@c1b47d3b3bf52fe5fc32cb000a5d1bce8f56518e"
+    },
+    {
+      "relation": "ON_BRANCH",
+      "confidence": "EXTRACTED",
+      "source_file": "git",
+      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@2db3f5d4b4e642389c3130dc6542c24a116968f6",
+      "_tgt": "branch:repo:github.com/ericcayers-ai/hackathon-project#worktree-nurse-notes-ui-overhaul",
+      "confidence_score": 1,
+      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@2db3f5d4b4e642389c3130dc6542c24a116968f6",
+      "target": "branch:repo:github.com/ericcayers-ai/hackathon-project#worktree-nurse-notes-ui-overhaul"
+    },
+    {
+      "relation": "PARENT_OF",
+      "confidence": "EXTRACTED",
+      "source_file": "git",
+      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@eda92145df33142918b07c85eefe69d5b5128939",
+      "_tgt": "commit:repo:github.com/ericcayers-ai/hackathon-project@2db3f5d4b4e642389c3130dc6542c24a116968f6",
+      "confidence_score": 1,
+      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@2db3f5d4b4e642389c3130dc6542c24a116968f6",
+      "target": "commit:repo:github.com/ericcayers-ai/hackathon-project@eda92145df33142918b07c85eefe69d5b5128939"
+    },
+    {
+      "relation": "PARENT_OF",
+      "confidence": "EXTRACTED",
+      "source_file": "git",
+      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@3edbcc3f5a47dbdb73a310e3f41054443886a6b9",
+      "_tgt": "commit:repo:github.com/ericcayers-ai/hackathon-project@32a6cc8cdb0eb696b7f962b59afe8a8e3d9f960d",
+      "confidence_score": 1,
+      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@32a6cc8cdb0eb696b7f962b59afe8a8e3d9f960d",
+      "target": "commit:repo:github.com/ericcayers-ai/hackathon-project@3edbcc3f5a47dbdb73a310e3f41054443886a6b9"
+    },
+    {
+      "relation": "PARENT_OF",
+      "confidence": "EXTRACTED",
+      "source_file": "git",
+      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@7ed0528c383d603c2e4a6f4c921976dbdde6507b",
+      "_tgt": "commit:repo:github.com/ericcayers-ai/hackathon-project@3edbcc3f5a47dbdb73a310e3f41054443886a6b9",
+      "confidence_score": 1,
+      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@3edbcc3f5a47dbdb73a310e3f41054443886a6b9",
+      "target": "commit:repo:github.com/ericcayers-ai/hackathon-project@7ed0528c383d603c2e4a6f4c921976dbdde6507b"
+    },
+    {
+      "relation": "PARENT_OF",
+      "confidence": "EXTRACTED",
+      "source_file": "git",
+      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@c4efce65e04bb196940177012d05665097ac6326",
+      "_tgt": "commit:repo:github.com/ericcayers-ai/hackathon-project@3edbcc3f5a47dbdb73a310e3f41054443886a6b9",
+      "confidence_score": 1,
+      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@3edbcc3f5a47dbdb73a310e3f41054443886a6b9",
+      "target": "commit:repo:github.com/ericcayers-ai/hackathon-project@c4efce65e04bb196940177012d05665097ac6326"
+    },
+    {
+      "relation": "ON_BRANCH",
+      "confidence": "EXTRACTED",
+      "source_file": "git",
+      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@7ed0528c383d603c2e4a6f4c921976dbdde6507b",
+      "_tgt": "branch:repo:github.com/ericcayers-ai/hackathon-project#worktree-nurse-notes-ui-overhaul",
+      "confidence_score": 1,
+      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@7ed0528c383d603c2e4a6f4c921976dbdde6507b",
+      "target": "branch:repo:github.com/ericcayers-ai/hackathon-project#worktree-nurse-notes-ui-overhaul"
+    },
+    {
+      "relation": "PARENT_OF",
+      "confidence": "EXTRACTED",
+      "source_file": "git",
+      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@7ed0528c383d603c2e4a6f4c921976dbdde6507b",
+      "_tgt": "commit:repo:github.com/ericcayers-ai/hackathon-project@a64c5a6ed3f72640e52718c3da5510558cc37bd3",
+      "confidence_score": 1,
+      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@7ed0528c383d603c2e4a6f4c921976dbdde6507b",
+      "target": "commit:repo:github.com/ericcayers-ai/hackathon-project@a64c5a6ed3f72640e52718c3da5510558cc37bd3"
+    },
+    {
+      "relation": "PARENT_OF",
+      "confidence": "EXTRACTED",
+      "source_file": "git",
+      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@fb89a6574083158285863c77242e14c78fafb19d",
+      "_tgt": "commit:repo:github.com/ericcayers-ai/hackathon-project@7ed0528c383d603c2e4a6f4c921976dbdde6507b",
+      "confidence_score": 1,
+      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@7ed0528c383d603c2e4a6f4c921976dbdde6507b",
+      "target": "commit:repo:github.com/ericcayers-ai/hackathon-project@fb89a6574083158285863c77242e14c78fafb19d"
+    },
+    {
+      "relation": "ON_BRANCH",
+      "confidence": "EXTRACTED",
+      "source_file": "git",
+      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@a64c5a6ed3f72640e52718c3da5510558cc37bd3",
+      "_tgt": "branch:repo:github.com/ericcayers-ai/hackathon-project#worktree-nurse-notes-ui-overhaul",
+      "confidence_score": 1,
+      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@a64c5a6ed3f72640e52718c3da5510558cc37bd3",
+      "target": "branch:repo:github.com/ericcayers-ai/hackathon-project#worktree-nurse-notes-ui-overhaul"
+    },
+    {
+      "relation": "PARENT_OF",
+      "confidence": "EXTRACTED",
+      "source_file": "git",
+      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@a64c5a6ed3f72640e52718c3da5510558cc37bd3",
+      "_tgt": "commit:repo:github.com/ericcayers-ai/hackathon-project@d2fe56bde9707bc38f371a990c5ac91782632473",
+      "confidence_score": 1,
+      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@a64c5a6ed3f72640e52718c3da5510558cc37bd3",
+      "target": "commit:repo:github.com/ericcayers-ai/hackathon-project@d2fe56bde9707bc38f371a990c5ac91782632473"
+    },
+    {
+      "relation": "ON_BRANCH",
+      "confidence": "EXTRACTED",
+      "source_file": "git",
+      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@c1b47d3b3bf52fe5fc32cb000a5d1bce8f56518e",
+      "_tgt": "branch:repo:github.com/ericcayers-ai/hackathon-project#worktree-nurse-notes-ui-overhaul",
+      "confidence_score": 1,
+      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@c1b47d3b3bf52fe5fc32cb000a5d1bce8f56518e",
+      "target": "branch:repo:github.com/ericcayers-ai/hackathon-project#worktree-nurse-notes-ui-overhaul"
+    },
+    {
+      "relation": "PARENT_OF",
+      "confidence": "EXTRACTED",
+      "source_file": "git",
+      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@eda92145df33142918b07c85eefe69d5b5128939",
+      "_tgt": "commit:repo:github.com/ericcayers-ai/hackathon-project@c1b47d3b3bf52fe5fc32cb000a5d1bce8f56518e",
+      "confidence_score": 1,
+      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@c1b47d3b3bf52fe5fc32cb000a5d1bce8f56518e",
+      "target": "commit:repo:github.com/ericcayers-ai/hackathon-project@eda92145df33142918b07c85eefe69d5b5128939"
+    },
+    {
+      "relation": "ON_BRANCH",
+      "confidence": "EXTRACTED",
+      "source_file": "git",
+      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@d2fe56bde9707bc38f371a990c5ac91782632473",
+      "_tgt": "branch:repo:github.com/ericcayers-ai/hackathon-project#worktree-nurse-notes-ui-overhaul",
+      "confidence_score": 1,
+      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@d2fe56bde9707bc38f371a990c5ac91782632473",
+      "target": "branch:repo:github.com/ericcayers-ai/hackathon-project#worktree-nurse-notes-ui-overhaul"
+    },
+    {
+      "relation": "ON_BRANCH",
+      "confidence": "EXTRACTED",
+      "source_file": "git",
+      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@eda92145df33142918b07c85eefe69d5b5128939",
+      "_tgt": "branch:repo:github.com/ericcayers-ai/hackathon-project#worktree-nurse-notes-ui-overhaul",
+      "confidence_score": 1,
+      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@eda92145df33142918b07c85eefe69d5b5128939",
+      "target": "branch:repo:github.com/ericcayers-ai/hackathon-project#worktree-nurse-notes-ui-overhaul"
+    },
+    {
+      "relation": "ON_BRANCH",
+      "confidence": "EXTRACTED",
+      "source_file": "git",
+      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@fb89a6574083158285863c77242e14c78fafb19d",
+      "_tgt": "branch:repo:github.com/ericcayers-ai/hackathon-project#worktree-nurse-notes-ui-overhaul",
+      "confidence_score": 1,
+      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@fb89a6574083158285863c77242e14c78fafb19d",
+      "target": "branch:repo:github.com/ericcayers-ai/hackathon-project#worktree-nurse-notes-ui-overhaul"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/App.jsx",
+      "source_location": "L44",
+      "weight": 1,
+      "_src": "app",
+      "_tgt": "app_app",
+      "confidence_score": 1,
+      "source": "app",
+      "target": "app_app"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/App.jsx",
+      "source_location": "L8",
+      "weight": 1,
+      "_src": "app",
+      "_tgt": "app_gradebadge",
+      "confidence_score": 1,
+      "source": "app",
+      "target": "app_gradebadge"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/App.jsx",
+      "source_location": "L25",
+      "weight": 1,
+      "_src": "app",
+      "_tgt": "app_jargonbadge",
+      "confidence_score": 1,
+      "source": "app",
+      "target": "app_jargonbadge"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/PatientView.jsx",
+      "source_location": "L51",
+      "weight": 1,
+      "_src": "patientview",
+      "_tgt": "patientview_patientview",
+      "confidence_score": 1,
+      "source": "patientview",
+      "target": "patientview_patientview"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/PatientView.jsx",
+      "source_location": "L22",
+      "weight": 1,
+      "_src": "patientview",
+      "_tgt": "patientview_speaksupported",
+      "confidence_score": 1,
+      "source": "patientview",
+      "target": "patientview_speaksupported"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/PatientView.jsx",
+      "source_location": "L26",
+      "weight": 1,
+      "_src": "patientview",
+      "_tgt": "patientview_usespeech",
+      "confidence_score": 1,
+      "source": "patientview",
+      "target": "patientview_usespeech"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/PatientView.jsx",
+      "source_location": "L48",
+      "weight": 1,
+      "_src": "patientview_usespeech",
+      "_tgt": "patientview_speaksupported",
+      "confidence_score": 1,
+      "source": "patientview_speaksupported",
+      "target": "patientview_usespeech"
+    },
+    {
+      "relation": "calls",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/PatientView.jsx",
+      "source_location": "L52",
+      "weight": 1,
+      "_src": "patientview_patientview",
+      "_tgt": "patientview_usespeech",
+      "confidence_score": 1,
+      "source": "patientview_usespeech",
+      "target": "patientview_patientview"
+    },
+    {
+      "relation": "contains",
+      "confidence": "EXTRACTED",
+      "source_file": "app/vite.config.js",
+      "source_location": "L13",
+      "weight": 1,
+      "_src": "vite_config",
+      "_tgt": "vite_config_proxy",
+      "confidence_score": 1,
+      "source": "vite_config",
+      "target": "vite_config_proxy"
     }
   ]
 }

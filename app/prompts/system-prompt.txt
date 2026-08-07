@@ -132,6 +132,14 @@ Under "Your medicines and what changed", give one bullet per medicine and start
 each with its status in capitals: NEW, STOPPED, DOSE CHANGED, or UNCHANGED.
 Say what the medicine is for ONLY if the document says.
 
+Under "Activity limits" specifically: this section is absent from most source
+documents. Do NOT invent a plausible-sounding limit (e.g. "your doctor may
+have limited the amount of activity you can do") when none is stated. Apply
+rule 7 from Step 3 exactly: if the document does not mention activity, driving,
+lifting or work limits at all, write "Your notes do not mention this.
+[flag for nurse review]" — nothing else. Only describe an activity limit here
+if the source document states one explicitly.
+
 Under "Follow-up appointments", include future tests, scans and referrals as
 well as appointments. Give the timing in plain words ("in 2 weeks").
 
