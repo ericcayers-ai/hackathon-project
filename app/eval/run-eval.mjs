@@ -158,13 +158,14 @@ async function runCase(kase, chatFn) {
 
   for (const assertion of kase.assertions) {
     let passed
+    let note = assertion.note
     try {
       passed = checkAssertion(assertion, output)
     } catch (err) {
       passed = false
-      assertion = { ...assertion, note: `${assertion.note} (assertion error: ${err.message})` }
+      note = `${note} (assertion error: ${err.message})`
     }
-    const record = { ...assertion, passed }
+    const record = { ...assertion, note, passed }
     result.assertions.push(record)
     if (!passed && assertion.severity === 'must') {
       result.status = 'fail'
@@ -175,14 +176,12 @@ async function runCase(kase, chatFn) {
 }
 
 function printHuman(results, opts) {
-  let anyUnreachable = false
   for (const r of results) {
     const badge = { pass: 'PASS', fail: 'FAIL', error: 'ERROR', skip: 'SKIP' }[r.status]
     console.log(`\n[${badge}] ${r.id}`)
     console.log(`  ${r.description}`)
     if (r.status === 'error') {
       console.log(`  -> ${r.error}`)
-      anyUnreachable = true
       continue
     }
     for (const a of r.assertions) {

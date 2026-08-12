@@ -6,7 +6,7 @@ import { jsPDF } from 'jspdf'
 // (prompts/system-prompt.txt, Step 4). Lines that match one of these are
 // rendered as bold headings in the PDF. Keep this list in sync with the
 // prompt — an unlisted heading silently renders as body text.
-const KNOWN_HEADINGS = [
+export const KNOWN_HEADINGS = [
   'Why you were seen',
   'Your medicines and what changed',
   'Looking after yourself at home',
@@ -17,7 +17,7 @@ const KNOWN_HEADINGS = [
   'Who to call',
 ]
 
-function isHeading(line) {
+export function isHeading(line) {
   const t = line.trim().replace(/[:*#]/g, '').trim()
   return KNOWN_HEADINGS.some((h) => t.toLowerCase() === h.toLowerCase())
 }

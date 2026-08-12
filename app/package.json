@@ -10,7 +10,13 @@
     "preview": "vite preview",
     "eval": "node eval/run-eval.mjs",
     "eval:mock": "node eval/run-eval.mjs --mock",
-    "test:eval": "node --test eval/run-eval.test.mjs"
+    "test:eval": "node --test eval/run-eval.test.mjs",
+    "test:unit": "vitest run",
+    "test:watch": "vitest",
+    "test": "npm run test:unit && npm run test:eval",
+    "lint": "eslint .",
+    "format": "prettier --write .",
+    "format:check": "prettier --check ."
   },
   "dependencies": {
     "jspdf": "^2.5.2",
@@ -20,8 +26,19 @@
     "react-dom": "^18.3.1"
   },
   "devDependencies": {
+    "@eslint/js": "^10.0.1",
+    "@testing-library/jest-dom": "^7.0.1",
+    "@testing-library/react": "^16.3.2",
+    "@testing-library/user-event": "^14.6.4",
     "@vitejs/plugin-react": "^4.3.4",
+    "eslint": "^10.8.1",
+    "eslint-plugin-react-hooks": "^7.1.1",
+    "eslint-plugin-react-refresh": "^0.5.4",
+    "globals": "^17.11.0",
+    "jsdom": "^30.0.1",
+    "prettier": "^3.9.6",
     "vite": "^5.4.11",
-    "vite-plugin-singlefile": "^2.3.3"
+    "vite-plugin-singlefile": "^2.3.3",
+    "vitest": "^4.1.10"
   }
 }

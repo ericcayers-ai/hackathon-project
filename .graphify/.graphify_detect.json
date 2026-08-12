@@ -7,6 +7,10 @@
       ".graphify/scratch/pptx_fix_backend_pos.py",
       ".graphify/scratch/rewrite_idea6.py",
       ".graphify/studio/assets/index-CU5cXRnL.js",
+      "app/eval/corpus/cases.mjs",
+      "app/eval/mock-backend.mjs",
+      "app/eval/run-eval.mjs",
+      "app/eval/run-eval.test.mjs",
       "app/src/App.jsx",
       "app/src/PatientView.jsx",
       "app/src/lib/extractText.js",
@@ -61,6 +65,7 @@
       "README.md",
       "app/CLAUDE.md",
       "app/README.md",
+      "app/eval/README.md",
       "app/index.html",
       "app/prompts/CHANGELOG.md",
       "app/prompts/system-prompt.txt",
@@ -88,10 +93,10 @@
     ],
     "video": []
   },
-  "total_files": 78,
-  "total_words": 667122,
+  "total_files": 83,
+  "total_words": 671308,
   "needs_graph": true,
-  "warning": "Large corpus: 78 files · ~667,122 words. Semantic extraction will be expensive (many Claude tokens). Consider running on a subfolder, or use --no-semantic to run AST-only.",
+  "warning": "Large corpus: 83 files · ~671,308 words. Semantic extraction will be expensive (many Claude tokens). Consider running on a subfolder, or use --no-semantic to run AST-only.",
   "skipped_sensitive": [
     "docs/SDG_Hackathon_Idea_Guide.docx [office conversion requires async - use pipeline]",
     "tools/LLM-TokenOptimizer.ps1"
@@ -99,7 +104,7 @@
   "graphifyignore_patterns": 8,
   "git": {
     "source_owner": "git",
-    "source_hash": "6991cd0d4d7fb2c02ea04ecade18bffb96cdf1fb",
+    "source_hash": "213a931468c547cc68179ae2c95d1bffd4b9e5ee",
     "branches": [
       "main",
       "worktree-nurse-notes-ui-overhaul"
@@ -113,11 +118,11 @@
     "source": "default-auto",
     "root": ".",
     "git_root": ".",
-    "head": "6991cd0d4d7fb2c02ea04ecade18bffb96cdf1fb",
-    "candidate_count": 123,
-    "included_count": 78,
-    "excluded_untracked_count": 7,
-    "excluded_ignored_count": 7496,
+    "head": "213a931468c547cc68179ae2c95d1bffd4b9e5ee",
+    "candidate_count": 128,
+    "included_count": 83,
+    "excluded_untracked_count": 13,
+    "excluded_ignored_count": 12850,
     "excluded_sensitive_count": 1,
     "missing_committed_count": 1,
     "warnings": [],

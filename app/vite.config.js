@@ -23,4 +23,15 @@ export default defineConfig({
   plugins: [react(), viteSingleFile()],
   server: { proxy },
   preview: { proxy },
+  // Vitest reads this `test` block; plain `vite build`/`vite dev` ignore it.
+  test: {
+    environment: 'jsdom',
+    setupFiles: ['./src/test-setup.js'],
+    globals: true,
+    css: false,
+    // Only app/src — app/eval has its own node:test-based harness/self-test
+    // (npm run test:eval), which Vitest's default glob would otherwise also
+    // pick up and fail on (different test API, not a Vitest suite).
+    include: ['src/**/*.test.{js,jsx}'],
+  },
 })

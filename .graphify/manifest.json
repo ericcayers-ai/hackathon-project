@@ -72,8 +72,8 @@
     "hash": "d0d82a5234aadc7e7d42037f80ceb8a1"
   },
   "C:/Users/ericc/OneDrive/Desktop/Programs/Hackathon-Project/.graphify/GRAPH_REPORT.md": {
-    "mtime": 1786551900403.9116,
-    "hash": "b790b0a6bebb16ae11a6701e1a15c341"
+    "mtime": 1786552287037.1023,
+    "hash": "ca740155005e0b3a452f72752b884262"
   },
   "C:/Users/ericc/OneDrive/Desktop/Programs/Hackathon-Project/.graphify/studio/index.html": {
     "mtime": 1784539840629.0696,
@@ -124,8 +124,8 @@
     "hash": "2817a2fc063b739333fff5037523d2ed"
   },
   "C:/Users/ericc/OneDrive/Desktop/Programs/Hackathon-Project/app/src/lib/pdf.js": {
-    "mtime": 1786058981444.1487,
-    "hash": "a4ef0d794e342060d1d119d3881eafa2"
+    "mtime": 1786552853377.494,
+    "hash": "b53b9d543513587f8b6dd851ce44092d"
   },
   "C:/Users/ericc/OneDrive/Desktop/Programs/Hackathon-Project/app/src/lib/readability.js": {
     "mtime": 1786017020076.9922,
@@ -136,8 +136,8 @@
     "hash": "9fe0fccfcf8d36df48e888fb05f89963"
   },
   "C:/Users/ericc/OneDrive/Desktop/Programs/Hackathon-Project/app/vite.config.js": {
-    "mtime": 1786053744568.796,
-    "hash": "f38c5cf2daf367c5007e181717838e18"
+    "mtime": 1786552934802.5444,
+    "hash": "53132fdd2be7b6d9718209a2faa6dbdc"
   },
   "C:/Users/ericc/OneDrive/Desktop/Programs/Hackathon-Project/.agents/skills/accessibility/SKILL.md": {
     "mtime": 1784453659401.47,
@@ -292,8 +292,8 @@
     "hash": "4d9b9d21914a8d1ab9a21de98229f1fd"
   },
   "C:/Users/ericc/OneDrive/Desktop/Programs/Hackathon-Project/app/src/PatientView.jsx": {
-    "mtime": 1786058891737.9312,
-    "hash": "89668f6ffa30519df8beaeaf54c3a895"
+    "mtime": 1786552975012.3496,
+    "hash": "9b57c17f291b7a0d34c719f2a2ca5dcc"
   },
   "C:/Users/ericc/OneDrive/Desktop/Programs/Hackathon-Project/docs/decisions/0001-product-name-nurse-notes.md": {
     "mtime": 1786103102413.7837,
@@ -310,5 +310,25 @@
   "C:/Users/ericc/OneDrive/Desktop/Programs/Hackathon-Project/docs/decisions/0003-prompt-stabilization.md": {
     "mtime": 1786552274506.4033,
     "hash": "d0db7424e31a161708254fa7b76a4af8"
+  },
+  "C:/Users/ericc/OneDrive/Desktop/Programs/Hackathon-Project/app/eval/corpus/cases.mjs": {
+    "mtime": 1786552017888.4207,
+    "hash": "c96ef6e0c65e6a6bc963f199f2885cc6"
+  },
+  "C:/Users/ericc/OneDrive/Desktop/Programs/Hackathon-Project/app/eval/mock-backend.mjs": {
+    "mtime": 1786552090465.92,
+    "hash": "028842e985d12d7f169cea0d8d8f7e8e"
+  },
+  "C:/Users/ericc/OneDrive/Desktop/Programs/Hackathon-Project/app/eval/run-eval.mjs": {
+    "mtime": 1786553104490.485,
+    "hash": "9c433a1c8576650f46cd2f22fef1c839"
+  },
+  "C:/Users/ericc/OneDrive/Desktop/Programs/Hackathon-Project/app/eval/run-eval.test.mjs": {
+    "mtime": 1786552107343.0864,
+    "hash": "a77f47b7a078de2b6bc091d1a6e0b7f0"
+  },
+  "C:/Users/ericc/OneDrive/Desktop/Programs/Hackathon-Project/app/eval/README.md": {
+    "mtime": 1786552265493.733,
+    "hash": "5f127f83901700d2367ca3be7f9190ea"
   }
 }

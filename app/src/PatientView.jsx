@@ -17,7 +17,7 @@ import { GradeBadge } from './App.jsx'
 // QR codes have a practical capacity ceiling (~2-3KB at low error
 // correction). Long summaries still render — the QR just gets denser — but
 // past this we warn rather than silently truncate the patient's record.
-const QR_SAFE_LIMIT = 1500
+export const QR_SAFE_LIMIT = 1500
 
 function speakSupported() {
   return typeof window !== 'undefined' && 'speechSynthesis' in window

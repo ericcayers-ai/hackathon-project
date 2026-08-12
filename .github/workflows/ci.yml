@@ -1,0 +1,53 @@
+name: CI
+
+on:
+  push:
+    branches: [main]
+  pull_request:
+    paths:
+      - "app/**"
+      - ".github/workflows/ci.yml"
+
+defaults:
+  run:
+    working-directory: app
+
+jobs:
+  lint-test-build:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+
+      - uses: actions/setup-node@v4
+        with:
+          node-version: 20
+          cache: npm
+          cache-dependency-path: app/package-lock.json
+
+      - run: npm ci
+
+      - name: Lint
+        run: npm run lint
+
+      # `npm run format:check` isn't gated here: Prettier was added alongside
+      # this CI workflow, and the pre-existing codebase wasn't written
+      # against it — reformatting it all is a separate, deliberate change,
+      # not something CI should silently fail on. Available locally as
+      # `npm run format` / `npm run format:check` for new/touched files.
+
+      - name: Unit + component tests (Vitest)
+        run: npm run test:unit
+
+      - name: Eval harness self-test (mock backend, no live model)
+        # Proves the eval harness's own pass/fail logic works — see
+        # app/eval/README.md. This does NOT verify what the real model does;
+        # `npm run eval` against a live LM Studio endpoint is a separate,
+        # manual/local step documented in docs/decisions/0003-prompt-stabilization.md
+        # and isn't run in CI because there's no reachable model endpoint here.
+        run: npm run eval:mock
+
+      - name: Eval harness unit tests
+        run: npm run test:eval
+
+      - name: Build
+        run: npm run build
