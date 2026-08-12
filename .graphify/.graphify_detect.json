@@ -62,11 +62,13 @@
       "app/CLAUDE.md",
       "app/README.md",
       "app/index.html",
+      "app/prompts/CHANGELOG.md",
       "app/prompts/system-prompt.txt",
       "app/samples/synthetic-discharge-01.txt",
       "docs/IDEATION.txt",
       "docs/decisions/0001-product-name-nurse-notes.md",
       "docs/decisions/0002-repo-hygiene-phase-0.md",
+      "docs/decisions/0003-prompt-stabilization.md",
       "prompt.txt"
     ],
     "paper": [
@@ -86,10 +88,10 @@
     ],
     "video": []
   },
-  "total_files": 76,
-  "total_words": 665825,
+  "total_files": 78,
+  "total_words": 667122,
   "needs_graph": true,
-  "warning": "Large corpus: 76 files · ~665,825 words. Semantic extraction will be expensive (many Claude tokens). Consider running on a subfolder, or use --no-semantic to run AST-only.",
+  "warning": "Large corpus: 78 files · ~667,122 words. Semantic extraction will be expensive (many Claude tokens). Consider running on a subfolder, or use --no-semantic to run AST-only.",
   "skipped_sensitive": [
     "docs/SDG_Hackathon_Idea_Guide.docx [office conversion requires async - use pipeline]",
     "tools/LLM-TokenOptimizer.ps1"
@@ -97,7 +99,7 @@
   "graphifyignore_patterns": 8,
   "git": {
     "source_owner": "git",
-    "source_hash": "32a6cc8cdb0eb696b7f962b59afe8a8e3d9f960d",
+    "source_hash": "6991cd0d4d7fb2c02ea04ecade18bffb96cdf1fb",
     "branches": [
       "main",
       "worktree-nurse-notes-ui-overhaul"
@@ -111,11 +113,11 @@
     "source": "default-auto",
     "root": ".",
     "git_root": ".",
-    "head": "32a6cc8cdb0eb696b7f962b59afe8a8e3d9f960d",
-    "candidate_count": 121,
-    "included_count": 76,
-    "excluded_untracked_count": 2,
-    "excluded_ignored_count": 7497,
+    "head": "6991cd0d4d7fb2c02ea04ecade18bffb96cdf1fb",
+    "candidate_count": 123,
+    "included_count": 78,
+    "excluded_untracked_count": 7,
+    "excluded_ignored_count": 7496,
     "excluded_sensitive_count": 1,
     "missing_committed_count": 1,
     "warnings": [],

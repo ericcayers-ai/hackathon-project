@@ -36,6 +36,24 @@ scope. Next concrete step: build `app/eval/corpus/` + `app/eval/run-eval.mjs`
 (still open — requires a running/mocked LM Studio endpoint, which this
 session did not have available).
 
+**Update 2026-08-13:** The harness now exists — see `app/eval/README.md`.
+5 cases cover the Activity Limits fabrication rule (present + absent
+control), the non-time-slash edge cases (`2/2`, calendar dates, blood
+pressure), the `x` prefix and `3kg/10/7` compound form, and the `6/52`
+ceiling (recorded as `severity: info`, not a pass/fail gate — see above).
+`npm run eval:mock` plus `npm run test:eval` (in `app/`) prove the harness's
+own pass/fail logic is correct — including that it actually fails on the
+documented fabrication phrase, not just rubber-stamping everything — using
+hand-written responses, no model involved.
+
+**Still not done, because LM Studio was unavailable this session (in use
+for something else):** `npm run eval` against the real
+`google/gemma-3n-e4b` endpoint. Both open questions above — is the
+fabrication rule actually holding, and what does the live model really do
+with `6/52` — remain unverified until someone runs that command against a
+live LM Studio server and reads the output. Do not mark either "confirmed
+fixed" from this session's work alone.
+
 ## Why this matters
 
 Both issues live in `app/prompts/system-prompt.txt`, which is the entire

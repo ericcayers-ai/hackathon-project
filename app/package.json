@@ -7,7 +7,10 @@
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "preview": "vite preview"
+    "preview": "vite preview",
+    "eval": "node eval/run-eval.mjs",
+    "eval:mock": "node eval/run-eval.mjs --mock",
+    "test:eval": "node --test eval/run-eval.test.mjs"
   },
   "dependencies": {
     "jspdf": "^2.5.2",

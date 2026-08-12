@@ -5,8 +5,8 @@
     "provenance": {
       "source_owner": "git",
       "source_id": "repo:github.com/ericcayers-ai/hackathon-project",
-      "observed_at": "2026-08-07T11:59:07.940Z",
-      "source_hash": "32a6cc8cdb0eb696b7f962b59afe8a8e3d9f960d",
+      "observed_at": "2026-08-12T16:31:26.954Z",
+      "source_hash": "6991cd0d4d7fb2c02ea04ecade18bffb96cdf1fb",
       "adapter_version": "graphify-git/1"
     },
     "community_labels": {
@@ -30,10 +30,9 @@
       "17": "Community 17",
       "18": "Community 18",
       "19": "Community 19",
-      "20": "Community 20",
-      "21": "Community 21"
+      "20": "Community 20"
     },
-    "built_from_commit": "32a6cc8cdb0eb696b7f962b59afe8a8e3d9f960d"
+    "built_from_commit": "6991cd0d4d7fb2c02ea04ecade18bffb96cdf1fb"
   },
   "nodes": [
     {
@@ -41,8 +40,8 @@
       "file_type": "code",
       "source_file": "tools/build_docx.py",
       "source_location": "L1",
-      "community": 3,
-      "community_name": "Community 3",
+      "community": 2,
+      "community_name": "Community 2",
       "id": "build_docx"
     },
     {
@@ -50,8 +49,8 @@
       "file_type": "code",
       "source_file": "tools/build_docx.py",
       "source_location": "L46",
-      "community": 3,
-      "community_name": "Community 3",
+      "community": 2,
+      "community_name": "Community 2",
       "id": "build_docx_add_hyperlink"
     },
     {
@@ -59,8 +58,8 @@
       "file_type": "code",
       "source_file": "tools/build_docx.py",
       "source_location": "L72",
-      "community": 3,
-      "community_name": "Community 3",
+      "community": 2,
+      "community_name": "Community 2",
       "id": "build_docx_para"
     },
     {
@@ -68,8 +67,8 @@
       "file_type": "code",
       "source_file": "tools/build_docx.py",
       "source_location": "L90",
-      "community": 3,
-      "community_name": "Community 3",
+      "community": 2,
+      "community_name": "Community 2",
       "id": "build_docx_bullet"
     },
     {
@@ -77,8 +76,8 @@
       "file_type": "code",
       "source_file": "tools/build_docx.py",
       "source_location": "L98",
-      "community": 3,
-      "community_name": "Community 3",
+      "community": 2,
+      "community_name": "Community 2",
       "id": "build_docx_numbered"
     },
     {
@@ -86,8 +85,8 @@
       "file_type": "code",
       "source_file": "tools/build_docx.py",
       "source_location": "L106",
-      "community": 3,
-      "community_name": "Community 3",
+      "community": 2,
+      "community_name": "Community 2",
       "id": "build_docx_labelled"
     },
     {
@@ -95,8 +94,8 @@
       "file_type": "code",
       "source_file": "tools/build_docx.py",
       "source_location": "L116",
-      "community": 3,
-      "community_name": "Community 3",
+      "community": 2,
+      "community_name": "Community 2",
       "id": "build_docx_shade"
     },
     {
@@ -104,8 +103,8 @@
       "file_type": "code",
       "source_file": "tools/build_docx.py",
       "source_location": "L124",
-      "community": 3,
-      "community_name": "Community 3",
+      "community": 2,
+      "community_name": "Community 2",
       "id": "build_docx_make_table"
     },
     {
@@ -113,8 +112,8 @@
       "file_type": "code",
       "source_file": "tools/build_docx.py",
       "source_location": "L153",
-      "community": 3,
-      "community_name": "Community 3",
+      "community": 2,
+      "community_name": "Community 2",
       "id": "build_docx_source_line"
     },
     {
@@ -122,8 +121,8 @@
       "file_type": "rationale",
       "source_file": "tools/build_docx.py",
       "source_location": "L107",
-      "community": 3,
-      "community_name": "Community 3",
+      "community": 2,
+      "community_name": "Community 2",
       "id": "build_docx_rationale_107"
     },
     {
@@ -438,7 +437,7 @@
       "node_type": "Branch",
       "repo": "repo:github.com/ericcayers-ai/hackathon-project",
       "branch_name": "main",
-      "head_sha": "32a6cc8cdb0eb696b7f962b59afe8a8e3d9f960d",
+      "head_sha": "6991cd0d4d7fb2c02ea04ecade18bffb96cdf1fb",
       "community": 0,
       "community_name": "Community 0",
       "id": "branch:repo:github.com/ericcayers-ai/hackathon-project#main"
@@ -453,8 +452,8 @@
       "author": null,
       "contributor": null,
       "rationale": "Source of truth for hackathon ideation doc; team edits Google Doc, sync workflow propagates to docx.",
-      "community": 7,
-      "community_name": "Community 7",
+      "community": 5,
+      "community_name": "Community 5",
       "id": "gdoc_sdg_hackathon_idea_guide"
     },
     {
@@ -467,8 +466,8 @@
       "author": null,
       "contributor": null,
       "rationale": "Project instructions covering graphify enforcement rules, companion tooling, and hackathon-ai-strategist agent dispatch rules.",
-      "community": 7,
-      "community_name": "Community 7",
+      "community": 5,
+      "community_name": "Community 5",
       "id": "claude_md_hackathon_project"
     },
     {
@@ -481,8 +480,8 @@
       "author": null,
       "contributor": null,
       "rationale": null,
-      "community": 7,
-      "community_name": "Community 7",
+      "community": 5,
+      "community_name": "Community 5",
       "id": "readme_hackathon_project"
     },
     {
@@ -495,8 +494,8 @@
       "author": null,
       "contributor": null,
       "rationale": "Superseded by docx but kept for history.",
-      "community": 7,
-      "community_name": "Community 7",
+      "community": 5,
+      "community_name": "Community 5",
       "id": "docs_ideation_txt"
     },
     {
@@ -509,8 +508,8 @@
       "author": null,
       "contributor": null,
       "rationale": "Official event brief: schedule, venue, judging, rules, SDG problem categories, pitch template.",
-      "community": 7,
-      "community_name": "Community 7",
+      "community": 5,
+      "community_name": "Community 5",
       "id": "participant_info_pdf"
     },
     {
@@ -523,8 +522,8 @@
       "author": null,
       "contributor": null,
       "rationale": "Derived shorter summary; contains detailed idea comparison and analysis for hackathon concepts.",
-      "community": 21,
-      "community_name": "Community 21",
+      "community": 20,
+      "community_name": "Community 20",
       "id": "hackathon_summary_pdf"
     },
     {
@@ -537,8 +536,8 @@
       "author": null,
       "contributor": null,
       "rationale": "Concept illustration of IoT temperature sensor device projecting a holographic dashboard showing a temperature spike, dose-disposition alert, and tamper-evident log.",
-      "community": 6,
-      "community_name": "Community 6",
+      "community": 4,
+      "community_name": "Community 4",
       "id": "01_cold_chain_monitor_image"
     },
     {
@@ -551,8 +550,8 @@
       "author": null,
       "contributor": null,
       "rationale": "White puck-shaped IoT hardware device wired to the medical fridge, projecting the dashboard UI.",
-      "community": 6,
-      "community_name": "Community 6",
+      "community": 4,
+      "community_name": "Community 4",
       "id": "01_cold_chain_monitor_sensor_device"
     },
     {
@@ -565,8 +564,8 @@
       "author": null,
       "contributor": null,
       "rationale": "Line chart showing a sharp red temperature spike deviation from baseline teal trend line.",
-      "community": 6,
-      "community_name": "Community 6",
+      "community": 4,
+      "community_name": "Community 4",
       "id": "01_cold_chain_monitor_temperature_chart"
     },
     {
@@ -579,8 +578,8 @@
       "author": null,
       "contributor": null,
       "rationale": "UI panel reading 'Dose-disposition: Quarantine batch \u2014 review'.",
-      "community": 6,
-      "community_name": "Community 6",
+      "community": 4,
+      "community_name": "Community 4",
       "id": "01_cold_chain_monitor_dose_disposition"
     },
     {
@@ -593,8 +592,8 @@
       "author": null,
       "contributor": null,
       "rationale": "UI panel with lock/chain icon labeled 'Tamper-evident log'.",
-      "community": 6,
-      "community_name": "Community 6",
+      "community": 4,
+      "community_name": "Community 4",
       "id": "01_cold_chain_monitor_tamper_log"
     },
     {
@@ -607,8 +606,8 @@
       "author": null,
       "contributor": null,
       "rationale": "Open medical-grade refrigerator with vials/medication boxes being accessed by a hand.",
-      "community": 6,
-      "community_name": "Community 6",
+      "community": 4,
+      "community_name": "Community 4",
       "id": "01_cold_chain_monitor_medical_fridge"
     },
     {
@@ -621,8 +620,8 @@
       "author": null,
       "contributor": null,
       "rationale": "Mockup photo of rugged tablet showing delivery-routing/matching app UI next to crates of surplus produce.",
-      "community": 14,
-      "community_name": "Community 14",
+      "community": 13,
+      "community_name": "Community 13",
       "id": "02_surplus_matching_growers_image"
     },
     {
@@ -635,8 +634,8 @@
       "author": null,
       "contributor": null,
       "rationale": "On-screen UI: produce thumbnail, verified/quality badge icon, map with farm icon branching via routes to multiple pinned delivery destinations.",
-      "community": 14,
-      "community_name": "Community 14",
+      "community": 13,
+      "community_name": "Community 13",
       "id": "surplus_matching_app_ui"
     },
     {
@@ -649,8 +648,8 @@
       "author": null,
       "contributor": null,
       "rationale": "Stock-style illustration of tablet showing two bar charts (verified/completed metric and goal/target metric) with wireless signal icon.",
-      "community": 16,
-      "community_name": "Community 16",
+      "community": 15,
+      "community_name": "Community 15",
       "id": "03_disability_funding_reassessment_image"
     },
     {
@@ -663,8 +662,8 @@
       "author": null,
       "contributor": null,
       "rationale": "Illustrates app scanning broken devices and routing them to repair or recycling.",
-      "community": 17,
-      "community_name": "Community 17",
+      "community": 16,
+      "community_name": "Community 16",
       "id": "04_ewaste_routing_image"
     },
     {
@@ -677,8 +676,8 @@
       "author": null,
       "contributor": null,
       "rationale": "3D aerial map of residential neighbourhood with highlighted green park parcel and a gauge/dial UI suggesting a livability or sustainability score.",
-      "community": 18,
-      "community_name": "Community 18",
+      "community": 17,
+      "community_name": "Community 17",
       "id": "05_neighbourhood_sdg_indicator_image"
     },
     {
@@ -691,8 +690,8 @@
       "author": null,
       "contributor": null,
       "rationale": "Illustration of patient viewing simplified discharge/medication instructions on tablet with icon-based summary alongside dense original text.",
-      "community": 19,
-      "community_name": "Community 19",
+      "community": 18,
+      "community_name": "Community 18",
       "id": "06_patient_health_literacy_image"
     },
     {
@@ -705,8 +704,8 @@
       "author": null,
       "contributor": null,
       "rationale": "Photo of silhouetted people viewing screen showing flood map with red heat-cluster markers plus a ranked bar-list metrics panel.",
-      "community": 20,
-      "community_name": "Community 20",
+      "community": 19,
+      "community_name": "Community 19",
       "id": "07_disaster_recovery_shocks_image"
     },
     {
@@ -719,8 +718,8 @@
       "author": null,
       "contributor": null,
       "rationale": "Concept image showing commercial kitchen with tray of surplus cooked food, timer icon, and phone displaying chat prompt, safety-verified checkmark, and ranked recipient locations.",
-      "community": 12,
-      "community_name": "Community 12",
+      "community": 11,
+      "community_name": "Community 11",
       "id": "08_surplus_allocation_food_rescue_image"
     },
     {
@@ -733,8 +732,8 @@
       "author": null,
       "contributor": null,
       "rationale": "Green shield with checkmark UI element implying food safety validation step before allocation/dispatch.",
-      "community": 12,
-      "community_name": "Community 12",
+      "community": 11,
+      "community_name": "Community 11",
       "id": "08_surplus_allocation_safety_check_ui"
     },
     {
@@ -747,8 +746,8 @@
       "author": null,
       "contributor": null,
       "rationale": "UI list showing three ranked pin-marked locations, implying allocation/routing algorithm.",
-      "community": 12,
-      "community_name": "Community 12",
+      "community": 11,
+      "community_name": "Community 11",
       "id": "08_surplus_allocation_ranked_locations_ui"
     },
     {
@@ -761,8 +760,8 @@
       "author": null,
       "contributor": null,
       "rationale": "Diagram showing flood-risk heatmap map and supply-chain flow (Food pallet -> Supply-depot -> Evacuation-centre).",
-      "community": 13,
-      "community_name": "Community 13",
+      "community": 12,
+      "community_name": "Community 12",
       "id": "09_crisis_response_allocation_engine_image"
     },
     {
@@ -775,8 +774,8 @@
       "author": null,
       "contributor": null,
       "rationale": "Map panel showing flood risk heat zones, road closures, and route network.",
-      "community": 13,
-      "community_name": "Community 13",
+      "community": 12,
+      "community_name": "Community 12",
       "id": "09_crisis_response_flood_risk_map"
     },
     {
@@ -789,8 +788,8 @@
       "author": null,
       "contributor": null,
       "rationale": "Icon flow depicting logistics pipeline from food pallet to supply depot to evacuation centre via verified route.",
-      "community": 13,
-      "community_name": "Community 13",
+      "community": 12,
+      "community_name": "Community 12",
       "id": "09_crisis_response_supply_chain_flow"
     },
     {
@@ -803,8 +802,8 @@
       "author": null,
       "contributor": null,
       "rationale": "Product concept mockup: phone camera scanning handwritten prescription and translating it into plain-language, verified summary card.",
-      "community": 10,
-      "community_name": "Community 10",
+      "community": 9,
+      "community_name": "Community 9",
       "id": "universal_jargon_interpreter_concept"
     },
     {
@@ -817,8 +816,8 @@
       "author": null,
       "contributor": null,
       "rationale": "Split-screen phone UI: live camera feed of handwritten note, dark card with plain-language summary.",
-      "community": 10,
-      "community_name": "Community 10",
+      "community": 9,
+      "community_name": "Community 9",
       "id": "jargon_interpreter_camera_scan_ui"
     },
     {
@@ -831,8 +830,8 @@
       "author": null,
       "contributor": null,
       "rationale": "UI element with trust badge indicating verified, grounded content summary.",
-      "community": 10,
-      "community_name": "Community 10",
+      "community": 9,
+      "community_name": "Community 9",
       "id": "jargon_interpreter_verified_summary_card"
     },
     {
@@ -845,8 +844,8 @@
       "author": null,
       "contributor": null,
       "rationale": "Physical props: handwritten prescription and printed tenancy agreement representing jargon-heavy document types.",
-      "community": 10,
-      "community_name": "Community 10",
+      "community": 9,
+      "community_name": "Community 9",
       "id": "jargon_interpreter_document_use_cases"
     },
     {
@@ -863,8 +862,8 @@
       "file_type": "code",
       "source_file": "app/src/App.jsx",
       "source_location": "L9",
-      "community": 8,
-      "community_name": "Community 8",
+      "community": 7,
+      "community_name": "Community 7",
       "id": "src_app_gradebadge"
     },
     {
@@ -890,8 +889,8 @@
       "file_type": "code",
       "source_file": "app/src/PatientView.jsx",
       "source_location": "L1",
-      "community": 8,
-      "community_name": "Community 8",
+      "community": 7,
+      "community_name": "Community 7",
       "id": "src_patientview"
     },
     {
@@ -899,8 +898,8 @@
       "file_type": "code",
       "source_file": "app/src/PatientView.jsx",
       "source_location": "L22",
-      "community": 8,
-      "community_name": "Community 8",
+      "community": 7,
+      "community_name": "Community 7",
       "id": "src_patientview_speaksupported"
     },
     {
@@ -908,8 +907,8 @@
       "file_type": "code",
       "source_file": "app/src/PatientView.jsx",
       "source_location": "L26",
-      "community": 8,
-      "community_name": "Community 8",
+      "community": 7,
+      "community_name": "Community 7",
       "id": "src_patientview_usespeech"
     },
     {
@@ -917,8 +916,8 @@
       "file_type": "code",
       "source_file": "app/src/PatientView.jsx",
       "source_location": "L51",
-      "community": 8,
-      "community_name": "Community 8",
+      "community": 7,
+      "community_name": "Community 7",
       "id": "src_patientview_patientview"
     },
     {
@@ -953,8 +952,8 @@
       "file_type": "code",
       "source_file": "app/src/lib/llm.js",
       "source_location": "L1",
-      "community": 2,
-      "community_name": "Community 2",
+      "community": 1,
+      "community_name": "Community 1",
       "id": "lib_llm"
     },
     {
@@ -962,8 +961,8 @@
       "file_type": "code",
       "source_file": "app/src/lib/llm.js",
       "source_location": "L20",
-      "community": 2,
-      "community_name": "Community 2",
+      "community": 1,
+      "community_name": "Community 1",
       "id": "lib_llm_generaterewrite"
     },
     {
@@ -971,8 +970,8 @@
       "file_type": "code",
       "source_file": "app/src/lib/pdf.js",
       "source_location": "L1",
-      "community": 5,
-      "community_name": "Community 5",
+      "community": 6,
+      "community_name": "Community 6",
       "id": "lib_pdf"
     },
     {
@@ -980,8 +979,8 @@
       "file_type": "code",
       "source_file": "app/src/lib/pdf.js",
       "source_location": "L9",
-      "community": 5,
-      "community_name": "Community 5",
+      "community": 6,
+      "community_name": "Community 6",
       "id": "lib_pdf_known_headings"
     },
     {
@@ -989,8 +988,8 @@
       "file_type": "code",
       "source_file": "app/src/lib/pdf.js",
       "source_location": "L20",
-      "community": 5,
-      "community_name": "Community 5",
+      "community": 6,
+      "community_name": "Community 6",
       "id": "lib_pdf_isheading"
     },
     {
@@ -998,8 +997,8 @@
       "file_type": "code",
       "source_file": "app/src/lib/pdf.js",
       "source_location": "L25",
-      "community": 5,
-      "community_name": "Community 5",
+      "community": 6,
+      "community_name": "Community 6",
       "id": "lib_pdf_buildpatientpdf"
     },
     {
@@ -1007,8 +1006,8 @@
       "file_type": "code",
       "source_file": "app/src/lib/pdf.js",
       "source_location": "L106",
-      "community": 5,
-      "community_name": "Community 5",
+      "community": 6,
+      "community_name": "Community 6",
       "id": "lib_pdf_downloadpatientpdf"
     },
     {
@@ -1124,8 +1123,8 @@
       "file_type": "code",
       "source_file": "app/src/main.jsx",
       "source_location": "L1",
-      "community": 2,
-      "community_name": "Community 2",
+      "community": 1,
+      "community_name": "Community 1",
       "id": "src_main"
     },
     {
@@ -1133,8 +1132,8 @@
       "file_type": "code",
       "source_file": "app/vite.config.js",
       "source_location": "L1",
-      "community": 2,
-      "community_name": "Community 2",
+      "community": 1,
+      "community_name": "Community 1",
       "id": "app_vite_config"
     },
     {
@@ -1142,8 +1141,8 @@
       "file_type": "code",
       "source_file": "app/vite.config.js",
       "source_location": "L14",
-      "community": 2,
-      "community_name": "Community 2",
+      "community": 1,
+      "community_name": "Community 1",
       "id": "app_vite_config_proxy"
     },
     {
@@ -1151,8 +1150,8 @@
       "file_type": "code",
       "source_file": "tools/build_docx.py",
       "source_location": "L1",
-      "community": 4,
-      "community_name": "Community 4",
+      "community": 3,
+      "community_name": "Community 3",
       "id": "tools_build_docx"
     },
     {
@@ -1160,8 +1159,8 @@
       "file_type": "code",
       "source_file": "tools/build_docx.py",
       "source_location": "L46",
-      "community": 4,
-      "community_name": "Community 4",
+      "community": 3,
+      "community_name": "Community 3",
       "id": "tools_build_docx_add_hyperlink"
     },
     {
@@ -1169,8 +1168,8 @@
       "file_type": "code",
       "source_file": "tools/build_docx.py",
       "source_location": "L72",
-      "community": 4,
-      "community_name": "Community 4",
+      "community": 3,
+      "community_name": "Community 3",
       "id": "tools_build_docx_para"
     },
     {
@@ -1178,8 +1177,8 @@
       "file_type": "code",
       "source_file": "tools/build_docx.py",
       "source_location": "L90",
-      "community": 4,
-      "community_name": "Community 4",
+      "community": 3,
+      "community_name": "Community 3",
       "id": "tools_build_docx_bullet"
     },
     {
@@ -1187,8 +1186,8 @@
       "file_type": "code",
       "source_file": "tools/build_docx.py",
       "source_location": "L98",
-      "community": 4,
-      "community_name": "Community 4",
+      "community": 3,
+      "community_name": "Community 3",
       "id": "tools_build_docx_numbered"
     },
     {
@@ -1196,8 +1195,8 @@
       "file_type": "code",
       "source_file": "tools/build_docx.py",
       "source_location": "L106",
-      "community": 4,
-      "community_name": "Community 4",
+      "community": 3,
+      "community_name": "Community 3",
       "id": "tools_build_docx_labelled"
     },
     {
@@ -1205,8 +1204,8 @@
       "file_type": "code",
       "source_file": "tools/build_docx.py",
       "source_location": "L116",
-      "community": 4,
-      "community_name": "Community 4",
+      "community": 3,
+      "community_name": "Community 3",
       "id": "tools_build_docx_shade"
     },
     {
@@ -1214,8 +1213,8 @@
       "file_type": "code",
       "source_file": "tools/build_docx.py",
       "source_location": "L124",
-      "community": 4,
-      "community_name": "Community 4",
+      "community": 3,
+      "community_name": "Community 3",
       "id": "tools_build_docx_make_table"
     },
     {
@@ -1223,8 +1222,8 @@
       "file_type": "code",
       "source_file": "tools/build_docx.py",
       "source_location": "L153",
-      "community": 4,
-      "community_name": "Community 4",
+      "community": 3,
+      "community_name": "Community 3",
       "id": "tools_build_docx_source_line"
     },
     {
@@ -1232,8 +1231,8 @@
       "file_type": "rationale",
       "source_file": "tools/build_docx.py",
       "source_location": "L107",
-      "community": 4,
-      "community_name": "Community 4",
+      "community": 3,
+      "community_name": "Community 3",
       "id": "tools_build_docx_rationale_107"
     },
     {
@@ -1250,8 +1249,8 @@
       "parents": [
         "fb89a6574083158285863c77242e14c78fafb19d"
       ],
-      "community": 5,
-      "community_name": "Community 5",
+      "community": 0,
+      "community_name": "Community 0",
       "id": "commit:repo:github.com/ericcayers-ai/hackathon-project@0f4a29104d33e041967e3a4152d19e3a71e6fea1"
     },
     {
@@ -1269,8 +1268,8 @@
         "c1b47d3b3bf52fe5fc32cb000a5d1bce8f56518e",
         "2db3f5d4b4e642389c3130dc6542c24a116968f6"
       ],
-      "community": 2,
-      "community_name": "Community 2",
+      "community": 1,
+      "community_name": "Community 1",
       "id": "commit:repo:github.com/ericcayers-ai/hackathon-project@23bc22363229f2b0bc17c4d3b39439849fa48195"
     },
     {
@@ -1287,8 +1286,8 @@
       "parents": [
         "eda92145df33142918b07c85eefe69d5b5128939"
       ],
-      "community": 2,
-      "community_name": "Community 2",
+      "community": 1,
+      "community_name": "Community 1",
       "id": "commit:repo:github.com/ericcayers-ai/hackathon-project@2db3f5d4b4e642389c3130dc6542c24a116968f6"
     },
     {
@@ -1305,8 +1304,8 @@
       "parents": [
         "3edbcc3f5a47dbdb73a310e3f41054443886a6b9"
       ],
-      "community": 5,
-      "community_name": "Community 5",
+      "community": 0,
+      "community_name": "Community 0",
       "id": "commit:repo:github.com/ericcayers-ai/hackathon-project@32a6cc8cdb0eb696b7f962b59afe8a8e3d9f960d"
     },
     {
@@ -1324,8 +1323,8 @@
         "c4efce65e04bb196940177012d05665097ac6326",
         "7ed0528c383d603c2e4a6f4c921976dbdde6507b"
       ],
-      "community": 5,
-      "community_name": "Community 5",
+      "community": 0,
+      "community_name": "Community 0",
       "id": "commit:repo:github.com/ericcayers-ai/hackathon-project@3edbcc3f5a47dbdb73a310e3f41054443886a6b9"
     },
     {
@@ -1378,8 +1377,8 @@
       "parents": [
         "eda92145df33142918b07c85eefe69d5b5128939"
       ],
-      "community": 2,
-      "community_name": "Community 2",
+      "community": 1,
+      "community_name": "Community 1",
       "id": "commit:repo:github.com/ericcayers-ai/hackathon-project@c1b47d3b3bf52fe5fc32cb000a5d1bce8f56518e"
     },
     {
@@ -1396,8 +1395,8 @@
       "parents": [
         "0f4a29104d33e041967e3a4152d19e3a71e6fea1"
       ],
-      "community": 5,
-      "community_name": "Community 5",
+      "community": 0,
+      "community_name": "Community 0",
       "id": "commit:repo:github.com/ericcayers-ai/hackathon-project@c4efce65e04bb196940177012d05665097ac6326"
     },
     {
@@ -1432,8 +1431,8 @@
       "parents": [
         "68fc5be502e0f4e0b1aecfefc60afb5f869e2f76"
       ],
-      "community": 2,
-      "community_name": "Community 2",
+      "community": 1,
+      "community_name": "Community 1",
       "id": "commit:repo:github.com/ericcayers-ai/hackathon-project@eda92145df33142918b07c85eefe69d5b5128939"
     },
     {
@@ -1450,8 +1449,8 @@
       "parents": [
         "23bc22363229f2b0bc17c4d3b39439849fa48195"
       ],
-      "community": 2,
-      "community_name": "Community 2",
+      "community": 0,
+      "community_name": "Community 0",
       "id": "commit:repo:github.com/ericcayers-ai/hackathon-project@fb89a6574083158285863c77242e14c78fafb19d"
     },
     {
@@ -1461,7 +1460,7 @@
       "node_type": "Branch",
       "repo": "repo:github.com/ericcayers-ai/hackathon-project",
       "branch_name": "worktree-nurse-notes-ui-overhaul",
-      "head_sha": "d2fe56bde9707bc38f371a990c5ac91782632473",
+      "head_sha": "8c94bf03c1864097b6a51534b662ef1f284204da",
       "community": 0,
       "community_name": "Community 0",
       "id": "branch:repo:github.com/ericcayers-ai/hackathon-project#worktree-nurse-notes-ui-overhaul"
@@ -1471,8 +1470,8 @@
       "file_type": "code",
       "source_file": "app/src/App.jsx",
       "source_location": "L1",
-      "community": 9,
-      "community_name": "Community 9",
+      "community": 8,
+      "community_name": "Community 8",
       "id": "app"
     },
     {
@@ -1480,8 +1479,8 @@
       "file_type": "code",
       "source_file": "app/src/App.jsx",
       "source_location": "L9",
-      "community": 9,
-      "community_name": "Community 9",
+      "community": 8,
+      "community_name": "Community 8",
       "id": "app_gradebadge"
     },
     {
@@ -1489,8 +1488,8 @@
       "file_type": "code",
       "source_file": "app/src/App.jsx",
       "source_location": "L26",
-      "community": 9,
-      "community_name": "Community 9",
+      "community": 8,
+      "community_name": "Community 8",
       "id": "app_jargonbadge"
     },
     {
@@ -1498,8 +1497,8 @@
       "file_type": "code",
       "source_file": "app/src/App.jsx",
       "source_location": "L45",
-      "community": 9,
-      "community_name": "Community 9",
+      "community": 8,
+      "community_name": "Community 8",
       "id": "app_app"
     },
     {
@@ -1507,8 +1506,8 @@
       "file_type": "code",
       "source_file": "app/src/PatientView.jsx",
       "source_location": "L1",
-      "community": 11,
-      "community_name": "Community 11",
+      "community": 10,
+      "community_name": "Community 10",
       "id": "patientview"
     },
     {
@@ -1516,8 +1515,8 @@
       "file_type": "code",
       "source_file": "app/src/PatientView.jsx",
       "source_location": "L22",
-      "community": 11,
-      "community_name": "Community 11",
+      "community": 10,
+      "community_name": "Community 10",
       "id": "patientview_speaksupported"
     },
     {
@@ -1525,8 +1524,8 @@
       "file_type": "code",
       "source_file": "app/src/PatientView.jsx",
       "source_location": "L26",
-      "community": 11,
-      "community_name": "Community 11",
+      "community": 10,
+      "community_name": "Community 10",
       "id": "patientview_usespeech"
     },
     {
@@ -1534,8 +1533,8 @@
       "file_type": "code",
       "source_file": "app/src/PatientView.jsx",
       "source_location": "L51",
-      "community": 11,
-      "community_name": "Community 11",
+      "community": 10,
+      "community_name": "Community 10",
       "id": "patientview_patientview"
     },
     {
@@ -1543,8 +1542,8 @@
       "file_type": "code",
       "source_file": "app/vite.config.js",
       "source_location": "L1",
-      "community": 15,
-      "community_name": "Community 15",
+      "community": 14,
+      "community_name": "Community 14",
       "id": "vite_config"
     },
     {
@@ -1552,9 +1551,45 @@
       "file_type": "code",
       "source_file": "app/vite.config.js",
       "source_location": "L14",
-      "community": 15,
-      "community_name": "Community 15",
+      "community": 14,
+      "community_name": "Community 14",
       "id": "vite_config_proxy"
+    },
+    {
+      "label": "6991cd0 Phase 1 (partial): fix Activity Limits fabrication in system prompt",
+      "file_type": "concept",
+      "source_file": "git",
+      "node_type": "Commit",
+      "repo": "repo:github.com/ericcayers-ai/hackathon-project",
+      "sha": "6991cd0d4d7fb2c02ea04ecade18bffb96cdf1fb",
+      "author": "Eric Ayers <eric.c.ayers@gmail.com>",
+      "authoredAt": "2026-08-07T23:59:08+12:00",
+      "message_summary": "Phase 1 (partial): fix Activity Limits fabrication in system prompt",
+      "message_length": 733,
+      "parents": [
+        "32a6cc8cdb0eb696b7f962b59afe8a8e3d9f960d"
+      ],
+      "community": 0,
+      "community_name": "Community 0",
+      "id": "commit:repo:github.com/ericcayers-ai/hackathon-project@6991cd0d4d7fb2c02ea04ecade18bffb96cdf1fb"
+    },
+    {
+      "label": "8c94bf0 Rename ClearChart to Nurse Notes; install Impeccable and overhaul UI identity",
+      "file_type": "concept",
+      "source_file": "git",
+      "node_type": "Commit",
+      "repo": "repo:github.com/ericcayers-ai/hackathon-project",
+      "sha": "8c94bf03c1864097b6a51534b662ef1f284204da",
+      "author": "Eric Ayers <eric.c.ayers@gmail.com>",
+      "authoredAt": "2026-08-08T00:00:05+12:00",
+      "message_summary": "Rename ClearChart to Nurse Notes; install Impeccable and overhaul UI identity",
+      "message_length": 1449,
+      "parents": [
+        "d2fe56bde9707bc38f371a990c5ac91782632473"
+      ],
+      "community": 0,
+      "community_name": "Community 0",
+      "id": "commit:repo:github.com/ericcayers-ai/hackathon-project@8c94bf03c1864097b6a51534b662ef1f284204da"
     }
   ],
   "links": [
@@ -2311,6 +2346,16 @@
       "target": "commit:repo:github.com/ericcayers-ai/hackathon-project@fb89a6574083158285863c77242e14c78fafb19d"
     },
     {
+      "relation": "ON_BRANCH",
+      "confidence": "EXTRACTED",
+      "source_file": "git",
+      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@6991cd0d4d7fb2c02ea04ecade18bffb96cdf1fb",
+      "_tgt": "branch:repo:github.com/ericcayers-ai/hackathon-project#main",
+      "confidence_score": 1,
+      "source": "branch:repo:github.com/ericcayers-ai/hackathon-project#main",
+      "target": "commit:repo:github.com/ericcayers-ai/hackathon-project@6991cd0d4d7fb2c02ea04ecade18bffb96cdf1fb"
+    },
+    {
       "relation": "conceptually_related_to",
       "confidence": "INFERRED",
       "confidence_score": 0.8,
@@ -2711,6 +2756,19 @@
       "target": "src_app_jargonbadge"
     },
     {
+      "relation": "MODIFIES",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/App.jsx",
+      "added": 170,
+      "deleted": 147,
+      "file_path": "app/src/App.jsx",
+      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@8c94bf03c1864097b6a51534b662ef1f284204da",
+      "_tgt": "src_app",
+      "confidence_score": 1,
+      "source": "src_app",
+      "target": "commit:repo:github.com/ericcayers-ai/hackathon-project@8c94bf03c1864097b6a51534b662ef1f284204da"
+    },
+    {
       "relation": "imports",
       "confidence": "EXTRACTED",
       "source_file": "app/src/PatientView.jsx",
@@ -2783,6 +2841,19 @@
       "confidence_score": 1,
       "source": "src_patientview",
       "target": "src_patientview_usespeech"
+    },
+    {
+      "relation": "MODIFIES",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/PatientView.jsx",
+      "added": 19,
+      "deleted": 6,
+      "file_path": "app/src/PatientView.jsx",
+      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@8c94bf03c1864097b6a51534b662ef1f284204da",
+      "_tgt": "src_patientview",
+      "confidence_score": 1,
+      "source": "src_patientview",
+      "target": "commit:repo:github.com/ericcayers-ai/hackathon-project@8c94bf03c1864097b6a51534b662ef1f284204da"
     },
     {
       "relation": "calls",
@@ -2968,6 +3039,19 @@
       "confidence_score": 1,
       "source": "lib_pdf",
       "target": "lib_pdf_known_headings"
+    },
+    {
+      "relation": "MODIFIES",
+      "confidence": "EXTRACTED",
+      "source_file": "app/src/lib/pdf.js",
+      "added": 8,
+      "deleted": 0,
+      "file_path": "app/src/lib/pdf.js",
+      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@8c94bf03c1864097b6a51534b662ef1f284204da",
+      "_tgt": "lib_pdf",
+      "confidence_score": 1,
+      "source": "lib_pdf",
+      "target": "commit:repo:github.com/ericcayers-ai/hackathon-project@8c94bf03c1864097b6a51534b662ef1f284204da"
     },
     {
       "relation": "calls",
@@ -3427,6 +3511,16 @@
       "relation": "PARENT_OF",
       "confidence": "EXTRACTED",
       "source_file": "git",
+      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@32a6cc8cdb0eb696b7f962b59afe8a8e3d9f960d",
+      "_tgt": "commit:repo:github.com/ericcayers-ai/hackathon-project@6991cd0d4d7fb2c02ea04ecade18bffb96cdf1fb",
+      "confidence_score": 1,
+      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@32a6cc8cdb0eb696b7f962b59afe8a8e3d9f960d",
+      "target": "commit:repo:github.com/ericcayers-ai/hackathon-project@6991cd0d4d7fb2c02ea04ecade18bffb96cdf1fb"
+    },
+    {
+      "relation": "PARENT_OF",
+      "confidence": "EXTRACTED",
+      "source_file": "git",
       "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@7ed0528c383d603c2e4a6f4c921976dbdde6507b",
       "_tgt": "commit:repo:github.com/ericcayers-ai/hackathon-project@3edbcc3f5a47dbdb73a310e3f41054443886a6b9",
       "confidence_score": 1,
@@ -3524,6 +3618,16 @@
       "target": "branch:repo:github.com/ericcayers-ai/hackathon-project#worktree-nurse-notes-ui-overhaul"
     },
     {
+      "relation": "PARENT_OF",
+      "confidence": "EXTRACTED",
+      "source_file": "git",
+      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@d2fe56bde9707bc38f371a990c5ac91782632473",
+      "_tgt": "commit:repo:github.com/ericcayers-ai/hackathon-project@8c94bf03c1864097b6a51534b662ef1f284204da",
+      "confidence_score": 1,
+      "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@d2fe56bde9707bc38f371a990c5ac91782632473",
+      "target": "commit:repo:github.com/ericcayers-ai/hackathon-project@8c94bf03c1864097b6a51534b662ef1f284204da"
+    },
+    {
       "relation": "ON_BRANCH",
       "confidence": "EXTRACTED",
       "source_file": "git",
@@ -3542,6 +3646,16 @@
       "confidence_score": 1,
       "source": "commit:repo:github.com/ericcayers-ai/hackathon-project@fb89a6574083158285863c77242e14c78fafb19d",
       "target": "branch:repo:github.com/ericcayers-ai/hackathon-project#worktree-nurse-notes-ui-overhaul"
+    },
+    {
+      "relation": "ON_BRANCH",
+      "confidence": "EXTRACTED",
+      "source_file": "git",
+      "_src": "commit:repo:github.com/ericcayers-ai/hackathon-project@8c94bf03c1864097b6a51534b662ef1f284204da",
+      "_tgt": "branch:repo:github.com/ericcayers-ai/hackathon-project#worktree-nurse-notes-ui-overhaul",
+      "confidence_score": 1,
+      "source": "branch:repo:github.com/ericcayers-ai/hackathon-project#worktree-nurse-notes-ui-overhaul",
+      "target": "commit:repo:github.com/ericcayers-ai/hackathon-project@8c94bf03c1864097b6a51534b662ef1f284204da"
     },
     {
       "relation": "contains",
