@@ -10,21 +10,27 @@ Write every name in English (en). Do not switch languages.
 
 ## Communities
 
-Community 0: main, 0c25dcb Fix sync-gdoc: git diff --quiet misses new untracked, 16bda27 Sync Google Doc export [automated], 2dff076 Sync Google Doc export [automated], 49b68c9 Organize docs etc, 68fc5be Update prompt file, 6a71f12 Add hackathon-ai-strategist subagent and wire it int, 7c83d44 Add scheduled GitHub Action to sync Google Doc expor, 940e5ad Merge gdoc export with images into single tracked do, b57214b Add concept images per idea; confirm doc matches Goo, d34c4f1 Organize repo: docs/, assets/images/, tools/; drop s, ed37f0a Update prompt file
-Community 1: add_hyperlink(, labelled(, make_table(, shade(, source_line(, build_docx.py, bullet(, numbered(, para(, Bold inline label followed by body text.
-Community 2: IoT Sensor/Gateway Device, Dose-Disposition Quarantine Alert, Cold Chain Monitor Concept Image, Medical Refrigerator/Vaccine Storage Unit, Tamper-Evident Log, Temperature Excursion Chart
-Community 3: 1563e36 Add files via upload, 460c9ed Delete AI Hackathon 2026 - Ideation.docx, 4f6b143 Merge README from origin, 5821624 Claude workflow setup and current plan, c5761bd Initial hackathon project commit, d193f55 Merge remote-tracking branch 'origin/main'
-Community 4: IDEATION.txt (earlier plain-text draft, SDG Hackathon Idea Guide (Google Doc, README.md (Hackathon-Project, CLAUDE.md (Hackathon-Project, AI Hackathon Festival 2026 - Participant Info PDF
-Community 5: Universal Jargon Interpreter App, Camera Scan Split-View UI, Target Documents (Prescription, Tenancy Agreement, Verified Plain-Language Summary Card
-Community 6: Surplus Food Allocation / Food Rescue Concept, Ranked Recipient Locations List (1-2-3 pins, Food Safety Verification Icon (Shield Checkmark
-Community 7: Crisis Response Allocation Engine Diagram, Flood Risk Heatmap / Road Network Map, Supply Chain Flow: Food Pallet to Evacuation Centre
-Community 8: Surplus Matching for Growers Concept Image, Surplus Matching App UI (Tablet Mockup
-Community 9: Disability Funding Reassessment Dashboard Illustration
-Community 10: E-Waste Routing Concept Image
-Community 11: Neighbourhood SDG Indicator Map Mockup
-Community 12: Patient Health Literacy Tablet UI
-Community 13: Disaster Recovery Shocks - Emergency Response Dashboard
-Community 14: AI Hackathon 2026 Summary PDF
+Community 0: main, worktree-nurse-notes-ui-overhaul, 0c25dcb Fix sync-gdoc: git diff --quiet misses new untracked, 0f4a291 Overhaul pptx design, fix duplicate/overclaim bugs, , 1563e36 Add files via upload, 16bda27 Sync Google Doc export [automated], 2dff076 Sync Google Doc export [automated], 32a6cc8 Untrack graphify session state (branch.json, worktre, 3edbcc3 Phase 0: rename ClearChart back to Nurse Notes; repo, 460c9ed Delete AI Hackathon 2026 - Ideation.docx, 49b68c9 Organize docs etc, 4f6b143 Merge README from origin
+Community 1: extractText(, readingGrade(, vite.config.js, proxy, 23bc223 Merge remote-tracking branch 'origin/main' into main, 2db3f5d Sync Google Doc export [automated], c1b47d3 Fix ClearChart branding in live frontend, close docx, eda9214 Update docs and merge ClearChart app (wip, extractText.js, extractPdf(, llm.js, generateRewrite(
+Community 2: build_docx.py, add_hyperlink(, bullet(, labelled(, make_table(, numbered(, para(, Bold inline label followed by body text., shade(, source_line(
+Community 3: build_docx.py, add_hyperlink(, bullet(, labelled(, make_table(, numbered(, para(, Bold inline label followed by body text., shade(, source_line(
+Community 4: IoT Sensor/Gateway Device, Dose-Disposition Quarantine Alert, Cold Chain Monitor Concept Image, Medical Refrigerator/Vaccine Storage Unit, Tamper-Evident Log, Temperature Excursion Chart
+Community 5: IDEATION.txt (earlier plain-text draft, README.md (Hackathon-Project, CLAUDE.md (Hackathon-Project, SDG Hackathon Idea Guide (Google Doc, AI Hackathon Festival 2026 - Participant Info PDF
+Community 6: buildPatientPdf(, downloadPatientPdf(, pdf.js, isHeading(, KNOWN_HEADINGS
+Community 7: useSpeech(, GradeBadge(, PatientView.jsx, PatientView(, speakSupported(
+Community 8: App.jsx, App(, GradeBadge(, JargonBadge(
+Community 9: Universal Jargon Interpreter App, Camera Scan Split-View UI, Target Documents (Prescription, Tenancy Agreement, Verified Plain-Language Summary Card
+Community 10: useSpeech(, PatientView.jsx, PatientView(, speakSupported(
+Community 11: Surplus Food Allocation / Food Rescue Concept, Ranked Recipient Locations List (1-2-3 pins, Food Safety Verification Icon (Shield Checkmark
+Community 12: Crisis Response Allocation Engine Diagram, Flood Risk Heatmap / Road Network Map, Supply Chain Flow: Food Pallet to Evacuation Centre
+Community 13: Surplus Matching for Growers Concept Image, Surplus Matching App UI (Tablet Mockup
+Community 14: vite.config.js, proxy
+Community 15: Disability Funding Reassessment Dashboard Illustration
+Community 16: E-Waste Routing Concept Image
+Community 17: Neighbourhood SDG Indicator Map Mockup
+Community 18: Patient Health Literacy Tablet UI
+Community 19: Disaster Recovery Shocks - Emergency Response Dashboard
+Community 20: AI Hackathon 2026 Summary PDF
 
 ## Instructions
 

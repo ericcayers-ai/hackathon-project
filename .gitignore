@@ -1,0 +1,10 @@
+node_modules/
+dist/
+
+# graphify — local/session state, never commit
+.graphify/branch.json
+.graphify/worktree.json
+.graphify/needs_update
+.graphify/cache/
+app/.graphify/
+app/src/.graphify/

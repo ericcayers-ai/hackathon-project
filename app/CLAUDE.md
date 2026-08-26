@@ -1,7 +1,8 @@
-# ClearChart — Project Brief & Build Context
+# Nurse Notes — Project Brief & Build Context
 
-> Formerly named "Nurse Notes" during early ideation — renamed to ClearChart;
-> "Nurse Notes" no longer appears below.
+> Briefly renamed to "ClearChart" mid-project — that rename has been reversed;
+> "Nurse Notes" is the final, locked product name and "ClearChart" no longer
+> appears below except as historical context.
 >
 > Drop this file at the root of the repo. Claude Code reads `CLAUDE.md`
 > automatically as project context. Rename to `PROJECT_BRIEF.md` if you'd
@@ -11,7 +12,7 @@
 
 ## 1. What this is
 
-**ClearChart** is an AI tool that rewrites hospital discharge summaries and
+**Nurse Notes** is an AI tool that rewrites hospital discharge summaries and
 consent forms into plain language (target ~6th-grade reading level), with a
 **mandatory clinician review gate** before anything reaches a patient.
 
@@ -131,7 +132,13 @@ If a cleaner rewrite is wanted for the demo (dates likely correct):
 
 ---
 
-## 6. What to build next — THE ASK
+## 6. What to build next — THE ASK (SUPERSEDED)
+
+> **Status: superseded.** The clinician review screen described below has
+> been built (see `app/src/App.jsx`). Active planning now lives in the
+> production roadmap at `docs/decisions/` and the plan history referenced
+> there — treat this section as historical context for why the review
+> screen looks the way it does, not as the current task list.
 
 A **clinician review screen** — this is the highest-value remaining piece. It
 turns "we used an LLM in a chat window" into "we built a product with a safety
@@ -225,7 +232,7 @@ From the repo directory:
 ```bash
 # place this file as CLAUDE.md at the repo root, then:
 git add CLAUDE.md
-git commit -m "Add ClearChart project brief and build context"
+git commit -m "Add Nurse Notes project brief and build context"
 git push
 ```
 

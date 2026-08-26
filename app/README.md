@@ -1,10 +1,10 @@
-# ClearChart
+# Nurse Notes
 
 **Plain-language hospital discharge summaries, with a nurse in the loop.**
 
-*Formerly named "Nurse Notes" during early ideation.*
+*Briefly renamed to "ClearChart" mid-project — reverted; Nurse Notes is final.*
 
-ClearChart rewrites hospital discharge summaries and consent forms into plain
+Nurse Notes rewrites hospital discharge summaries and consent forms into plain
 language (target ~6th-grade reading level) using a small language model that
 runs entirely on the local machine. Nothing is released to a patient until a
 clinician has reviewed, corrected, and approved it.
