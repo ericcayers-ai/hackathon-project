@@ -33,7 +33,10 @@ test('isHeading matches both the em-dash and hyphen variant of "Warning signs"',
 
 test('KNOWN_HEADINGS covers every heading system-prompt.txt Step 4 actually emits', () => {
   const __dirname = path.dirname(fileURLToPath(import.meta.url))
-  const prompt = readFileSync(path.join(__dirname, '..', '..', 'prompts', 'system-prompt.txt'), 'utf8')
+  // Normalise CRLF -> LF: Windows checkouts with core.autocrlf=true materialise
+  // this file as CRLF, and the anchor regex below (and the heading list) are
+  // LF-based. The guard should not depend on the platform that ran it.
+  const prompt = readFileSync(path.join(__dirname, '..', '..', 'prompts', 'system-prompt.txt'), 'utf8').replace(/\r\n/g, '\n')
 
   const block = prompt.match(
     /Use these headings, in this order, spelled exactly like this\.[\s\S]*?\n\n([\s\S]*?)\n\nUnder/,
