@@ -63,6 +63,19 @@ test('every corpus case assertion type is one checkAssertion actually implements
   }
 })
 
+test('DOB mis-parse assertion (must_not_include "14/03 days") catches the documented failure mode', () => {
+  // The 14/03/1948 DOB in cases.mjs's "date-shorthand-non-time-slashes-preserved"
+  // must not be mis-parsed as a 14/03-day duration. Verify the assertion
+  // logic is wired correctly: a correct rephrasing passes, a mis-parse fails.
+  const assertion = { type: 'must_not_include', value: '14/03 days' }
+  // Correct: rephrasing that omits the literal DOB.
+  assert.equal(checkAssertion(assertion, 'You were admitted for a COPD flare.'), true)
+  // Correct: rephrasing that reproduces the DOB as a calendar date.
+  assert.equal(checkAssertion(assertion, 'Your date of birth on file is 14/03/1948.'), true)
+  // Wrong: mis-parsed as a duration.
+  assert.equal(checkAssertion(assertion, 'You were unwell for 14/03 days before coming in.'), false)
+})
+
 test('every corpus case has a unique id', () => {
   const ids = cases.map((c) => c.id)
   assert.equal(new Set(ids).size, ids.length)

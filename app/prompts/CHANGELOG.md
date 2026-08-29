@@ -6,6 +6,39 @@ prompt itself. Every edit to it is recorded here instead, per the Phase 6
 prompt change-control policy in the production roadmap
 (`docs/decisions/0003-prompt-stabilization.md`).
 
+## 1.3 — 2026-08-30 (REVERTED — see note)
+
+Added an explicit "ANTI-OVER-CORRECTION" paragraph under the Step 4
+"Activity limits" rule. The 1.2 rule said the section MUST list a limit
+when one is present. The 1.3 rule spelled out three concrete bad
+patterns to avoid (limits only in self-care, duplicated verbatim in
+both sections, over-paraphrase).
+
+**Result:** 3-run re-eval showed 1.3 is probably net negative on this
+5-case corpus. The activity-limits-presence case stayed non-deterministic
+(0/2, 0/2, 2/2 — same as 1.2), the `x`-prefix compound case got
+slightly worse (2/2 → 1/2 → 1/2), and a NEW fabrication appeared in
+the heart-failure case ("Do not lift heavy objects or bend your hip
+more than 90 degrees for 6 weeks" for a patient with no such limit in
+the source). The 1.3 rule appeared to nudge the model on a different
+case than the one it was targeting.
+
+**Reverted in the same session.** The 1.3 paragraph is removed from
+`system-prompt.txt`; the prompt is back to the post-1.2 baseline. The
+3-run JSON in `app/eval/live-results-qwen3-8b-run1/2/3.json` is
+preserved as evidence of what 1.3 did, so future work on this
+question has data to look at. The CHANGELOG entry is kept as a
+historical record of the attempt, not a current change.
+
+**Why this is documented in the changelog and not just in the
+ADR:** future sessions loading this prompt should not re-attempt 1.3
+in isolation without first reading the 3-run JSON and the §4 finding
+in `docs/decisions/0005`. The next session's correct first move on
+this question is **to add more corpus cases** (Qwen-specific
+behaviour, isolated `2/2` form, dose-change form) so the
+over-correction case has more statistical power, not to try another
+prompt rule.
+
 ## 1.2 — 2026-08-30
 
 Two targeted additions surfaced by the first end-to-end live-model eval

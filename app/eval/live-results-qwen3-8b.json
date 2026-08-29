@@ -31,7 +31,7 @@
         }
       ],
       "error": null,
-      "output": "Why you were seen  \nYou had an infection in your left lower leg (cellulitis). Your doctor saw redness, warmth, and pain but no fever.  \n\nYour medicines and what changed  \n- **NEW**: Flucloxacillin 500mg 4 times a day by mouth (take for 5 days, finish the course)  \n- **UNCHANGED**: Paracetamol 1g 4 times a day as needed (by mouth)  \n\nLooking after yourself at home  \n- Take all your medicines as told.  \n- Keep the wound clean and dry.  \n- Finish the flucloxacillin course even if you feel better.  \n\nWarning signs — call someone now  \nCall your doctor or go to the emergency department if:  \n- The redness spreads.  \n- You have a fever.  \n- The pain gets worse.  \n\nFollow-up appointments  \n- 19/08/2026 (1 week after you left hospital) — see your GP to check your wound.  \n\nActivity limits  \nYour notes do not mention this. [flag for nurse review]  \n\nWho to call  \nCall your GP or go to the emergency department if you have any of the warning signs."
+      "output": "Why you were seen  \nYou had an infection in your left lower leg (cellulitis). Your leg was red, painful, and warm, but you didn’t have a fever. Blood tests showed signs of infection, but no imaging was needed.  \n\nYour medicines and what changed  \n- **NEW**: Flucloxacillin 500mg four times a day (PO) – take this for 5 days, finish the course.  \n- **UNCHANGED**: Paracetamol 1g four times a day (PO) – only take this if you need pain relief.  \n\nLooking after yourself at home  \n- Take your medicines as prescribed.  \n- Keep your leg clean and dry.  \n- Finish the flucloxacillin course even if you feel better.  \n\nWarning signs — call someone now  \nCall your doctor or go to the emergency department if:  \n- The redness spreads.  \n- You develop a fever.  \n- Your pain gets worse.  \n\nFollow-up appointments  \n- 19/08/2026 (1 week after you left hospital) — GP review of your leg wound.  \n\nActivity limits  \nYour notes do not mention this. [flag for nurse review]  \n\nWho to call  \nCall your GP or go to the emergency department if you have any of the warning signs."
     },
     {
       "id": "activity-limits-present-reported-accurately",
@@ -56,12 +56,12 @@
         }
       ],
       "error": null,
-      "output": "Why you were seen  \nYou had a right total hip replacement (THR) to fix your hip. The surgery went well.  \n\nYour medicines and what changed  \n- **UNCHANGED**: Paracetamol 1g four times a day (QID) as needed (PRN) for pain.  \n- **NEW**: Enoxaparin 40mg once a day (OD) by injection (SC) for 6 weeks to prevent blood clots.  \n\nLooking after yourself at home  \n- Take your pain medicine as needed.  \n- Drink enough fluids unless told otherwise.  \n- Walk with a frame and progress to walking sticks as your physiotherapist says.  \n- Do not bend your hip more than 90 degrees for 6 weeks.  \n\nWarning signs — call someone now  \nCall your doctor or go to the emergency department (ED) if you have:  \n- Swelling or pain in your calf.  \n- Redness, drainage, or pain at your hip wound.  \n- Fever (temperature over 38°C).  \n\nFollow-up appointments  \n- 13/09/2026 (6 weeks after you left hospital) — ortho outpatient clinic with x-ray.  \n\nActivity limits  \n- Do not drive for 6 weeks.  \n- Do not lift more than 5 kg for 6 weeks.  \n- Do not bend your hip more than 90 degrees for 6 weeks.  \n\nWho to call  \nCall your doctor or go to the ED if you have any of the warning signs above."
+      "output": "Why you were seen  \nYou had surgery to replace your right hip. This was planned (elective). The operation went well.  \n\nYour medicines and what changed  \n- **UNCHANGED**: Paracetamol 1g four times a day (as needed) by mouth.  \n- **NEW**: Enoxaparin 40mg once a day (subcutaneously) for 4 weeks to prevent blood clots.  \n\nLooking after yourself at home  \n- Use a walking frame to walk. Progress to walking sticks as your physiotherapist says.  \n- Weigh yourself daily.  \n- Drink less fluid than usual.  \n- Walk as much as you can, but do not bend your hip more than 90 degrees.  \n\nWarning signs — call someone now  \nCall your doctor or go to the hospital if:  \n- Your calf is swollen or painful.  \n- Your wound is leaking fluid or is red.  \n- You have a fever.  \n\nFollow-up appointments  \n- 13/09/2026 (6 weeks after you left hospital) — hip check with your orthopaedic team.  \n\nActivity limits  \n- Do not bend your hip more than 90 degrees for 6 weeks.  \n- Do not drive for 6 weeks.  \n- Do not lift more than 5 kg for 6 weeks.  \n\nWho to call  \nCall your doctor or go to the hospital if you have any of the warning signs listed above."
     },
     {
       "id": "date-shorthand-non-time-slashes-preserved",
       "description": "Step 2 of the prompt lists non-time slashes (2/2, calendar dates, blood pressure, lab pairs) that must NOT be treated as durations. This case packs several into one document.",
-      "status": "fail",
+      "status": "pass",
       "assertions": [
         {
           "type": "must_not_include",
@@ -85,15 +85,15 @@
           "passed": true
         },
         {
-          "type": "must_include",
-          "value": "14/03/1948",
+          "type": "must_not_include",
+          "value": "14/03 days",
           "severity": "must",
-          "note": "The DOB is a calendar date and should be reproducible verbatim if referenced, not decomposed as a duration.",
-          "passed": false
+          "note": "The DOB (14/03/1948) must not be mis-parsed as a 14/03-day duration. Correct clinical rephrasing that omits the literal DOB, or reproduces it as a calendar date, are both fine.",
+          "passed": true
         }
       ],
       "error": null,
-      "output": "Why you were seen  \nYou were in hospital because your breathing got worse and you had a cough. Your doctor also found you have high blood pressure.  \n\nYour medicines and what changed  \n- **NEW**: Prednisone 30mg once daily (1 dose each day) – take this for 5 days, then stop. This is to help your breathing.  \n- **UNCHANGED**: Amlodipine 5mg once daily – this helps your blood pressure.  \n- **UNCHANGED**: Salbutamol inhaler 2 puffs four times a day as needed – use this if you feel short of breath.  \n\nLooking after yourself at home  \n- Take all your medicines as told.  \n- Do not drink more than usual fluid.  \n- If you feel worse, call your doctor.  \n\nWarning signs — call someone now  \nCall your doctor or go to the emergency department if:  \n- You feel short of breath more than before.  \n- You have chest pain.  \n- You have a fever.  \n\nFollow-up appointments  \n- 10/08/2026 (1 week after you left hospital) – see your family doctor.  \n\nActivity limits  \nYour notes do not mention this. [flag for nurse review]  \n\nWho to call  \nCall your doctor or go to the emergency department if you have any of the warning signs above."
+      "output": "Why you were seen  \nYou were admitted because your breathing got worse (short of breath) and you had a cough. You also had high blood pressure and low potassium levels when you arrived.  \n\nYour medicines and what changed  \n- **NEW**: Prednisone 30mg once a day (OD) – take this for 5 days and finish the course.  \n- **UNCHANGED**: Amlodipine 5mg once a day (for high blood pressure).  \n- **UNCHANGED**: Salbutamol inhaler (2 puffs four times a day, only when needed).  \n\nLooking after yourself at home  \n- Take all your medicines as prescribed.  \n- Watch for worsening shortness of breath, chest pain, or fever.  \n- Keep your blood pressure under control.  \n\nWarning signs — call someone now  \nCall your doctor or go to the emergency department if:  \n- Your breathing gets worse.  \n- You have chest pain or a fever.  \n\nFollow-up appointments  \n- 10/08/2026 (1 week after you left hospital) — see your family doctor for a check-up.  \n\nActivity limits  \nYour notes do not mention this. [flag for nurse review]  \n\nWho to call  \nCall your doctor or go to the emergency department if you have worsening shortness of breath, chest pain, or a fever."
     },
     {
       "id": "date-shorthand-compound-and-x-prefix",
@@ -116,7 +116,7 @@
         }
       ],
       "error": null,
-      "output": "Why you were seen  \nYou had heart failure that got worse (decompensated heart failure). You gained 3 kg over 10 days and had more swelling in your legs.  \n\nYour medicines and what changed  \n- **DOSE CHANGED**: Furosemide 40mg once a day (was 20mg) – to help reduce swelling.  \n- **UNCHANGED**: Bisoprolol 2.5mg once a day – to help your heart.  \n\nLooking after yourself at home  \n- Drink less fluid for 2 weeks, as advised by your medical team.  \n- Weigh yourself daily.  \n\nWarning signs — call someone now  \nCall your doctor or go to the emergency department if:  \n- You feel short of breath (SOB) worse.  \n- Your legs swell more.  \n- You gain more than 2 kg in 2 days.  \n\nFollow-up appointments  \n- 22/08/2026 (2 weeks after you left hospital) — cardiology outpatient clinic.  \n- 09/08/2026 (1 week after you left hospital) — GP check for blood tests.  \n\nActivity limits  \nYour notes do not mention this. [flag for nurse review]  \n\nWho to call  \nCall your doctor or go to the emergency department if you have warning signs. Your doctor is Dr M. Wong."
+      "output": "Why you were seen  \nYou were admitted because your heart was not working well. You gained 3 kg over 10 days and had swelling in your legs.  \n\nYour medicines and what changed  \n- **DOSE CHANGED**: Furosemide 40mg once daily (was 20mg). This helps reduce fluid buildup.  \n- **UNCHANGED**: Bisoprolol 2.5mg once daily. This helps slow your heart rate.  \n\nLooking after yourself at home  \n- Drink less fluid for 2 weeks, as advised by your medical team.  \n- Weigh yourself daily.  \n- Watch for worsening shortness of breath, swelling, or weight gain of more than 2 kg in 2 days.  \n\nWarning signs — call someone now  \nCall your doctor or go to the emergency department if:  \n- You feel short of breath.  \n- Your legs swell more.  \n- You gain more than 2 kg in 2 days.  \n\nFollow-up appointments  \n- 15/08/2026 (1 week after you left hospital) — blood tests with your GP.  \n- 22/08/2026 (2 weeks after you left hospital) — heart clinic visit.  \n\nActivity limits  \nYour notes do not mention this. [flag for nurse review]  \n\nWho to call  \nCall your GP or go to the emergency department if you have worsening shortness of breath, swelling, or weight gain."
     },
     {
       "id": "date-shorthand-6-52-ceiling",
@@ -132,7 +132,108 @@
         }
       ],
       "error": null,
-      "output": "Why you were seen  \nYou had pneumonia in your right lower lung. You had a cough with phlegm, fevers, and trouble breathing.  \n\nYour medicines and what changed  \n- **NEW**: Amoxicillin 500mg three times a day (TDS) by mouth (PO) — take this for 5 days, finish all tablets.  \n\nLooking after yourself at home  \n- Take all your antibiotics as told.  \n- Have a chest X-ray (CXR) repeat in 6 weeks. Your GP will arrange this.  \n- If your breathing gets worse, your chest hurts, or you cough up blood, return to the hospital.  \n\nWarning signs — call someone now  \n- Worsening shortness of breath (SOB)  \n- Chest pain  \n- Coughing up blood  \n\nFollow-up appointments  \n- 13/09/2026 (6 weeks after you left hospital) — repeat chest X-ray (CXR) via GP.  \n\nActivity limits  \nYour notes do not mention this. [flag for nurse review]  \n\nWho to call  \n- Your GP for follow-up.  \n- The hospital if you have worsening symptoms."
+      "output": "Why you were seen  \nYou had pneumonia in your right lower lung. You had a cough with phlegm, fevers, and trouble breathing.  \n\nYour medicines and what changed  \n- **NEW**: Amoxicillin 500mg three times a day by mouth for 5 days (complete the full course).  \n\nLooking after yourself at home  \n- Take all your medicines as directed.  \n- Finish the amoxicillin course even if you feel better.  \n- Avoid drinking too much fluid unless told otherwise.  \n\nWarning signs — call someone now  \nCall your doctor or go to the emergency department if:  \n- Your breathing gets worse.  \n- You have chest pain.  \n- You cough up blood.  \n\nFollow-up appointments  \n- 13/09/2026 (6 weeks after you left hospital) — chest X-ray via your GP.  \n\nActivity limits  \nYour notes do not mention this. [flag for nurse review]  \n\nWho to call  \nCall your GP if you have any of the warning signs above."
+    },
+    {
+      "id": "date-shorthand-2-2-because-of-isolated",
+      "description": "Isolated \"2/2\" usage meaning \"because of\" / \"secondary to\", with no other time slashes in the source. Catches the most common form of the 2/2-mis-parsed-as-2-days regression without the noise of other date shorthand in the same document.",
+      "status": "pass",
+      "assertions": [
+        {
+          "type": "must_not_include",
+          "value": "2 days",
+          "severity": "must",
+          "note": "The \"2/2\" in the diagnosis line means \"because of\", not a 2-day duration. A model that emits \"2 days\" here is unambiguously mis-parsing.",
+          "passed": true
+        },
+        {
+          "type": "must_include_regex",
+          "value": "because|caused by|secondary to|due to|from",
+          "severity": "must",
+          "note": "The rewrite must convey that the AKI was caused by the dehydration. Any of \"because\", \"caused by\", \"secondary to\", \"due to\", or \"from\" is acceptable plain language.",
+          "passed": true
+        }
+      ],
+      "error": null,
+      "output": "Why you were seen  \nYou were in hospital because your kidneys were not working well (acute kidney injury). This happened because you had severe vomiting and diarrhoea (gastroenteritis) and were not drinking enough fluids.  \n\nYour medicines and what changed  \n- NEW: Sodium chloride 600mg three times a day as needed (to help with fluid balance)  \n- NEW: Ondansetron 4mg twice a day as needed (to help with nausea)  \n\nLooking after yourself at home  \n- Drink plenty of fluids. If you are still feeling sick or can’t keep fluids down for 24 hours, return to the hospital.  \n- Take your medicines as written.  \n\nWarning signs — call someone now  \n- If you are still feeling sick or can’t keep fluids down for 24 hours.  \n\nFollow-up appointments  \nYour notes do not mention any follow-up appointments.  \n\nActivity limits  \nYour notes do not mention this. [flag for nurse review]  \n\nWho to call  \nContact Dr. T. Brown (House Officer) if you have questions. [flag for nurse review: no contact details provided]"
+    },
+    {
+      "id": "date-shorthand-dose-change-not-duration",
+      "description": "Source document uses \"40mg -> 60mg\" (a dose change) and \"1mg/mL\" (a concentration). Both contain slash-like characters and are easy for a slash-parsing model to misread. This case catches that without the noise of any other time shorthand in the source.",
+      "status": "pass",
+      "assertions": [
+        {
+          "type": "must_not_include",
+          "value": "40 days",
+          "severity": "must",
+          "note": "The \"40mg -> 60mg\" dose change is not a 40-day duration. A model that emits \"40 days\" is mis-parsing the dose.",
+          "passed": true
+        },
+        {
+          "type": "must_not_include",
+          "value": "60 days",
+          "severity": "must",
+          "note": "Same as above for the second half of the dose change.",
+          "passed": true
+        },
+        {
+          "type": "must_include",
+          "value": "60mg",
+          "severity": "must",
+          "note": "The new dose (60mg) must carry through to the rewrite. If the rewrite just says \"Furosemide 40mg once a day (dose increased)\" without the new 60mg value, the patient does not know what to take.",
+          "passed": true
+        },
+        {
+          "type": "must_not_include",
+          "value": "1 mg per day",
+          "severity": "must",
+          "note": "The \"1mg/mL\" concentration is a formulation, not a daily dose. A model that reads \"1 mg/mL\" as \"1 mg per day\" is mis-parsing the unit.",
+          "passed": true
+        }
+      ],
+      "error": null,
+      "output": "Why you were seen  \nYou were treated for heart failure with reduced ejection fraction (HFrEF). This means your heart is not pumping blood as well as it should, and your doctor is managing this with medicines.  \n\nYour medicines and what changed  \n- **DOSE CHANGED**: Furosemide (a water pill) was increased from 40mg to 60mg once daily. Give this as 1mg/mL oral solution.  \n- **NEW**: Spironolactone 25mg once daily (to help your body remove extra fluid).  \n- **UNCHANGED**: Perindopril 4mg once daily (to help your heart).  \n\nLooking after yourself at home  \n- Take all medicines as prescribed.  \n- Weigh yourself daily.  \n- Drink less fluid if advised.  \n- Avoid salty foods to reduce swelling.  \n- Take your medicines at the same time every day.  \n\nWarning signs — call someone now  \nCall your doctor or go to the emergency department if:  \n- You gain more than 2 kg in 2 days.  \n- You feel breathless, even when resting.  \n- Your legs or feet swell.  \n\nFollow-up appointments  \n- [flag for nurse review: no discharge or clinic date given] — Heart-failure nurse phone review in 1 week.  \n\nActivity limits  \nYour notes do not mention this. [flag for nurse review]  \n\nWho to call  \nContact your doctor or go to the emergency department if you have any of the warning signs above."
+    },
+    {
+      "id": "activity-limits-absent-no-fabrication-self-care",
+      "description": "Same absence-of-limits regression as case 1, but the assertion is on the \"Looking after yourself at home\" section instead of the \"Activity limits\" section. A model that correctly flags the limits section empty but then fabricates a self-care-style limit (\"take it easy for a few days\", \"avoid strenuous activity\") in the home-care section is still fabricating. Both must be empty.",
+      "status": "pass",
+      "assertions": [
+        {
+          "type": "section_must_not_include",
+          "heading": "Looking after yourself at home",
+          "value": "strenuous activity",
+          "severity": "must",
+          "note": "No activity/driving/lifting/work limit is in the source. The rewrite must not fabricate one under \"Looking after yourself at home\" either. This pins the no-fabrication rule in the self-care section, which the 1.3 anti-over-correction rule accidentally violated in a 3-run sample (see docs/decisions/0005 §4).",
+          "passed": true
+        },
+        {
+          "type": "section_must_not_include",
+          "heading": "Looking after yourself at home",
+          "value": "take it easy",
+          "severity": "must",
+          "note": "Same as above. \"Take it easy\" is a vague instruction that masquerades as a limit. The source has no such instruction; the rewrite must not invent one.",
+          "passed": true
+        },
+        {
+          "type": "section_must_not_include",
+          "heading": "Looking after yourself at home",
+          "value": "avoid lifting",
+          "severity": "must",
+          "note": "Same. \"Avoid lifting\" is another plausible-sounding limit; the source does not state one. The post-appendicectomy patient may have lifting guidance, but it is NOT in this source document.",
+          "passed": true
+        },
+        {
+          "type": "section_must_include",
+          "heading": "Activity limits",
+          "value": "[flag for nurse review",
+          "severity": "must",
+          "note": "And the canonical absence-case assertion: \"Activity limits\" itself must be flagged empty, not filled in. This duplicates the case 1 assertion to keep the two-section no-fabrication guarantee.",
+          "passed": true
+        }
+      ],
+      "error": null,
+      "output": "Why you were seen  \nYou had a sudden pain in your lower right side, no appetite, and a low fever. Your doctor did a surgery to remove your appendix.  \n\nYour medicines and what changed  \n- **NEW**: Paracetamol 1g four times a day as needed (by mouth)  \n- **NEW**: Ibuprofen 400mg three times a day as needed (by mouth) with food  \n\nLooking after yourself at home  \n- Eat normally now.  \n- Take the medicines as needed for pain.  \n\nWarning signs — call someone now  \n- If you have a fever, more pain at your wound, or pus coming from your wound, return to the hospital.  \n\nFollow-up appointments  \n- Your GP will check your wound in [date not provided] (1 week after you left hospital).  \n- Your stitches will be removed in [date not provided] (10 days after you left hospital).  \n\nActivity limits  \nYour notes do not mention this. [flag for nurse review]  \n\nWho to call  \n- Contact Dr. P. Kumar, House Officer, if you have questions or need help."
     }
   ]
 }

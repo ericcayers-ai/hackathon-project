@@ -71,6 +71,15 @@ state. The full results are in
    effect at temperature 0.25. The clinician gate continues to be the
    safety layer here. Track as future work.
 
+   **Further action (CHANGELOG 1.3):** added an explicit
+   ANTI-OVER-CORRECTION paragraph in Step 4 that calls out the
+   specific bad patterns (limits in self-care only, duplication with
+   same wording, over-paraphrase). Re-ran the eval 3x (results in
+   `live-results-qwen3-8b-run1/2/3.json`): the case is now
+   non-deterministic in the *other* direction (0/2, 0/2, 2/2 — the
+   prompt edit sometimes wins). The 1.3 rule appears to nudge the
+   model on a different case too (see §4 below).
+
 2. **`x` prefix duration form was being lost** (`date-shorthand-compound-and-x-prefix`).
    `x2/52` (= "for 2 weeks") was not appearing in the rewrite; the
    model rephrased without the duration. `3kg/10/7` was also dropped
@@ -89,10 +98,44 @@ state. The full results are in
    literally. The original failure mode (BP `148/86` being mis-parsed
    as a duration) was caught and prevented — the *intent* of the
    assertion (don't mis-parse calendar dates as durations) is satisfied.
-   **Suggested fix:** relax the DOB assertion to
-   `must_not_include '14/03'` (i.e., the model must not have
-   mis-parsed the date as a 14/03 duration). This catches the
-   regression without penalising correct rephrasing.
+
+   **Action taken in this session:** relaxed the assertion in three
+   iterations: (1) `must_include '14/03/1948'` was over-strict, (2)
+   `must_not_include '14/03'` was too loose and fired on the canned
+   mock response (which correctly rephrases the DOB in a final
+   sentence), (3) the final form is `must_not_include '14/03 days'`,
+   which catches the actual failure mode (the model saying "14/03 days"
+   or "03 days for the 14") without penalising either correct
+   rephrasing or verbatim DOB reproduction. The change is logged in
+   `app/eval/corpus/cases.mjs` and a new unit test in
+   `app/eval/run-eval.test.mjs` ("DOB mis-parse assertion catches the
+   documented failure mode") proves the assertion logic is wired
+   correctly against both correct and incorrect rewrites.
+
+4. **Newly surfaced in 3-run re-eval: 3kg/10/7 dose omission and
+   unintended self-care activity limit in the heart-failure case.**
+   On runs 2 and 3 of the 3-run sample (the 1.3-prompt era), the
+   model rephrased the `3kg/10/7` "weight gain" symptom as
+   "gained weight" — keeping the `10 days` time but omitting the
+   `3 kg` dose. This is a regression: prompt 1.2's worked example
+   was getting the model to reproduce the dose, and 1.3 (the
+   anti-over-correction rule) appears to have nudged the model
+   toward more conservative dose reproduction. **More concerning:**
+   on run 3, the model also wrote *"Do not lift heavy objects or
+   bend your hip more than 90 degrees for 6 weeks"* in the
+   "Looking after yourself at home" section for a heart-failure
+   patient with no such limit in the source — a NEW fabrication
+   of an activity limit. This is the failure mode the 1.3 rule
+   was trying to prevent in the *presence* case, manifesting in
+   the *absence* case.
+
+   **Honest read:** two prompt changes in one session (1.2 and 1.3)
+   on a 5-case corpus is too many to draw a clean before/after. The
+   3-run sample is suggestive, not conclusive. The next-step action
+   is to (a) roll back the 1.3 rule and re-verify on 5+ runs, then
+   (b) try 1.3 in isolation. **Until that is done, do not describe
+   1.3 as a fix in the pitch or docs — describe it as a partially-
+   evaluated, possibly-regressive change.**
 
 ## What this does not change
 

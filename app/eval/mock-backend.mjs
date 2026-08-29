@@ -138,6 +138,98 @@ Your notes do not mention this. [flag for nurse review]
 Who to call
 Contact your GP or come back to hospital if you have any of the warning signs above.`,
   },
+  {
+    // date-shorthand-2-2-because-of-isolated
+    match: 'ZZZ5555',
+    text: `Why you were seen
+You were in hospital because of a short-term kidney problem (acute kidney injury) caused by dehydration from a stomach bug (gastroenteritis).
+
+Your medicines and what changed
+- NEW: Sodium chloride 600mg, three times a day, only if needed (salt tablets to replace what you have lost).
+- NEW: Ondansetron 4mg, twice a day, only if needed (to stop you feeling sick).
+
+Looking after yourself at home
+- Drink plenty of fluids — water, oral rehydration solution, or weak fruit juice.
+- Take the salt tablets and the anti-sickness medicine as written.
+- Rest while you recover.
+
+Warning signs — call someone now
+Call your doctor or come back to hospital if:
+- You cannot keep fluids down for 24 hours.
+- You feel dizzy when standing up.
+- You stop passing urine.
+
+Follow-up appointments
+- Your GP will check your kidney blood tests in 1 week.
+
+Activity limits
+Your notes do not mention this. [flag for nurse review]
+
+Who to call
+Contact your GP or come back to hospital if you cannot keep fluids down or you stop passing urine.`,
+  },
+  {
+    // date-shorthand-dose-change-not-duration
+    match: 'ZZZ6666',
+    text: `Why you were seen
+You were in hospital with worsening heart failure (the heart is not pumping as well as it should, which lets fluid build up in your body).
+
+Your medicines and what changed
+- DOSE CHANGED: Furosemide 60mg, once a day by mouth (was 40mg). Take it as 1mg/mL oral solution. This is a higher dose than before to help get rid of the extra fluid.
+- NEW: Spironolactone 25mg, once a day by mouth. This helps your heart work better and protects you from the fluid problem.
+- UNCHANGED: Perindopril 4mg, once a day by mouth.
+
+Looking after yourself at home
+- Weigh yourself every day. Write the number down.
+- Take all your medicines as written.
+- Eat less salt. The dietitian can help with this.
+
+Warning signs — call someone now
+Call your doctor or come back to hospital if:
+- You gain more than 2 kg in 2 days.
+- Your breathing gets worse, especially when lying flat.
+- Your legs swell more than they were when you left hospital.
+
+Follow-up appointments
+- 17/08/2026 (1 week after you left hospital) — heart-failure nurse will phone you.
+
+Activity limits
+Your notes do not mention this. [flag for nurse review]
+
+Who to call
+Contact your GP or the heart-failure nurse if any of the warning signs above start.`,
+  },
+  {
+    // activity-limits-absent-no-fabrication-self-care
+    match: 'ZZZ7777',
+    text: `Why you were seen
+You had your appendix out with keyhole surgery (laparoscopic appendicectomy) after 1 day of right-sided tummy pain, loss of appetite, and a mild fever.
+
+Your medicines and what changed
+- NEW: Paracetamol 1g, four times a day, only if needed for pain.
+- NEW: Ibuprofen 400mg, three times a day with food, only if needed for pain.
+
+Looking after yourself at home
+- Keep the wound clean and dry for the first 48 hours, then you can shower as normal.
+- Take the pain relief as written, especially before bed the first few nights.
+- Eat and drink as you feel able — start with light meals and build up.
+
+Warning signs — call someone now
+Call your doctor or come back to hospital if:
+- You get a fever.
+- The wound becomes more painful, red, swollen, or starts to leak.
+- You feel generally more unwell.
+
+Follow-up appointments
+- 20/08/2026 (1 week after you left hospital) — your GP will check the wound.
+- 20/08/2026 (10 days after surgery) — your GP or practice nurse will remove the stitches.
+
+Activity limits
+Your notes do not mention this. [flag for nurse review]
+
+Who to call
+Contact your GP or come back to hospital if you have any of the warning signs above.`,
+  },
 ]
 
 export async function mockChat(userText) {
