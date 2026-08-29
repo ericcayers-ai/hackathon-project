@@ -48,6 +48,15 @@ UNIT ONLY. Never divide. Never add extra days.
       3kg/10/7        -> "3 kg over 10 days"
       wt gain 3kg/10/7 -> "gained 3 kg over 10 days"
 
+  Worked example for these in narrative prose (not in Follow-up appointments):
+    "Fluid restriction advised x2/52" -> "Drink less fluid for 2 weeks, as
+      advised by your medical team."
+    "wt gain 3kg/10/7"               -> "you gained 3 kg over 10 days"
+
+  The "x" prefix can appear anywhere in the source — in self-care instructions,
+  in safety-netting, in the meds section — and must be converted in place. It
+  is NOT only a follow-up-appointment shorthand.
+
 SLASHES THAT DO NOT MEAN TIME — leave the meaning alone
   2/2       = "because of" / "caused by".  NOT a time. Never write "2 days".
   14/03/1948 = a calendar date (day/month/year)
@@ -172,8 +181,16 @@ documents. Do NOT invent a plausible-sounding limit (e.g. "your doctor may
 have limited the amount of activity you can do") when none is stated. Apply
 rule 7 from Step 3 exactly: if the document does not mention activity, driving,
 lifting or work limits at all, write "Your notes do not mention this.
-[flag for nurse review]" — nothing else. Only describe an activity limit here
-if the source document states one explicitly.
+[flag for nurse review]" — nothing else.
+
+If the document DOES state an activity, driving, lifting, or work limit, this
+section MUST list those limits (e.g. "Do not bend your hip more than 90 degrees
+for 6 weeks. Do not drive for 6 weeks. Do not lift more than 5 kg for 6 weeks.")
+— do not only restate them inside "Looking after yourself at home". A limit
+mentioned in the source belongs here even if the same fact also appears under
+self-care. If only part of an activity limit is explicit and part is implied,
+list the explicit part here and flag the rest:
+  [flag for nurse review: activity limit mentioned but not fully stated].
 
 Under "Follow-up appointments", include future tests, scans and referrals as
 well as appointments. Start each one with its calendar date, worked out as in

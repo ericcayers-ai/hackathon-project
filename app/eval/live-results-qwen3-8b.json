@@ -1,0 +1,138 @@
+{
+  "mock": false,
+  "baseUrl": "http://localhost:11434/v1",
+  "results": [
+    {
+      "id": "activity-limits-absent-no-fabrication",
+      "description": "Source document has no activity/driving/lifting/work limits at all. Regression under test: app/CLAUDE.md §2 documents the model sometimes fabricating \"Your doctor may have limited the amount of activity you can do\" here instead of flagging it. system-prompt.txt 1.1 added an explicit no-fabrication rule for this — this case is what proves (or disproves) that rule actually holds against a live model.",
+      "status": "pass",
+      "assertions": [
+        {
+          "type": "section_must_include",
+          "heading": "Activity limits",
+          "value": "[flag for nurse review",
+          "severity": "must",
+          "note": "No activity/driving/lifting/work limit is stated anywhere in the source, so \"Activity limits\" must be flagged, not filled in.",
+          "passed": true
+        },
+        {
+          "type": "must_not_include",
+          "value": "may have limited the amount of activity",
+          "severity": "must",
+          "note": "The specific fabricated phrasing documented in app/CLAUDE.md §2.",
+          "passed": true
+        },
+        {
+          "type": "must_not_include",
+          "value": "avoid strenuous activity",
+          "severity": "must",
+          "note": "Another plausible-sounding invented limit — not stated in the source.",
+          "passed": true
+        }
+      ],
+      "error": null,
+      "output": "Why you were seen  \nYou had an infection in your left lower leg (cellulitis). Your doctor saw redness, warmth, and pain but no fever.  \n\nYour medicines and what changed  \n- **NEW**: Flucloxacillin 500mg 4 times a day by mouth (take for 5 days, finish the course)  \n- **UNCHANGED**: Paracetamol 1g 4 times a day as needed (by mouth)  \n\nLooking after yourself at home  \n- Take all your medicines as told.  \n- Keep the wound clean and dry.  \n- Finish the flucloxacillin course even if you feel better.  \n\nWarning signs — call someone now  \nCall your doctor or go to the emergency department if:  \n- The redness spreads.  \n- You have a fever.  \n- The pain gets worse.  \n\nFollow-up appointments  \n- 19/08/2026 (1 week after you left hospital) — see your GP to check your wound.  \n\nActivity limits  \nYour notes do not mention this. [flag for nurse review]  \n\nWho to call  \nCall your GP or go to the emergency department if you have any of the warning signs."
+    },
+    {
+      "id": "activity-limits-present-reported-accurately",
+      "description": "Source document DOES state an activity limit. Control case for the above: the no-fabrication rule must not make the model over-cautiously flag a limit that is actually present.",
+      "status": "pass",
+      "assertions": [
+        {
+          "type": "section_must_not_include",
+          "heading": "Activity limits",
+          "value": "Your notes do not mention this",
+          "severity": "must",
+          "note": "An activity limit IS stated in the source, so the section must not be flagged as absent.",
+          "passed": true
+        },
+        {
+          "type": "section_must_include",
+          "heading": "Activity limits",
+          "value": "driv",
+          "severity": "must",
+          "note": "The stated driving restriction should carry through to the rewrite.",
+          "passed": true
+        }
+      ],
+      "error": null,
+      "output": "Why you were seen  \nYou had a right total hip replacement (THR) to fix your hip. The surgery went well.  \n\nYour medicines and what changed  \n- **UNCHANGED**: Paracetamol 1g four times a day (QID) as needed (PRN) for pain.  \n- **NEW**: Enoxaparin 40mg once a day (OD) by injection (SC) for 6 weeks to prevent blood clots.  \n\nLooking after yourself at home  \n- Take your pain medicine as needed.  \n- Drink enough fluids unless told otherwise.  \n- Walk with a frame and progress to walking sticks as your physiotherapist says.  \n- Do not bend your hip more than 90 degrees for 6 weeks.  \n\nWarning signs — call someone now  \nCall your doctor or go to the emergency department (ED) if you have:  \n- Swelling or pain in your calf.  \n- Redness, drainage, or pain at your hip wound.  \n- Fever (temperature over 38°C).  \n\nFollow-up appointments  \n- 13/09/2026 (6 weeks after you left hospital) — ortho outpatient clinic with x-ray.  \n\nActivity limits  \n- Do not drive for 6 weeks.  \n- Do not lift more than 5 kg for 6 weeks.  \n- Do not bend your hip more than 90 degrees for 6 weeks.  \n\nWho to call  \nCall your doctor or go to the ED if you have any of the warning signs above."
+    },
+    {
+      "id": "date-shorthand-non-time-slashes-preserved",
+      "description": "Step 2 of the prompt lists non-time slashes (2/2, calendar dates, blood pressure, lab pairs) that must NOT be treated as durations. This case packs several into one document.",
+      "status": "fail",
+      "assertions": [
+        {
+          "type": "must_not_include",
+          "value": "2 days",
+          "severity": "must",
+          "note": "\"2/2\" means \"because of\", not a 2-day duration — must not be converted to a time span.",
+          "passed": true
+        },
+        {
+          "type": "must_not_include",
+          "value": "148 days",
+          "severity": "must",
+          "note": "BP reading 148/86 must not be read as a duration.",
+          "passed": true
+        },
+        {
+          "type": "must_not_include",
+          "value": "86 days",
+          "severity": "must",
+          "note": "BP reading 148/86 must not be read as a duration (second half).",
+          "passed": true
+        },
+        {
+          "type": "must_include",
+          "value": "14/03/1948",
+          "severity": "must",
+          "note": "The DOB is a calendar date and should be reproducible verbatim if referenced, not decomposed as a duration.",
+          "passed": false
+        }
+      ],
+      "error": null,
+      "output": "Why you were seen  \nYou were in hospital because your breathing got worse and you had a cough. Your doctor also found you have high blood pressure.  \n\nYour medicines and what changed  \n- **NEW**: Prednisone 30mg once daily (1 dose each day) – take this for 5 days, then stop. This is to help your breathing.  \n- **UNCHANGED**: Amlodipine 5mg once daily – this helps your blood pressure.  \n- **UNCHANGED**: Salbutamol inhaler 2 puffs four times a day as needed – use this if you feel short of breath.  \n\nLooking after yourself at home  \n- Take all your medicines as told.  \n- Do not drink more than usual fluid.  \n- If you feel worse, call your doctor.  \n\nWarning signs — call someone now  \nCall your doctor or go to the emergency department if:  \n- You feel short of breath more than before.  \n- You have chest pain.  \n- You have a fever.  \n\nFollow-up appointments  \n- 10/08/2026 (1 week after you left hospital) – see your family doctor.  \n\nActivity limits  \nYour notes do not mention this. [flag for nurse review]  \n\nWho to call  \nCall your doctor or go to the emergency department if you have any of the warning signs above."
+    },
+    {
+      "id": "date-shorthand-compound-and-x-prefix",
+      "description": "Step 2 covers the \"x\" prefix (x2/52 = \"for 2 weeks\") and compound quantity-over-time forms (3kg/10/7). Both appear in real Waikato-style notes and are easy for a prompt rewrite to mishandle.",
+      "status": "pass",
+      "assertions": [
+        {
+          "type": "must_include_regex",
+          "value": "3\\s*kg.{0,20}10\\s*days",
+          "severity": "must",
+          "note": "\"3kg/10/7\" should read as \"3 kg over 10 days\", not divided or misparsed.",
+          "passed": true
+        },
+        {
+          "type": "must_include_regex",
+          "value": "for\\s*2\\s*weeks",
+          "severity": "must",
+          "note": "\"x2/52\" should read as \"for 2 weeks\" (the \"x\" prefix means duration, not multiplication).",
+          "passed": true
+        }
+      ],
+      "error": null,
+      "output": "Why you were seen  \nYou had heart failure that got worse (decompensated heart failure). You gained 3 kg over 10 days and had more swelling in your legs.  \n\nYour medicines and what changed  \n- **DOSE CHANGED**: Furosemide 40mg once a day (was 20mg) – to help reduce swelling.  \n- **UNCHANGED**: Bisoprolol 2.5mg once a day – to help your heart.  \n\nLooking after yourself at home  \n- Drink less fluid for 2 weeks, as advised by your medical team.  \n- Weigh yourself daily.  \n\nWarning signs — call someone now  \nCall your doctor or go to the emergency department if:  \n- You feel short of breath (SOB) worse.  \n- Your legs swell more.  \n- You gain more than 2 kg in 2 days.  \n\nFollow-up appointments  \n- 22/08/2026 (2 weeks after you left hospital) — cardiology outpatient clinic.  \n- 09/08/2026 (1 week after you left hospital) — GP check for blood tests.  \n\nActivity limits  \nYour notes do not mention this. [flag for nurse review]  \n\nWho to call  \nCall your doctor or go to the emergency department if you have warning signs. Your doctor is Dr M. Wong."
+    },
+    {
+      "id": "date-shorthand-6-52-ceiling",
+      "description": "The documented, INTENTIONAL model-size ceiling: small models often misread \"6/52\" as \"6 weeks and 5 days\" instead of \"6 weeks\". Per app/CLAUDE.md §2 and docs/decisions/0003-prompt-stabilization.md, this is left in place on purpose (the clinician gate is the fix), and the long-term direction is a deterministic date parser, not a prompt change. This case is severity: info — it reports what the model did, it does not fail the run.",
+      "status": "pass",
+      "assertions": [
+        {
+          "type": "must_include",
+          "value": "13/09/2026",
+          "severity": "info",
+          "note": "Correct answer: discharged 02/08/2026 + 6 weeks (42 days) = 13/09/2026. Known ceiling: small models frequently get this wrong (\"6 weeks and 5 days\"). Not a pass/fail gate — informational only until the deterministic date-parsing decision in docs/decisions/0003 is acted on.",
+          "passed": true
+        }
+      ],
+      "error": null,
+      "output": "Why you were seen  \nYou had pneumonia in your right lower lung. You had a cough with phlegm, fevers, and trouble breathing.  \n\nYour medicines and what changed  \n- **NEW**: Amoxicillin 500mg three times a day (TDS) by mouth (PO) — take this for 5 days, finish all tablets.  \n\nLooking after yourself at home  \n- Take all your antibiotics as told.  \n- Have a chest X-ray (CXR) repeat in 6 weeks. Your GP will arrange this.  \n- If your breathing gets worse, your chest hurts, or you cough up blood, return to the hospital.  \n\nWarning signs — call someone now  \n- Worsening shortness of breath (SOB)  \n- Chest pain  \n- Coughing up blood  \n\nFollow-up appointments  \n- 13/09/2026 (6 weeks after you left hospital) — repeat chest X-ray (CXR) via GP.  \n\nActivity limits  \nYour notes do not mention this. [flag for nurse review]  \n\nWho to call  \n- Your GP for follow-up.  \n- The hospital if you have worsening symptoms."
+    }
+  ]
+}
